@@ -1,17 +1,21 @@
 # CollectionBuilder
 
-CollectionBuilder is a set of Jekyll projects for building library digital collection, exhibit, and publication websites driven by metadata, following the [Lib-STATIC](https://lib-static.github.io/) development methodology.
+CollectionBuilder is a lightweight, flexible tool for creating digital collection and exhibit websites driven by metadata, and powered by modern static web technology.
 
 ![collectionbuilder icon](images/collectionbuilder2.png)
 
-CollectionBuilder is focused on creating collections as data.
-After creating well structured metadata and a directory of digital files, the tool generates a static website for visualizing, browsing, and accessing the collection.
-An experiment in "minimal computing", CollectionBuilder provides a depth of learning opportunities and development possibilities, allowing users to take complete ownership over the project and make their work open to the world. 
+The user provides a well structured metadata spreadsheet and a directory of digital files, that CollectionBuilder will process to generate a variety of visualizations--surfacing the unique facets and features of the content, creating interactive pathways to browse and discover items while providing overall context. 
+Each visualization is configurable using a few basic variables or config files. 
+Each is a self contained static web page that can be hosted on the most basic web servers without the need for a database or server-side processing language, enabling simple security and speedy performance. 
+
+At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the [Lib-STATIC](https://lib-static.github.io/) development methodology which aims to lower the barriers for development and deployment of digital collections, while upholding the unique values and perspectives of [GLAM institutions](https://en.wikipedia.org/wiki/GLAM_(industry_sector)). 
+CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is “do-able” and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems.
+An experiment in "minimal computing", CollectionBuilder provides a depth of learning opportunities and development possibilities, allowing users to take complete ownership over the project and make their work open to the world.
 
 ## Concept 
 
 The growing maturity of static generators such as Jekyll, offer a robust and viable alternative to traditional content management systems for creating efficient and secure websites requiring a fraction of the server overhead, while allowing a more flexible and unique front end.
-Thus, CollectionBuilder shifts energy away from clicking buttons on heavy DAMS platform interfaces, and back on creating the clean, polished metadata and objects fundamental to digital libraries.
+Thus, CollectionBuilder shifts energy away from clicking buttons on heavy DAMS platform interfaces, and back on creating the clean, polished metadata and objects fundamental to digital libraries--building collections as data.
 
 This shift to focusing on clean data and simple systems enables a more agile and responsive approach, allowing iterative development of features, gradual acquisition of developer skills, and flexible migration between hosts without the need for deep investment. 
 There will still be learning curves and frustration, to be sure, but by removing some of the overwrought features and extensive infrastructure requirements of library systems currently used and developed today, the Lib-STATIC methodology ensures those central library values of usability and accessibility are primary to any tool developed following its principles.
