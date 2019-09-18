@@ -52,7 +52,11 @@ If you are subject to or witness unacceptable behavior, or have any other concer
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. Community organizers are obligated to uphold confidentiality with regard to the reporter of an incident. 
 
-## License and Attribution
+## License 
+
+<!--Do we want/need a license for our Code of Conduct?-->
+
+## Attribution
 
 This Code of Conduct is adapted from two sources:
 
