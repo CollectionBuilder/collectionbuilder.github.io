@@ -58,9 +58,9 @@ All complaints will be reviewed and investigated and will result in a response t
 This Code of Conduct is adapted from two sources:
 
 1. The [Contributor Covenant](https://www.contributor-covenant.org/), version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html. For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq.
-2. The Citizen Code of Conduct, which is distributed by [Stumptown] Syndicate(http://stumptownsyndicate.org/) under a Creative Commons Attribution-ShareAlike license(http://creativecommons.org/licenses/by-sa/3.0/). Portions of text from the Citizen Code of Conduct are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
-  - Revision 2.3. Posted 6 March 2017.
-  - Revision 2.2. Posted 4 February 2016.
-  - Revision 2.1. Posted 23 June 2014.
-  - Revision 2.0, adopted by the [Stumptown Syndicate](http://stumptownsyndicate.org/) board on 10 January 2013. Posted 17 March 2013.
+2. The Citizen Code of Conduct, which is distributed by [Stumptown Syndicate](http://stumptownsyndicate.org/) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). Portions of text from the Citizen Code of Conduct are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
+   - Revision 2.3. Posted 6 March 2017.
+   - Revision 2.2. Posted 4 February 2016.
+   - Revision 2.1. Posted 23 June 2014.
+   - Revision 2.0, adopted by the [Stumptown Syndicate](http://stumptownsyndicate.org/) board on 10 January 2013. Posted 17 March 2013.
 
