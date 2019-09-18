@@ -7,15 +7,15 @@ A primary goal of the CollectionBuilder community is to be inclusive to the larg
 We invite all those who participate in CollectionBuilder to help us create safe and positive experiences for everyone.
 
 ## Scope
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
+This code of conduct outlines our expectations for everyone who participates in our community, as well as the consequences for unacceptable behavior.
 
-We expect all community participants (community organizers; project maintainers; contributors, paid or otherwise; sponsors; and others) to abide by this Code of Conduct, which applies in all community venues, online and in-person; in all one-on-one or group communications pertaining to community business; and within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+We expect all community participants (community organizers; project maintainers; contributors, paid or otherwise; sponsors; and others) to abide by this Code of Conduct, which applies in all community venues, online and in-person; in one-on-one or group communications pertaining to community business; and within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by community organizers.
 
 ## Expected Behavior
 
 The following behaviors are expected of all community participants:
 
-- Using welcoming and inclusive language
+- Using inclusive, respectful, and welcoming language
 - Being respectful of differing viewpoints and experiences
 - Gracefully accepting constructive criticism
 - Focusing on what is best for the community
@@ -23,21 +23,20 @@ The following behaviors are expected of all community participants:
 
 ## Unacceptable Behavior
 
-The following behaviors are considered harassment and are unacceptable within our community:
+The following behaviors are unacceptable within our community:
 
-- Violence, threats of violence or violent language directed against another person
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language
+- Violence, threats of violence, or violent language directed against another person
+- Sexist, racist, homophobic, transphobic, ableist, or otherwise discriminatory jokes and language
 - Trolling, insulting/derogatory comments, and personal or political attacks
 - The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Posting or displaying sexually explicit or violent material.
+- Posting or displaying sexually explicit or violent material
 - Publishing or threatening to publish others' private information, such as a physical or electronic address, without explicit permission (“doxing”)
 - Public or private harassment
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Our Responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Community organizers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 ## Consequences for Unacceptable Behavior
 
@@ -45,11 +44,11 @@ Unacceptable behavior from any community member, including sponsors and those wi
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately.
 
-If any community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
+Community organizers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban (temporarily or permanently) any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful without warning (and without refund in the case of a paid event).
 
 ## Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible at (Collection Builder general email), which is maintained by ---- (who will have access to this email?). To report an issue involving either of these community organizers, please notify ---- (who will be listed here? Example: https://github.com/dib-lab/khmer/blob/master/CODE_OF_CONDUCT.rst)
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify community organizers as soon as possible at (Collection Builder general email), which is maintained by -- (who will have access to this email?). To report an issue involving either of these community organizers, please notify -- (who will be listed here? Example: https://github.com/dib-lab/khmer/blob/master/CODE_OF_CONDUCT.rst)
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. Community organizers are obligated to uphold confidentiality with regard to the reporter of an incident. 
 
