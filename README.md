@@ -46,3 +46,11 @@ We envision CollectionBuilder being used by libraries and cultural heritage inst
 - [collectionbuilder-cdm-template](https://github.com/uidaholib/collectionbuilder-cdm-template) - A in development version of CollectionBuilder used by the University of Idaho Library to create "skins" for the digital library collections they maintain via a hosted CONTENTdm instance. Will be developed into a generic CONTENTdm "skin" that can be adopted by others. 
 
 More information coming soon!
+
+## License
+
+CollectionBuilder documentation and general web content is licensed [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
+This license does *NOT* include any objects or images used in digital collections, which may have individually applied licenses described by a "rights" field.
+ColelctionBuilder code is licensed [MIT](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/LICENSE). 
+This license does not include external dependencies included in the `assets` directory, which are covered by their individual licenses.
+
