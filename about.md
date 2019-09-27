@@ -1,11 +1,7 @@
 ---
-title: Home
+title: About
 layout: default
 ---
-
-CollectionBuilder is a lightweight, flexible tool for creating digital collection and exhibit websites driven by metadata, and powered by modern static web technology.
-
-![collectionbuilder icon](images/collectionbuilder2.png)
 
 The user provides a well structured metadata spreadsheet and a directory of digital files, that CollectionBuilder will process to generate a variety of visualizations--surfacing the unique facets and features of the content, creating interactive pathways to browse and discover items while providing overall context. 
 
@@ -59,5 +55,3 @@ CollectionBuilder documentation and general web content is licensed [Creative Co
 This license does *NOT* include any objects or images used in digital collections, which may have individually applied licenses described by a "rights" field.
 CollectionBuilder code is licensed [MIT](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/LICENSE). 
 This license does not include external dependencies included in the `assets` directory, which are covered by their individual licenses.
-
-
