@@ -1,0 +1,16 @@
+# blank-dev-template
+# basic bootstrap template
+
+title: CollectionBuilder, WTF
+
+# url is your gh-pages base, following the pattern: username.github.io
+url: https://collectionbuilder.github.io
+
+# Use Bootstrap (true, false)
+bootstrap: true
+# Use optional Bootstrap JS (true, false)
+bootstrap-js: true
+# Use JQuery Core
+jquery: true
+# Use fontawesome CDN (true, false)
+fontawesome: false

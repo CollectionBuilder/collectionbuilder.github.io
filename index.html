@@ -1,0 +1,80 @@
+---
+title: Home
+layout: default
+---
+<div class="row">
+<h1 class="col-md-10 offset-md-1 my-4 py-4" style="font-style: italic; ">CollectionBuilder {cb} is a lightweight,
+    flexible,
+    and open source tool for creating digital collection and exhibit websites driven by metadata, and powered by modern
+    static
+    web technology.</h1>
+</div>
+<div class="row my-4 py-4 bg-light text-dark text-center">
+    <br /><br /><br />
+    <div class="col-md-5 col-12 mx-auto p-4">
+        <img class="img-fluid" src="images/metadata.png" />
+    </div>
+    <div class="col-md-6 col-12 mx-auto m-4">
+        <h1 class="display-5 m-4">You do the Metadata.</h1>
+        <p class="h5">Step 1: Describe your images, documents, and other media in a CSV spreadsheet</p>
+    </div>
+    <br /><br /><br />
+</div>
+<div class="row my-4 py-4  bg-secondary text-white text-center">
+    <br /><br /><br />
+    <div class="col-md-6 col-12 mx-auto m-4">
+        <h1 class="display-5 m-4">CollectionBuilder puts your Metadata to work</h1>
+        <p class="h5">Step 2: Save your CSV into CollectionBuilder and let it build your digital collection, including
+            maps, timelines, browsing features, and more!
+    </div>
+    <div class="col-md-5 col-12 mx-auto  p-4">
+        <img class="img-fluid" src="images/map.jpg" />
+    </div>
+    <br /><br /><br />
+</div>
+<div class="row my-4 ">
+    <div class="col-12 my-4">
+        <h1 class="m-3 font-italic text-center display-3 ">Three Ways to Build</h1>
+    </div>
+    {%for type in site.data.types%}
+    <div class="col">
+        <div class="card p-4 mb-4 bg-dark text-white">
+            <div class="card-heading">
+                <h2 class=" font-italic text-center">
+                        <a class="text-white" href="{{type.link}}">{{type.title}}</a></h2>
+                <p class="my-3 text-center font-italic">{{type.description}}</p>
+            </div>
+            
+                <img class="img-fluid mb-4" src="{{type.image | prepend: 'images/' }}" />
+               
+                <p class="pt-3 h4">Best for: </p>
+                <ul class="list-group list-group-flush mb-3">
+                    {%assign points = type.points | split: ";"%}
+                    {%for point in points%}<li class="list-group-item bg-dark text-white border-success">{{point}}</li>{%endfor%}
+                </ul>
+<hr />
+                <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">Try {{type.title}}</a>
+        </div>
+    </div>
+    {%endfor%}
+    
+</div>
+<div class="row mt-4 py-4 bg-secondary text-white text-center">
+<div class="col-12">
+    <h1 class="text-center" >A<br/>
+       <span style="font-family: 'Lobster', cursive;font-size:140px">
+Lib-STATIC</span><br>Production</h1>
+<div class="col-md-8 offset-md-2 p-4">
+<p class="text-center ">
+{{"At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the
+        [Lib-STATIC](https://lib-static.github.io/) development methodology which aims to lower the barriers for
+        development and deployment of digital collections, while upholding the unique values and perspectives of
+        [GLAM institutions](https://en.wikipedia.org/wiki/GLAM_(industry_sector)).
+        " | markdownify }}</p>
+        <p class="text-center">CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure
+                the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums, empowering
+                them to take control of their web systems.
+                An experiment in 'minimal computing', CollectionBuilder provides a depth of learning opportunities and
+                development possibilities, allowing users to take complete ownership over the project and make their work
+                open to the world.</p>
+</div>
