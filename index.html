@@ -3,9 +3,17 @@ title: Home
 layout: default
 ---
 <div class="row">
-    <h1 class="col-md-10 offset-md-1 my-4 py-4" style="font-style: italic; ">CollectionBuilder is a lightweight,
-        flexible, and open source tool for creating digital collection and exhibit websites driven by metadata, and
-        powered by modern static web technology.</h1>
+        <div class="col-md-4">
+                <div class="row">
+                    <div class="col-12 mx-auto text-center">
+                        <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url}}"><img
+                                    style="max-height:220px;" class="my-2 img-fluid"
+                                    src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> </a></h1>
+                    </div>
+                </div>
+            </div>
+    <div class="col-md-8 my-4 py-4"><h2 class="font-italic h1"><b>CollectionBuilder</b> is an open source tool for creating digital collection and exhibit websites that are driven by metadata and
+        powered by modern static web technology.</h2></div>
 </div>
 <div class="row my-4 py-4 bg-light text-dark ">
     <br /><br /><br /><br />
@@ -70,15 +78,13 @@ layout: default
 <div class="row mt-4 py-4 bg-secondary text-white text-center">
     <div class="col-12">
         <h1 class="text-center">A<br />
-            <span style="font-family: 'Lobster', cursive;font-size:140px">
-                Lib-STATIC</span><br>Production</h1>
+            <a  href="https://lib-static.github.io/" class="text-white"  style="font-family: 'Lobster', cursive;font-size:140px">
+                Lib-STATIC</a><br>Production</h1>
         <div class="col-md-8 offset-md-2 p-4">
-            <p class="text-center ">
-                {{"At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the
-        [Lib-STATIC](https://lib-static.github.io/) development methodology which aims to lower the barriers for
+            <p class="text-center ">At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed 
+        <a href="https://lib-static.github.io/" class="text-info font-bold">Lib-STATIC</a> development methodology which aims to lower the barriers for
         development and deployment of digital collections, while upholding the unique values and perspectives of
-        [GLAM institutions](https://en.wikipedia.org/wiki/GLAM_(industry_sector)).
-        " | markdownify }}</p>
+       <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" class="text-info">GLAM institutions</a>.</p>
             <p class="text-center">CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to
                 infrastructure to ensure
                 the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums,

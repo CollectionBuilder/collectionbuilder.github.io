@@ -5,3 +5,8 @@ body{
 .text-dark{
     color:black;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #F1B300 !important;
+}
