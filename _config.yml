@@ -9,9 +9,9 @@ url: https://collectionbuilder.github.io
 
 github-organization: https://www.github.com/collectionbuilder/
 collections:
-  skin-contentdm:
+  contentdm:
     output: true
-    permalink: /:collection/docs/:slug
+    permalink: /skins/:collection/docs/:slug
   gh:
     output: true
     permalink: /:collection/docs/:slug
