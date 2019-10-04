@@ -35,8 +35,10 @@ layout: default
     <div class="col-12 my-4">
         <h1 class="m-3 font-italic text-center display-3 ">Many Ways to Build</h1>
     </div>
+    <div class="col-md-10 offset-md-1">
+    <div class="card-deck ">
     {%for type in site.data.types%}
-    <div class="col">
+ 
         <div class="card p-4 mb-4 bg-light text-dark">
             <div class="card-heading">
                 <h2 class=" font-italic text-center display-5">
@@ -61,9 +63,9 @@ layout: default
             <hr />
             <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">Try {{type.title}}</a>
         </div>
-    </div>
+    
     {%endfor%}
-
+</div>
 </div>
 <div class="row mt-4 py-4 bg-secondary text-white text-center">
     <div class="col-12">
