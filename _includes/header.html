@@ -4,11 +4,11 @@
             <div class="col">
                 <div class="row">
                     <div class="col-4">
-                <a href="{{ '/' | relative_url}}"><img  class="mt-2 img-fluid" src="{{'images/logo.png' | relative_url}}">
+                <a href="{{ '/' | relative_url}}"><img  class="mt-2 img-fluid" src="{{'images/logo/solid/cb-logo-solid-black-transparent' | relative_url}}.png">
                 </a>
                     </div>
                     <div class="col-8">
-                        <h1 class="display-3 mt-0"><a class="text-dark" href="{{ '/' | relative_url}}">Collection<br>
+                        <h1 class="display-3 mt-4"><a class="text-dark" href="{{ '/' | relative_url}}">Collection<br>
                             Builder </a></h1>
                     </div>
                 </div>
@@ -18,9 +18,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link text-dark dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Github-Pages</a>
-                            <a class="dropdown-item" href="#">Stand Alone</a>
-                            <a class="dropdown-item" href="#">Skin - ContentDM</a>
+                            <a class="dropdown-item" href="{{'/gh/' | relative_url}}">Github-Pages</a>
+                            <a class="dropdown-item" href="{{'/sa/' | relative_url}}">Stand Alone</a>
+                            <a class="dropdown-item" href="{{'/skin-contentdm/' | relative_url}}">Skin - ContentDM</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
                         </div>
@@ -28,11 +28,19 @@
                     <li class="nav-item">
                             <a class="nav-link text-dark disabled" href="#" data-toggle="popover" title="CollectionBuilder is Free" data-placement="bottom" data-content="No subscriptions. No data sharing. No Dependencies">Pricing</a>
                         </li>
-                        <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">Documentation</a>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link text-dark dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Documentation</a>
+                                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="{{'/metadata/' | relative_url}}">Metadata Profile</a>
+                                        <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Github-Pages</a>
+                                        <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Stand Alone</a>
+                                        <a class="dropdown-item" href="{{'/skin-contentdm/docs/' | relative_url}}">Skin - ContentDM</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
+                                </div>
                             </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="about.html">About</a>
+                        <a class="nav-link text-dark" href="{{'about.html' | relative_url}}">About</a>
                     </li>
                     
                     

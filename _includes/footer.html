@@ -2,38 +2,12 @@
                 <div class="container-fluid h-100 py-4">
                     <div class="row px-3">
                         <div class="col-8 pl-4">
-                            <div class="row">
-                                <div class="col-4">
-                            <a href="{{ '/' | relative_url}}"><img  class="mt-2 img-fluid" src="{{'images/logo.png' | relative_url}}">
-                            </a>
-                                </div>
-                                <div class="col-8">
-                                    <h1 class="display-3 mt-4"><a class="text-white" href="{{ '/' | relative_url}}">Collection<br>
-                                        Builder </a></h1>
-                                </div>
-                            </div>
+                           
+                                <h1 class="mt-4"> <a class="text-white" href="{{ '/' | relative_url}}"><img style="max-height:180px;"  class="mt-2 img-fluid" src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> CollectionBuilder </a></h1>
+    
                         </div>
                         <div class="col-4 mt-4" role="navigation">
-                            <ul class="float-right list-group">
-                                    <li class="list-item">
-                                            <a class="text-white" href="#">Documentation</a>
-                                        </li>
-                                    <li class="list-item">
-                                        <a  class="text-white" href="about.html">About</a>
-                                    </li> 
-                                    
-                                <li class="list-item">
-                                      Types
-                                      <ul>
-                                          {%for type in site.data.types%}
-                                       <li> <a class="text-white" href="{{type.link}}">{{type.title}}</a></li>
-                                       {%endfor%}
-                                      </ul>
-                                </li>
-                                
-                             
-                
-                            </ul>
+                            <a href="{{site.github-organization}}" class="mt-4 btn btn-lg btn-info">Github Organization</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,17 @@
+title,page,type,parent
+Introduction,introduction,,
+Quick Start,quick-start,,
+Development Environment Set-up,environment,,
+Repository Set-up,repository,,
+Metadata,metadata,,
+Extracting Metadata from ContentDMextract,gh,metadata
+Config File (_config.yml),config-file,,
+Theme File (/_data/theme.yml),theme,,
+Vizualization Configurations,viz,
+Browse Page,browse,,viz
+Map Page,map,,viz
+Subject Page,subjects,,viz
+Location Page,locations,,viz
+Data Page,data,,viz
+Table Vizualization,table,,viz
+Timeline Page,timeline,,viz
