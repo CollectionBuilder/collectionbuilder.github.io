@@ -50,7 +50,7 @@ layout: default
         <div class="card p-4 mb-4 bg-light text-dark">
             <div class="card-heading">
                 <h2 class=" font-italic text-center display-5">
-                    <a class="text-dark btn-lg btn btn-outline-success display-5" href="/{{ type.id | append: '/' | relative_url}}/">{{type.title | upcase}}</a></h2>
+                    <a class="text-dark btn-lg btn btn-outline-success display-5" href="{{ type.id | prepend: '/' | append: '/' | append: type.skin-type | relative_url}}">{{type.title | upcase}}</a></h2>
                 <p class="my-3 text-center font-italic">{{type.description}}</p>
             </div>
             <div class="row">
@@ -69,7 +69,12 @@ layout: default
                 {%endfor%}
             </ul>
             <hr />
-            <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">Try {{type.title}}</a>
+            {%if type.skin-type%}
+
+            <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">{{type.skin-type | capitalize}}<br/>{{type.title}}<br/> GitHub Repository</a>
+{% else %}
+            <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">{{type.title}}<br/> GitHub Repository</a>
+            {%endif%}
         </div>
     
     {%endfor%}

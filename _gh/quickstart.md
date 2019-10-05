@@ -5,4 +5,4 @@ stub: quickstart
 ---
 {{page.title}}
 
-{% include docs/quickstart.html %}
+{% include docs/quickstart.md%}

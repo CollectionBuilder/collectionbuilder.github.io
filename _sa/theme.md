@@ -5,4 +5,4 @@ stub: theme
 ---
 {{page.title}}
 
-{% include docs/theme.html %}
+{% include docs/theme.md%}

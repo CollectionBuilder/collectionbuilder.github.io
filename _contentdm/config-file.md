@@ -5,5 +5,5 @@ stub: config-file
 ---
 {{page.title}}
 
-{% include docs/config-file.html %}
+{% include docs/config-file.md %}
 ---

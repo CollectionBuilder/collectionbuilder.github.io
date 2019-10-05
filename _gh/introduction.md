@@ -5,4 +5,4 @@ stub: introduction
 ---
 {{page.title}}
 
-{% include docs/introduction.html %}
+{% include docs/introduction.md%}

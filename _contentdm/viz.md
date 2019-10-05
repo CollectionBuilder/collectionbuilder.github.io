@@ -5,4 +5,4 @@ stub: viz
 ---
 {{page.title}}
 
-{% include docs/viz.html %}
+{% include docs/viz.md%}

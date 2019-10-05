@@ -6,4 +6,4 @@ stub: environment
 
 {{page.title}}
 
-{% include docs/environment.html %}
+{% include docs/environment.md%}

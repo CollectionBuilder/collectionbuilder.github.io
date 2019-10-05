@@ -5,4 +5,4 @@ stub: repository
 ---
 {{page.title}}
 
-{% include docs/repository.html %}
+{% include docs/repository.md%}

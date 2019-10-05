@@ -5,5 +5,5 @@ stub: metadata
 ---
 {{page.title}}
 
-{% include docs/metadata.html %}
+{% include docs/metadata.md%}
 ---
