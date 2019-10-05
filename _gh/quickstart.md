@@ -3,6 +3,6 @@ title: Quick Start
 layout: docs 
 stub: quickstart
 ---
-{{page.title}}
+# {{page.title}}
 
 {% include docs/quickstart.md%}

@@ -3,7 +3,6 @@ title: Metadata
 layout: docs 
 stub: metadata
 ---
-{{page.title}}
+# {{page.title}}
 
 {% include docs/metadata.md%}
----

@@ -3,6 +3,6 @@ title: Vizualization Configurations
 layout: docs 
 stub: viz
 ---
-{{page.title}}
+# {{page.title}}
 
 {% include docs/viz.md%}

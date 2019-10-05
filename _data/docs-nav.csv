@@ -1,6 +1,7 @@
 title,page,type,parent
 Introduction,introduction,,
 Quick Start,quickstart,,
+(Barely) Using the Command Line,commandline,, 
 Development Environment Set-up,environment,,
 Repository Set-up,repository,,
 Metadata,metadata,,

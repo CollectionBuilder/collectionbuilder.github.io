@@ -4,14 +4,18 @@
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-12 mx-auto text-center">
-                            <h1 class="mt-2 h2"> <a class="text-white mx-auto" href="{{ '/' | relative_url}}"><img style="max-height:45px;"  class="my-2 img-fluid" src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> CollectionBuilder </a></h1>
+                        <h1 class="mt-2 h2"> <a class="text-white mx-auto" href="{{ '/' | relative_url}}"><img
+                                    style="max-height:45px;" class="my-2 img-fluid"
+                                    src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png">
+                                CollectionBuilder </a></h1>
                     </div>
                 </div>
             </div>
             <div class="col-md-8 mt-3" role="navigation">
                 <ul class="nav nav-pills nav-fill float-right">
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
+                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Types</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="{{'/gh/' | relative_url}}">Github-Pages</a>
                             <a class="dropdown-item" href="{{'/sa/' | relative_url}}">Stand Alone</a>
@@ -21,44 +25,58 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link text-white disabled" href="#" data-trigger="focus" data-toggle="popover" title="CollectionBuilder is Free" data-placement="bottom" data-html=true data-content="No subscriptions.<br> No data sharing. <br> No Dependencies.">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                                <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Get Started</a>
-                                <div class="dropdown-menu">
-                                        <h5 class="ml-2">Basics</h5>
-                                        <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Set Up (software)</a>
-                                        <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Git/GitHub (collaboration)</a>
-                                        <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Static Web (customization)</a>
-                                        <div class="dropdown-divider"></div>
-                                        <h5 class="ml-2">Metadata</h5>
-                                        <a class="dropdown-item" href="{{'/metadata/' | relative_url}}">Metadata Profile</a>
-                                        <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Item Pages and Metadata Config</a>
-                                        <div class="dropdown-divider"></div>
-                                        <h5 class="ml-2">Building</h5>
-                                    
-                                        <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Theme (_data/theme.yml</a>
-                                        <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Main Config (_config.yml)</a>
-                                        <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Page Configs</a>
-                                        <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Advanced Customization</a>
-                                        <div class="dropdown-divider"></div>
-                                        <h5 class="ml-2">Documentation</h5>
-                                    
-                                        <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Github-Pages</a>
-                                        <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Stand Alone</a>
-                                        <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Skin - ContentDM</a>
-                                       
-                                        <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
-                                </div>
-                            </li>
+                        <a class="nav-link text-white disabled" href="#" data-trigger="focus" data-toggle="popover"
+                            title="CollectionBuilder is Free" data-placement="bottom" data-html=true
+                            data-content="No subscriptions.<br> No data sharing. <br> No Dependencies.">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Learn</a>
+                        <div class="dropdown-menu">
+                            <h5 class="ml-2">Get Started</h5>
+                            <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Set Up (software)</a>
+                            <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Git/GitHub
+                                (collaboration)</a>
+                            <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Static Web
+                                (customization)</a>
+                            
+                            <div class="dropdown-divider"></div>
+                            <h5 class="ml-2">Building</h5>
+
+                            <a class="dropdown-item" href="{{'/gh/docs/' | relative_url}}">Theme (_data/theme.yml</a>
+                            <a class="dropdown-item" href="{{'/sa/docs/' | relative_url}}">Main Config (_config.yml)</a>
+                            <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Page Configs</a>
+                            <a class="dropdown-item" href="{{'/skins/contentdm/docs/' | relative_url}}">Advanced
+                                Customization</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Get Started</a>
+                        <div class="dropdown-menu">
+                            
+                            <h5 class="ml-2">Documentation</h5>
+
+                            <a class="dropdown-item" href="{{'/gh/docs/introduction.html' | relative_url}}">Github-Pages</a>
+                            <a class="dropdown-item" href="{{'/sa/docs/introduction.html' | relative_url}}">Stand Alone</a>
+                            <a class="dropdown-item" href="{{'/skins/contentdm/docs/introduction.html' | relative_url}}">Skin -
+                                ContentDM</a>
+
+                            <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="ml-2">Metadata</h5>
+                            <a class="dropdown-item" href="{{'/metadata/' | relative_url}}">Metadata Profile</a>
+                            
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{'about.html' | relative_url}}">About</a>
                     </li>
-                    
-                    
+
+
                 </ul>
             </div>
-            
+
         </div>
     </div>
 </header>
