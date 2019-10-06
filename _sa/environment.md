@@ -4,6 +4,6 @@ layout: docs
 stub: environment
 ---
 
-{{page.title}}
+# {{page.title}}
 
 {% include docs/environment.md%}

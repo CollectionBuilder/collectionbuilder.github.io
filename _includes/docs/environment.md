@@ -1,5 +1,3 @@
-# 
-
 If you're working with CollectionBuilder-gh, you don't have to worry about an environment, as everything can be done through GitHub's web interfaces. That said, it's much easier, once everything is set up, to work on a computer set up for developing with these tools. 
 
 Getting the software installed on your computer is typically the biggest hurdle to getting started with tools like ours. So stick with it, even if you run into any issues. Jeykll requires Ruby, and the workflows we use include the use of Git and GitHub. And working in these repositories will also require a text editor, so let's get that first: 

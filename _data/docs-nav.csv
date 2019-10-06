@@ -2,14 +2,14 @@ title,page,type,parent
 Introduction,introduction,,
 Quick Start,quickstart,,
 (Barely) Using the Command Line,commandline,, 
-Development Environment Set-up,environment,,
+Setting Up the Environment,environment,,
 Repository Set-up,repository,,
 Metadata,metadata,,
-Extracting Metadata from ContentDMextract,gh,metadata
+Extracting Metadata from ContentDMextract,extract,contentdm,metadata
 Config File (_config.yml),config-file,,
 Theme File (/_data/theme.yml),theme,,
-Home Page,home,,
 Vizualization Configurations,viz,
+Home Page,home,,viz
 Browse Page,browse,,viz
 Map Page,map,,viz
 Subject Page,subjects,,viz

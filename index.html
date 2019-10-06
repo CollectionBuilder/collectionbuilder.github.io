@@ -3,17 +3,20 @@ title: Home
 layout: default
 ---
 <div class="row">
-        <div class="col-md-4">
-                <div class="row">
-                    <div class="col-12 mx-auto text-center">
-                        <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url}}"><img
-                                    style="max-height:220px;" class="my-2 img-fluid"
-                                    src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> </a></h1>
-                    </div>
-                </div>
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-12 mx-auto text-center">
+                <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url}}"><img
+                            style="max-height:220px;" class="my-2 img-fluid"
+                            src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> </a></h1>
             </div>
-    <div class="col-md-8 my-4 py-4"><h2 class="font-italic h1"><b>CollectionBuilder</b> is an open source tool for creating digital collection and exhibit websites that are driven by metadata and
-        powered by modern static web technology.</h2></div>
+        </div>
+    </div>
+    <div class="col-md-8 my-4 py-4">
+        <h2 class="font-italic h1"><b>CollectionBuilder</b> is an open source tool for creating digital collection and
+            exhibit websites that are driven by metadata and
+            powered by modern static web technology.</h2>
+    </div>
 </div>
 <div class="row my-4 py-4 bg-light text-dark ">
     <br /><br /><br /><br />
@@ -30,9 +33,21 @@ layout: default
     <br /><br /><br /><br />
     <div class="col-md-6 col-12 mx-auto m-4">
         <h1 class="display-5 my-4">CollectionBuilder makes it <em>work</em>.</h1>
-        <p class="h5">Step 2: Save your CSV into the repository and let CollectionBuilder build your digital collection from your metadata.<br/><br/>Visualizations include:</p> 
-        <div class="row"><div class="col-4 p-2"><button class="btn btn-lg btn-info">Interactive Maps</button> </div> <div class="col-5 p-2"><button class="btn btn-lg btn-info">Auto-generated Timelines</button></button></div> <div class="col-7 p-2"><button class="btn btn-lg btn-info">search- and subject-based browsing</button></div>  <div class="col-4 p-2"><button class="btn btn-lg btn-info">Open Data Features</button></div> <div class="col-6 p-2"><button class="btn btn-lg btn-info">Tag Clouds & more!</button></div> 
-        </div>
+        <p class="h5">Step 2: Save your CSV into the repository and let CollectionBuilder build your digital collection
+            from your metadata.</p>
+            <p class="h5 ml-4">Visualizations include:</p> <ul class="ml-4"><li>interactive (clustered) maps using <a href="https://leafletjs.com/" class="text-white font-weight-bold" target="_blank">leaflet</a></li><li>auto-generated timelines (including a <a href="http://timeline.knightlab.com/" class="text-white font-weight-bold">timelinejs</a> option)</li><li>search- and subject-based browsing</li><li>tag clouds for subjects, locations, or custom fields</li><li><a href="https://collectionsasdata.github.io" class="text-white font-weight-bold">#collectionsasdata</a>-inspired open data features</li><li> and more!</li></ul>
+       <!-- <div class="row">
+            <div class="col-7 p-2"><button class="btn btn-lg btn-outline<u-white">Interactive Maps</button> </div>
+            <div class="col-5 p-2"><button class="btn btn-lg btn-outline-white">Auto-generated Timelines</button></button></div>
+            <div class="col-9 p-2"><button class="btn btn-lg btn-outline-white">Search- and Subject-based browsing</button></div>
+            <div class="col-3 p-2"><button class="btn btn-lg btn-outline-white float-right">Tag Clouds</button></div>
+            <div class="col-6 p-2"><button class="btn btn-lg btn-outline-white">Open Data Features</button></div>
+            
+            <div class="col-4 p-2"><button class="btn btn-lg btn-outline-white">Enhanced SEO</button></div>
+            <div class="col-2 p-2"><button class="btn btn-lg btn-outline-white">+ more!</button></div>
+
+
+        </div>-->
     </div>
     <div class="col-md-5 col-12 mx-auto p-4">
         <img class="img-fluid mt-4 pt-4" src="images/map.jpg" />
@@ -41,62 +56,81 @@ layout: default
 </div>
 <div class="row my-4 ">
     <div class="col-12 my-4">
-        <h1 class="m-3 font-italic text-center display-3 ">Many Ways to Build</h1>
+        <h1 class="m-3 font-italic text-center display-3 ">Three Ways to Build</h1>
     </div>
     <div class="col-md-10 offset-md-1">
-    <div class="card-deck ">
-    {%for type in site.data.types%}
- 
-        <div class="card p-4 mb-4 bg-light text-dark">
-            <div class="card-heading">
-                <h2 class=" font-italic text-center display-5">
-                    <a class="text-dark btn-lg btn btn-outline-success display-5" href="{{ type.id | prepend: '/' | append: '/' | append: type.skin-type | relative_url}}">{{type.title | upcase}}</a></h2>
-                <p class="my-3 text-center font-italic">{{type.description}}</p>
-            </div>
-            <div class="row">
-                <div class="col-12 mx-auto text-center">
-                        <figure class="figure mx-auto text-center">
-                                <img style="max-height:275px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption"><small><a href="{{type.coll-link}}">{{type.collection}}</a><br> built with {{type.title}}</small></figcaption>
-                              </figure>
+        <div class="card-deck ">
+            {%for type in site.data.types%}
 
+            <div class="card p-4 mb-4 bg-light text-dark">
+                <div class="card-heading">
+                    <h2 class=" font-italic text-center display-5">
+                        <a class="text-dark btn-lg btn btn-outline-success display-5"
+                            href="{{ type.id | prepend: '/' | append: '/' | append: type.skin-type | relative_url}}">{{type.title | upcase}}</a>
+                    </h2>
+                    <p class="my-3 text-center font-italic">{{type.description}}</p>
                 </div>
-            </div>
-            <p class="pt-3 h4">Best for: </p>
-            <ul class="list-group list-group-flush mb-3">
-                {%assign points = type.points | split: ";"%}
-                {%for point in points%}<li class="list-group-item bg-light text-dark border-success">{{point}}</li>
-                {%endfor%}
-            </ul>
-            <hr />
-            {%if type.skin-type%}
+                <div class="row">
+                    <div class="col-12 mx-auto text-center">
+                        <figure class="figure mx-auto text-center">
+                            <img style="max-height:275px;" src="{{type.image | prepend: 'images/' }}"
+                                class="figure-img img-fluid rounded"
+                                alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption"><small><a
+                                        href="{{type.coll-link}}">{{type.collection}}</a><br> built with
+                                    {{type.title}}</small></figcaption>
+                        </figure>
 
-            <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">{{type.skin-type | capitalize}}<br/>{{type.title}}<br/> GitHub Repository</a>
-{% else %}
-            <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">{{type.title}}<br/> GitHub Repository</a>
-            {%endif%}
+                    </div>
+                </div>
+                <p class="pt-3 h4">Best for: </p>
+                <ul class="list-group list-group-flush mb-3">
+                    {%assign points = type.points | split: ";"%}
+                    {%for point in points%}<li class="list-group-item bg-light text-dark border-success">{{point}}</li>
+                    {%endfor%}
+                </ul>
+                <hr />
+
+                {%if type.skin-type%}
+                <a href="{{ type.skin-type | append: '/docs/introduction.html' | prepend: '/skins/' | relative_url}}" class="btn my-4 btn-lg btn-success">Get Started</a>
+                
+                <a href="{{type.link}}"
+                    class="btn my-4 btn-lg btn-secondary">GitHub
+                    Repository</a>
+                {% else %}
+                <a href="{{ type.id | append: '/docs/introduction.html' | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-success">Get Started</a>
+                
+                <a href="{{type.link}}" class="btn my-4 btn-lg btn-secondary">GitHub Repository</a>
+                {%endif%}
+            </div>
+
+            {%endfor%}
         </div>
-    
-    {%endfor%}
-</div>
-</div>
-<div class="row mt-4 py-4 bg-secondary text-white text-center">
-    <div class="col-12">
-        <h1 class="text-center">A<br />
-            <a  href="https://lib-static.github.io/" class="text-white"  style="font-family: 'Lobster', cursive;font-size:140px">
-                Lib-STATIC</a><br>Production</h1>
-        <div class="col-md-8 offset-md-2 p-4">
-            <p class="text-center ">At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed 
-        <a href="https://lib-static.github.io/" class="text-info font-bold">Lib-STATIC</a> development methodology which aims to lower the barriers for
-        development and deployment of digital collections, while upholding the unique values and perspectives of
-       <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" class="text-info">GLAM institutions</a>.</p>
-            <p class="text-center">CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to
-                infrastructure to ensure
-                the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums,
-                empowering
-                them to take control of their web systems.
-                An experiment in 'minimal computing', CollectionBuilder provides a depth of learning opportunities and
-                development possibilities, allowing users to take complete ownership over the project and make their
-                work
-                open to the world.</p>
-        </div>
+    </div>
+    <div class="row mt-4 py-4 bg-secondary text-white text-center">
+        <div class="col-12">
+            <h1 class="text-center">A<br />
+                <a href="https://lib-static.github.io/" class="text-white"
+                    style="font-family: 'Lobster', cursive;font-size:140px">
+                    Lib-STATIC</a><br>Production</h1>
+            <div class="col-md-8 offset-md-2 p-4">
+                <p class="text-center ">At it's heart, CollectionBuilder is a set of Jekyll projects or templates
+                    designed following the 
+                    <a href="https://lib-static.github.io/" class="text-info font-bold">Lib-STATIC</a> development
+                    methodology which aims to lower the barriers for
+                    development and deployment of digital collections, while upholding the unique values and
+                    perspectives of
+                    <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" class="text-info">GLAM
+                        institutions</a>.</p>
+                <p class="text-center">CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches
+                    to
+                    infrastructure to ensure
+                    the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums,
+                    empowering
+                    them to take control of their web systems.
+                    An experiment in 'minimal computing', CollectionBuilder provides a depth of learning opportunities
+                    and
+                    development possibilities, allowing users to take complete ownership over the project and make their
+                    work
+                    open to the world.</p>
+            </div>
