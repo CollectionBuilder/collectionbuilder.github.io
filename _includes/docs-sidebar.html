@@ -1,0 +1,12 @@
+<div class="sidebar-sticky py-4 mb-4 bg-light border">
+    <ul class="nav flex-column">
+        {%for doc in site.data.docs-nav %}
+        {%unless doc.parent%}
+      <li class="nav-item">
+        <a class="nav-link {% if page.url contains doc.page %}font-weight-bold{%endif%} text-dark" href="{{doc.page}}.html">
+         {{doc.title}}
+        </a>
+      </li>
+    {%endunless%}{%endfor%}
+    </ul>
+  </div>

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+    
+<h1 class="text-center">{{page.title}}</h1>
+<hr class="col-8 offset-2">
+    <div class="row bg-light mt-4 pt-4">
+            
+        {%for type in site.data.types%}
+        {%if type.id == page.type %}
+      
+        <div class="col">
+            
+                <figure class="figure mx-auto text-center p-4 ">
+                        <img src="{{type.image | prepend: 'images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><small><a href="{{type.coll-link}}">{{type.collection}}</a><br> built with {{type.title}}</small></figcaption>
+                      </figure>
+
+        </div>
+            <div class="col p-4">
+                <p class="h3 pr-4">{{type.description}}</p>
+                    
+                <p class="pt-3 h4">Best for: </p>
+                <ul class="list-group list-group-flush mb-3">
+                    {%assign points = type.points | split: ";"%}
+                    {%for point in points%}<li class="list-group-item bg-light text-dark border-success">{{point}}</li>
+                    {%endfor%}
+                </ul>
+                <hr />
+                <a href="docs/introduction.html" class="btn my-4 btn-lg btn-info">Get Started</a>
+            </div>
+        </div>
+        {%endif%}
+        {%endfor%}
+    </div>
+</div>

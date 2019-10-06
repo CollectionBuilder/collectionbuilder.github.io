@@ -6,6 +6,19 @@ title: CollectionBuilder, WTF
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://collectionbuilder.github.io
 
+
+github-organization: https://www.github.com/collectionbuilder/
+collections:
+  contentdm:
+    output: true
+    permalink: /skins/:collection/docs/:slug
+  gh:
+    output: true
+    permalink: /:collection/docs/:slug
+  sa:
+    output: true
+    permalink: /:collection/docs/:slug
+
 # Use Bootstrap (true, false)
 bootstrap: true
 # Use optional Bootstrap JS (true, false)
