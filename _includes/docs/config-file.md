@@ -9,8 +9,25 @@ These variables need to be defined based on where you expect the site to end up 
     - example --> url: https://www.lib.uidaho.edu
 - **baseurl** - This variable sets up the directories that the site will end up in. So if you have a project called pink-poodle that you want on in your projects folder on your website, you'd write "/projects/pink-poodle." For the UI Library, we use /digital/ + the collection abbreviation to host our indivdiual collections. So for each collection, we adjust this setting to reflect that. 
     - example --> baseurl: /digital/boxing 
-- **digital-assets** - This is the url to a shared assets folder. We use "https://www.lib.uidaho.edu/assets." We've also made one avaiable here: "". You should probably just use that one, unless you'd like to copy ours and set one up on your own server. If you do that, just put the link to that folder in this variable. 
-  - example --> digital-assets: https://www.lib.uidaho.edu/assets
+
+
+## Site settings
+These are the primary settings of the site. The metadata variable controls where the site generates all visualizations. 
+
+- **title** - The title of your digital collection.
+	- example --> title: Donald R. Theophilus Boxing Photograph Collection
+- **metadata** - the filename (not including the extension) of your CSV metadata file. Check against cdm-collection-id below -- the tool works better if these are the same. This should be used in config file as well
+	- example --> title: boxing
+
+## repository variables (leave blank if self-contained)
+These variables are for "Skin" versions of CollectionBuilder
+
+- **cdm-url** - This should be the url for your CDM server. 
+    - example --> cdm-url: https://cdm17254.contentdm.oclc.org
+- **cdm-collection-id** - The name of your contentdm collection.    
+    - example --> cdm-collection-id: boxing 
+
+
 
 ## page gen settings 
 The page gen settings use a ruby gem that you can find here: <https://github.com/avillafiorita/jekyll-datapage_gen>	. This Gem reads your metadata file and builds individual html pages based on that data. 

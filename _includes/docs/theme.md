@@ -1,20 +1,5 @@
 The CollectionBuilder site's display options are controlled most heavily by the theme.yml found in our _data directory. These variables impact every page the site builds, so familiarizing yourself with them should be helpful. 
 
-## Site settings
-These are the primary settings of the site. The metadata variable controls where the site generates all visualizations. 
-
-- **title** - The title of your digital collection.
-	- example --> title: Donald R. Theophilus Boxing Photograph Collection
-- **metadata** - the filename (not including the extension) of your CSV metadata file. Check against cdm-collection-id below -- the tool works better if these are the same. This should be used in config file as well
-	- example --> title: boxing
-
-## repository variables (leave blank if self-contained)
-These variables are for "Skin" versions of CollectionBuilder
-
-- **cdm-url** - This should be the url for your CDM server. 
-    - example --> cdm-url: https://cdm17254.contentdm.oclc.org
-- **cdm-collection-id** - The name of your contentdm collection.    
-    - example --> cdm-collection-id: boxing 
 
 ## header and head metadata
 These variable determine how the header looks on all pages save for the collection home page. They also help determine the metadata variables embedded within each html page to assist with indexing of the collection.

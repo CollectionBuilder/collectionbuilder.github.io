@@ -21,11 +21,12 @@ collections:
   workshop:
     output: true
     permalink: /:collection/:title
+    sort_by: step
     
 defaults:
   - scope:
       path: ""
-      type: "workshops"
+      type: "workshop"
     values:
       layout: "workshop"
 

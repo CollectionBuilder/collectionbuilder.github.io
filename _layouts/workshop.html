@@ -2,10 +2,15 @@
 layout: default
 ---
 <div class="container">
+        {%assign modules = site.workshop | sort: "step" %}
+        {%for module in modules %}
+{%if page.title == module.title%}<a class="nav-item text-info mx-2 h4" href="{{module.url | append: '.html' | relative_url}}">{{module.step}}. {{module.url | remove: "/workshop/"}}</a>{%else%}<a class="nav-item text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}
 <div class="row">
-    
+    <h1 class="display-4 my-4 border-bottom pb-3">{{page.title}}</h1>
+</div>
+<div class="col-12">
     {{content}}
-    
+</div>
 
 </div>
 </div>
