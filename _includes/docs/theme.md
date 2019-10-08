@@ -8,17 +8,21 @@ This file controls bits of almost every page used, including:
 - [Map Page](#map-page)
 - [Subjects Page](#subjects-page)
 - [Locations Page](#locations-page)
-- [Timeline Page](#timeline-page)+
+- [Timeline Page](#timeline-page)
 - [About Page](#about-page)
 
-{% if page.collection == "contentdm" %}
-This file also includes some means to [change the image sizing](#image-sizing) for the CONTENTdm images being pulled via the API. *If you're images are appearing blurry or seem too large (perhaps the item pages are taking too long to load), you might adjust these settings*
+{% if page.collection == "contentdm" or page.collection == "workshop" %}
+This file also includes some means to [change the image sizing](#image-sizing) for the CONTENTdm images being pulled via the API. 
+
+{:.blockquote .pl-4}
+> *If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings.*
+
 {%endif%}
 
 At the very end of the file, you can also make some sweeping changes to [the way Bootstrap looks](#bootstrap-config), from changing the color of the navbar to using totally new themes built by Bootswatch.
 
-{:.py-4 .mt-4}
-***<a id="header"></a>
+{:.py-4 .mt-4 #header}
+***
 
 ## Header and Head metadata 
 These variable determine how the header looks on all pages save for the collection home page. They also help determine the metadata variables embedded within each html page to assist with indexing of the collection.
@@ -30,8 +34,9 @@ These variable determine how the header looks on all pages save for the collecti
 - **author** - You! Add your github username, or just your regular old name (or your institution, or just leave it blank).
 	- example --> author: dcnb
 
-{:.py-4 .mt-4}
-***<a id="home-page"></a>
+
+{:.py-4 .mt-4 #home-page}
+***
 
 ## Home page
 
@@ -61,23 +66,26 @@ The home page is very customizable. The first five variables control how the lar
 	- example --> mediatypes: images
 
 
-{:.py-4 .mt-4}
+{:.py-4 .mt-4 #browse-page}
 ***
 
 ### Browse page
 See our Customizations page and the config-browse.csv for these options. Fields given the "btn" option in the config-browse.CSV file can be multivalued with ";" such as subjects.
 
 
-{:.py-4 .mt-4}
-***<a id="item-page"></a>
+
+
+{:.py-4 .mt-4 #item-page}
+***
 
 ## Item page 
 - **browse-buttons** - true / false, adds previous/next arrows to items, but doubles build time. We usually add these at the end. They're a nice feature for improved browsing, as they let users use the mouse or the right and left arrows to move through the collection. 
 	- example --> browse-buttons: true
 
 
-{:.py-4 .mt-4}
-***<a id="map-page"></a>
+
+{:.py-4 .mt-4 #map-page}
+*** 
 
 ## Map page
 See _data/map-config.csv for field display options. See our map page for more in depth descriptions of these options. 
@@ -98,8 +106,8 @@ See _data/map-config.csv for field display options. See our map page for more in
 	- example --> map-cluster-radius: 25
 
 
-{:.py-4 .mt-4}
-***<a id="subject-page"></a>
+{:.py-4 .mt-4 #subjects-page}
+***
 
 
 ## Subjects page
@@ -111,8 +119,8 @@ See _data/map-config.csv for field display options. See our map page for more in
 	- example --> stopwords: boxers;boxing;boxer
 
 
-{:.py-4 .mt-4}
-***<a id="locations-page"></a>
+{:.py-4 .mt-4 #locations-page}
+***
 
 
 ## Locations page
@@ -120,8 +128,8 @@ See _data/map-config.csv for field display options. See our map page for more in
 	- example --> locations-on: true
 
 
-{:.py-4 .mt-4}
-***<a id="timeline-page"></a>
+{:.py-4 .mt-4 #timeline-page}
+***
 
 
 ## Timeline
@@ -131,17 +139,16 @@ See _data/map-config.csv for field display options. See our map page for more in
 	- example --> year-nav-increment: 5
 
 
-{:.py-4 .mt-4}
-***<a id="about-page"></a>
-
+{:.py-4 .mt-4 #about-page}
+***
 
 ## About page
 - **about-off** - true / false, if true will not show link to about page on front "Description" section. You will need to erase the link in nav-configuration.csv as well. 
 	- example --> about-off: true
 
 
-{:.py-4 .mt-4}
-***<a id="image-sizing"></a>
+{:.py-4 .mt-4 #image-sizing}
+***
 
 
 ## images 
@@ -155,8 +162,8 @@ This is a CONTENTdm specific variable section for adjusting size of images used 
 	- example --> image-percentage-small: 10
 
 
-{:.py-4 .mt-4}
-***<a id="bootstrap-config"></a>
+{:.py-4 .mt-4 #bootstrap-config}
+***
 
 
 ## Bootstrap Theme Options

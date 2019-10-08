@@ -8,7 +8,7 @@ Metadata,metadata,,
 Extracting Metadata from ContentDMextract,extract,contentdm,metadata
 Config File (_config.yml),config-file,,
 Theme File (/_data/theme.yml),theme,,
-Vizualization Configurations,viz,
+Customizations - Page Configuration,,
 Home Page,home,,viz
 Browse Page,browse,,viz
 Map Page,map,,viz

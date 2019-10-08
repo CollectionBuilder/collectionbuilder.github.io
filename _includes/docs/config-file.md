@@ -7,8 +7,8 @@ The **_config.yml** file connects your collection to the tool. The URL variables
 - [Site Settings](#site-settings)
 - [Item Page Generation Settings](#page-gen)
 
-{:.py-4 .mt-4}
-***<a id="url-var"></a>
+{:.py-4 .mt-4 #url-var}
+***
 
 ## URL Variables
 
@@ -21,8 +21,8 @@ These variables need to be defined based on where you expect the site to end up 
 
 
 {%if page.collection == "contentdm" or page.collection == "workshop" %}
-{:.py-4 .mt-4}
-***<a id="repo-var"></a>
+{:.py-4 .mt-4 #repo-var}
+***
 
 ## Repository Variables (leave blank if self-contained)
 These variables are determine the root url for your CONTENTdm server and the id of your collection on that server. 
@@ -34,8 +34,8 @@ These variables are determine the root url for your CONTENTdm server and the id 
 
 {%endif%}
 
-{:.py-4 .mt-4}
-***<a id="site-settings"></a>
+{:.py-4 .mt-4 #site-settings}
+***
 
 
 
@@ -47,8 +47,8 @@ These are the primary settings of the site. The metadata variable controls where
 - **metadata** - the filename (not including the extension) of your CSV metadata file. Check against cdm-collection-id below -- the tool works better if these are the same. ***This should be the same entry as "data" in the page gen variables below.***
 	- example --> title: boxing
 
-{:.py-4 .mt-4}
-***<a id="page-gen"></a>
+{:.py-4 .mt-4 #page-gen}
+***
 
 ## Item Page Generator Settings 
 The pages for items are built when Jekyll builds the collection through the use of a ruby gem that you can find here: <https://github.com/avillafiorita/jekyll-datapage_gen>. This Gem reads your metadata file and builds individual html pages based on that data. 

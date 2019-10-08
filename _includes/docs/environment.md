@@ -1,6 +1,17 @@
 If you're working with CollectionBuilder-gh, you don't have to worry about an environment, as everything can be done through GitHub's web interfaces. That said, it's much easier, once everything is set up, to work on a computer set up for developing with these tools. 
 
-Getting the software installed on your computer is typically the biggest hurdle to getting started with tools like ours. So stick with it, even if you run into any issues. Jeykll requires Ruby, and the workflows we use include the use of Git and GitHub. And working in these repositories will also require a text editor, so let's get that first: 
+Getting the software installed on your computer is typically the biggest hurdle to getting started with tools like ours. So stick with it, even if you run into any issues. Jeykll requires Ruby, and the workflows we use include the use of Git and GitHub. And working in these repositories will also require a text editor, so we'll take four steps to get set up: 
+
+1. [Get a Text Editor](#text-editor)
+2. [Install Git](#git)
+3. [Install Ruby](#ruby)
+4. [Install Jekyll](#jekyll)
+
+
+
+
+{:.py-4 .mt-4 #text-editor}
+***
 
 ## 1. Get a Text Editor
 
@@ -18,6 +29,9 @@ Open-source cross platform suggestions:
 
 If you don't have one of these text editors installed, visit their sites, download the software, and use their wizards to install the software on your computer. We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
 
+{:.py-4 .mt-4 #git}
+***
+
 ## 2. Install Git
 
 [Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system, a piece of software on your computer. 
@@ -33,6 +47,9 @@ Installing it is fairly straightforward:
 IF you are new to using Git and GitHub, we'd also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options. This will help you visualize and implement some of the git processes that often seem non-intuitive. You can install GitHub Desktop in addition to other versions of Git.
 
 Note: If you are a Linux user, GitHub Desktop will not work. There are, however, other [GUI apps available](https://git-scm.com/downloads/guis){:target="_blank"} for managing and visualizing Git repositories, including Linux options.
+
+{:.py-4 .mt-4 #ruby}
+***
 
 ## 3. Install Ruby
 
@@ -61,6 +78,9 @@ Jekyll requires a Ruby version that is greater than 2.2.5.
 - **Linux:** Even though the version will not be the most up-to-date, the simplest method is to use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Check `ruby -v` to make sure the repository version is > 2.2.5. See the official Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"} for more details.
     - For a more up-to-date version, use a manager such as [RVM](http://rvm.io/){:target="_blank"} ([Ubuntu tips](https://evanwill.github.io/_drafts/notes/ruby-notes.html){:target="_blank"})
     - You will also need some build tools (Make and GCC), on Ubuntu get them with `sudo apt install build-essential`.
+
+{:.py-4 .mt-4 #jekyll}
+***
 
 ## 4. Install Jekyll
 

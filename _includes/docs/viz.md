@@ -1,1 +1,0 @@
-Sections on our various visualizations are coming soon. Refer to the [.theme.yml section](theme.html) for more information in the meantime. 
