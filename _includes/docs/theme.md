@@ -18,9 +18,9 @@ This file also includes some means to [change the image sizing](#image-sizing) f
 At the very end of the file, you can also make some sweeping changes to [the way Bootstrap looks](#bootstrap-config), from changing the color of the navbar to using totally new themes built by Bootswatch.
 
 {:.py-4 .mt-4}
-***
+***<a id="header"></a>
 
-## <a id="header"></a>Header and Head metadata 
+## Header and Head metadata 
 These variable determine how the header looks on all pages save for the collection home page. They also help determine the metadata variables embedded within each html page to assist with indexing of the collection.
 
 - **tagline** - This will appear underneath the header title on all pages except the homepage.
@@ -31,9 +31,9 @@ These variable determine how the header looks on all pages save for the collecti
 	- example --> author: dcnb
 
 {:.py-4 .mt-4}
-***
+***<a id="home-page"></a>
 
-## <a id="home-page"></a>Home page
+## Home page
 
 The home page is very customizable. The first five variables control how the large image one first sees upon coming to the site appears. The other variables control various boxes displayed on the page that detail highlights or aspects of the collection. We call this a bento box style, and if you want to delete or move variables, you can just edit the "home-infographic.html" file. See our Home Page page for more info. 
 
@@ -69,17 +69,17 @@ See our Customizations page and the config-browse.csv for these options. Fields 
 
 
 {:.py-4 .mt-4}
-***
+***<a id="item-page"></a>
 
-## <a id="item-page"></a>Item page 
+## Item page 
 - **browse-buttons** - true / false, adds previous/next arrows to items, but doubles build time. We usually add these at the end. They're a nice feature for improved browsing, as they let users use the mouse or the right and left arrows to move through the collection. 
 	- example --> browse-buttons: true
 
 
 {:.py-4 .mt-4}
-***
+***<a id="map-page"></a>
 
-## <a id="map-page"></a>Map page
+## Map page
 See _data/map-config.csv for field display options. See our map page for more in depth descriptions of these options. 
 
 - **latitude**- This determines the center of map.
@@ -99,10 +99,10 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 {:.py-4 .mt-4}
-***
+***<a id="subject-page"></a>
 
 
-## <a id="subject-page"></a>Subjects page
+## Subjects page
 - **subjects-off** - true / false, turns off subject generation to lower dev build time (then page doesn't work!)
 	- example --> subjects-off: false
 - **subject-min** - min size for subject cloud, too many terms = slow load time!
@@ -112,19 +112,19 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 {:.py-4 .mt-4}
-***
+***<a id="locations-page"></a>
 
 
-## <a id="locations-page"></a>Locations page
+## Locations page
 - **locations-on** - true/false, - when true, will generate a location.html page. You will need to adjust the nav-configuration.csv to include the page on the header if you turn this on. 
 	- example --> locations-on: true
 
 
 {:.py-4 .mt-4}
-***
+***<a id="timeline-page"></a>
 
 
-## <a id="timeline-page"></a>Timeline
+## Timeline
 - **year-navigation** - Sets years to appear in dropdown nav on top right. If left blank, these will auto-generate. 
 	- example --> year-navigation: #"1900;1905;1910;1915;1920"
 - **year-nav-increment** - Sets increments nav years are automatically generated. 
@@ -132,19 +132,19 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 {:.py-4 .mt-4}
-***
+***<a id="about-page"></a>
 
 
-## <a id="about-page"></a>About page
+## About page
 - **about-off** - true / false, if true will not show link to about page on front "Description" section. You will need to erase the link in nav-configuration.csv as well. 
 	- example --> about-off: true
 
 
 {:.py-4 .mt-4}
-***
+***<a id="image-sizing"></a>
 
 
-## <a id="image-sizing"></a>images 
+## images 
 This is a CONTENTdm specific variable section for adjusting size of images used throughout. If your images are typically very large, you might adjust these to drop down the images being loaded. And vice versa for collections with smaller images.
 
 - **image-percentage-large** - default 70
@@ -156,10 +156,10 @@ This is a CONTENTdm specific variable section for adjusting size of images used 
 
 
 {:.py-4 .mt-4}
-***
+***<a id="bootstrap-config"></a>
 
 
-## <a id="bootstrap-config"></a>Bootstrap Theme Options
+## Bootstrap Theme Options
 These options will adjust the theme's color and look. 
 
 - **navbar-color** - Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors navbar-dark

@@ -4,13 +4,13 @@ The **_config.yml** file connects your collection to the tool. The URL variables
 
 - [URL Variables](#url-var)
 - [Repository Variables](#repo-var)
-- [URL Variables](#site-settings)
+- [Site Settings](#site-settings)
 - [Item Page Generation Settings](#page-gen)
 
 {:.py-4 .mt-4}
-***
+***<a id="url-var"></a>
 
-## <a id="url-var"></a>URL Variables
+## URL Variables
 
 These variables need to be defined based on where you expect the site to end up later. 
 
@@ -19,12 +19,12 @@ These variables need to be defined based on where you expect the site to end up 
 - **baseurl** - This variable sets up the directories/folders that the site will end up in on your web server. So, for example, if you have a project called "pink-poodle" that you plan to put in the "projects" folder on your website, you'd put "/projects/pink-poodle" down for this variable. For the UI Library, we use /digital/ + the collection abbreviation to host our individual collections. You will need to adjust this setting for each collection you build. 
     - example --> baseurl: /digital/boxing 
 
-{:.py-4 .mt-4}
-***
 
 {%if page.collection == "contentdm" or page.collection == "workshop" %}
+{:.py-4 .mt-4}
+***<a id="repo-var"></a>
 
-## <a id="repo-var"></a>Repository Variables (leave blank if self-contained)
+## Repository Variables (leave blank if self-contained)
 These variables are determine the root url for your CONTENTdm server and the id of your collection on that server. 
 
 - **cdm-url** - This should be the url for your CDM server. 
@@ -32,12 +32,14 @@ These variables are determine the root url for your CONTENTdm server and the id 
 - **cdm-collection-id** - The name of your contentdm collection.    
     - example --> cdm-collection-id: boxing 
 
-{:.py-4 .mt-4}
-***
 {%endif%}
 
+{:.py-4 .mt-4}
+***<a id="site-settings"></a>
 
-## <a id="site-settings"></a>Site settings
+
+
+## Site settings
 These are the primary settings of the site. The metadata variable controls where the site generates all visualizations. 
 
 - **title** - The title of your digital collection. This appears on the home page banner and on every other page's header as well. 
@@ -46,9 +48,9 @@ These are the primary settings of the site. The metadata variable controls where
 	- example --> title: boxing
 
 {:.py-4 .mt-4}
-***
+***<a id="page-gen"></a>
 
-## <a id="page-gen"></a>Item Page Generator Settings 
+## Item Page Generator Settings 
 The pages for items are built when Jekyll builds the collection through the use of a ruby gem that you can find here: <https://github.com/avillafiorita/jekyll-datapage_gen>. This Gem reads your metadata file and builds individual html pages based on that data. 
 
 There are several variables in this section. Most of them you should leave the same unless you want to do more extensive customization. The "data" variable, however, will need to be changed for each new collection: 
