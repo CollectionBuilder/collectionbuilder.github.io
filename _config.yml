@@ -18,6 +18,17 @@ collections:
   sa:
     output: true
     permalink: /:collection/docs/:slug
+  workshop:
+    output: true
+    permalink: /:collection/:title
+    
+defaults:
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"
+
 
 # Use Bootstrap (true, false)
 bootstrap: true
