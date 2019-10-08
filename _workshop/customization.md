@@ -1,4 +1,4 @@
 ---
-title: Initial Customization (_data/theme.yml)
-step: 5
+title: Customizations
+step: 6
 ---

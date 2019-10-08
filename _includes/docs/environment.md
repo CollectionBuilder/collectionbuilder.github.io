@@ -2,7 +2,7 @@ If you're working with CollectionBuilder-gh, you don't have to worry about an en
 
 Getting the software installed on your computer is typically the biggest hurdle to getting started with tools like ours. So stick with it, even if you run into any issues. Jeykll requires Ruby, and the workflows we use include the use of Git and GitHub. And working in these repositories will also require a text editor, so let's get that first: 
 
-## Text Editor
+## 1. Get a Text Editor
 
 When working with code you should have a good text editor.
 Word processors such as MS Word can not be used to create or edit code; they add all sorts of gunk to the text.
@@ -18,7 +18,7 @@ Open-source cross platform suggestions:
 
 If you don't have one of these text editors installed, visit their sites, download the software, and use their wizards to install the software on your computer. We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
 
-## Install Git
+## 2. Install Git
 
 [Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system, a piece of software on your computer. 
 [GitHub](https://github.com/) is a Git repository hosting service, a place to store and sync your work in the cloud.
@@ -30,18 +30,18 @@ Installing it is fairly straightforward:
 - **Mac:** check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, your system will often prompt you to install "Xcode Command Line Tools"--follow the prompt as this package is necessary for Ruby as well. Alternatively, type `xcode-select --install` to start the process. If you want a newer version, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"} or use Homebrew.
 - **Linux:** install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 
-IF you are new to using Git and GitHub, we'd also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options. This will help you visualize and implement some of the git processes that often seem non-intutive. You can install GitHub Desktop in addition to other versions of Git.
+IF you are new to using Git and GitHub, we'd also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options. This will help you visualize and implement some of the git processes that often seem non-intuitive. You can install GitHub Desktop in addition to other versions of Git.
 
 Note: If you are a Linux user, GitHub Desktop will not work. There are, however, other [GUI apps available](https://git-scm.com/downloads/guis){:target="_blank"} for managing and visualizing Git repositories, including Linux options.
 
-## Install Ruby
+## 3. Install Ruby
 
 [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a fairly young and developing programming language with some unique features. 
-To use Jekyll, *you do not need to know anything about Ruby*, but if you are curious, check out [Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/){:target="_blank"}.
+To use Jekyll, ***you do not need to know anything about Ruby***, but if you are curious, check out [Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/){:target="_blank"}.
 
 Frustratingly, different versions have many dependency and incompatibility problems.
 Because of these issues, many use Ruby Managers, such as [RVM](http://rvm.io/){:target="_blank"}, to install and switch between versions.
-However, if you are just interested in working with Jekyll, using an installer for your OS should be sufficient.
+However, if you are just interested in working with Jekyll, using an installer for your OS should work well.
 Jekyll requires a Ruby version that is greater than 2.2.5.
 
 - **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}. 
@@ -62,10 +62,7 @@ Jekyll requires a Ruby version that is greater than 2.2.5.
     - For a more up-to-date version, use a manager such as [RVM](http://rvm.io/){:target="_blank"} ([Ubuntu tips](https://evanwill.github.io/_drafts/notes/ruby-notes.html){:target="_blank"})
     - You will also need some build tools (Make and GCC), on Ubuntu get them with `sudo apt install build-essential`.
 
-## Install Jekyll
-
-> Note: Jekyll does not officially support Windows, however it is cross platform and works fine (they just don’t officially write windows documentation or check for bugs). 
-> There is a [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) page, but it can be out of date and inaccurate.
+## 4. Install Jekyll
 
 Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
 Open a terminal and type:
@@ -78,3 +75,6 @@ This will take a minute as Gem installs all the dependencies and builds extensio
 > On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
 > Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
 > Unzip the package, then run `ruby setup.rb` in the directory.
+
+> Note: Jekyll does not officially support Windows, however it works fine on Windows (they just don’t officially write windows documentation or check for bugs). 
+> There is a [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) page, but it can be out of date and inaccurate.

@@ -1,19 +1,40 @@
 The CollectionBuilder site's display options are controlled most heavily by the theme.yml found in our _data directory. These variables impact every page the site builds, so familiarizing yourself with them should be helpful. 
 
+This file controls bits of almost every page used, including: 
 
-## header and head metadata
+- [Collection Header](#header)
+- [Home Page](#home-page)
+- [Item Page](#item-page)
+- [Map Page](#map-page)
+- [Subjects Page](#subjects-page)
+- [Locations Page](#locations-page)
+- [Timeline Page](#timeline-page)+
+- [About Page](#about-page)
+
+{% if page.collection == "contentdm" %}
+This file also includes some means to [change the image sizing](#image-sizing) for the CONTENTdm images being pulled via the API. *If you're images are appearing blurry or seem too large (perhaps the item pages are taking too long to load), you might adjust these settings*
+{%endif%}
+
+At the very end of the file, you can also make some sweeping changes to [the way Bootstrap looks](#bootstrap-config), from changing the color of the navbar to using totally new themes built by Bootswatch.
+
+{:.py-4 .mt-4}
+***
+
+## <a id="header"></a>Header and Head metadata 
 These variable determine how the header looks on all pages save for the collection home page. They also help determine the metadata variables embedded within each html page to assist with indexing of the collection.
 
 - **tagline** - This will appear underneath the header title on all pages except the homepage.
     - example --> tagline: Photographs of University of Idaho Boxers and Boxing Teams, 1934 - 1953
 - **description** - A short description of the collection. This appears on the home page in a box that has a button going to the about page for the user to learn more. 
     - example --> description: "A digital collection comprised of 52 photographs of boxers and boxing teams from the University of Idaho" 
-- **keywords** - describing the whole collection -- add to the two provided
-	- example --> keywords: "UI; Idaho; Sports"
-- **author** - You! Add your github username 
+- **author** - You! Add your github username, or just your regular old name (or your institution, or just leave it blank).
 	- example --> author: dcnb
 
-## Home page
+{:.py-4 .mt-4}
+***
+
+## <a id="home-page"></a>Home page
+
 The home page is very customizable. The first five variables control how the large image one first sees upon coming to the site appears. The other variables control various boxes displayed on the page that detail highlights or aspects of the collection. We call this a bento box style, and if you want to delete or move variables, you can just edit the "home-infographic.html" file. See our Home Page page for more info. 
 
 - **home-banner-image-number** - This is a CONTENTdm variable. Select the cdm-id number of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
@@ -39,14 +60,26 @@ The home page is very customizable. The first five variables control how the lar
 - **mediatypes** - options[documents,images,video,audio,data,youtube] For multiples, separate by semi-colon(';'). If semi-colon is present, the browse items on the browse page will display a type field. If only one media type (and thus no semi-colon), no type field will display. 
 	- example --> mediatypes: images
 
-### Browse page
-See our Browse Page for these options. Fields given the "btn" option can be multivalued with ";" such as subjects.
 
-## Item page 
+{:.py-4 .mt-4}
+***
+
+### Browse page
+See our Customizations page and the config-browse.csv for these options. Fields given the "btn" option in the config-browse.CSV file can be multivalued with ";" such as subjects.
+
+
+{:.py-4 .mt-4}
+***
+
+## <a id="item-page"></a>Item page 
 - **browse-buttons** - true / false, adds previous/next arrows to items, but doubles build time. We usually add these at the end. They're a nice feature for improved browsing, as they let users use the mouse or the right and left arrows to move through the collection. 
 	- example --> browse-buttons: true
 
-## Map page
+
+{:.py-4 .mt-4}
+***
+
+## <a id="map-page"></a>Map page
 See _data/map-config.csv for field display options. See our map page for more in depth descriptions of these options. 
 
 - **latitude**- This determines the center of map.
@@ -64,7 +97,12 @@ See _data/map-config.csv for field display options. See our map page for more in
 - **map-cluster-radius** - This determines the size of clusters, from ~ 10 to 80
 	- example --> map-cluster-radius: 25
 
-## Subject page
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="subject-page"></a>Subjects page
 - **subjects-off** - true / false, turns off subject generation to lower dev build time (then page doesn't work!)
 	- example --> subjects-off: false
 - **subject-min** - min size for subject cloud, too many terms = slow load time!
@@ -72,21 +110,41 @@ See _data/map-config.csv for field display options. See our map page for more in
 - **stopwords** - set of subjects separated by ;, e.g. we use boxers;boxing for boxing collection because they're unnecessary. Really, this should probably be addressed in the metadata but sometimes metadata isn't perfect.
 	- example --> stopwords: boxers;boxing;boxer
 
-## Locations page
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="locations-page"></a>Locations page
 - **locations-on** - true/false, - when true, will generate a location.html page. You will need to adjust the nav-configuration.csv to include the page on the header if you turn this on. 
 	- example --> locations-on: true
 
-## Timeline
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="timeline-page"></a>Timeline
 - **year-navigation** - Sets years to appear in dropdown nav on top right. If left blank, these will auto-generate. 
 	- example --> year-navigation: #"1900;1905;1910;1915;1920"
 - **year-nav-increment** - Sets increments nav years are automatically generated. 
 	- example --> year-nav-increment: 5
 
-## About page
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="about-page"></a>About page
 - **about-off** - true / false, if true will not show link to about page on front "Description" section. You will need to erase the link in nav-configuration.csv as well. 
 	- example --> about-off: true
 
-## images 
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="image-sizing"></a>images 
 This is a CONTENTdm specific variable section for adjusting size of images used throughout. If your images are typically very large, you might adjust these to drop down the images being loaded. And vice versa for collections with smaller images.
 
 - **image-percentage-large** - default 70
@@ -96,7 +154,12 @@ This is a CONTENTdm specific variable section for adjusting size of images used 
 - **image-percentage-small** - default 20
 	- example --> image-percentage-small: 10
 
-## Theme Options
+
+{:.py-4 .mt-4}
+***
+
+
+## <a id="bootstrap-config"></a>Bootstrap Theme Options
 These options will adjust the theme's color and look. 
 
 - **navbar-color** - Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors navbar-dark
@@ -113,3 +176,9 @@ Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lu
 	- example --> bootswatch: cerulean
 
 gh-repository: https://github.com/uidaholib/collectionbuilder-cdm-template
+
+
+
+{:.py-4 .mt-4}
+***
+
