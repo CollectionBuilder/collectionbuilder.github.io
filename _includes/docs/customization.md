@@ -16,15 +16,30 @@ The files discussed in this section will help you customize the website to fit t
 {:.py-4 .mt-4 #config-nav}
 ***
 
-## Navigation Header Configuration
+## Navigation Header Configuration (config-nav.csv)
 
+This CSV controls what and in what order the links on your header show up. 
 
+- **display-text**: This field determine what words will display in the header. 
+- **stub**: This field determins what link the display text will follow. 
 
+### Example
+
+{:.pl-4}
+    display-text,stub
+    Home,/
+    Browse,/browse.html
+    Subjects,/subjects.html
+    Map,/map.html
+    Timeline,/timeline.html
+    Data,/data/
+
+The above CSV would create 6 links in the header for the referenced pages. Note the About Page has been deleted. If you wanted to add it back in, you'd just add a line after the "Data,/data/" line that read: About,about.html
 
 {:.py-4 .mt-4 #config-metadata}
 ***
 
-## Metadata / Item Page Configuration
+## Metadata / Item Page Configuration (metadata-nav.csv)
 
 The most important CSV (if you're measuring by the number of pages it creates!) is the one that controls the metadata. [***config-metadata.csv***](#config-metadata) controls how an item's metadata is displayed on its web page. The file provides a number of options to help control the display of the item, as well as the machine-readability/SEO indexing characteristics of the code underneath the display. The fields are described below: 
 
@@ -55,14 +70,16 @@ The most important CSV (if you're measuring by the number of pages it creates!) 
 {:.py-4 .mt-4 #config-browse}
 ***
 
-## Browse Page Configuration
+## Browse Page Configuration (config-browse.csv)
+
 
 {:.py-4 .mt-4 #config-map}
 ***
 
-## Map Page Configuration
+## Map Page Configuration (config-map.csv)
+
 
 {:.py-4 .mt-4 #config-table}
 ***
 
-## Table Configuration
+## Table Configuration (config-table.csv)
