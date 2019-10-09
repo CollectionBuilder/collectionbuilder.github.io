@@ -1,9 +1,9 @@
 ---
-title: Setting Up the Environment
+title: Installing Software
 layout: docs 
-stub: environment
+stub: software
 ---
 
 # {{page.title}}
 
-{% include docs/environment.md%}
+{% include docs/software.md%}
