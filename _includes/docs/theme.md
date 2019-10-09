@@ -51,8 +51,11 @@ The home page is very customizable. The first five variables control how the lar
 - **home-banner-image-title** - This will create a tag for screen readers to describe the featured image. It's important for us to include accessibility features throughout; if you ever see an area that needs assistance, please let us know. 
 	- example --> home-banner-image-title: 1947-1948 University of Idaho boxing squad 
 - **home-title-y-padding** - This variable determines how large your featured image will appear. A smaller number will feature a smaller amount of the image. More techinically, this determines, via CSS, the margin from the top and bottom your title portion will appear.
+	- *Options:* '2em' to '20em' 
 	- example --> home-title-y-padding: 12em
-- **home-banner-image-position** -  [options: top, center, bottom] Default: top | This determins what portion of the image will appear. If you'd like the bottom of a larger image to show up, put bottom. 
+- **home-banner-image-position** -  This determins what portion of the image will appear. If you'd like the bottom of a larger image to show up, put bottom. 
+	- *Options:* top, center, bottom
+	- Default: top 
 	- example --> home-banner-image-position: bottom
 - **carousel-height** - in px, but don't include the "px"; default is 300.
 	- example --> carousel-height: 500
@@ -90,8 +93,9 @@ See our Customizations page and the config-browse.csv for these options. Fields 
 *** 
 
 ## Map page
+
 {:.pl-4}
-> See our [customization section on map configuration](customization.html#config-map) for field display options. 
+> *See our [customization section on map configuration](customization.html#config-map) for field display options that control what appears in the pop-ups.* 
 
 The options below will set the center, zoom level, and optional features of your map. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature. 
 
@@ -182,7 +186,7 @@ The about page is found at the base of the directory, where it's called "about.m
 ***
 
 
-## images 
+## Images 
 This is a CONTENTdm specific variable section for adjusting size of images used throughout. If your images are typically very large, you might adjust these to drop down the images being loaded. And vice versa for collections with smaller images.
 
 - **image-percentage-large** - default 70
