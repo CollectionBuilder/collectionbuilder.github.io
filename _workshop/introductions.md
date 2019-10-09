@@ -45,7 +45,7 @@ This year's grant will let us fine-tune CollectionBuilder through our own develo
 
 The grant also provides funds for us to embed ourselves into several academic libraries and/or similar institutions to set up the techonological tools and basic workflows necessary for using the tool to build digital collections more pervasively. 
 
-***Opportunites for you collaborate with us***
+***Opportunites for Collaboration***
 
 - If you, or some insitution you know, might be interested in adopting this tool more seriously, we can offer a small ($1500) subaward to supplement the additional work involved and one of us would visit your site to help get everything set up. 
 - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.

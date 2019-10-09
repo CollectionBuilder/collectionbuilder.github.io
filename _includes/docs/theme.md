@@ -42,6 +42,8 @@ These variable determine how the header looks on all pages save for the collecti
 
 The home page is very customizable. The first five variables control how the large image one first sees upon coming to the site appears. The other variables control various boxes displayed on the page that detail highlights or aspects of the collection. We call this a bento box style, and if you want to delete or move variables, you can just edit the "home-infographic.html" file. See our Home Page page for more info. 
 
+*Note:* The features that display on the home page can be customized via the "home-infographic.html" file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)
+
 - **home-banner-image-number** - This is a CONTENTdm variable. Select the cdm-id number of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
 	- example --> home-banner-image-number: 15
 - **home-banner-image-link** - IF you are not using the CONTENTdm skin, use this field to link to an image you'd like to feature. This might be an object in your object directory or a link to an outside photograph. Leave blank if you enter a number above for a CONTENTdm image.
@@ -88,19 +90,29 @@ See our Customizations page and the config-browse.csv for these options. Fields 
 *** 
 
 ## Map page
-See _data/map-config.csv for field display options. See our map page for more in depth descriptions of these options. 
+{:.pl-4}
+> See our [customization section on map configuration](customization.html#config-map) for field display options. 
+
+The options below will set the center, zoom level, and optional features of your map. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature. 
+
+The map is created by using [Leaflet](https://leafletjs.com/), an open-source mapping application, and if you'd like to go even further with customization, you can visit their site and look for even more customization options. 
+
+A user can change the layer the map is using by clicking on the Layer button at the top right of the map. The map can be searched by clicking on the magnifying glass just below the layers option at the top right. 
 
 - **latitude**- This determines the center of map.
 	- example --> latitude: 46.727485 
 - **longitude**: This determines the center of map.
 	- example --> longitude: -117.014185
 - **zoom-level** - Determines the zoom level for your map. The higher the number, the more zoomed-in you'll be. 
+	- *options:* any number between 1 and 16
 	- example --> zoom-level: 5
 - **map-search** - Enables a user to search the map via the large magnifying glass on the top right. This is not suggested with large collections.
+	- *options:* 'true' or leave blank 
 	- example --> map-search: true
 - **map-search-fuzziness** - Allows for less precision with search terms. Fuzzy search range from 1 = anything to 0 = exact match only.
 	- example --> map-search-fuzziness: 0.35
 - **map-cluster** - This clusters markers that are near each other and is suggested for large collection or with many items in same location.
+	- *options:* 'true' or leave blank 
 	- example --> map-cluster: true
 - **map-cluster-radius** - This determines the size of clusters, from ~ 10 to 80
 	- example --> map-cluster-radius: 25
@@ -111,9 +123,16 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 ## Subjects page
+
+The subjects page is generated via a JSON file that is automatically built when the collection is generated. Subjects that appear more often will appear larger. 
+
+With these settings, you can determine whether you want a subject page, what the minimun number of times a subject term must appear before being displayed, and any stopwords that should be removed from the tag cloud visualization. 
+
 - **subjects-off** - true / false, turns off subject generation to lower dev build time (then page doesn't work!)
+	- *options:* 'true' or 'false'
 	- example --> subjects-off: false
 - **subject-min** - min size for subject cloud, too many terms = slow load time!
+	- *options:* 1 - 99 (note that a really large number will likely make no subjects appear)
 	- example --> subject-min: 4
 - **stopwords** - set of subjects separated by ;, e.g. we use boxers;boxing for boxing collection because they're unnecessary. Really, this should probably be addressed in the metadata but sometimes metadata isn't perfect.
 	- example --> stopwords: boxers;boxing;boxer
@@ -124,7 +143,13 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 ## Locations page
+
+This page functions exactly as the Subjects page does. If you have a 'location' field, by using the setting below to turn on the generation of the page, the tool will build a page at "locations.html"
+
+***Impotant note:*** In order to have this page appear to your users, you must also add a row in the [_data/config-nav.csv](customization.html#config-nav) that reads: "Locations,locations.html"
+
 - **locations-on** - true/false, - when true, will generate a location.html page. You will need to adjust the nav-configuration.csv to include the page on the header if you turn this on. 
+	- *options:* 'true' or 'false' 
 	- example --> locations-on: true
 
 
@@ -133,16 +158,22 @@ See _data/map-config.csv for field display options. See our map page for more in
 
 
 ## Timeline
-- **year-navigation** - Sets years to appear in dropdown nav on top right. If left blank, these will auto-generate. 
+
+The timeline is built by year, with each year become a row where thumbnail versions of the items appear. This section will let you determine which years are in the dropdown button at the top right that allows a user to jump down the page. 
+
+- **year-navigation** - Sets years to appear in dropdown nav on top right. If left blank, these will auto-generate. (We recommend leaving this blank.)
 	- example --> year-navigation: #"1900;1905;1910;1915;1920"
-- **year-nav-increment** - Sets increments nav years are automatically generated. 
-	- example --> year-nav-increment: 5
+- **year-nav-increment** - Sets the increment at which the nav years are automatically generated. Default is '5'
+	- example --> year-nav-increment: 7
 
 
 {:.py-4 .mt-4 #about-page}
 ***
 
 ## About page
+
+The about page is found at the base of the directory, where it's called "about.md". It's the only page file that will likely need your personal attention. More on writin the page can be found in our [finishing section](finshing.html#about).
+
 - **about-off** - true / false, if true will not show link to about page on front "Description" section. You will need to erase the link in nav-configuration.csv as well. 
 	- example --> about-off: true
 
