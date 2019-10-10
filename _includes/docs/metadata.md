@@ -54,19 +54,19 @@ Without values in these fields, CollectionBuilder will not work properly.
 CollectionBuilder uses these fields to generate contextual visualizations, including a map, timeline, and word clouds reflecting the frequency of subjects and locations in a collection.
 
 - **latitude**:
-    - A geographic coordinate specifying the north-south position of an item. See our page on the map visualization to learn how to find lat/longs for your items.
+    - A geographic coordinate specifying the north-south position of an item. See our page on the map visualization to learn how to find lat/longs for your items. See the [Map](theme.html#map-page) section for more information.
     - Example Input: `46.731643`
 - **longitude**:
-    - A geographic coordinate specifying the east-west position of an item. See our page on the map visualization to learn how to find lat/longs for your items.
+    - A geographic coordinate specifying the east-west position of an item. See our page on the map visualization to learn how to find lat/longs for your items. See the [Map](theme.html#map-page) for more information.
     - Example Input: `-117.165625`
 - **date**: 
-    - This field indicates a point in time or period of time associated with the item. Date should always be in the format `yyyy-mm-dd`, which will enable our various timeline visualizations. See the [Timeline Page](theme.html#timeline-page) section for more details. For less exact dates, `yyyy-mm` or `yyyy` may be used.
+    - This field indicates a point in time or period of time associated with the item. Date should always be in the format `yyyy-mm-dd`, which will enable our various timeline visualizations. See the [Timeline](theme.html#timeline-page) section for more details. For less exact dates, `yyyy-mm` or `yyyy` may be used.
     - Example Input: `1997-07-16`, `1997-07`, `1997`
 - **subject**:
-    - The subject field contains topic(s) related to the item. This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). *Note: This field needs to be named 'subject' (not 'subjects') for CollectionBuilder to work.* Data in this field will create the word cloud that allows users to visualize the amount of subjects used within the collection. See the [Subjects Page](theme.html#subjects-page) section for more information.
+    - The subject field contains topic(s) related to the item. This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). *Note: This field needs to be named 'subject' (not 'subjects') for CollectionBuilder to work.* Data in this field will create the word cloud that allows users to visualize the amount of subjects used within the collection. See the [Subjects](theme.html#subjects-page) section for more information.
     - Example Input: `Dogs; Cats; Zebras`
 - **location**: 
-    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations Page](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
+    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
     - Example Input: `Pullman, Washington; Moscow, Idaho`
 
 {:.py-4 .mt-4 #recommend}
