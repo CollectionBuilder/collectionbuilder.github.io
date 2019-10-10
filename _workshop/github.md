@@ -53,7 +53,7 @@ git config --global user.email "myemail@gmail.com"
 2. In the box that pops up, click on the button labeled "Open in Desktop." 
     - This action will automatically open GitHub Desktop for you. 
     - GitHub Desktop will ask you to confirm the path of the repository you are cloning to your computer. In most cases, the path that it suggests is fine to use so you can just click on the blue "Clone" button.
-3. Now, in the top bar of GitHub Desktop you should see three buttons. On the left, the "Current repository" button lists the repository  you just cloned. In the middle, you can check your current branch (it will probably say master), and on the right there is a button that allows you to "Fetch origin," "Pull changes," or "Push changes." As you work, this button allows you to sync the local version of your repository with the version on GitHub, and push and pull changes between them.
+3. Now, in the top bar of GitHub Desktop you should see three buttons. On the left, the "Current repository" button lists the repository  you just cloned. In the middle, you can check your current branch (it will probably say master), and on the right there is a button that allows you to "Fetch origin," "Pull origin," or "Push origin." As you work, this button allows you to sync the local version of your repository with the version on GitHub, and push and pull changes between them.
 
 {:.py-4 .mt-4 #}
 ***
@@ -81,7 +81,7 @@ git config --global user.email "myemail@gmail.com"
 1. Now it's time to start customizing your repository. Open your GitHub Desktop window again. 
 2. In the top bar, click on "Repository," then click on "Open in text editor." (Alternately, this might say "Open in Visual Studio Code" or "Open in Atom.") This opens your repository in your chosen development environment, a single space that lets you navigate the files in the repository, edit those files in a text editor, and serve or build the project using a terminal window.
 3. GitHub Destkop and your text editor (probably VSCode or Atom) are connected, so once you save the changes you make to files in your text editor, those changes will show up in the left-hand "Changes" column in GitHub Desktop. When you're ready to commit the changes you've made, simply navigate to GitHub Desktop and select the checkboxes next to the files you'd like to commit. Enter your commit message in the box at the bottom of the column, click the blue "Commit to master" button, and push your changes using the button in the top right of the GitHub Desktop window.
-4. If you're working on multiple computers or collaborating, be sure to fetch and pull changes before you push new ones. You can do this by clicking on the button in the top right of the GitHub Desktop interface labeled "Fetch origin." If there is content to pull, once it is fetched this button will say "Pull changes." Click on the button to pull the changes, and you will see your local repository change accordingly.
+4. If you're working on multiple computers or collaborating, be sure to fetch and pull changes before you push new ones. You can do this by clicking on the button in the top right of the GitHub Desktop interface labeled "Fetch origin." If there is content to pull, once it is fetched this button will say "Pull origin." Click on the button to pull the changes, and you will see your local repository change accordingly.
 
 {:.py-4 .mt-4 #}
 ***
