@@ -83,9 +83,11 @@ So, for instance, if on the Subjects page, you clicked a button for "Forests," y
 The Browse page configuration CSV allows you to control which metadata appears on a card for each item. Title and date (if it's there) appear automatically. After that, you can add whatever metadata you'd like, as well as determine how that metadata will be displayed. 
 
 - **field** - determines the field that is displayed
-- **display-name-or-btn** - Determines whether that metadata displays as a button or if it should be prefaced by a label. 
+- **display-name** - 
+- **btn** - Determines whether that metadata displays as a button or if it should be prefaced by a label. 
     - *Options*: either "btn" or any other text you'd like to use as a label for the field. 
     - "btn" will all metadata in that field into buttons, and is recommend for fields that have mutiple entries, like 'subject.' 
+- **hidden** - 
 
 To turn the metadata in a field, such as the 'subject' field, into buttons that encourage the user to click them and filter the collection by that term, you simply need to define the field in the first column and then write "btn" in the second column. So, for a subject field, that would look like: "subject,btn" . 
 
