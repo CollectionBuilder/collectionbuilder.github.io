@@ -9,15 +9,28 @@ We'd like to start the workshop by hearing who you are and where you're from. We
 
 ## Introduce Ourselves
 
+Olivia, Communications/Assessment Director for Grant
 
+Devin, Project Director
+
+Evan, Technical Director
+
+Absent: Jylisa Doney, Documentation Director
 
 ## Introduce the Tool, the Methodology, and the Grant
 
 ### Tool - CollectionBuilder
 
-CollectionBuilder uses static web technologies to build digital collection and exhibit pages from metadata. The tool generates item pages and all its visualizations and browsing features from the metadata spreadsheet provided and the config and theme files detailed later in the workshop. 
-
 Over the course of our years designing digital collection interfaces, its become apparent that the metadata itself is the most important aspect of a digital collection. As such, we've built a tool that puts the metadata forward, and uses it to build its visualizations and browsing features. 
+
+CollectionBuilder uses static web technologies to build digital collection and exhibit pages from metadata. The tool generates item pages and all its visualizations and browsing features from the metadata spreadsheet provided and the config and theme files detailed later in the workshop.
+
+The tool uses 5 main components: 
+
+1. [Jekyll](https://jekyllrb.com/) - a static website builder (i.e. NO SERVERS!!!) that builds websites from data files using the [Liquid](https://shopify.github.io/liquid/basics/introduction/) programming language (which you don't need to know, but which is easily readable and eventually usable) and [Markdown](https://en.wikipedia.org/wiki/Markdown) files for content
+2. [Git/GitHub](https://github.com/) - a way to collaborate, track changes, and import pre-built services
+3. [Bootstrap 4](https://getbootstrap.com/) - a CSS/Javascript Package for easier development
+4. Data Files - We use [Comma Separated Values (CSV) files](https://en.wikipedia.org/wiki/Comma-separated_values) that are just simple version of a spreadsheet and text files written in [YAML (.yml)](https://en.wikipedia.org/wiki/YAML), which are basically lists formatted in a specific fashion.
 
 #### Design Concept
 
