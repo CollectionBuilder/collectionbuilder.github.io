@@ -20,7 +20,7 @@ Now that your software is ready to go, the following steps outline the workflow 
 ## 1. Download the Latest CollectionBuilder Release
 
 1. Log in to the [GitHub](https://github.com){:target="_blank"} web interface and go to our [collectionbuilder-contentdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm){:target="_blank"} repository.
-2. The main page of a repository is the "Code" tab, which has a representation of the files, and displays the `README`. Navigate to the latest project release. You can do this by clicking on the "Releases" tab, which you'll find in the second navigation bar, below the row the "Code" tab is in. 
+2. Navigate to the latest project release. You can do this by clicking on the "Releases" tab, which you'll find in the second navigation bar, below the row the "Code" tab is in. 
 3. Download the `Source code (zip)` folder.
 
 {:.py-4 .mt-4 #create}
