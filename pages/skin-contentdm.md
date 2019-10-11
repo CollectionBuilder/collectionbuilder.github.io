@@ -1,6 +1,6 @@
 ---
 layout: type-page
-title: Skin - ContentDM
+title: Skin - CONTENTdm
 type: skin
 permalink: /skins/contentdm
 ---
