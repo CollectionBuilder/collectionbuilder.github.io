@@ -44,6 +44,17 @@ Installing it is fairly straightforward:
 - **Mac:** check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, your system will often prompt you to install "Xcode Command Line Tools"--follow the prompt as this package is necessary for Ruby as well. Alternatively, type `xcode-select --install` to start the process. If you want a newer version, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"} or use Homebrew.
 - **Linux:** install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 
+Connect your GitHub account information to Git on your computer. To do this, open up a terminal window and enter these commands (the user name and user email should match those you use for you GitHub account):
+
+```
+git config --global user.name "Evan Will"
+git config --global user.email "myemail@gmail.com"
+```
+
+> Your email and user name is recorded with every commit.
+> This helps ensure integrity and authenticity of the history.
+> Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/about-commit-email-addresses/){:target="_blank"}.
+
 If you are new to using Git and GitHub, we'd also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options. This will help you visualize and implement some of the git processes that often seem non-intuitive. You can install GitHub Desktop in addition to other versions of Git.
 
 Note: If you are a Linux user, GitHub Desktop will not work. There are, however, other [GUI apps available](https://git-scm.com/downloads/guis){:target="_blank"} for managing and visualizing Git repositories, including Linux options.
