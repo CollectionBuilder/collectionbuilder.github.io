@@ -78,7 +78,7 @@ Now that your software is ready to go, the following steps outline the workflow 
 
 1. Open GitHub Desktop. In the top bar, click on "Repository," then click on "Open in text editor." (Alternately, this might say "Open in Visual Studio Code" or "Open in Atom.") 
     - This opens your repository in your chosen development environment, a single space that lets you navigate the files in the repository, edit those files in a text editor, and serve or build the project using a terminal window.
-2. If the terminal section of VSCode is not open, use the keyboard shortcut `ctrl` + `~` (on both PC and Mac) to open it. 
+2. If the terminal section of VSCode is not open, use the keyboard shortcut `ctrl` + ` (control + backtick) (on both PC and Mac) to open it. 
 3. In the terminal, type `jekyll s` and press enter. This "jekyll serve" command will generate the site for you on a local server on your computer. 
 4. In the terminal you'll see some text appear, including a URL that appears after the title "Server address:"
 5. Hold down `ctrl` and click this link on a PC or hold down `cmd` and click this link on a Mac to open the site in your browser.

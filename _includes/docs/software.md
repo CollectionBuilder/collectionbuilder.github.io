@@ -29,6 +29,28 @@ Open-source cross platform suggestions:
 
 If you don't have one of these text editors installed, visit their sites, download the software, and use their wizards to install the software on your computer. We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
 
+**Configuring Visual Studio Code**:
+
+When you first install Visual Studio, the default settings can be distracting. To configure the editor, you can easily copy and paste new values into a **settings.json** file. 
+
+To edit your settings in **settings.json**, start by opening the Command Palette with `CTRL` + `SHIFT` + `P` on a PC or `CMD` + `SHIFT` + `P` on a Mac.
+- A drop-down search box will appear at the top of the screen. In this box, search for `Open Settings (JSON)`. Click on this option.
+- Paste the following into the **settings.json** file that opens:
+
+```
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "html.format.maxPreserveNewLines": 2,
+    "html.format.wrapLineLength": 0
+}
+```
+
+- Save and close the **settings.json** file.
+
+There are many other settings you can edit, too. To see them all and read about them, on PC go to *File* > *Preferences* > *Settings* and on Mac click on the gear icon in the bottom left corner of the VSCode screen and choose *Settings*.
+
+
 {:.py-4 .mt-4 #git}
 ***
 
