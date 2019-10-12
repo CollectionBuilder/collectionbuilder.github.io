@@ -2,7 +2,7 @@ title,page,type,parent
 Introduction,introduction,
 Using the Command Line,commandline,
 Installing Software,software,
-Setting Up the Repository,repository,
+Git and GitHub Setup,github,
 Metadata,metadata,
 Config File (_config.yml),config-file,
 Theme File (/_data/theme.yml),theme,

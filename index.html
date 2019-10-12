@@ -49,7 +49,7 @@ layout: default
 
         </div>-->
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 pt-4">
     <div id="carouselExampleIndicators" class="carousel slide p-4 mt-4" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -152,7 +152,7 @@ layout: default
                 <a href="https://collectionbuilder.github.io/collectionbuilder-gh/docs/" class="btn my-4 btn-lg btn-success">Get Started</a>
                 
                 <a href="{{type.link}}" class="btn my-4 btn-lg btn-secondary">GitHub Repository</a>{%else%}
-                <a href="{{ type.id ' | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info">More Info</a>
+                <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info">More Info</a>
                 
                 {%endif%}
             </div>
