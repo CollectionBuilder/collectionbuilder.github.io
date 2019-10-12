@@ -1,5 +1,5 @@
 ---
-title: (Barely) Using the Command Line
+title: Using the Command Line
 layout: docs 
 stub: commandline
 ---

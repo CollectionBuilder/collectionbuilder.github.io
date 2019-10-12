@@ -10,3 +10,8 @@ body{
     color: #fff !important;
     background-color: #F1B300 !important;
 }
+
+.dropdown-menu.show {
+    display: block;
+    z-index: 1030;
+}
