@@ -1,5 +1,5 @@
 
-Now that your software is ready to go, the following steps outline the workflow you'll use when you start working with GitHub and Git to create and edit your collection.
+Now that your *development environment* is ready to go, we need to get the code and set up a CollectionBuilder project.
 
 1. [Download CB Release](#download)
 2. [Create a Repository](#create)
@@ -15,14 +15,21 @@ Now that your software is ready to go, the following steps outline the workflow 
 
 ## 1. Download the Latest CollectionBuilder Release
 
-1. Log in to the [GitHub](https://github.com){:target="_blank"} web interface and go to our [collectionbuilder-contentdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm){:target="_blank"} repository.
-2. Navigate to the latest project release. You can do this by clicking on the "Releases" tab, which you'll find in the second navigation bar, below the row the "Code" tab is in. 
-3. Download the `Source code (zip)` folder.
+First, you need to get a copy of the CollectionBuilder code.
+Click here to download our latest release:
+
+{% include bootstrap/button.md text="CollectionBuilder-CONTENTdm v1.0" link="" color="success" %}
+
+You can always find the latest "stable" code on our [Release Page]() and download the `Source code (zip)` folder.
+The main [CollectionBuilder-CONTENTdm]() repository is where active development is taking place, so choosing a release will ensure the project is fully functional.
 
 {:.py-4 .mt-4 #create}
 ***
 
 ## 2. Create a New Repository
+
+Second, you need to set up a repository on GitHub for your CollectionBuilder project.
+Each repository on GitHub is basically a folder for storing and tracking the code for a project.
 
 1. Navigate back to your own GitHub account Repositories page.
 2. In the top right corner, click on the green button labeled "New."
@@ -37,6 +44,9 @@ Now that your software is ready to go, the following steps outline the workflow 
 ***
 
 ## 3. Clone Your New Repository
+
+Now that you have a repository set up on GitHub, we need to copy that folder down to your local machine. 
+*Cloning* the repository ensures the local version on your laptop is automatically configured to be connected to the version on GitHub.
 
 1. On your new repository page, click on the green button in the top right corner labeled "Clone or download."
 2. In the box that pops up, click on the button labeled "Open in Desktop." 
@@ -94,3 +104,5 @@ Once you start **customizing your repository**, here are a few things you should
 2. If you're working on multiple computers or collaborating, be sure to fetch and pull changes before you push new ones. 
     - You can do this by clicking on the button in the top right of the GitHub Desktop interface labeled "**Fetch origin**." 
     - If there is content to pull, once it is fetched this button will say "**Pull origin**." Click on the button to pull the changes, and you will see your local repository change accordingly.
+
+overview of jekyll + collectionbuilder
