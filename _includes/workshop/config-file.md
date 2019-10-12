@@ -1,93 +1,173 @@
-{%if page.collection == "contentdm" or page.collection == "workshop" %}Our CONTENTdm skin usese the CONTENTdm API to generate images, pdfs, and other downloadable files, but the metadata CSV file controls what appears on the pages. So after you have your config set up for your CONTENTdm instance and the collection, you can focus on improving your metadata to improve the site. 
-{%endif%}
-The **_config.yml** file connects your collection to the tool. The URL variables and the site settings section create that connection. So let's begin there. 
+
+Our CONTENTdm skin uses the CONTENTdm API to generate the images, pdfs, and other downloadable files that make up your CollectionBuilder collection. To connect your CONTENTdm collection to CollectionBuilder, use the **_config.yml** file. 
+
+The instructions below outline the edits you need to make to this file so that it connects to CONTENTdm. 
+
+{% include bootstrap/alert.md text="Before you start, locate and open the **_config.yml** file in the base of your repository." color="success" %}
 
 - [URL Variables](#url-var)
-- [Repository Variables](#repo-var)
-- [Site Settings](#site-settings)
-- [Item Page Generation Settings](#page-gen)
+- [Site Settings](#site)
+- [Collection Settings](#coll)
+- [Additonal Variables](#add)
 
 {:.py-4 .mt-4 #url-var}
 ***
 
+
 ## URL Variables
 
-These variables need to be defined based on where you expect the site to end up later. 
+{% include bootstrap/image.md img="/config/urlvar.jpg" %}
 
-- **url** - If your project will be going up on a GitHub-Pages page, the url would look something like: `https://dcnb.github.io`. For the UI Library, we always use: `https://www.lib.uidaho.edu`. This url represents the url where the site will ***eventually*** reside. It will be used to generate links when you build the site at the end of your customization process. 
-    - example --> `url: https://www.lib.uidaho.edu`
-- **baseurl** - This variable sets up the directories/folders that the site will end up in on your web server. So, for example, if you have a project called "pink-poodle" that you plan to put in the "projects" folder on your website, you'd put `/projects/pink-poodle` down for this variable. For the UI Library, we use '/digital/' + the collection abbreviation to host our individual collections. You will need to adjust this setting for each collection you build. 
-    - example --> `baseurl: /digital/boxing` 
+{% capture var-title %}
+These variables need to be defined based on the url you will use to serve your site: 
+{% endcapture %}
 
+{% capture var-text %}
+- **url**: Represents the url where the site will ***eventually*** reside. This will be used to generate links when you build the site at the end of your customization process. 
+	- example --> `url: https://www.lib.uidaho.edu`
+	- example --> `url: https://dcnb.github.io`
 
-{%if page.collection == "contentdm" or page.collection == "workshop" %}
-{:.py-4 .mt-4 #repo-var}
+- **baseurl**: Indicates the folders where your site will be located on your web server. 
+	- For example, if you have a project called "*pink-poodle*" that you plan to put in the "*projects*" folder on your website, you'd put `/projects/pink-poodle` down for this variable. 
+	- example --> `baseurl: /digital/boxing` 
+	- ***Note: Each of your collections will have a unique project name, so you will need to adjust the **baseurl** setting for each collection you build.***
+
+- **cdm-url**: This is the url for your CONTENTdm server.
+	- example --> `cdm-url: https://cdm12345.contentdm.oclc.org`
+
+- **source-code**: Indicates the GitHub repository that hosts your CollectionBuilder code.
+	- example --> `source-code: https://github.com/CollectionBuilder`
+{% endcapture %}
+
+{% include bootstrap/card.md title=var-title text=var-text %}
+
+{:.py-4 .mt-4 #site}
 ***
 
-## Repository Variables (leave blank if self-contained)
-These variables are determine the root url for your CONTENTdm server and the id of your collection on that server. 
 
-- **cdm-url** - This should be the url for your CDM server. 
-    - example --> `cdm-url: https://cdm12345.contentdm.oclc.org`
-- **cdm-collection-id** - The name of your contentdm collection.    
+## Site Settings
+
+{% include bootstrap/image.md img="/config/site.jpg" %}
+
+{% capture site-title %}
+These are the primary settings of your site:
+{% endcapture %}
+
+{% capture site-text %}
+- **title**: The title of your digital collection. 
+	- This will appear as the title on the home page banner and on every other page's header. 
+	- example --> `title: Donald R. Theophilus Boxing Photograph Collection`
+
+- **tagline**: A descriptive subtitle of the digital collection.
+	- This will appear underneath the title on the home page banner and on every other page's header.
+	- example --> `tagline: Photographs of University of Idaho Boxers and Boxing Teams, 1934 - 1953`
+
+- **description**: One or two sentences of explanatory text about the collection.
+	- Appears on the home page, next to a button directing users to the About page.
+	-  example --> `description: "A digital collection comprised of 52 photographs of boxers and boxing teams from the University of Idaho"`
+
+- **organization-name**: The name of your organization.
+	- Used to reference your organization in collection citation, and serves as alternate text for your organization logos.
+	- example --> `"Digital Initiatives, University of Idaho Library"`
+
+- **organization-link**: A link to your organization's homepage.
+	- This is the url connected to your organization name.
+	- example --> `https://www.lib.uidaho.edu/digital/`
+
+- **organization-logo-banner**: The image source for your organization logo that appears above your site title. 
+	- This image will appear above the title in the banner on your collection's homepage. This logo is connected to the **organization-link** url you entered above.
+	- example --> `https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png`
+
+- **organization-logo-nav**: The image source for your organization logo that appears in your site nav.
+	- This image will appear in the top right corner of the window on all pages *except* the home page. This logo is connected to the **organization-link** url you entered above.
+	- example --> `https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png`
+
+{% endcapture %}
+
+{% include bootstrap/card.md title=site-title text=site-text %}
+
+{:.py-4 .mt-4 #coll}
+***
+
+
+## Collection Settings
+
+{% include bootstrap/image.md img="/config/coll.jpg" %}
+
+{% capture coll-title %}
+These are settings specific to your CONTENTdm collection:
+{% endcapture %}
+
+{% capture coll-text %}
+- **cdm-collection-id**: The name of your CONTENTdm collection (a collection alias assigned by a collection's creator in CONTENTdm).    
     - example --> `cdm-collection-id: boxing` 
 
-{%endif%}
+- **metadata**: The filename (not including the extension) of your CSV metadata file. 
+	- ***Note: This should be the same entry as "data" in the page gen variables below.***
+	- example --> `title: boxing`
+{% endcapture %}
 
-{:.py-4 .mt-4 #site-settings}
-***
+{% include bootstrap/card.md title=coll-title text=coll-text %}
 
+{% capture pagegen-title %}
+The following **Page Gen** variables read your metadata file and build individual html pages based on that metadata:
+{% endcapture %}
 
-
-## Site settings
-These are the primary settings of the site. The metadata variable controls where the site generates all visualizations. 
-
-- **title** - The title of your digital collection. This appears on the home page banner and on every other page's header as well. 
-	- example --> `title: Donald R. Theophilus Boxing Photograph Collection`
-- **metadata** - the filename (not including the extension) of your CSV metadata file. Check against cdm-collection-id above -- the tool works better if these are the same. ***This should be the same entry as "data" in the page gen variables below.***
+{% capture pagegen-text %}
+- **data**: The name of your metadata file. (This is different for every collection).
+	- ***Note: This should be the same entry as "metadata" above***
 	- example --> `title: boxing`
 
-{:.py-4 .mt-4 #page-gen}
+"Data" is the only field you need to change. Leave the following fields the way they are in the template you downloaded:
+
+- **template**: The layout of the pages generated. 
+	- CollectionBuilder entry --> `items`
+
+- **name**: Determines how the url will be written. For CollectionBuilder, we use is the "*objectid*" metadata field to generate the url.
+	- CollectionBulider entry --> `objectid`
+
+- **dir**: Determines the directory or folder in which the item pages are stored when the site is built. 
+	- CollectionBuilder entry --> `items`
+
+- **extension**: Determines the extension of each generated page. For us, `html` means our item pages will end as '.html' 
+	- CollectionBuilder entry --> `html`
+{% endcapture %}
+
+{% include bootstrap/card.md title=pagegen-title text=pagegen-text %}
+
+{% capture pagealert %}
+Important!: You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
+{% endcapture %}
+
+{% include bootstrap/alert.md text=pagealert color="success" %}
+
+{:.py-4 .mt-4 #add}
 ***
 
-## Item Page Generator Settings 
-The pages for items are built when Jekyll builds the collection through the use of a ruby gem that you can find here: <https://github.com/avillafiorita/jekyll-datapage_gen>. This Gem reads your metadata file and builds individual html pages based on that data. 
 
-There are several variables in this section. Most of them you should leave the same unless you want to do more extensive customization. The "data" variable, however, will need to be changed for each new collection: 
+## Additional Variables
 
-- **data** - This variable refers to the name of your metadata file, so it's really important. This should be changed for every collection to reflect the new file you are using. ***This should be the same entry as "metadata" above***
-- **template** - This refers to the layout that you'd like to define your page. So, for CollectionBuilder, this is called `items`.
-- **name:** This deterimines how the URL will be written. For CollectionBuilder, we make this one 'object-id' because that is the field that we like to generate the URL. So, for the item with the object-id `boxing22`, page-gen will create a url that ends `boxing22.html`.
-- **dir** This variable determines the directory or folder into which the item pages are stored. For CollectionBuilder, we use the directory `items`.
-- **extension** This deterimines the extension of each generated page. So, for us, `html` means our item pages will end as '.html' 
+{% include bootstrap/image.md img="/config/add.jpg" %}
 
-##### example
+{% capture addalert %}
+The following is for informational purposes only. You don't need to change anything else in **_config.yml**.
+{% endcapture %}
 
-{:.pl-4}
-	page_gen:
-	  - data: 'boxing'
-	    template: 'items'
-	    name: 'object-id'
-	    dir: 'items'
-	    extension: 'html'   
+{% include bootstrap/alert.md text=addalert color="success" %}
 
-{:.py-4 .mt-4}
-***
+{% capture add-title %}
+These are Git- and Liquid-based variables to help with building the site and recording the changes via Git. You should probably just leave them as they are. 
+{% endcapture %}
 
-## Additonal Variables
+{% capture add-text %}
+- **Profile**: Allows Liquid to determine bottlenecks via a commandline command.
 
-These are Git and Liquid based variable to help with building the site and recording the changes via git. You should probably just leave them as they are. The "profile' field allows liquid to determine bottlenecks via a commandline command. 'exclude' tells git which files and folders not to track when tracking the changes. And the 'sass' section controls how the CSS is build when the site is being rendered. 
+- **exclude**: Tells git which files and folders not to track when tracking the changes. 
 
-##### example
+- **sass**: Controls how the CSS is build when the site is being rendered. 
+{% endcapture %}
 
-{:.pl-4}
-	profile: true
-	
-    exclude: [docs/, Rakefile, README.md, LICENSE]
-
-	## compress CSS output
-	sass:
-	 style: compressed
+{% include bootstrap/card.md title=add-title text=add-text %}
 
 {:.py-4 .mt-4}
 ***
