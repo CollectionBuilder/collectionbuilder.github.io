@@ -127,7 +127,7 @@ There are three fields that are specific to particular versions of CollectionBui
     - This is the unique string assigned to a video when it is uploaded to YouTube. An easy way to find this is to look at the url for your YouTube video. The ID will be the string attached to the end of this url: https://www.youtube.com/watch?v=
     - Example Input: `sHhk1eAgopU`
 
-{%include bootstrap/alert.md color="warning ml-4 font-small" text="*The two options below are currently in development and not available as of October 2019."%}
+{%include bootstrap/alert.md color="warning ml-4 font-small" text="*The two options below are currently in development and not available as of October 2019.*"%}
 
 - **collectionid** *(Only required if you are pulling in multiple CONTENTdm collections using the CollectionBuilder-CONTENTdm version)*:
     - This is the collection alias assigned by a collection creator in CONTENTdm.
