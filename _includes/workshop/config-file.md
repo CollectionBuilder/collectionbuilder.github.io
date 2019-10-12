@@ -145,7 +145,7 @@ Important!: You *must* change the data field in **Page Gen** to reflect the meta
 ***
 
 
-## Additonal Variables
+## Additional Variables
 
 {% include bootstrap/image.md img="/config/add.jpg" %}
 
