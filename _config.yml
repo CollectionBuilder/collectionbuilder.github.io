@@ -22,6 +22,11 @@ collections:
     output: true
     permalink: /:collection/:title
     sort_by: step
+  docs:
+    output: true
+    permalink: /:collection/:title
+    sort_by: step
+  
     
 defaults:
   - scope:
@@ -29,6 +34,11 @@ defaults:
       type: "workshop"
     values:
       layout: "workshop"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
 
 
 # Use Bootstrap (true, false)

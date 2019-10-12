@@ -44,8 +44,8 @@ The home page is very customizable. The first five variables control how the lar
 
 *Note:* The features that display on the home page can be customized via the "home-infographic.html" file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)
 
-- **home-banner-image-number** - This is a CONTENTdm variable. Select the cdm-id number of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
-	- example --> `home-banner-image-number: 15`
+- **home-banner-image-objectid** - This is the objectid for the IMAGE you would like to feature. Select the "objectid"  of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
+	- example --> `home-banner-image-number: demo-psychiana15`
 - **home-banner-image-link** - IF you are not using the CONTENTdm skin, use this field to link to an image you'd like to feature. This might be an object in your object directory or a link to an outside photograph. Leave blank if you enter a number above for a CONTENTdm image.
 	- example --> `home-banner-image-link: https://www.example.com/picture.jpg`
 - **home-banner-image-title** - This will create a tag for screen readers to describe the featured image. It's important for us to include accessibility features throughout. 
@@ -149,7 +149,8 @@ With these settings, you can determine whether you want a subject page, what the
 
 
 ## Locations page
-{:.alert-warning}
+
+{:.alert-warning .px-4}
 > ***Impotant note:*** In order to have this page appear to your users, you must also add a row in the [_data/config-nav.csv](customization.html#config-nav) that reads: `Locations,locations.html`
 
 This page functions exactly as the Subjects page does. If you have a 'location' field, by using the setting below to turn on the generation of the page, the tool will build a page at "locations.html"

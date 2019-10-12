@@ -1,6 +1,5 @@
 title,page,type,parent
 Introduction,introduction,
-Quick Start,quickstart,
 Using the Command Line,commandline,
 Installing Software,software,
 Setting Up the Repository,repository,
@@ -8,4 +7,5 @@ Metadata,metadata,
 Config File (_config.yml),config-file,
 Theme File (/_data/theme.yml),theme,
 Customizations - Page Configuration,customizations,
-Finishing the Collection,finishing,
+Finishing the Collection,finish,
+Deploying the Collection,deploy,

@@ -57,16 +57,15 @@
                             
                             <h5 class="ml-2">Documentation</h5>
 
-                            <a class="dropdown-item" href="https://collectionbuilder.github.io/collectionbuilder-gh/documentation/">Github-Pages</a>
-                            <a class="dropdown-item disabled" href="#">Stand Alone (coming soon)</a>
-                            <a class="dropdown-item" href="{{'/skins/contentdm/docs/introduction.html' | relative_url}}">Skin -
-                                CONTENTdm</a>
-
-                            <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
-                            <div class="dropdown-divider"></div>
-                            <h5 class="ml-2">Metadata</h5>
-                            <a class="dropdown-item" href="{{'/metadata/' | relative_url}}">Metadata Profile</a>
-                            
+                                {%for doc in site.data.docs-nav %}
+                                {%unless doc.parent%}
+                             
+                                <a class="dropdown-item" href="{{ doc.page | prepend: 'docs/' | append: '.html' | relative_url }}">
+                                 {{doc.title}}
+                                </a>
+                    
+                            {%endunless%}{%endfor%}
+                           
                         </div>
                     </li>
                     <li class="nav-item">

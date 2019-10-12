@@ -1,5 +1,3 @@
-
-
 We will ask below that you check if you're computers have the software we'd like you to install. To do this, you'll need to open the terminal/command line and type something like "ruby -v" and push enter. We know the command line is something that keeps many of us from using certain software, but we're hoping you'll trust us and push on! 
 
 So the question remains, *How do I get into the command line?*
