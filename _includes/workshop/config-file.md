@@ -19,7 +19,7 @@ The instructions below outline the edits you need to make to this file so that i
 {% include bootstrap/image.md img="/config/urlvar.jpg" %}
 
 {% capture var-title %}
-These variables need to be defined based on the url you will use to serve your site: 
+These variables should be defined based on the url you will use to serve your site:
 {% endcapture %}
 
 {% capture var-text %}
@@ -74,13 +74,14 @@ These are the primary settings of your site:
 	- This is the url connected to your organization name.
 	- example --> `https://www.lib.uidaho.edu/digital/`
 
-- **organization-logo-banner**: The image source for your organization logo that appears above your site title. 
+- **organization-logo-banner**: The image source for your organization logo that appears in your site nav.
+	- This image will appear in the top right corner of the window on all pages *except* the home page. This logo is connected to the **organization-link** url you entered above.
+	- example --> `https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png`
+
+- **organization-logo-nav**: The image source for your organization logo that appears above your site title. 
 	- This image will appear above the title in the banner on your collection's homepage. This logo is connected to the **organization-link** url you entered above.
 	- example --> `https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png`
 
-- **organization-logo-nav**: The image source for your organization logo that appears in your site nav.
-	- This image will appear in the top right corner of the window on all pages *except* the home page. This logo is connected to the **organization-link** url you entered above.
-	- example --> `https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png`
 
 {% endcapture %}
 
@@ -136,7 +137,7 @@ The following **Page Gen** variables read your metadata file and build individua
 {% include bootstrap/card.md title=pagegen-title text=pagegen-text %}
 
 {% capture pagealert %}
-Important!: You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
+**Important!:** You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
 {% endcapture %}
 
 {% include bootstrap/alert.md text=pagealert color="success" %}
