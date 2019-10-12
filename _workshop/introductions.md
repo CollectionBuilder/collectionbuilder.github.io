@@ -2,7 +2,7 @@
 title: Introductions
 step: 0
 ---
-{% include docs/introduction.md %}
+{% include workshop/introduction.md %}
 
 ## Introduce Yourself
 

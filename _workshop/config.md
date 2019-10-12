@@ -4,4 +4,4 @@ step: 4
 ---
 
 
-{% include docs/config-file.md %}
+{% include workshop/config-file.md %}
