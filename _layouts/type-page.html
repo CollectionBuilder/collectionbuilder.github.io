@@ -28,7 +28,11 @@ layout: default
                     {%endfor%}
                 </ul>
                 <hr />
+                {%if type.link%}
                 <a href="{{type.link}}" class="btn my-4 btn-lg btn-info">Get Started</a>
+                {%else%}
+                Stand Alone CollectionBuilder is coming soon!
+                {%endif%}
             </div>
         </div>
         {%endif%}
