@@ -1,4 +1,4 @@
-The **theme.yml** file controls CollectionBuilder's display options. These variables impact eery page the site builds, so you should be sure to go through each one as you create your site.
+The **theme.yml** file controls CollectionBuilder's display options. These variables impact every page the site builds, so you should be sure to go through each one as you create your site.
 
 {% include bootstrap/alert.md text="Before you start, locate and open the **theme.yml** file in the repository's **_data** folder." color="success" %}
 
