@@ -117,7 +117,7 @@ Home Page Features:
 	- example --> `longitude: -117.014185`
 
 - **zoom-level**: Determines the zoom level for your map. The higher the number, the more zoomed-in you'll be. 
-	- Range: any whole number between [`1` - `16`]
+	- Range: any whole number between [`0` - `18`]
 	- example --> `zoom-level: 5`
 
 **The fields below determine *map search* and *map cluster* features. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature.**
