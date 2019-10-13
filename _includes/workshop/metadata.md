@@ -1,6 +1,8 @@
 CollectionBuilder has some metadata standards and formats that you'll need to follow in order for the site to work correctly. Follow the steps below to get your metadata ready.
 
-***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.* 
+***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.*
+
+{% include bootstrap/alert.md color="primary" text="**If you brought own CONTENTdm metadata**, you should use if for the following section. **If you did not bring your own metadata**, you can use one of our [sample data sets](https://github.com/CollectionBuilder/collectionbuilder-sample-data)." %}
 
 
 1. [Metadata Template](#template)
