@@ -6,7 +6,7 @@ We'd like to start the workshop by hearing who you are and where you're from. We
 
 ## Introduce Ourselves
 
-- Olivia Wickle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
+- Olivia Wikle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
 - Evan Williamson, Digital Infrastructure Librarian, Technical Director
 - Devin Becker, Head of Data/Digital Services, Project Director
 
