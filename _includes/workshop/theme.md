@@ -27,15 +27,15 @@ This file controls bits of almost every page used, including: " color="success" 
 
 Home Page Banner:
 
-- **featured-image-objectid**: The objectid for the image you would like to feature on your home banner. 
+- **featured-image-objectid**: The objectid for the image you would like to feature on your home page. 
 	- *Tip*: It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
 	- example --> `featured-image-objectid: demo-psychiana15`
 
-- **featured-image-link**: **Only use this field if you are *NOT* using an image in your collection as your home banner image. Leave blank if you enter a number above for a CONTENTdm image.** 
+- **featured-image-link**: Only use this field if you are *NOT* using an image in your collection as your featured image. Leave blank if you enter a number above for a CONTENTdm image. 
 	- This will likely be a link to an outside photograph.
 	- example --> `featured-image-link: https://www.example.com/picture.jpg`
 
-- **home-title-y-padding**: Determines how much of your home banner image is visible. 
+- **home-title-y-padding**: Determines how much of your featured image is visible. 
 	- A smaller number will feature a smaller amount of the image.
 	- Range: `2em` - `20em`
 	- example --> `home-title-y-padding: 12em`
@@ -49,6 +49,10 @@ Home Page Features:
 - **carousel-height**: Determines the height of the carousel on the home page.
 	- Indicates pixels, but don't include "px" in your input.
 	- example --> `carousel-height: 500`
+
+- **carousel-type**: Determines the type of object you'd like shown in the carousel on the home page.
+	- Options: `image`,`pdf`,`youtube`,`thumbs`
+	- example --> `carousel-type: image`
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
 	- If left blank, automatically generates top 5 subjects. 
@@ -68,10 +72,6 @@ Home Page Features:
 	- Default: `5`
 	- example --> `featured-locations-max: 4`
 
-- **mediatypes**: A list of mediatypes in the collection.  
-	- Separate multiple mediatypes with a semi-colon(';'). 
-	- Options: `documents`, `images`, `video` `audio` `data` `youtube`
-	- example --> `mediatypes: images`
 {% endcapture %}
 
 {% include bootstrap/card.md text=home-text %}
@@ -83,7 +83,7 @@ Home Page Features:
 
 {% include bootstrap/image.md img="/theme/browse.jpg" %}
 
-{% include bootstrap/card.md text="See our [Customizations page](customization.html) and the `config-browse.csv` to configure the Browse page." %}
+{% include bootstrap/card.md text="See our [Customizations page](customization.html) and the `config-browse.csv` in the **_data** folder to configure the Browse page." %}
 
 
 {:.py-4 .mt-4 #item}
@@ -228,9 +228,9 @@ This page functions exactly as the Subjects page does.
 
 {% capture timeline-text %}
 
-{% include bootstrap/alert.md text="The Timeline page is built by year, with each year become a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="success" %} 
+{% include bootstrap/alert.md text="The Timeline page is built by year, with each year a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="success" %} 
 
-- **year-navigation**: Sets years to appear in Timeline dropdown nav. 
+- **year-navigation**: Sets the years to appear in Timeline dropdown nav. 
 	- *Tip*: If left blank, these will auto-generate. (We recommend leaving this blank.)
 	- example --> `year-navigation: 1900;1905;1910;1915;1920`
 
@@ -278,7 +278,7 @@ This page functions exactly as the Subjects page does.
 {% capture images-text %}
 
 {% capture imagesalert %}
-This is a CONTENTdm specific variable section for adjusting size of images used throughout the site. 
+This is a CONTENTdm-specific variable section for adjusting size of images used throughout the site. 
 
 *Tip*: If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings.
 {% endcapture %}
@@ -344,7 +344,7 @@ This is a CONTENTdm specific variable section for adjusting size of images used 
 {% include bootstrap/alert.md text="Bootswatch creates themes for Bootstrap 4 sites. You can check them out here: <https://bootswatch.com/>."  color="success"%}
 
 - **bootswatch**: leave blank or comment out for plain bootstrap
-	- Options: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti
+	- Options: `cerulean`, `cosmo`, `cyborg`, `darkly`, `flatly`, `journal`, `litera`, `lumen`, `lux`, `materia`, `minty`, `pulse`, `sandstone`, `simplex`, `sketchy`, `slate`, `solar`, `spacelab`, `superhero`, `united`, `yeti`
 	- example --> `bootswatch: cerulean`
 
 {% endcapture %}
