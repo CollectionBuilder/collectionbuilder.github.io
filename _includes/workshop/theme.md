@@ -1,8 +1,8 @@
 The **theme.yml** file controls CollectionBuilder's display options. These variables impact every page the site builds, so you should be sure to go through each one as you create your site.
 
-{% include bootstrap/alert.md text="Before you start, locate and open the **theme.yml** file in the repository's **_data** folder." color="success" %}
+{% include bootstrap/alert.md text="Before you start, locate and open the **theme.yml** file in the repository's **_data** folder.
 
-This file controls bits of almost every page used, including: 
+This file controls bits of almost every page used, including: " color="success" %}
 
 - [Home Page](#home)
 - [Browse Page](#browse)
@@ -22,7 +22,8 @@ This file controls bits of almost every page used, including:
 {% include bootstrap/image.md img="/theme/home.jpg" %}
 
 {% capture home-text %}
-*Note:* The features that display on the home page can be customized via the "home-infographic.html" file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)
+
+{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)" color="success" %} 
 
 Home Page Banner:
 
@@ -82,7 +83,7 @@ Home Page Features:
 
 {% include bootstrap/image.md img="/theme/browse.jpg" %}
 
-{% include bootstrap/card.md text="See our [Customizations page](customization.html) and the `config-browse.csv` for these options." %}
+{% include bootstrap/card.md text="See our [Customizations page](customization.html) and the `config-browse.csv` to configure the Browse page." %}
 
 
 {:.py-4 .mt-4 #item}
@@ -186,9 +187,15 @@ Home Page Features:
 
 {% include bootstrap/image.md img="/theme/locations.jpg" %}
 
-{% include bootstrap/alert.md text="***Important note:*** In order to have this page appear on your site, you must also add a row in the [_data/config-nav.csv](customization.html#config-nav) that reads: `Locations,locations.html`" color="success" %}
 
 {% capture location-text %}
+
+{% capture location %}
+***Important note:*** In order to have this page appear on your site, you must also add a row in the [_data/config-nav.csv](customization.html#config-nav) that reads: `Locations,locations.html`.
+{% endcapture %}
+
+{% include bootstrap/alert.md text=location color="success" %}
+
 This page functions exactly as the Subjects page does. 
 
 - **locations-page**: Turns location generation on (`true`) or off (`false`). 
@@ -220,7 +227,8 @@ This page functions exactly as the Subjects page does.
 {% include bootstrap/image.md img="/theme/timeline.jpg" %}
 
 {% capture timeline-text %}
-The Timeline page is built by year, with each year become a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** 
+
+{% include bootstrap/alert.md text="The Timeline page is built by year, with each year become a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="success" %} 
 
 - **year-navigation**: Sets years to appear in Timeline dropdown nav. 
 	- *Tip*: If left blank, these will auto-generate. (We recommend leaving this blank.)
@@ -241,7 +249,8 @@ The Timeline page is built by year, with each year become a row where thumbnail 
 {% include bootstrap/image.md img="/theme/data.jpg" %}
 
 {% capture data-text %}
-For the Data section, copy and paste the first row of your collection metadata CSV (i.e. your metadata fields) into this variable. This variable determines what metadata will be made available for download via the "Download Data" options on the Home page and on the Data page. 
+
+{% include bootstrap/alert.md text="For the Data section, copy and paste the first row of your collection metadata CSV (i.e. your metadata fields) into this variable. This variable determines what metadata will be made available for download via the 'Download Data' options on the Home page and on the Data page." color="success" %} 
 
 - **metadata-export-fields**: A list of metadata fields available for export via data downloads.
 	- *Tip*: paste in first row of csv 
@@ -260,14 +269,21 @@ For the Data section, copy and paste the first row of your collection metadata C
 
 # Advanced Theme Options
 
-### Images 
+{:.py-4 .mt-4}
+
+## Images 
 
 {% include bootstrap/image.md img="/theme/images.jpg" %}
 
 {% capture images-text %}
+
+{% capture imagesalert %}
 This is a CONTENTdm specific variable section for adjusting size of images used throughout the site. 
 
 *Tip*: If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings.
+{% endcapture %}
+
+{% include bootstrap/alert.md text=imagesalert color="success" %} 
 
 - **image-percentage-large**:
 	- Default `70`
@@ -287,11 +303,16 @@ This is a CONTENTdm specific variable section for adjusting size of images used 
 {:.py-4 .mt-4 #bootstrap}
 ***
 
+## Bootstrap Themes
+
 {% include bootstrap/image.md img="/theme/advanced.jpg" %}
 
-{% capture bootstrap-text %}
-### Bootstrap Theme Options
-These options will adjust your site's color and look. 
+{% capture theme-text %}
+
+### Theme Options:
+
+{% include bootstrap/alert.md text="These options will adjust your site's color and look." color="success" %} 
+
 
 - **navbar-color**: Choose from `navbar-light` for use with light background colors, or `navbar-dark` for dark background colors navbar-dark
 	- Options:  `navbar-light`, `navbar-dark`
@@ -300,14 +321,10 @@ These options will adjust your site's color and look.
 - **navbar-background**: Choose from the background colors for Bootstrap. 
 	- Options: `bg-primary`, `bg-secondary`, `bg-success`, `bg-danger`, `bg-warning`, `bg-info`, `bg-light`, `bg-dark`, `bg-white`, `bg-dark`]
 	- example --> `navbar-background: bg-dark`
-{% endcapture %}
 
-{% include bootstrap/card.md text=bootstrap-text %}
+### Theme Fonts:
 
-### Theme Fonts
-
-{% capture theme-text %}
-These options change the way the fonts appear throughout your collection. If you leave any option blank, it will revert to the base Bootstrap 4 CSS style(s).
+{% include bootstrap/alert.md text="These options change the way the fonts appear throughout your collection. If you leave any option blank, it will revert to the base Bootstrap 4 CSS style(s)." color="success"%}
 
 - **base-font-size**: Changes the base size for fonts throughout the site.
 	- example --> `base-font-size: 1.2em`
@@ -320,23 +337,22 @@ These options change the way the fonts appear throughout your collection. If you
 
 - **base-font-family**: Changes the font family; if it's a google family, you'll need to adjust the _includes/header.html file as well to include the link to Google's CSS style file for that font.
 	- Comment out (using `#`) for bootstrap defaults  
-	- example --> `base-font-family: Georiga; serif;` 
-{% endcapture %}
+	- example --> `base-font-family: Georiga; serif;`
 
-{% include bootstrap/card.md text=theme-text %}
+### Bootswatch:
 
-### Change Theme with Bootswatch
-{% capture bootswatch-text %}
-Bootswatch creates themes for Bootstrap 4 sites. You can check them out here: <https://bootswatch.com/>.
-
-Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
+{% include bootstrap/alert.md text="Bootswatch creates themes for Bootstrap 4 sites. You can check them out here: <https://bootswatch.com/>."  color="success"%}
 
 - **bootswatch**: leave blank or comment out for plain bootstrap
 	- Options: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti
 	- example --> `bootswatch: cerulean`
+
 {% endcapture %}
 
-{% include bootstrap/card.md text=bootswatch-text %}
+{% include bootstrap/card.md text=theme-text %}
+
+
+
 
 {:.py-4 .mt-4}
 ***
