@@ -28,7 +28,13 @@ layout: default
                     {%endfor%}
                 </ul>
                 <hr />
-                <a href="docs/introduction.html" class="btn my-4 btn-lg btn-info">Get Started</a>
+                {% if type.skin-type%}
+                <a href="{{ '/docs/introduction.html'| relative_url}}" class="btn my-4 btn-lg btn-info">Get Started</a>
+                {%elsif type.link%}
+                <a href="https://collectionbuilder.github.io/collectionbuilder-gh/documentation/" class="btn my-4 btn-lg btn-info">Get Started</a>
+                {%else%}
+               <h5 class="font-italic">Stand Alone CollectionBuilder is coming soon!</h5> 
+                {%endif%}
             </div>
         </div>
         {%endif%}

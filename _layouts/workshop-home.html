@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url}}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png"> </a></h1>
+            <h1 class=" text-center display-4">The Workshop</h1>
+
+        </div>
+    </div>
+    <div class="row my-4 p-4">
+<div class="col-12">
+<div class="card-deck my-2">
+        {%assign modules = site.workshop | sort: "step" %}
+        {%for module in modules %}
+
+
+        <div class="card bg-dark text-white p-4">
+            <h2 class="display-5 m-4"><a href="{{module.url | append: '.html' | relative_url}}">{{module.step}}. {{module.title}}</a></h2>
+        </div>
+
+    {% if forloop.index == 2 %}</div></div><div class="col-12">
+            <div class="card-deck my-2">{%endif%}
+                    {% if  forloop.index == 4 %}</div></div><div class="col-12">
+                            <div class="card-deck my-2">{%endif%}
+                    {% if  forloop.index == 6 %}</div></div><div class="col-12">
+                            <div class="card-deck my-2">{%endif%}
+    {% if  forloop.index == 8 %}</div></div><div class="col-12">
+                                            <div class="card-deck my-2">{%endif%}
+        {%endfor%}
+        </div>
+
+
+    </div>
+</div>

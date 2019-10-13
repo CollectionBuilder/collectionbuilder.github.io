@@ -1,7 +1,7 @@
 # blank-dev-template
 # basic bootstrap template
 
-title: CollectionBuilder, WTF
+title: CollectionBuilder
 
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://collectionbuilder.github.io
@@ -18,6 +18,28 @@ collections:
   sa:
     output: true
     permalink: /:collection/docs/:slug
+  workshop:
+    output: true
+    permalink: /:collection/:title
+    sort_by: step
+  docs:
+    output: true
+    permalink: /:collection/:title
+    sort_by: step
+  
+    
+defaults:
+  - scope:
+      path: ""
+      type: "workshop"
+    values:
+      layout: "workshop"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+
 
 # Use Bootstrap (true, false)
 bootstrap: true
