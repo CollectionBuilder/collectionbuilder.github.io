@@ -6,13 +6,14 @@ We'd like to start the workshop by hearing who you are and where you're from. We
 
 ## Introduce Ourselves
 
-Olivia, Communications/Assessment Director for Grant
+- Olivia Wickle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
+- Evan Williamson, Digital Infrastructure Librarian, Technical Director
+- Devin Becker, Head of Data/Digital Services, Project Director
 
-Devin, Project Director
-
-Evan, Technical Director
-
-Absent: Jylisa Doney, Documentation Director
+Absent: 
+- Jylisa Doney, Documentation Director 
+- Chelsea Codling, Graduate Assistant
+- Michael Decker, Graduate Assistant
 
 ## The Tool, the Methodology, and the Grant
 

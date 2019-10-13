@@ -3,7 +3,7 @@ layout: default
 ---
 
         {%assign modules = site.workshop | sort: "step"  %}
-        <nav class="nav sticky-top bg-white border-bottom text-center mx-auto">{%for module in modules offset: 1 %}
+        <nav class="nav sticky-top bg-white border-bottom text-center mx-auto">{%for module in modules %}
 {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | append: '.html' | relative_url}}">{{module.step}}. {{module.url | remove: "/workshop/"}}</a>{%else%}<a class="nav-link text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}</nav>
 <div class="container" >
 <div class="row">
