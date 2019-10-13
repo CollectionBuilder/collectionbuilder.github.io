@@ -44,10 +44,10 @@ The home page is very customizable. The first five variables control how the lar
 
 *Note:* The features that display on the home page can be customized via the "home-infographic.html" file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)
 
-- **home-banner-image-objectid** - This is the objectid for the IMAGE you would like to feature. Select the "objectid"  of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
-	- example --> `home-banner-image-number: demo-psychiana15`
-- **home-banner-image-link** - IF you are not using the CONTENTdm skin, use this field to link to an image you'd like to feature. This might be an object in your object directory or a link to an outside photograph. Leave blank if you enter a number above for a CONTENTdm image.
-	- example --> `home-banner-image-link: https://www.example.com/picture.jpg`
+- **featured-image-objectid** - This is the objectid for the IMAGE you would like to feature. Select the "objectid"  of any image in your collection to make it the feature image on the home page. It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
+	- example --> `featured-image-objectid: demo-psychiana15`
+- **featured-image-link** - IF you are not using the CONTENTdm skin, use this field to link to an image you'd like to feature. This might be an object in your object directory or a link to an outside photograph. Leave blank if you enter a number above for a CONTENTdm image.
+	- example --> `featured-image-link: https://www.example.com/picture.jpg`
 - **home-banner-image-title** - This will create a tag for screen readers to describe the featured image. It's important for us to include accessibility features throughout. 
 	- example --> `home-banner-image-title: 1947-1948 University of Idaho boxing squad`
 - **home-title-y-padding** - This variable determines how large your featured image will appear. A smaller number will feature a smaller amount of the image. More techinically, this determines, via CSS, the margin from the top and bottom your title portion will appear.

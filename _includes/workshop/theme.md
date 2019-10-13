@@ -27,13 +27,13 @@ This file controls bits of almost every page used, including: " color="success" 
 
 Home Page Banner:
 
-- **home-banner-image-objectid**: The objectid for the image you would like to feature on your home banner. 
+- **featured-image-objectid**: The objectid for the image you would like to feature on your home banner. 
 	- *Tip*: It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
-	- example --> `home-banner-image-number: demo-psychiana15`
+	- example --> `featured-image-objectid: demo-psychiana15`
 
-- **home-banner-image-link**: **Only use this field if you are *NOT* using an image in your collection as your home banner image. Leave blank if you enter a number above for a CONTENTdm image.** 
+- **featured-image-link**: **Only use this field if you are *NOT* using an image in your collection as your home banner image. Leave blank if you enter a number above for a CONTENTdm image.** 
 	- This will likely be a link to an outside photograph.
-	- example --> `home-banner-image-link: https://www.example.com/picture.jpg`
+	- example --> `featured-image-link: https://www.example.com/picture.jpg`
 
 - **home-title-y-padding**: Determines how much of your home banner image is visible. 
 	- A smaller number will feature a smaller amount of the image.
@@ -117,7 +117,7 @@ Home Page Features:
 	- example --> `longitude: -117.014185`
 
 - **zoom-level**: Determines the zoom level for your map. The higher the number, the more zoomed-in you'll be. 
-	- Range: any whole number between [`1` - `16`]
+	- Range: any whole number between [`0` - `18`]
 	- example --> `zoom-level: 5`
 
 **The fields below determine *map search* and *map cluster* features. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature.**

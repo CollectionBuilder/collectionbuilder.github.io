@@ -154,7 +154,7 @@ Ruby can be installed via most distro's repositories, however, it is more up-to-
 
 Finally, we get to [Jekyll](https://jekyllrb.com/)!
 Jekyll is a static site generator that uses templates and data to build out websites. 
-It is a very popular project used by tiny and small projects. 
+It is a very popular project used by tiny and giant projects. 
 
 Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
 Gem is a command line application, so again we will open a terminal to give it commands.
