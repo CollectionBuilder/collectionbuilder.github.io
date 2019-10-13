@@ -56,7 +56,15 @@ We use CollectionBuilder to build our digital collections on top of our CONTENTd
 2. Import the file into a Google Sheet (or other non-excel spreadsheet program).
 3. Add a metadata field for "object-id" based on CONTENTdm item number and collection name
 4. Save as a CSV file. 
-5. Move the file into the "_data" 
+5. Move the file into the "_data" directory of our branch
+6. Adjust the theme and config files. 
+7. Test and view the collection on Jekyll-generated local development server.
+8. When finished, build the site (using command that also adds analytics scripts)
+9. Move the finished files to our web server. 
+
+To see some of what we've done, go to <https://www.lib.uidaho.edu/digital/>
+
+Most of our collections have been built using this method in the past six months. 
 
 ### The Grant
 
