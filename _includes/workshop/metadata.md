@@ -85,6 +85,8 @@ CollectionBuilder uses these fields to generate contextual visualizations, inclu
     - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
     - Example Input: `Pullman, Washington; Moscow, Idaho`
 
+{%include bootstrap/alert.md color="success ml-4 font-small" text="*Note*: **If your metadata does not have map coordinates**, but you would like to experience CollectionBuilder's map visualization, we've created a [demo list of latitudes and longitudes](https://docs.google.com/spreadsheets/d/1eSj7zfthuc7-ntdnZLqNYETxVa5Z55YK8BPPao53-6w/edit?usp=sharing) that you can add to your data just for practice."%}
+
 {:.py-4 .mt-4 #recommend}
 ***
 
