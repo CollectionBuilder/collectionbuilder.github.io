@@ -81,5 +81,7 @@ The grant also provides funds for us to embed ourselves into several academic li
 - **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.
 - **Contribute** - If you take to the static web development model and would like to provide contributions of your own to our tool, we would LOVE to work with you and incorporate any contributions you might make. We have a code of conduct in developments for contributors.
 
+{%include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@uidaho.edu) for more information."%}
+
 Our highest hope for this project is to enable a small army of librarians to develop the type of tools and sites that keep the GLAM professionals in control and not subservient to bloated infrastructures and/or third-party contracts. We hope by the end of this workshop you will feel drawn to help us build that community. 
 
