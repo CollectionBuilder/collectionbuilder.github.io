@@ -4,4 +4,4 @@ step: 1
 ---
 
 
-{% include docs/software.md %}
+{% include workshop/software.md %}

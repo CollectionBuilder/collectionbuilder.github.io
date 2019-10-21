@@ -1,21 +1,6 @@
 
-
-## Introduce Yourself
-
-We'd like to start the workshop by hearing who you are and where you're from. We'd also love to hear about your general experience with CONTENTdm and your digital collections. 
-
-## Introduce Ourselves
-
-- Olivia Wikle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
-- Evan Williamson, Digital Infrastructure Librarian, Technical Director
-- Devin Becker, Head of Data/Digital Services, Project Director
-
-Absent: 
-- Jylisa Doney, Documentation Director 
-- Chelsea Codling, Graduate Assistant
-- Michael Decker, Graduate Assistant
-
-## The Tool, the Methodology, and the Grant
+{:.my-4}
+## The Tool, the Methodology, the Grant, and the People
 
 ### Tool - CollectionBuilder
 
@@ -31,6 +16,8 @@ The tool uses 5 main components:
 4. Data Files - We use [Comma Separated Values (CSV) files](https://en.wikipedia.org/wiki/Comma-separated_values) that are just simple version of a spreadsheet and text files written in [YAML (.yml)](https://en.wikipedia.org/wiki/YAML), which are basically lists formatted in a specific fashion.
 
 #### Design Concept
+
+{% include bootstrap/image.md class="col-md-8 float-right ml-3 my-2" img="dlf-presentation.jpg"%}
 
 CollectionBuilder builds digital collection sites that encourage investigation and discovery. Our item and visualization pages are built with connections between them so that a user can follow their own interests when exploring a digital collection.
 
@@ -84,4 +71,13 @@ The grant also provides funds for us to embed ourselves into several academic li
 {%include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@uidaho.edu) for more information."%}
 
 Our highest hope for this project is to enable a small army of librarians to develop the type of tools and sites that keep the GLAM professionals in control and not subservient to bloated infrastructures and/or third-party contracts. We hope by the end of this workshop you will feel drawn to help us build that community. 
+
+## People 
+
+- Olivia Wikle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
+- Evan Williamson, Digital Infrastructure Librarian, Technical Director
+- Devin Becker, Head of Data/Digital Services, Project Director
+- Jylisa Doney, Documentation Director 
+- Chelsea Codling, Graduate Assistant
+- Michael Decker, Graduate Assistant
 

@@ -129,13 +129,12 @@ layout: default
         <div class="card-deck ">
             {%for type in site.data.types%}
 
-            <div class="card p-4 mb-4 bg-light text-dark">
+            <div class="card mb-4 bg-light text-dark">
                 <div class="card-heading">
-                    <h2 class=" font-italic text-center display-5">
-                        <a class="text-dark btn-lg btn btn-outline-success display-5"
-                            href="{%if type.skin-type%}{{ type.skin-type | prepend: '/skins/' | append: '/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | upcase}}</a>
+                    <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 " >
+                        <a class="text-white" href="{%if type.skin-type%}{{ type.skin-type | prepend: '/skins/' | append: '/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
                     </h2>
-                    <p class="my-3 text-center font-italic">{{type.description}}</p>
+                    <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
                 </div>
                 <div class="row">
                     <div class="col-12 mx-auto text-center">
@@ -152,23 +151,13 @@ layout: default
                 </div>
             
                 <hr />
-
+<div class="text-center">
                 {%if type.skin-type%}
-                <a href="{{ type.skin-type | prepend: '/skins/' | relative_url}}" class="btn my-4 btn-lg btn-info">More Info</a>
-                <a href="{{ '/docs/introduction.html' | relative_url}}" class="btn my-4 btn-lg btn-success">Get Started</a>
+                <a href="{{ type.skin-type | prepend: '/skins/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
+                {%else%}
+                <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
                 
-                <a href="{{type.link}}"
-                    class="btn my-4 btn-lg btn-secondary">GitHub
-                    Repository</a>
-                    {%elsif type.link%}
-                <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info">More Info</a>
-                
-                <a href="https://collectionbuilder.github.io/collectionbuilder-gh/docs/" class="btn my-4 btn-lg btn-success">Get Started</a>
-                
-                <a href="{{type.link}}" class="btn my-4 btn-lg btn-secondary">GitHub Repository</a>{%else%}
-                <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info">More Info</a>
-                
-                {%endif%}
+                {%endif%}</div>
             </div>
 
             {%endfor%}

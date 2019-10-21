@@ -4,7 +4,7 @@ step: 7
 ---
 
 
-{%include docs/finish.md %}
+{%include workshop/finish.md %}
 
 
 

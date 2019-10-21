@@ -1,11 +1,10 @@
 title,page,type,parent
 Introduction,introduction,
-Using the Command Line,commandline,
 Installing Software,software,
 Git and GitHub Setup,github,
 Metadata,metadata,
-Config File (_config.yml),config-file,
+Config File (_config.yml),config,
 Theme File (/_data/theme.yml),theme,
-Customizations - Page Configuration,customizations,
+Customizations - Page Configuration,customize,
 Finishing the Collection,finish,
 Deploying the Collection,deploy,

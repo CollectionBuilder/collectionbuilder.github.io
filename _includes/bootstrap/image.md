@@ -1,1 +1,1 @@
-<img class="img-fluid" src="{{ include.img | prepend: '/images/' | absolute_url }}" alt="{{ include.alt | default: 'demo image' }}">
+<img class="img-fluid {{include.class}}" src="{{ include.img | prepend: '/images/' | absolute_url }}" alt="{{ include.alt | default: 'demo image' }}">
