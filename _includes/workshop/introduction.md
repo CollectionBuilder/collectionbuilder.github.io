@@ -10,7 +10,7 @@ CollectionBuilder uses static web technologies to build digital collection and e
 
 The tool uses 5 main components: 
 
-1. [Jekyll](https://jekyllrb.com/) - a static website builder (i.e. NO SERVERS!!!) that builds websites from data files using the [Liquid](https://shopify.github.io/liquid/basics/introduction/) programming language (which you don't need to know, but which is easily readable and eventually usable) and [Markdown](https://en.wikipedia.org/wiki/Markdown) files for content
+1. [Jekyll](https://jekyllrb.com/) - a static website builder (i.e. NO SERVERS!!!) that builds websites from data files using the [Liquid](https://shopify.github.io/liquid/basics/introduction/) templating language (which you don't need to know, but which is easily readable and eventually usable) and [Markdown](https://en.wikipedia.org/wiki/Markdown) files for content
 2. [Git/GitHub](https://github.com/) - a way to collaborate, track changes, and import pre-built services
 3. [Bootstrap 4](https://getbootstrap.com/) - a CSS/Javascript Package for easier development
 4. Data Files - We use [Comma Separated Values (CSV) files](https://en.wikipedia.org/wiki/Comma-separated_values) that are just simple version of a spreadsheet and text files written in [YAML (.yml)](https://en.wikipedia.org/wiki/YAML), which are basically lists formatted in a specific fashion.
@@ -62,7 +62,7 @@ This year's grant will let us fine-tune CollectionBuilder through our own develo
 
 The grant also provides funds for us to embed ourselves into several academic libraries and/or similar institutions to set up the technological tools and basic workflows necessary for using the tool to build digital collections more pervasively. 
 
-***Opportunites for Collaboration***
+***Opportunities for Collaboration***
 
 - **Partner!** - If you, or some institution you know, might be interested in adopting this tool more seriously, we can offer a small ($1500) subaward to supplement the additional work involved and one of us would visit your site to help get everything set up. 
 - **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.
@@ -74,10 +74,9 @@ Our highest hope for this project is to enable a small army of librarians to dev
 
 ## People 
 
-- Olivia Wikle, Digital Initiatives Librarian (Communications/Assessment Director for Grant)
+- Olivia Wikle, Digital Initiatives Librarian, Communications/Assessment Director for Grant
 - Evan Williamson, Digital Infrastructure Librarian, Technical Director
 - Devin Becker, Head of Data/Digital Services, Project Director
-- Jylisa Doney, Documentation Director 
+- Jylisa Doney, Social Sciences Librarian, Documentation Director 
 - Chelsea Codling, Graduate Assistant
 - Michael Decker, Graduate Assistant
-
