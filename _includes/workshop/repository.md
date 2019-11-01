@@ -20,7 +20,7 @@ You can always find the latest "stable" code on our [Release Page](https://githu
 The main [CollectionBuilder-CONTENTdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm) repository is where active development is taking place, so choosing a release will ensure the project is fully functional.
 Click here to download our latest release:
 
-{% include bootstrap/button.md text="CollectionBuilder-CONTENTdm v1.01" link="https://github.com/CollectionBuilder/collectionbuilder-contentdm/archive/v1.01.zip" color="success" %}
+{% include bootstrap/button.md text="CollectionBuilder-CONTENTdm v1.02" link="https://github.com/CollectionBuilder/collectionbuilder-contentdm/archive/v1.02.zip" color="success" %}
 
 {:.py-4 .mt-4 #create}
 ***
