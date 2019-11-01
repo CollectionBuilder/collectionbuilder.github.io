@@ -74,8 +74,8 @@ As you work, this button allows you to sync the local version of your repository
 Add the CollectionBuilder code that you downloaded into the new repository: 
 
 1. In the bar at the top of your GitHub Desktop window, click on "Repository," then click on "Open in Explorer" (if you're on a PC) or "Open in Finder" (if you're on a Mac). This will show you the location of the repository you just cloned to your computer
-2. Open another Explorer/Finder window, and locate the `collectionbuilder-contentdm-1.0.zip` that you downloaded
-3. Unzip `collectionbuilder-contentdm-1.0.zip` 
+2. Open another Explorer/Finder window, and locate the `collectionbuilder-contentdm-1.02.zip` that you downloaded
+3. Unzip `collectionbuilder-contentdm-1.02.zip` 
 4. Navigate into the folder, copy (`Ctrl + A`, `Ctrl + C`) the contents and paste (`Ctrl + V`) into your new repository
 
 {:.py-4 .mt-4 #commit}
