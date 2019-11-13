@@ -1,33 +1,34 @@
 <header class="mb-4">
     <div class="container-fluid h-100">
         <div class="row px-3 bg-dark text-white py-2">
+            
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-12 mx-auto text-center">
-                        <h1 class="mt-2 h2"> <a class="text-white mx-auto" href="{{ '/' | relative_url}}"><img
-                                    style="max-height:45px;" class="my-2 img-fluid"
-                                    src="{{'images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url}}.png">
-                                CollectionBuilder </a></h1>
+                        <h1 class="mt-2 h2">
+                            <a class="text-white mx-auto" href="{{ '/' | relative_url}}">
+                                <img style="max-height:45px;" class="my-2 img-fluid" src="{{ '/images/logo/solid/cb-logo-solid-vgold-transparent' | relative_url }}.png">
+                                CollectionBuilder
+                            </a>
+                        </h1>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 mt-3" role="navigation">
+
+            <nav class="col-md-8 mt-3" role="navigation">
                 <ul class="nav nav-pills nav-fill float-right">
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Types</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://collectionbuilder.github.io/collectionbuilder-gh/about/">Github-Pages</a>
-                            <a class="dropdown-item disabled" href="#">Stand Alone</a>
-                            <a class="dropdown-item" href="{{'/skins/' | relative_url}}">Skin - CONTENTdm</a>
+                        <a id="cb-types" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
+                        <div class="dropdown-menu" aria-labelledby="cb-types">
+                            <a class="dropdown-item" href="{{ '/gh/' | relative_url }}">Github-Pages</a>
+                            <a class="dropdown-item" href="{{ '/sa/' | relative_url }}">Stand Alone</a>
+                            <a class="dropdown-item" href="{{ '/skins/' | relative_url }}">Skin - CONTENTdm</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white disabled" href="#" data-trigger="focus" data-toggle="popover"
-                            title="CollectionBuilder is Free" data-placement="bottom" data-html=true
-                            data-content="No subscriptions.<br> No data sharing. <br> No dependencies.">Pricing</a>
+                        <a class="nav-link text-white" href="#" data-trigger="focus" data-toggle="popover" title="CollectionBuilder is Free" data-placement="bottom" data-html=true data-content="No subscriptions.<br> No data sharing. <br> No dependencies.">Pricing</a>
                     </li>
                     <!--<li class="nav-item dropdown">
                         <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -51,33 +52,29 @@
                         </div>
                     </li>-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Get Started</a>
-                        <div class="dropdown-menu">
-                            
+                        <a id="getstarted" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Get Started</a>
+                        <div class="dropdown-menu" aria-labelledby="getstarted">
+
                             <h5 class="ml-2">Documentation</h5>
 
-                                {%for doc in site.data.docs-nav %}
-                                {%unless doc.parent%}
-                             
-                                <a class="dropdown-item" href="{{ doc.page | prepend: 'docs/' | append: '.html' | relative_url }}">
-                                 {{doc.title}}
-                                </a>
-                    
-                            {%endunless%}{%endfor%}
-                           
+                            {% for doc in site.data.docs-nav %}{% unless doc.parent %}
+                            <a class="dropdown-item" href="{{ doc.page | prepend: '/docs/' | append: '.html' | relative_url }}">
+                                {{ doc.title }}
+                            </a>
+                            {% endunless %}{% endfor %}
+
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{'about.html' | relative_url}}">About</a>
                     </li>
-                  <!-- <li class="nav-item">
+                    <!-- <li class="nav-item">
                             <a class="nav-link text-white" href="{{'/workshop/' | relative_url}}">Workshop</a>
                         </li>-->
 
 
                 </ul>
-            </div>
+            </nav>
 
         </div>
     </div>
