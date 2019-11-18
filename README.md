@@ -1,5 +1,8 @@
 # CollectionBuilder
 
+> This repository hosts the home page and documentation site for the CollectionBuilder project,
+> <https://collectionbuilder.github.io/>
+
 CollectionBuilder is a lightweight, flexible tool for creating digital collection and exhibit websites driven by metadata, and powered by modern static web technology.
 
 ![collectionbuilder icon](images/collectionbuilder2.png)
@@ -43,9 +46,10 @@ We envision CollectionBuilder being used by libraries and cultural heritage inst
 ## Current projects
 
 - [collectionbuilder-gh](https://github.com/CollectionBuilder/collectionbuilder-gh) - A simple template for hands-on teaching about digital libraries, designed to be hosted on GitHub Pages. It can be used in a workshop setting to take participants through digitization and metadata creation, to having a live collection site for free. An static alternative to teaching with full scale DAMS such as Omeka.
-- [collectionbuilder-cdm-template](https://github.com/uidaholib/collectionbuilder-cdm-template) - A in development version of CollectionBuilder used by the University of Idaho Library to create "skins" for the digital library collections they maintain via a hosted CONTENTdm instance. Will be developed into a generic CONTENTdm "skin" that can be adopted by others. 
+- [collectionbuilder-contentdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm) - a template for creating digital collection exhibits on top of existing CONTENTdm repositories. It uses item API's to create an engaging "skin" on top of an existing digital collection repository using your existing collection metadata.
 
-More information coming soon!
+If you are interested in using CollectionBuilder, or are already using it, please drop us a line (libstatic.uidaho@gmail.com) since we would love to learn more about it's use in the wild. 
+There are also currently opportunities to collaborate on CollectionBuilder.
 
 ## License
 
@@ -53,4 +57,3 @@ CollectionBuilder documentation and general web content is licensed [Creative Co
 This license does *NOT* include any objects or images used in digital collections, which may have individually applied licenses described by a "rights" field.
 CollectionBuilder code is licensed [MIT](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/LICENSE). 
 This license does not include external dependencies included in the `assets` directory, which are covered by their individual licenses.
-
