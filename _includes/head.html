@@ -7,3 +7,7 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Montserrat:600&display=swap" rel="stylesheet">
+
+{% if jekyll.environment == "production" %}
+{% include analytics.html %}
+{% endif %}
