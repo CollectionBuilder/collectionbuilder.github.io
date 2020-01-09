@@ -2,7 +2,7 @@ CollectionBuilder has some metadata standards and formats that you'll need to fo
 
 ***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.*
 
-{% include bootstrap/alert.md color="warning" text="**If you brought your own CONTENTdm metadata**, you should use it for the following section. **If you did not bring your own metadata**, you can use a set of our [collection metadata for practice](https://drive.google.com/drive/folders/1vSyK0PKi6praKaR2viXo76XqRGzXi6e1?usp=sharing). For further use and experimentation, we also have [sample data sets](https://github.com/CollectionBuilder/collectionbuilder-sample-data) available." %}
+{% include bootstrap/alert.md color="warning" text="**If you have your own CONTENTdm metadata**, you should use it for the following section. **If you did not bring your own metadata**, you can use a set of our [collection metadata for practice](https://drive.google.com/drive/folders/1vSyK0PKi6praKaR2viXo76XqRGzXi6e1?usp=sharing). For further use and experimentation, we also have [sample data sets](https://github.com/CollectionBuilder/collectionbuilder-sample-data) available." %}
 
 
 1. [Metadata Template](#template)
