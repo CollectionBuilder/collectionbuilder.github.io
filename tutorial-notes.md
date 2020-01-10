@@ -9,7 +9,6 @@
 2. Required Fields
 3. Fields Required for Visualizations
 4. Optional Fields
-5. Upload Metadata
 
 # Repository Set Up
 
@@ -18,8 +17,9 @@
 3. Clone Your New Repository
 4. Add CollectionBuilder Files
 5. Commit and Push Your Files
-6. Generate Your Site
-7. Edit Your Repository
+6. Upload Metadata
+7. Generate Your Site
+8. Edit Your Repository
 
 # Configuration
 
