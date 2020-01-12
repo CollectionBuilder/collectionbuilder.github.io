@@ -18,7 +18,7 @@
 
 Recognized partners will be listed on the CollectionBuilder project site, and the grant team may highlight partners’ collections when promoting the tool. Promotion includes, but is not limited to, linking to or featuring collections on the project site and sharing collections in talks or presentations.
 
-In accordance with the project’s [IMLS Planning Grant](https://www.imls.gov/sites/default/files/grants/lg-34-19-0064-19/proposals/lg-34-19-0064-19-full-proposal.pdf), the grant team will continue to develop CollectionBuilder and work with with its recognized partners for three years, post award. However, we expect that this project and the community of practice created will continue to grow far into the future. CollectionBuilder’s partners will play an important role in the growth and sustainability of this project by determining the development of the tool and the contexts in which it is used.
+In accordance with the project’s [IMLS Planning Grant](https://www.imls.gov/grants/awarded/lg-34-19-0064-19), the grant team will continue to develop CollectionBuilder and work with with its recognized partners for three years, post award. However, we expect that this project and the community of practice created will continue to grow far into the future. CollectionBuilder’s partners will play an important role in the growth and sustainability of this project by determining the development of the tool and the contexts in which it is used.
 
 ## Conclusion:
 
