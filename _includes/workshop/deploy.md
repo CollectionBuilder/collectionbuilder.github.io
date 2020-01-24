@@ -17,7 +17,7 @@ While generating the files for development--so when you are looking at the site 
 When you are all finished, go to the terminal in VS Code and click 'CTRL C' to stop your development server. Then, write 'rake deploy' and push enter. This does two things: 
 
 1. It builds the site with the appropriate (full) links 
-    - (so www.lib.uidaho.edu/digital/boxing/browse.html rather than http://127.0.0.1:4000/digital/boxing/browse.hml)
+    - (so www.lib.uidaho.edu/digital/boxing/browse.html rather than http://127.0.0.1:4000/digital/boxing/browse.html)
 2. It adds Google Analytics code based on the variable you added in the [_config.yml file](config.html). 
     - This prevents false hits on your analytics account.
 
