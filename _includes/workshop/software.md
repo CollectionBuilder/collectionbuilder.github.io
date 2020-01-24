@@ -1,5 +1,5 @@
 Getting the software installed on your computer is typically the biggest hurdle to getting started with tools like CollectionBuilder. 
-So stick with it, even if you run into any issues. 
+So stick with it, even if you run into issues. 
 Having your local "development environment" for a Jekyll-based project set up will be rewarding, allowing you to edit code and see how the website changes right on your laptop.
 
 To get started editing code, managing your project, and building websites with CollectionBuilder-CONTENTdm you will need: 
@@ -10,25 +10,25 @@ To get started editing code, managing your project, and building websites with C
 4. [Jekyll](#jekyll) (static web site generator)
 
 This section will walk you through installing software and provide a brief overview how this *development environment* fits together.
-We will be revisiting each piece of software through out the workshop, so you will learn more as we get hands on with CollectionBuilder.
 
 {:.py-4 .mt-4 #text-editor}
 ***
 
 ## 1. Get a Text Editor
 
-All code is [plain text](https://en.wikipedia.org/wiki/Plain_text), and all plain text can be edited by a "text editor". 
-Word processors, such as MS Word, can not be used to create or edit code, as they  do not handle plain text with out altering it.
+All code is [plain text](https://en.wikipedia.org/wiki/Plain_text), and all plain text can be edited by a "text editor." 
+Word processors, such as MS Word, can not be used to create or edit code, as they  do not handle plain text without altering it.
 For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
 However, for a Jekyll project such as CollectionBuilder, a more complete code editor is recommended. 
 
-CollectionBuilder team suggests these open-source, cross platform options:
+The CollectionBuilder team suggests these open-source, cross platform options for text editors:
 
 - [Visual Studio Code](https://code.visualstudio.com/) (VS Code)
 - [Atom](https://atom.io/)
 
 If you don't have one of these text editors installed, visit their sites, download the software, and use their wizards to install the software on your computer. 
 We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
+For additional assistance, see our guides for [How to Install and Set Up Visual Studio Code](https://lib-static.github.io/howto/howtos/visualstudiocode.html){:target="_blank"} and [How to Install and Set Up Atom](https://lib-static.github.io/howto/howtos/installatom.html){:target="_blank"}
 
 {% capture vscode %}
 When you first install VS Code, the default settings can be distracting. 
@@ -72,15 +72,19 @@ GitHub is the most popular platform for developing and sharing code -- from ente
 Thus, it is great to become familiar with the platform so that you can take part in this community.
 
 Code for your CollectionBuilder project will be stored on GitHub. 
-To connect locally, we install Git (the version control software that powers GitHub) and GitHub Desktop (a handy visual way to use Git) on our local computer.
+To connect locally, you'll need to install Git (the version control software that powers GitHub) and GitHub Desktop (a handy visual way to use Git) on your local computer.
 
 {% capture git %}
-- **Windows:** install [Git for Windows](https://git-scm.com/downloads){:target="_blank"} using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a terminal that lets you use UNIX style commands and utilities on Windows, and will be used as your default terminal when working with Jekyll.
-- **Mac:** Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"}.
-- **Linux:** install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
+- **Windows:** 
+    - Install [Git for Windows](https://git-scm.com/downloads){:target="_blank"} using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a terminal that lets you use UNIX style commands and utilities on Windows, and will be used as your default terminal when working with Jekyll.
+- **Mac:** 
+    - Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"}.
+- **Linux:** 
+    - Install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 {% endcapture %}
 {% include bootstrap/card.md text=git header="Install Git" %}
 
+{% capture gitconfig %}
 Once Git is installed, we need to configure your information, so that it can connect with your GitHub account.
 Since Git is a command line application, we will need to open a terminal to give it commands. 
 On Windows, search for "Git Bash". 
@@ -101,16 +105,21 @@ This helps ensure integrity and authenticity of the history.
 Most people keep their email public, however, if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/about-commit-email-addresses/){:target="_blank"}.
 {% endcapture %}
 {% include bootstrap/alert.md text=commit color="secondary" %} 
+{% endcapture %}
+{% include bootstrap/card.md text=gitconfig header="Configure Git" %}
 
+{% capture gitdesk %}
 If you are new to using Git and GitHub, we'd also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options. 
-This will help you visualize and implement some of the git processes that often seem non-intuitive. 
+This will help you visualize and implement some of the git processes that often seem non-intuitive.
+{% endcapture %}
+{% include bootstrap/card.md text=gitdesk header="Install GitHub Desktop" %} 
 
 {:.py-4 .mt-4 #ruby}
 ***
 
 ## 3. Install Ruby
 
-[Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is programming language popular with web applications. 
+[Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a programming language popular with web applications. 
 **_You do not need to know anything about Ruby_**, but you do need it to run Jekyll on your system!
 
 Jekyll requires a Ruby version that is greater than 2.4.0.
@@ -120,10 +129,13 @@ Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}.
 
 - First, [download](https://rubyinstaller.org/downloads/){:target="_blank"} the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.6.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
 - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. The installer will proceed through a bunch of steps outputting a bunch of text in the terminal window -- *eventually*, this will conclude and you should see a message with success in it. If the window doesn't close, press Enter again or manually close it. (The installer can be restarted by typing `ridk install` into a command prompt)
+- Having trouble? Need more detail? See [How to Install Ruby on Windows](https://lib-static.github.io/howto/howtos/installrubywindows.html){:target="_blank"} for help.
 {% endcapture %}
 {% include bootstrap/card.md text=win-ruby header="Ruby on Windows" %}
 
 {% capture mac-ruby %}
+Installing Ruby on Mac can be difficult, but don't be deterred! If the method below doesn't work for you check out [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank"} for more detail and other options.
+
 OS X has a version of Ruby installed by default, but recommended practice is to set up a separate Ruby development environment. 
 To do this, follow the instructions below, which outline the steps to install Ruby using [Ruby Version Manager (RVM)](https://rvm.io/){:target="_blank"}. 
 Alternatively, some people have success using [Homebrew](https://brew.sh/){:target="_blank"} or another manager such as [rbenv](https://github.com/rbenv/rbenv){:target="_blank"}, but our experience suggests RVM is best option.
