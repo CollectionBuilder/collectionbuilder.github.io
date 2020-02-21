@@ -11,20 +11,17 @@ github-organization: https://www.github.com/collectionbuilder/
 
 # collections
 collections:
-  contentdm:
+  cdm:
     output: true
-    permalink: /skins/:collection/docs/:slug
+    permalink: /docs/:collection/:slug
+    sort_by: step
   gh:
     output: true
-    permalink: /:collection/docs/:slug
+    permalink: /docs/:collection/:slug
   sa:
     output: true
-    permalink: /:collection/docs/:slug
+    permalink: /docs/:collection/:slug
   workshop:
-    output: true
-    permalink: /:collection/:title
-    sort_by: step
-  docs:
     output: true
     permalink: /:collection/:title
     sort_by: step
@@ -33,14 +30,14 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "cdm"
+    values:
+      layout: "docs"
+  - scope:
+      path: ""
       type: "workshop"
     values:
       layout: "workshop"
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "docs"
 
 
 # Use Bootstrap (true, false)
