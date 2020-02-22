@@ -11,16 +11,10 @@ github-organization: https://www.github.com/collectionbuilder/
 
 # collections
 collections:
-  cdm:
+  docs:
     output: true
-    permalink: /docs/:collection/:slug
+    permalink: /:collection/:slug
     sort_by: step
-  gh:
-    output: true
-    permalink: /docs/:collection/:slug
-  sa:
-    output: true
-    permalink: /docs/:collection/:slug
   workshop:
     output: true
     permalink: /:collection/:title
@@ -30,7 +24,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "cdm"
+      type: "docs"
     values:
       layout: "docs"
   - scope:

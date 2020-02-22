@@ -11,5 +11,3 @@ One of our main goals in building CollectionBuilder is to give power back to use
 
 {:.border-top .mt-4 .py-4}
 ### Using the Command Line
-
-{% include docs/commandline.md %}
