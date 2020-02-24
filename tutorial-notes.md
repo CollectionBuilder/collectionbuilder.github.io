@@ -37,11 +37,11 @@
 	- Locations Page
 	- Timeline Page
 	- Data Download
-3. Advanced Theme Configuration
-	- Images
-	- Bootstrap Themes
+	- Advanced Theme Configuration
+		- Images
+		- Bootstrap Themes
 	
-# Customizations
+# Customization
 
 1. Navigation Header Configuration (config-nav.csv)
 2. Metadata/Item Page Configuration (config-metadata.csv)
