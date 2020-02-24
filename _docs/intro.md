@@ -1,7 +1,6 @@
 ---
 title: Introduction
 stub: intro
-type: cdm
 step: 0
 ---
 

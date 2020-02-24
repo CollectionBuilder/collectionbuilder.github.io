@@ -1,8 +1,11 @@
 ---
 title: Polish and Finish
 stub: polish
-type: cdm
 step: 7
 ---
 
-{%include cdm/polish.md %}
+{% include docs/polish/intro.md %}
+
+{% include docs/polish/about.md %}
+
+{% include docs/polish/home.md %}

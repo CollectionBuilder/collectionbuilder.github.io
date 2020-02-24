@@ -1,7 +1,6 @@
 ---
 title: Metadata
 stub: metadata
-type: cdm
 step: 2
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Setting Up the Repository
 stub: repository
-type: cdm
 step: 3
 ---
 

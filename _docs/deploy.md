@@ -1,8 +1,11 @@
 ---
 title: Deploy
 stub: deploy
-type: cdm
 step: 8
 ---
 
-{%include cdm/deploy.md %}
+{% include docs/deploy/intro.md %}
+
+{% include docs/deploy/build.md %}
+
+{% include docs/deploy/move.md %}
