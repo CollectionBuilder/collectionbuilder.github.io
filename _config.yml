@@ -34,11 +34,4 @@ defaults:
       layout: "workshop"
 
 
-# Use Bootstrap (true, false)
-bootstrap: true
-# Use optional Bootstrap JS (true, false)
-bootstrap-js: true
-# Use JQuery Core
-jquery: true
-# Use fontawesome CDN (true, false)
-fontawesome: false
+

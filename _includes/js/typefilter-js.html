@@ -1,0 +1,32 @@
+<script>
+    const url = new URL(window.location);
+    const params = url.searchParams;
+
+function typeFilter(x) {
+      console.log(x);
+      $(".typefilter").addClass("hidden");
+      $('.' + x).toggleClass("hidden");
+      //Add another parameter. 
+      params.set('type', x);
+      console.log(params.toString());
+      var p = params.toString();
+      window.history.replaceState({}, '', location.pathname + '?' + p);
+  }
+
+
+  $(document).ready(function () {
+  let url = new URL(window.location);
+  let params = url.searchParams;
+  var urlfilter = url.searchParams.get('type');
+  if (urlfilter) {
+      typeFilter(urlfilter);
+  }
+ else {
+    typeFilter('gh');
+  }
+  // init tooltips
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  });
+});
+</script>
