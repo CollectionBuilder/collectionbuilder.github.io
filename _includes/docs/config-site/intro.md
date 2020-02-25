@@ -6,7 +6,7 @@ Before you do anything else, you must edit the **_config.yml** file to allow Git
 
 The instructions below outline the edits you need to make to this file. 
 
-{% include bootstrap/alert.md text="Before you start, locate and open the **_config.yml** file in the base of your repository." color="success" %}
+{% include bootstrap/alert.md text="To begin, locate and open the **_config.yml** file in the base of your repository." color="info" %}
 
 - [URL Variables](#url-var)
 - [Site Settings](#site)

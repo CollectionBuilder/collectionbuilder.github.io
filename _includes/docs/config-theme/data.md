@@ -7,7 +7,7 @@
 
 {% capture data-text %}
 
-{% include bootstrap/alert.md text="For the Data section, copy and paste the first row of your collection metadata CSV (i.e. your metadata fields) into this variable. This variable determines what metadata will be made available for download via the 'Download Data' options on the Home page and on the Data page." color="success" %} 
+{% include bootstrap/alert.md text="For the Data section, copy and paste the first row of your collection metadata CSV (i.e. your metadata fields) into this variable. This variable determines what metadata will be made available for download via the 'Download Data' options on the Home page and on the Data page." color="info" %} 
 
 - **metadata-export-fields**: A list of metadata fields available for export via data downloads.
 	- *Tip*: paste in first row of csv 

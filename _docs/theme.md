@@ -8,6 +8,8 @@ step: 5
 
 {% include docs/config-theme/home.md %}
 
+{% include docs/config-theme/about.md %}
+
 {% include docs/config-theme/browse.md %}
 
 {% include docs/config-theme/item.md %}

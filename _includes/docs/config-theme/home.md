@@ -7,7 +7,7 @@
 
 {% capture home-text %}
 
-{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)" color="success" %} 
+{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](finishing.html#home)" color="info" %} 
 
 Home Page Banner:
 
@@ -34,9 +34,13 @@ Home Page Features:
 	- Indicates pixels, but don't include "px" in your input.
 	- example --> `carousel-height: 500`
 
+{% capture carousel-type %}
 - **carousel-type**: Determines the type of object you'd like shown in the carousel on the home page.
 	- Options: `image`,`pdf`,`youtube`,`thumbs`
 	- example --> `carousel-type: image`
+{% endcapture %}
+{:.cdm .typefilter}
+{% include bootstrap/alert.md text=carousel-type color="secondary" %}
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
 	- If left blank, automatically generates top 5 subjects. 

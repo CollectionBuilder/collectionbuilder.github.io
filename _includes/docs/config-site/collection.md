@@ -7,12 +7,16 @@
 {% include bootstrap/image.md img="/config/coll.jpg" %}
 
 {% capture coll-title %}
-These are settings specific to your CONTENTdm collection:
+These are settings specific to your collection:
 {% endcapture %}
 
 {% capture coll-text %}
+{% capture cdm-collection %}
 - **cdm-collection-id**: The name of your CONTENTdm collection (a collection alias assigned by a collection's creator in CONTENTdm).    
     - example --> `cdm-collection-id: boxing` 
+{% endcapture %}
+{:.cdm .typefilter}
+{% include bootstrap/alert.md text=cdm-collection color="secondary" %}
 
 - **metadata**: The filename (not including the extension) of your CSV metadata file. 
 	- ***Note: This should be the same entry as "data" in the page gen variables below.***
@@ -46,6 +50,7 @@ The following Page Gen variables read your metadata file and build individual ht
 
 {% endcapture %}
 
+{:.cdm .typefilter}
 {% include bootstrap/card.md title=pagegen-title text=pagegen-text %}
 
 {% include bootstrap/card.md title="The last variable to fill in is the Google Analytics ID, if you have one:" text="- **google-analytics-id**: Enter your Google Analytics ID here." %}
@@ -54,4 +59,5 @@ The following Page Gen variables read your metadata file and build individual ht
 **Important!:** You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
 {% endcapture %}
 
-{% include bootstrap/alert.md text=pagealert color="success" %}
+{:.cdm .typefilter}
+{% include bootstrap/alert.md text=pagealert color="warning" %}

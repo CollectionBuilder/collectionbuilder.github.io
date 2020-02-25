@@ -6,7 +6,7 @@
 Without values in these fields, CollectionBuilder will not work properly.
 
 - **objectid**:
-    - This is the field that CollectionBuilder uses to identify each object. This should be a unique string with no spaces or special characters. Underscores are okay, hyphens aren't.
+    - This is the field that CollectionBuilder uses to identify each object. This should be a unique string with no spaces or special characters. Underscores (`_`) are okay; **slashes (`/`) and hyphens (`-`) should NOT be used in this field**.
     - Example Input: `coll002`
 - **title**: 
     - The title field is used to indicate the name of an item. This should be a short, descriptive set of words that identify the item. Each item may only have one title.

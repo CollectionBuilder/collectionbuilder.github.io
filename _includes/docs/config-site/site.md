@@ -23,6 +23,18 @@ These are the primary settings of your site:
 	- Appears on the home page under the featured image.
 	-  example --> `description: "A digital collection comprised of 52 photographs of boxers and boxing teams from the University of Idaho"`
 
+{% capture gh-site %}
+- **author**: You! The creator of the digital collection.
+	- Use your GitHub username or your name. This will appear in the site's meta tags.
+	- example --> `CollectionBuilder`
+
+- **collection-date**: The date you published your site.
+	- example --> `2020`
+{% endcapture %}
+{:.gh .typefilter}
+{% include bootstrap/alert.md text=gh-site color="primary" %}
+
+{% capture organization %}
 - **organization-name**: The name of your organization.
 	- Used to reference your organization in the site's citation, and serves as alternate text for your organization logos.
 	- example --> `"Digital Initiatives, University of Idaho Library"`
@@ -38,6 +50,9 @@ These are the primary settings of your site:
 - **organization-logo-banner**: The image source for your organization logo that appears at the top right of the screen on all pages *except* the home page.
 	- This logo is connected to the **organization-link** url you entered above.
 	- example --> `https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png`
+{% endcapture %}
+{:.cdm .typefilter}
+{% include bootstrap/alert.md text=organization color="secondary" %}
 
 {% endcapture %}
 

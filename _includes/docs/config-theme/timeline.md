@@ -8,7 +8,7 @@
 
 {% capture timeline-text %}
 
-{% include bootstrap/alert.md text="The Timeline page is built by year, with each year a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="success" %} 
+{% include bootstrap/alert.md text="The Timeline page is built by year, with each year a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="info" %} 
 
 - **year-navigation**: Sets the years to appear in Timeline dropdown nav. 
 	- *Tip*: If left blank, these will auto-generate. (We recommend leaving this blank.)

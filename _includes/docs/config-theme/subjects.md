@@ -6,13 +6,10 @@
 {% include bootstrap/image.md img="/theme/subjects.jpg" %}
 
 {% capture subject-text %}
-- **subjects-page**: Turns subject generation on (`true`) or off (`false`). 
-	- `false` lowers dev build time (Note: If you turn it off, the page won't work!!)
-	- Options: `true`, `false`
-	- example --> `subjects-off: false`
-
-- **subjects-fields**: Chooses metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
+- **subjects-fields**: Choose metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
 	- Multiple fields must be separated by a semi-colon(`;`)
+	- When this field is left blank, subjects will not be generated and the tag cloud on the Subjects page will be blank. 
+	- ***Important note:*** You must also remove the "Subjects" line from the [_data/config-nav.csv](customize#config-nav) in order to remove the Subjects page from the site completely.
 	- example --> `subject;creator`
 
 - **subjects-min**: Minimum number of times a subject term must appear before being displayed in the tag cloud. 

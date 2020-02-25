@@ -5,8 +5,10 @@
 
 {:.py-4 .mt-4}
 
+{:.cdm .typefilter}
 ## Images 
 
+{:.cdm .typefilter}
 {% include bootstrap/image.md img="/theme/images.jpg" %}
 
 {% capture images-text %}
@@ -17,7 +19,7 @@ This is a CONTENTdm-specific variable section for adjusting size of images used 
 *Tip*: If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings.
 {% endcapture %}
 
-{% include bootstrap/alert.md text=imagesalert color="success" %} 
+{% include bootstrap/alert.md text=imagesalert color="info" %} 
 
 - **image-percentage-large**:
 	- Default `70`
@@ -32,6 +34,7 @@ This is a CONTENTdm-specific variable section for adjusting size of images used 
 	- example --> `image-percentage-small: 10`
 {% endcapture %}
 
+{:.cdm .typefilter}
 {% include bootstrap/card.md text=images-text %}
 
 {:.py-4 .mt-4 #bootstrap}
@@ -45,7 +48,7 @@ This is a CONTENTdm-specific variable section for adjusting size of images used 
 
 ### Theme Options:
 
-{% include bootstrap/alert.md text="These options will adjust your site's color and look." color="success" %} 
+{% include bootstrap/alert.md text="These options will adjust your site's color and look." color="info" %} 
 
 
 - **navbar-color**: Choose from `navbar-light` for use with light background colors, or `navbar-dark` for dark background colors navbar-dark
@@ -58,7 +61,7 @@ This is a CONTENTdm-specific variable section for adjusting size of images used 
 
 ### Theme Fonts:
 
-{% include bootstrap/alert.md text="These options change the way the fonts appear throughout your collection. If you leave any option blank, it will revert to the base Bootstrap 4 CSS style(s)." color="success"%}
+{% include bootstrap/alert.md text="These options change the way the fonts appear throughout your collection. If you leave any option blank, it will revert to the base Bootstrap 4 CSS style(s)." color="info"%}
 
 - **base-font-size**: Changes the base size for fonts throughout the site.
 	- example --> `base-font-size: 1.2em`
@@ -75,7 +78,7 @@ This is a CONTENTdm-specific variable section for adjusting size of images used 
 
 ### Bootswatch:
 
-{% include bootstrap/alert.md text="Bootswatch creates themes for Bootstrap 4 sites. You can check them out here: <https://bootswatch.com/>."  color="success"%}
+{% include bootstrap/alert.md text="Bootswatch creates themes for Bootstrap 4 sites. You can check them out here: <https://bootswatch.com/>."  color="info"%}
 
 - **bootswatch**: leave blank or comment out for plain bootstrap
 	- Options: `cerulean`, `cosmo`, `cyborg`, `darkly`, `flatly`, `journal`, `litera`, `lumen`, `lux`, `materia`, `minty`, `pulse`, `sandstone`, `simplex`, `sketchy`, `slate`, `solar`, `spacelab`, `superhero`, `united`, `yeti`
