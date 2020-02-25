@@ -1,6 +1,6 @@
 ---
 title: Introduction
-stub: intro
+stub: introduction
 step: 0
 ---
 
