@@ -24,3 +24,19 @@ body{
 .hidden{
     display: none !important;
 }
+
+
+.sidebar-section {
+    position: absolute;
+    height: 100%;
+    width: auto;
+  }
+  
+  .sticky {
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+
+  }
+  
+  

@@ -1,12 +1,12 @@
-<div class="sidebar-sticky py-4 mb-4 bg-light border position-fixed col-2">
-    <ul class="nav flex-column">
+<div class="py-4 mb-4 bg-light border sidebar-section p-4">
+    <ul class="nav flex-column sticky">
       <h3 class="typefilter cdm hidden">CONTENTdm</h3>
       <h3 class="typefilter gh hidden">GH</h3>
       <h3 class="typefilter sa hidden">SA</h3>
        {%for doc in site.data.docs-nav %}
         {%unless doc.parent%}
       <li class="nav-item">
-        <a class="nav-link {% if page.url contains doc.page %}font-weight-bold{%endif%} text-dark" href="{{doc.page}}.html">
+        <a class="nav-link {% if page.url contains doc.page %}font-weight-bold{%endif%} text-dark docs-nav-link" href="{{doc.page}}.html">
          {{doc.title}}
         </a>
       </li>
