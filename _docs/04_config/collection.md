@@ -8,10 +8,7 @@ section_order: 3
 {:.py-4 .mt-4 #coll}
 ***
 
-
 ## Collection Settings
-
-{% include bootstrap/image.md img="/config/coll.jpg" %}
 
 {% capture coll-title %}
 These are settings specific to your collection:
@@ -32,11 +29,11 @@ These are settings specific to your collection:
 
 {% include bootstrap/card.md title=coll-title text=coll-text %}
 
-{% capture pagegen-title %}
-The following Page Gen variables read your metadata file and build individual html pages based on that metadata:
-{% endcapture %}
 
 {% capture pagegen-text %}
+##### The following Page Gen variables read your metadata file and build individual html pages based on that metadata:
+
+{:.pt-1}
 - **data**: The name of your metadata file. (This is different for every collection).
 	- ***Note: This should be the same entry as "metadata" above***
 	- example --> `title: boxing`
@@ -55,16 +52,12 @@ The following Page Gen variables read your metadata file and build individual ht
 - **extension**: Determines the extension of each generated page. For us, `html` means our item pages will end as '.html' 
 	- CollectionBuilder entry --> `html`
 
+{:.cdm .typefilter .alert .alert-warning}
+**Important!:** You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
+
 {% endcapture %}
 
 {:.cdm .typefilter}
-{% include bootstrap/card.md title=pagegen-title text=pagegen-text %}
+{% include bootstrap/alert.md title=pagegen-title text=pagegen-text color="secondary" %}
 
 {% include bootstrap/card.md title="The last variable to fill in is the Google Analytics ID, if you have one:" text="- **google-analytics-id**: Enter your Google Analytics ID here." %}
-
-{% capture pagealert %}
-**Important!:** You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
-{% endcapture %}
-
-{:.cdm .typefilter}
-{% include bootstrap/alert.md text=pagealert color="warning" %}

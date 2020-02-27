@@ -10,8 +10,6 @@ section_order: 1
 
 ## URL Variables
 
-{% include bootstrap/image.md img="/config/urlvar.jpg" %}
-
 {% capture var-title %}
 These variables should be defined based on the url you will use to serve your site:
 {% endcapture %}

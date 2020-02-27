@@ -8,10 +8,7 @@ section_order: 2
 {:.py-4 .mt-4 #site}
 ***
 
-
 ## Site Settings
-
-{% include bootstrap/image.md img="/config/site.jpg" %}
 
 {% capture site-title %}
 These are the primary settings of your site:
@@ -33,10 +30,7 @@ These are the primary settings of your site:
 {% capture gh-site %}
 - **author**: You! The creator of the digital collection.
 	- Use your GitHub username or your name. This will appear in the site's meta tags.
-	- example --> `CollectionBuilder`
-
-- **collection-date**: The date you published your site.
-	- example --> `2020`
+	- example --> `author: evanwill`
 {% endcapture %}
 {:.gh .typefilter}
 {% include bootstrap/alert.md text=gh-site color="primary" %}
