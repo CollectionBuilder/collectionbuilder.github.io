@@ -12,9 +12,8 @@ github-organization: https://www.github.com/collectionbuilder/
 # collections
 collections:
   docs:
-    output: true
+    output: false
     permalink: /:collection/:slug
-    sort_by: step
   workshop:
     output: true
     permalink: /:collection/:title
@@ -22,11 +21,6 @@ collections:
   
 # set defaults
 defaults:
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "docs"
   - scope:
       path: ""
       type: "workshop"
