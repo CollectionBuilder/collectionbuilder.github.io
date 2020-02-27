@@ -5,16 +5,28 @@
     <h3 class="typefilter sa hidden">SA</h3>
 
     {% assign steps = site.html_pages | where: 'layout','docs' | sort: 'step' %}
-    {% assign sections = site.docs %}
 
-    {% for step in steps %}{% if step.step %}
+    {% for step in steps %}
+    {% if step.step %}
+    {% assign parts = site.docs | where: 'section',step.section | sort: 'section_order' %}
 
-    <li class="nav-item">
-      <a class="nav-link {% if page.url == step.url %}font-weight-bold{%endif%} text-dark docs-nav-link" href="{{ step.permalink | relative_url }}">
+    <li class="nav-item border-bottom">
+      {% if step.section %}
+      <a href="#{{ step.section }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-dark nav-link {% if page.url == step.url %}font-weight-bold{%endif%}">{{ step.title }}</a>
+      <ul class="collapse {% if page.url == step.url %}show{% endif %} list-unstyled" id="{{ step.section }}">
+        {% for p in parts %}
+        <li class="pl-4 ml-3 my-1">
+          <a href="{{ p.stub | prepend: '#' | prepend: step.permalink }}" class="text-dark">{{ p.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <a class="nav-link text-dark" href="{{ step.permalink | relative_url }}">
         {{ step.title }}
       </a>
+      {% endif %}
     </li>
-
     {% endif %}{% endfor %}
   </ul>
 </div>
+
