@@ -1,5 +1,5 @@
 ---
-title: Editing the About Page
+title: About Page
 stub: about-page
 section: polish
 section_order: 1

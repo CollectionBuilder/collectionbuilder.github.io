@@ -1,5 +1,5 @@
 ---
-title: Building the Site
+title: Build the Site
 stub: build
 section: deploy
 section_order: 1

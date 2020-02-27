@@ -1,5 +1,5 @@
 ---
-title: Browse Page Configuration (config-browse.csv)
+title: Browse
 stub: config-browse
 section: customize
 section_order: 3

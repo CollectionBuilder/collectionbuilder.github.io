@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Customizations - Page Configuration
+title: Customizations
 permalink: /docs/customize.html
 section: customize
 step: 6

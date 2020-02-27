@@ -1,5 +1,5 @@
 ---
-title: Polish and Finish Introduction
+title: Polish and Finish
 stub: intro
 section: polish
 section_order: 0

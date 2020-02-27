@@ -1,5 +1,5 @@
 ---
-title: Theme Configuration (_data/theme.yml)
+title: Theme Configuration
 stub: intro
 section: theme
 section_order: 0

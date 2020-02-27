@@ -1,5 +1,5 @@
 ---
-title: Navigation Header Configuration (config-nav.csv)
+title: Navigation
 stub: config-nav
 section: customize
 section_order: 1

@@ -1,5 +1,5 @@
 ---
-title: Deploy Introduction
+title: Deploy
 stub: intro
 section: deploy
 section_order: 0

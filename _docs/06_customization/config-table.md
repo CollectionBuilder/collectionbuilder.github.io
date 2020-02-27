@@ -1,5 +1,5 @@
 ---
-title: Table Configuration (config-table.csv)
+title: Table
 stub: config-table
 section: customize
 section_order: 5

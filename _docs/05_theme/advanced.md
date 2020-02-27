@@ -1,5 +1,5 @@
 ---
-title: Advanced Theme Options
+title: Advanced Options
 stub: advanced
 section: theme
 section_order: 10

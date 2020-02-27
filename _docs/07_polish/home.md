@@ -1,5 +1,5 @@
 ---
-title: Editing the Home Page
+title: Home Page
 stub: home-page
 section: polish
 section_order: 2

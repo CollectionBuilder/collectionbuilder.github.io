@@ -1,5 +1,5 @@
 ---
-title: Site Customization Introduction
+title: Site
 stub: intro
 section: customize
 section_order: 0

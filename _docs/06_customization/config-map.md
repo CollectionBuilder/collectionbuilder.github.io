@@ -1,5 +1,5 @@
 ---
-title: Map Page Configuration (config-map.csv)
+title: Map
 stub: config-map
 section: customize
 section_order: 4

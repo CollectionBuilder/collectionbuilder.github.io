@@ -1,5 +1,5 @@
 ---
-title: Metadata / Item Page Configuration (config-metadata.csv)
+title: Metadata
 stub: config-metadata
 section: customize
 section_order: 2

@@ -1,6 +1,6 @@
 ---
-title: Config File (_config.yml) Introduction
-stub: '#intro'
+title: Config File
+stub: intro
 section: config
 section_order: 0
 ---
