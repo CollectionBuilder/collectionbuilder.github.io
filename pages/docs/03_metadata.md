@@ -2,6 +2,7 @@
 layout: docs
 title: Metadata
 permalink: /docs/metadata.html
+section: metadata
 step: 3
 ---
 

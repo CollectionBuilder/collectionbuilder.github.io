@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Software Installation and Set Up
+title: Installing Software
 permalink: /docs/software.html
+section: software
 step: 1
 ---
 

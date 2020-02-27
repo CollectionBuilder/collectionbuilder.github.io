@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Polish and Finish
+title: Finishing the Collection
 permalink: /docs/polish.html
+section: polish
 step: 7
 ---
 

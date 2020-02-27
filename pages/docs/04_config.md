@@ -2,6 +2,7 @@
 layout: docs
 title: Config File (_config.yml)
 permalink: /docs/config.html
+section: config
 step: 4
 ---
 

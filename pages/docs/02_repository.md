@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Setting Up the Repository
+title: Git and GitHub Setup
 permalink: /docs/repository.html
+section: repository
 step: 2
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Theme File (/_data/theme.yml)
+title: Theme File (_data/theme.yml)
 permalink: /docs/theme.html
+section: theme
 step: 5
 ---
 
