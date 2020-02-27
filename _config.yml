@@ -13,7 +13,6 @@ github-organization: https://www.github.com/collectionbuilder/
 collections:
   docs:
     output: false
-    permalink: /:collection/:slug
   workshop:
     output: true
     permalink: /:collection/:title
