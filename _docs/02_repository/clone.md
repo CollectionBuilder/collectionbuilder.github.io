@@ -11,7 +11,7 @@ section_order: 2
 ## 2. Clone Your New Repository to Your Local Machine
 
 {:.alert .alert-info}
-**For GH users** This is an optional method of working on your repository. You can install Git and GitHub Destkop on your computer (+ a text editor) and edit your files via your local system, if you'd like. But GH was designed so that all the edits can be made through the web interface. 
+**For GH users** This is optional for you. You can [install](software.html) Git and GitHub Destkop on your computer (+ a text editor) and edit your files via your local system, if you'd like. But GH was designed so that all the edits can be made through the web interface. 
 
 Now that you have a repository set up on GitHub, we need to copy that folder down to your local machine. 
 *Cloning* the repository ensures the local version on your laptop is automatically configured to be connected to the version on GitHub.

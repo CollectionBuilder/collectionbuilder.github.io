@@ -2,7 +2,7 @@
 title: Build the Site
 stub: build
 section: deploy
-section_order: 1
+section_order: 2
 ---
 
 {:.py-4 .mt-4 #rake-deploy}

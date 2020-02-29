@@ -1,5 +1,5 @@
 ---
-title: Repository Set Up Introduction
+title: Overview
 stub: intro
 section: repository
 section_order: 0

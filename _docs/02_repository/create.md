@@ -15,11 +15,13 @@ Each repository on GitHub is basically a folder for storing and tracking the cod
 
 {% capture newrepo %}
 1. Login on [GitHub](https://github.com)
-2. In the top right corner, click the *plus* icon and select "New Repository"
+2. Go to the repository corresponding to the type you are using: 
+    - **GH** - <https://github.com/CollectionBuilder/collectionbuilder-gh>
+    - **SA** - <https://github.com/CollectionBuilder/collectionbuilder-sa_draft>
+    - **CONTENTdm** - <https://github.com/CollectionBuilder/collectionbuilder-contentdm> 
+2. Click the green "Use This Template" button.    
 3. This brings you to a "Create a new repository" form. Follow these steps:
     - **Enter your new repository name**. It is best to use a naming convention without spaces or odd characters. We often append `_source` or `_draft` to our projects to keep track of the status. 
-    - Check the box next to "**Initialize this repository with a README**"
-    - Click on the button that says "**Add .gitignore:**" and in the filter type `jekyll`. When **Jekyll** appears as an option, click on it.
-    - Click on the green button "**Create repository**." This will take you to your new repository.
+    - Click on the green button "**Create repository from template**." This will take you to your new repository.
 {% endcapture %}
 {% include bootstrap/card.md text=newrepo %}

@@ -2,7 +2,7 @@
 title: Move the Files
 stub: move
 section: deploy
-section_order: 2
+section_order: 3
 ---
 
 {:.py-4 .mt-4 #move-files}

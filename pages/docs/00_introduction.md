@@ -9,8 +9,15 @@ CollectionBuilder was built to be used by a wide variety of users, so we've trie
 
 Once the initial set-up is complete users will be able to create their collections through adjustments to metadata and to config files. 
 
-A note: *The Skin and Stand Alone versions of CollectionBuilder require that you use the [command line](#using-the-command-line) when installing the software and starting up the development server. We hope the tool is a way for those who are a little apprehensive about using the command line, to learn to tolerate it.*
+### Types
 
-This is also not a GUI based tool, or one that you sign into and push buttons. It requires that you edit text and csv files in order to make changes. We hope that by participating in this type of process, users will become more comfortable in these environments generally, which will lead to more confidence with the tools. 
+{:.alert .alert-info }
+This Documentation applies to all the "Types" of the CollectionBuilder tool. For the majority of the tool's features and setups, the documentation is the same. <br /><br/> When it is different--**GH** users, for instance, can ignore many steps--we indicate that via columns, bolded font, and colored-alerts (like this one). 
 
-One of our main goals in building CollectionBuilder is to give power back to users of systems whose design so often obscures any customization or features from any but the most technically sophisticated.  
+The types are currently: 
+
+- **GH** - for CollectionBuilder-GH, our lightweight, GitHub Pages version.
+
+- **CDM** - for CollectionBuilder-CONTENTdm, a skin version that works with the CONTENTdm API.
+
+- **SA** - for CollectionBuilder-Stand Alone, the full digital library solution we are currently developing. 
