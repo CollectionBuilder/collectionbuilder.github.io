@@ -11,7 +11,7 @@ section_order: 3
 ## 3. Fields Required for Visualizations
 CollectionBuilder uses these fields to generate contextual visualizations, including a map, timeline, and word clouds reflecting the frequency of subjects and locations in a collection.
 
-{%include bootstrap/card.md class="float-right col-md-5 ml-2 p-0" text="<table class='table table-striped'><tr><th>Page</th><th>Required Fields</th></tr><tr><td>Map</td><td>`latitude` & `longitude`</td></tr><tr><td>Timeline</td><td>`date` (yyyy at min.)</td></tr><tr><td>Subjects</td><td>`subject`</td></tr><tr><td>Location</td><td>`location`</td></tr></table>" %}
+<table class='table table-striped float-right col-md-5 ml-2 p-0'><tr><th>Page</th><th>Required Fields</th></tr><tr><td>Map</td><td class="font-italic">latitude & longitude</td></tr><tr><td>Timeline</td><td class="font-italic">date (yyyy at min.)</td></tr><tr><td>Subjects</td><td class="font-italic">subject</td></tr><tr><td>Location</td><td class="font-italic">location</td></tr></table>
 
 
 - **latitude**:
@@ -22,9 +22,10 @@ CollectionBuilder uses these fields to generate contextual visualizations, inclu
     - Example Input: `-117.165625`
 - **date**: 
     - This field indicates a point in time or period of time associated with the item. 
-    - Dates should always be represented in the format `yyyy-mm-dd`, which will enable our various timeline visualizations. See the [Timeline](theme.html#timeline-page) section for more details. 
+    - Dates should be represented in the format `yyyy-mm-dd`, which will enable our various timeline visualizations. See the [Timeline](theme.html#timeline-page) section for more details. 
     - For less exact dates, `yyyy-mm` or `yyyy` may be used.
     - Example Input: `1997-07-16`, `1997-07`, `1997`
+    - (Dates in a `mm/dd/yyyy` will also work)
 - **subject**:
     - The subject field contains topic(s) related to the item. 
     - This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). 

@@ -8,21 +8,21 @@ section_order: 1
 {:.py-4 .mt-4 }
 ## 1. Metadata Template
 
-{:.cdm .typefilter}
-{% include bootstrap/button.md color="info col-md-5 float-right my-4 ml-4" text="CollectionBuilder Metadata Template (CONTENTdm)" link="https://docs.google.com/spreadsheets/d/14iWUEoAJ6T9WDqlPnIHRN7M8-YgmMV4_bjFPVuSZ0yk/edit?usp=sharing" %}
+<div class="row">
+<div class="col-md-8" markdown="1">
+CollectionBuilder can accomodate any metadata field you dream up (well, within reason ...). 
 
-{:.gh .sa .typefilter}
-{% include bootstrap/button.md color="info col-md-5 float-right my-4 ml-4" text="CollectionBuilder Metadata Template <br>(GitHub Pages/Stand Alone)" link="https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/edit?usp=sharing" %}
+A few fields, nevertheless, are required for the tool to work, and others are required if you would like certain visualizations to work. We've created metadata templates that contain all the required, visualization-dependent, and recommended fields. 
 
-{:.cdm .typefilter}
-The first step is to make sure your metadata fields are titled according to the [CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/14iWUEoAJ6T9WDqlPnIHRN7M8-YgmMV4_bjFPVuSZ0yk/edit?usp=sharing) (for CONTENTdm type).  Our template contains an example record to demonstrate the data format for each field.
-
-{:.gh .sa .typefilter}
-The first step is to make sure your metadata fields are titled according to the [CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/edit?usp=sharing) (for GitHub Pages or Stand Alone types).  Our template contains an example record to demonstrate the data format for each field.
-
-
-{% include bootstrap/button.md color="secondary col-md-5 float-right my-2 ml-4" text="CollectionBuilder Data Dictionary" link="/images/data_dictionary.pdf" %}
+If you'd like a model for your metadata, check your type's metadata template by pushing the appropriate button. The templates are contained in Google Sheets for easy re-use (just "Make a Copy" via the File menu to get started.)
 
 For a more detailed description of how each format is defined and mapped, see the [CollectionBuilder Data Dictionary](/images/data_dictionary.pdf)
+</div>
+<div class="col-md-4 text-center mx-auto" markdown="1">
+{% include bootstrap/button.md color="info" text="CollectionBuilder Metadata Template <br>(GitHub Pages/Stand Alone)" link="https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/edit?usp=sharing" %}
 
-We recognize that each collection is different and may require metadata fields other than those in our template. We'll talk more about how you can add these in later in the Customization section. For now, we want to be sure you start with the fields required for CollectionBuilder to work.
+{% include bootstrap/button.md color="info mt-4" text="CollectionBuilder Metadata Template (CONTENTdm)" link="https://docs.google.com/spreadsheets/d/14iWUEoAJ6T9WDqlPnIHRN7M8-YgmMV4_bjFPVuSZ0yk/edit?usp=sharing" %}
+
+{% include bootstrap/button.md color="secondary mt-4" text="CollectionBuilder Data Dictionary" link="/images/data_dictionary.pdf" %}
+</div>
+</div>
