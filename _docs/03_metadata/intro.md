@@ -7,9 +7,6 @@ section_order: 0
 
 CollectionBuilder has some metadata standards and formats that you'll need to follow in order for the site to work correctly. Follow the steps below to get your metadata ready.
 
-{% include bootstrap/alert.md color="warning" text="**If you have your own CONTENTdm metadata**, you should use it for the following section. **If you did not bring your own metadata**, you can use a set of our [collection metadata for practice](https://drive.google.com/drive/folders/1vSyK0PKi6praKaR2viXo76XqRGzXi6e1?usp=sharing). For further use and experimentation, we also have [sample data sets](https://github.com/CollectionBuilder/collectionbuilder-sample-data) available." %}
-
-
 1. [Metadata Template](#template)
 2. [Required Fields](#required)
 3. [Fields Required for Visualizations](#vis)

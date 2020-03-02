@@ -1,7 +1,41 @@
 ---
 layout: default
 ---
-    <h1 class=" my-4 ">Documentation</h1>
+    <h1 class=" my-4 ">Documentation 
+        <button class="btn btn-link d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#docs-sidebar-nav" aria-controls="docs-sidebar-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
+            <title>Menu</title>
+            <path stroke="#212529" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
+        </svg>
+    </button></h1>
+    <div class="d-md-none d-block">
+<nav class="collapse" id="docs-sidebar-nav" aria-label="Main navigation">
+    <div class="bg-light border">
+        <ul class="nav flex-column">
+  
+            {% assign steps = site.html_pages | where: 'layout','docs' | sort: 'step' %}
+            {% for step in steps %}{% if step.step %}
+            <li class="nav-item border-bottom">
+                {% if step.section %}
+                {% assign parts = site.docs | where: 'section',step.section | sort: 'section_order' %}
+                <a href="#{{ step.section }}" role="button" data-toggle="collapse" aria-expanded="{% unless page.url == step.url %}false{% else %}true{% endunless %}" class="dropdown-toggle text-dark nav-link{% if page.url == step.url %} font-weight-bold{%endif%}">{{ step.title }}</a>
+                <ul class="collapse {% if page.url == step.url %}show{% endif %} list-unstyled" id="{{ step.section }}">
+                    {% for p in parts %}
+                    <li class="pl-4 ml-3 my-1">
+                        <a href="{{ step.permalink | append: '#' | append: p.stub | relative_url }}" class="text-dark">{{ p.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <a class="nav-link text-dark" href="{{ step.permalink | relative_url }}">{{ step.title }}</a>
+                {% endif %}
+            </li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+  
+  </nav>
+    </div>
     <div class="row">
         <div class="col-md-3 ">{% include docs-sidebar.html %}</div>
         <div class="col-lg-7 offset-lg-1" >
