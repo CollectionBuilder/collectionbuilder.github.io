@@ -61,7 +61,3 @@ For CDM and SA Users
 
 
 <div markdown="1">
-
-**Nice work!** 
-
-You can now move on to the [Config]({{'/workshop/config/' | relative_url}}) section of this workshop.</p>

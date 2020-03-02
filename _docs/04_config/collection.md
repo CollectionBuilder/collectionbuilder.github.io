@@ -1,6 +1,6 @@
 ---
 title: Collection Settings
-stub: collection
+stub: coll
 section: config
 section_order: 3
 ---
@@ -10,33 +10,37 @@ section_order: 3
 
 ## Collection Settings
 
-{% capture coll-title %}
 These are settings specific to your collection:
-{% endcapture %}
-
-{% capture coll-text %}
-{% capture cdm-collection %}
-- **cdm-collection-id**: The name of your CONTENTdm collection (a collection alias assigned by a collection's creator in CONTENTdm).    
-    - example --> `cdm-collection-id: boxing` 
-{% endcapture %}
-{:.cdm .typefilter}
-{% include bootstrap/alert.md text=cdm-collection color="secondary" %}
 
 - **metadata**: The filename (not including the extension) of your CSV metadata file. 
 	- ***Note: This should be the same entry as "data" in the page gen variables below.***
 	- example --> `title: boxing`
+
+{:.alert .alert-info}
+**GH users**: At this point you can skip to the [Additional Variables](#add) section below.
+
+#### Required Settings for CDM
+
+- **cdm-collection-id**: The name of your CONTENTdm collection (a collection alias assigned by a collection's creator in CONTENTdm).    
+    - example --> `cdm-collection-id: boxing` 
+
+- **cdm-url** (for CONTENTdm skin): This is the url for your CONTENTdm server.
+	- example --> `cdm-url: https://cdm12345.contentdm.oclc.org`
+
+{% capture pagegen-title %}
+Page Generation Settings
 {% endcapture %}
 
-{% include bootstrap/card.md title=coll-title text=coll-text %}
-
-
 {% capture pagegen-text %}
-##### The following Page Gen variables read your metadata file and build individual html pages based on that metadata:
+**For CDM and SA users**, The following Page Gen variables read your metadata file and build individual html pages based on that metadata:
 
 {:.pt-1}
 - **data**: The name of your metadata file. (This is different for every collection).
 	- ***Note: This should be the same entry as "metadata" above***
 	- example --> `title: boxing`
+
+{:.typefilter .alert .alert-warning}
+**Important!:** **CDM and SA Users**, you *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***.
 
 "Data" is the only field you need to change. Leave the following fields the way they are in the _config.yml template you downloaded:
 
@@ -52,12 +56,7 @@ These are settings specific to your collection:
 - **extension**: Determines the extension of each generated page. For us, `html` means our item pages will end as '.html' 
 	- CollectionBuilder entry --> `html`
 
-{:.cdm .typefilter .alert .alert-warning}
-**Important!:** You *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***
-
 {% endcapture %}
 
 {:.cdm .typefilter}
-{% include bootstrap/alert.md title=pagegen-title text=pagegen-text color="secondary" %}
-
-{% include bootstrap/card.md title="The last variable to fill in is the Google Analytics ID, if you have one:" text="- **google-analytics-id**: Enter your Google Analytics ID here." %}
+{% include bootstrap/card.md header=pagegen-title text=pagegen-text %}
