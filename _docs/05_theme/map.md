@@ -2,7 +2,7 @@
 title: Map Page
 stub: map
 section: theme
-section_order: 5
+section_order: 7
 ---
 
 {:.py-4 .mt-4 #map}
@@ -12,7 +12,6 @@ section_order: 5
 
 {% include bootstrap/image.md img="/theme/map.jpg" %}
 
-{% capture map-text %}
 - **latitude**: Determines the center of map.
 	- example --> `latitude: 46.727485 `
 
@@ -24,6 +23,10 @@ section_order: 5
 	- example --> `zoom-level: 5`
 
 **The fields below determine *map search* and *map cluster* features. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature.**
+
+{% include bootstrap/alert.md color="info col-md-4 float-right ml-4 mb-4 mt-2" text="**Tip:** A user can change the layer the map is using by clicking on the Layer button at the top right of the map. 
+
+The map can be searched by clicking on the magnifying glass just below the layers option at the top right." %}
 
 - **map-search**: Enables a user to search the map via the large magnifying glass on the top right. 
 	- Not suggested for large collections.
@@ -44,10 +47,4 @@ section_order: 5
 - **map-cluster-radius**: Determines the size of clusters
 	- Range: `10` to `80`
 	- example --> `map-cluster-radius: 25`
-{% endcapture %}
 
-{% include bootstrap/card.md text=map-text %}
-
-{% capture mapalert %}
-*Tip*: A user can change the layer the map is using by clicking on the Layer button at the top right of the map. The map can be searched by clicking on the magnifying glass just below the layers option at the top right. 
-{% endcapture %}

@@ -2,7 +2,7 @@
 title: Locations Page
 stub: locations
 section: theme
-section_order: 7
+section_order: 6
 ---
 
 {:.py-4 .mt-4 #locations}
@@ -12,8 +12,6 @@ section_order: 7
 ## Locations Page
 
 {% include bootstrap/image.md img="/theme/locations.jpg" %}
-
-{% capture location-text %}
 
 This page functions exactly as the Subjects page does. 
 
@@ -31,6 +29,3 @@ This page functions exactly as the Subjects page does.
 - **locations-stopwords**: A set of words/phrases to be removed from the tag cloud.
 	- Multiple fields must be separated by a semi-colon(`;`)
 	- example --> `stopwords: Moscow;Pullman`
-{% endcapture %}
-
-{% include bootstrap/card.md text=location-text %}

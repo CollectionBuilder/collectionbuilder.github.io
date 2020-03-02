@@ -2,7 +2,7 @@
 title: Subjects Page
 stub: subjects
 section: theme
-section_order: 6
+section_order: 5
 ---
 
 {:.py-4 .mt-4 #subjects}
@@ -12,7 +12,6 @@ section_order: 6
 
 {% include bootstrap/image.md img="/theme/subjects.jpg" %}
 
-{% capture subject-text %}
 - **subjects-fields**: Choose metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
 	- Multiple fields must be separated by a semi-colon(`;`)
 	- When this field is left blank, subjects will not be generated and the tag cloud on the Subjects page will be blank. 
@@ -27,6 +26,3 @@ section_order: 6
 - **subjects-stopwords**: A set of words/phrases to be removed from the tag cloud.
 	- Multiple fields must be separated by a semi-colon(`;`)
 	- example --> `stopwords: boxers;boxing;boxer`
-{% endcapture %}
-
-{% include bootstrap/card.md text=subject-text %}

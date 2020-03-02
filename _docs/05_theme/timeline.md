@@ -13,9 +13,7 @@ section_order: 8
 
 {% include bootstrap/image.md img="/theme/timeline.jpg" %}
 
-{% capture timeline-text %}
-
-{% include bootstrap/alert.md text="The Timeline page is built by year, with each year a row where thumbnail versions of the items appear. **This section will let you determine which years are in the dropdown button at the top right of the Timeline page. This button allows a user to jump down the page.** " color="info" %} 
+{% include bootstrap/alert.md text="The Timeline page is built by year, with each year a row where thumbnail versions of the items appear. This section will let you determine which years are in the **dropdown button** at the top right of the Timeline page. This button allows a user to jump down the page." color="info" %} 
 
 - **year-navigation**: Sets the years to appear in Timeline dropdown nav. 
 	- *Tip*: If left blank, these will auto-generate. (We recommend leaving this blank.)
@@ -24,6 +22,3 @@ section_order: 8
 - **year-nav-increment**: Sets the increment at which the years in the Timeline dropdown nav are automatically generated. 
 	- Default: `5`
 	- example --> `year-nav-increment: 7`
-{% endcapture %}
-
-{% include bootstrap/card.md text=timeline-text %}
