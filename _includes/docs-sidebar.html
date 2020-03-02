@@ -1,8 +1,5 @@
-<div class="py-4 mb-4 bg-light border sidebar-section p-4">
+<div class="py-4 mb-4 bg-light border sidebar-section p-4 d-none d-lg-block">
   <ul class="nav flex-column sticky">
-    <h3 class="typefilter cdm hidden">CONTENTdm</h3>
-    <h3 class="typefilter gh hidden">GH</h3>
-    <h3 class="typefilter sa hidden">SA</h3>
 
     {% assign steps = site.html_pages | where: 'layout','docs' | sort: 'step' %}
 
