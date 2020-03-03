@@ -6,7 +6,7 @@
     <body>
         {% include header.html %}
         <main id="content bg-white" role="main">
-            <div class="container-fluid mt-4 ">
+            <div class="{% if page.url contains 'docs'%}container{%else%}container-fluid{% endif %} mt-4 ">
                 {{ content }} 
             </div>
         </main>
