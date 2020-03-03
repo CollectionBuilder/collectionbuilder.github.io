@@ -5,7 +5,7 @@ section: config
 section_order: 4
 ---
 
-{:.py-4 .mt-4 #add}
+{:.py-4 .mt-4 #additional}
 ***
 
 ## Additional Variables

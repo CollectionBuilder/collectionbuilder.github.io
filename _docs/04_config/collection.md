@@ -14,7 +14,7 @@ These are settings specific to your collection:
 
 - **metadata**: The filename (not including the extension) of your CSV metadata file. 
 	- ***Note: This should be the same entry as "data" in the page gen variables below.***
-	- example --> `title: boxing`
+	- example --> `metadata: boxing`
 
 {:.alert .alert-info}
 **GH users**: At this point you can skip to the [Additional Variables](#add) section below.
@@ -32,15 +32,15 @@ Page Generation Settings
 {% endcapture %}
 
 {% capture pagegen-text %}
-**For CDM and SA users**, The following Page Gen variables read your metadata file and build individual html pages based on that metadata:
+**For CDM and SA users**: The following 'Page Gen' variables are used by a Ruby Gem within the repository that builds individual html pages for each item (row) in your collection's metadata (CSV):
 
 {:.pt-1}
-- **data**: The name of your metadata file. (This is different for every collection).
-	- ***Note: This should be the same entry as "metadata" above***
-	- example --> `title: boxing`
+- **data**: The name of your metadata file. 
+	- ***This should be the same entry as "metadata" above***
+	- example --> `data: boxing`
 
 {:.typefilter .alert .alert-warning}
-**Important!:** **CDM and SA Users**, you *must* change the data field in **Page Gen** to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***.
+**Important! -->** **CDM and SA Users**, you *must* change the data field in 'Page Gen' to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***.
 
 "Data" is the only field you need to change. Leave the following fields the way they are in the _config.yml template you downloaded:
 
@@ -55,6 +55,9 @@ Page Generation Settings
 
 - **extension**: Determines the extension of each generated page. For us, `html` means our item pages will end as '.html' 
 	- CollectionBuilder entry --> `html`
+
+{:.alert}
+'Page Gen' is enabled by a Ruby Gem created by Adolfo Villafiorita called [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen). Thank you Adolfo!
 
 {% endcapture %}
 
