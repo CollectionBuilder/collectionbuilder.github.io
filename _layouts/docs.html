@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="my-4">
     <span class="h1">
         Documentation
@@ -20,6 +21,15 @@ layout: default
     <div class="col-lg-7 offset-lg-1 docs-content" >
         <h1 class="display-4 mb-4 border-bottom pb-3" id="intro">{{ page.title }}</h1>
         {{ content }}
+        <hr class="my-4">
+        {% assign next = page.step | plus: 1 %}
+        {% assign prev = page.step | minus: 1 %}
+        {% assign nextPage = steps | where_exp: 's', 's.step == next' | first %}
+        {%- assign prevPage = steps | where_exp: 's', 's.step == prev' | first -%}
+        {% if prevPage %}<a href="{{ prevPage.url | relative_url }}" class="btn btn-sm btn-secondary m-2">« {{ prevPage.title }}</a>{% endif %}
+        <a href="#intro" class="btn btn-sm btn-secondary m-2">Back to Top</a>
+        {% if nextPage %}<a href="{{ nextPage.url | relative_url }}" class="btn btn-sm btn-secondary m-2">{{ nextPage.title }} »</a>{% endif %}
+
         <hr class="my-4">
         <hr class="my-4">
     </div>
