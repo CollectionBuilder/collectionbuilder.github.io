@@ -3,7 +3,7 @@
     <head>
         {% include head.html %}
     </head>
-    <body>
+    <body {% if page.section %}class="position-relative" data-spy="scroll" data-target="#{{ page.section}}" data-offset="0"{% endif %}>
         {% include header.html %}
         <main id="maincontent" role="main">
             <div class="{% if page.url contains 'docs'%}container{%else%}container-fluid{% endif %} mt-4 ">

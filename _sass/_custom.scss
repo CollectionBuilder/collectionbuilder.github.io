@@ -31,6 +31,9 @@ body{
     .dropdown-toggle {
         white-space: normal;
     }
+    .spy-item .active {
+        text-decoration: underline;
+    }
 }
 .docs-content {
     -ms-flex-order: 1;
