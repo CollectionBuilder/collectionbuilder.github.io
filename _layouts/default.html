@@ -10,7 +10,7 @@
                 {{ content }} 
             </div>
         </main>
-        {% include footer.html %}
+        {% unless page.layout == "docs" %}{% include footer.html %}{% endunless %}
         {% include foot.html %}
     </body>
 </html>
