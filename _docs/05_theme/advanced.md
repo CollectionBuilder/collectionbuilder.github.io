@@ -18,9 +18,10 @@ section_order: 10
 
 {% capture image-card %}
 
+<div class="row" markdown="1">
 
-{% include bootstrap/alert.md color="info col-md-4 float-right ml-4 mb-4 mt-2" text="**Tip:** If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings." %} 
-
+<div class="col-md-8" markdown="1">
+### Image Size:
 **CDM-Users only**: This is a *CONTENTdm-specific* variable section for adjusting size of images used throughout the site.
 
 - **image-percentage-large**:
@@ -34,6 +35,12 @@ section_order: 10
 - **image-percentage-small**
 	- Default `20`
 	- example --> `image-percentage-small: 10`
+</div>
+
+<div class="col-md-4" markdown ="1">
+{% include bootstrap/alert.md color="info" text="**Tip:** If your images are appearing blurry or take too long to load, try adjusting the image-sizing settings." %} 
+</div>
+</div>
 {% endcapture %}
 {% include bootstrap/card.md text=image-card %}
 

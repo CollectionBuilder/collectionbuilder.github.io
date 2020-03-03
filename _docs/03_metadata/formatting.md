@@ -31,5 +31,4 @@ Make sure you're following the guidelines below, otherwise CollectionBuilder wil
 2. Click the 'Command Pallette' option in the View menu 
 3. Start typing 'Transform to lowercase'--the option will appear!" %}
 </div>
-
 </div>
