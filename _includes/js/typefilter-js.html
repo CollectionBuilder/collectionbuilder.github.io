@@ -1,0 +1,33 @@
+<script>
+    const url = new URL(window.location);
+    const params = url.searchParams;
+
+function typeFilter(x) {
+      $(".typefilter").addClass("hidden");
+      $('.' + x).toggleClass("hidden");
+      //Add another parameter. 
+      params.set('type', x);
+      var p = params.toString();
+      window.history.replaceState({}, '', location.pathname + '?' + p);
+  }
+
+  $(document).ready(function () {
+  var urlfilter = url.searchParams.get('type');
+  if (urlfilter) {
+      typeFilter(urlfilter);
+  }
+ else {
+    typeFilter('gh');
+  }
+});
+
+$('.docs-nav-link').attr('href', function() {
+    var filter = url.searchParams.get('type');
+  if (filter) {
+    return this.href + '?type=' + filter;
+  }
+ else {
+    return this.href + '?type=gh';
+  }
+});
+</script>

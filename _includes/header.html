@@ -3,13 +3,13 @@
         <div class="row px-3 bg-dark text-white py-2">
 
             <div class="col-md-4 text-center">
-                <h1 class="mt-2 h2" id="cb-nav-brand">
-                    <a class="text-white mx-auto" href="{{ '/' | relative_url}}">
+                <span class="d-block h2 mt-2" id="cb-nav-brand">
+                    <a class="text-white" href="{{ '/' | relative_url }}">
                         <img class="my-2 img-fluid"
                             src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}">
                         CollectionBuilder
                     </a>
-                </h1>
+                </span>
             </div>
 
             <nav class="col-md-8 mt-3" role="navigation">
@@ -25,6 +25,10 @@
                             <a class="dropdown-item disabled" href="#">Skin - Murkutu (coming soon)</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ '/docs/introduction.html' | relative_url }}">Get Started</a>
+                    </li>
+                    <!--
                     <li class="nav-item dropdown">
                         <a id="getstarted" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#"
                             role="button" aria-haspopup="true" aria-expanded="false">Get Started</a>
@@ -41,6 +45,7 @@
 
                         </div>
                     </li>
+                    -->
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#" data-trigger="focus" data-toggle="popover"
                             title="CollectionBuilder is Free" data-placement="bottom" data-html=true

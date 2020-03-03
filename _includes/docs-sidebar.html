@@ -1,12 +1,25 @@
-<div class="sidebar-sticky py-4 mb-4 bg-light border">
+<nav class="collapse d-md-block pt-4 pb-5 px-3 bg-light border" id="docs-sidebar-nav" aria-label="Main navigation">
+
     <ul class="nav flex-column">
-        {%for doc in site.data.docs-nav %}
-        {%unless doc.parent%}
-      <li class="nav-item">
-        <a class="nav-link {% if page.url contains doc.page %}font-weight-bold{%endif%} text-dark" href="{{doc.page}}.html">
-         {{doc.title}}
-        </a>
-      </li>
-    {%endunless%}{%endfor%}
+
+        {% assign steps = site.html_pages | where: 'layout','docs' | sort: 'step' %}
+        {% for step in steps %}{% if step.step %}
+        <li class="nav-item border-bottom">
+            {% if step.section %}
+            {% assign parts = site.docs | where: 'section',step.section | sort: 'section_order' %}
+            <a href="#{{ step.section }}" role="button" data-toggle="collapse" aria-expanded="{% unless page.url == step.url %}false{% else %}true{% endunless %}" class="dropdown-toggle text-dark nav-link{% if page.url == step.url %} font-weight-bold{% endif %}">{{ step.title }}</a>
+            <ul class="collapse {% if page.url == step.url %}show{% endif %} pl-4 ml-3 list-unstyled" id="{{ step.section }}">
+                {% for p in parts %}
+                <li class="nav-item spy-item my-1">
+                    <a href="{% if page.url == step.url %}#{{ p.stub  }}{% else %}{{ step.permalink | relative_url }}{% unless forloop.first %}#{{ p.stub }}{% endunless %}{% endif %}" class="nav-link p-0 text-dark">{{ p.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a class="nav-link text-dark" href="{{ step.permalink | relative_url }}">{{ step.title }}</a>
+            {% endif %}
+        </li>
+        {% endif %}{% endfor %}
     </ul>
-  </div>
+
+</nav>

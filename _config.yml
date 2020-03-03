@@ -5,7 +5,7 @@ title: CollectionBuilder
 description: "CollectionBuilder is an open source tool for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology."
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://collectionbuilder.github.io
-baseurl: /
+baseurl: 
 
 github-organization: https://www.github.com/collectionbuilder/
 
@@ -14,20 +14,9 @@ featured-image-alt: "CollectionBuilder bracket logo"
 
 # collections
 collections:
-  contentdm:
-    output: true
-    permalink: /skins/:collection/docs/:slug
-  gh:
-    output: true
-    permalink: /:collection/docs/:slug
-  sa:
-    output: true
-    permalink: /:collection/docs/:slug
-  workshop:
-    output: true
-    permalink: /:collection/:title
-    sort_by: step
   docs:
+    output: false
+  workshop:
     output: true
     permalink: /:collection/:title
     sort_by: step
@@ -39,8 +28,6 @@ defaults:
       type: "workshop"
     values:
       layout: "workshop"
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "docs"
+
+
+

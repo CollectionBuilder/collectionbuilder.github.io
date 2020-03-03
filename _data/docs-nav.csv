@@ -1,10 +1,11 @@
 title,page,type,parent
 Introduction,introduction,
 Installing Software,software,
-Git and GitHub Setup,github,
+Git and GitHub Setup,repository,
 Metadata,metadata,
 Config File (_config.yml),config,
 Theme File (/_data/theme.yml),theme,
 Customizations - Page Configuration,customize,
-Finishing the Collection,finish,
+Finishing the Collection,polish,
 Deploying the Collection,deploy,
+Advanced,advanced,
