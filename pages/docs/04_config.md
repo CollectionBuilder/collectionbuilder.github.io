@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Config File (_config.yml)
+title: Config File
 permalink: /docs/config.html
 section: config
 step: 4

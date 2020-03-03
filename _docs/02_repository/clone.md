@@ -1,5 +1,5 @@
 ---
-title: Clone Your New Repository to Your Local Machine
+title: Clone Your Repository
 stub: clone
 section: repository
 section_order: 2

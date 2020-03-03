@@ -1,5 +1,5 @@
 ---
-title: Formatting Your Metadata
+title: Format Your Metadata
 stub: format
 section: metadata
 section_order: 6

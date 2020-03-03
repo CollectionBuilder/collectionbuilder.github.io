@@ -1,5 +1,5 @@
 ---
-title: Uploading Your Metadata
+title: Upload Your Metadata
 stub: upload
 section: metadata
 section_order: 7

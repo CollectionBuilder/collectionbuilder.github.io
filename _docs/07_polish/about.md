@@ -1,7 +1,7 @@
 ---
 title: About Page
 stub: about-page
-section: polish
+section: finish
 section_order: 1
 ---
 

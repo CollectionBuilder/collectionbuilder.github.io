@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Deploying the Collection
+title: Deploy
 permalink: /docs/deploy.html
 section: deploy
 step: 8

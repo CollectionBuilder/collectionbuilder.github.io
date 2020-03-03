@@ -1,5 +1,5 @@
 ---
-title: Generating Your Site
+title: Generate Your Site
 stub: generate
 section: repository
 section_order: 4

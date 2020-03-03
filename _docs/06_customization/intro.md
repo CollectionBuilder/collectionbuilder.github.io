@@ -1,5 +1,5 @@
 ---
-title: Site
+title: Overview
 stub: intro
 section: customize
 section_order: 0

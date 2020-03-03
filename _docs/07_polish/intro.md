@@ -1,7 +1,7 @@
 ---
-title: Polish and Finish
+title: Overview
 stub: intro
-section: polish
+section: finish
 section_order: 0
 ---
 

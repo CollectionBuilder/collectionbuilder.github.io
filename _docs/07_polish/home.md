@@ -1,7 +1,7 @@
 ---
 title: Home Page
 stub: home-page
-section: polish
+section: finish
 section_order: 2
 ---
 

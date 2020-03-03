@@ -1,5 +1,5 @@
 ---
-title: Create a New Repository
+title: Create a Repository
 stub: create
 section: repository
 section_order: 1

@@ -1,5 +1,5 @@
 ---
-title: Editing Your Repository
+title: Edit Your Repository
 stub: edit
 section: repository
 section_order: 5
