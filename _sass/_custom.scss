@@ -16,27 +16,23 @@ body{
     background-color: #F1B300 !important;
 }
 
-.dropdown-menu.show {
-    display: block;
-    z-index: 1030;
+/* docs layout */
+#docs-sidebar-nav {
+    @media (min-width: 768px) { 
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0; 
+        height: 100vh;
+        z-index: 1000;
+        -ms-flex-order: 0;
+        order: 0;
+        overflow-y: auto;
+    }
+    .dropdown-toggle {
+        white-space: normal;
+    }
 }
-
-.hidden{
-    display: none !important;
+.docs-content {
+    -ms-flex-order: 1;
+    order: 1;
 }
-
-
-.sidebar-section {
-    position: absolute;
-    height: 100%;
-    width: auto;
-  }
-  
-  .sticky {
-    position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-
-  }
-  
-  
