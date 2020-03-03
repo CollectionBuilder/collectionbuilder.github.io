@@ -13,7 +13,7 @@
       <ul class="collapse {% if page.url == step.url %}show{% endif %} list-unstyled" id="{{ step.section }}">
         {% for p in parts %}
         <li class="pl-4 ml-3 my-1">
-          <a href="{{ p.stub | prepend: '#' | prepend: step.permalink }}" class="text-dark">{{ p.title }}</a>
+          <a href="{{ p.stub | prepend: '#' | prepend: step.permalink }}" class="text-dark part-link">{{ p.title }}</a>
         </li>
         {% endfor %}
       </ul>
