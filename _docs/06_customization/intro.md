@@ -5,9 +5,9 @@ section: customize
 section_order: 0
 ---
 
-Refer to the [.theme.yml section](theme.html) for more information about customizing the various pages in your collection. 
+Refer to the [Theme File section](theme.html) for more information about customizing the various pages in your collection. 
 
-The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma separated values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using excel, Google Sheets, or another spreadsheet program. 
+The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma-separated-values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using excel, Google Sheets, or another spreadsheet program. 
 
 - [Navigation Header Configuration](#config-nav) (config-nav.csv)
     - configure the navigation links in the header
@@ -19,3 +19,7 @@ The files discussed in this section will help you customize the website to fit t
     - configure what appears in the map pop-ups
 - [Table Configuration](#config-table) (config-table.csv)
     - configure what metadata appears in the table visualization
+- [Theme Color Configuration](#config-colors) (config-theme-colors.csv)
+    - configure the site's colors
+- [Search Configuration](#config-search) (config-search.csv) (**GH Only!**)
+    - configure which metadata fields are indexed for searching across the site

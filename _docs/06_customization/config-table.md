@@ -14,5 +14,5 @@ The table appears on the "Data" page. It uses [DataTables](https://datatables.ne
 
 We recommend not using more than 5 or 6 fields here, as the table can become overcrowded. 
 
-- **field** - Determines the field that is displayed on the pop-up. 
-- **display** - Determines the label given to the field. 
+- **field**: Determines the metadata field that is included on the table. 
+- **display_name**: Determines the label that is displayed for that field.  

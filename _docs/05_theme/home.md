@@ -41,7 +41,6 @@ Home Page Features:
 	- Options: `image`,`pdf`,`youtube`,`thumbs`
 	- example --> `carousel-type: image`
 {% endcapture %}
-{:.cdm .typefilter}
 {% include bootstrap/alert.md text=carousel-type color="secondary" %}
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
