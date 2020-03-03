@@ -11,15 +11,15 @@ section_order: 1
 ## 1. Editing the About Page
 
 To edit the about page, find and open the "about.md" file which is in the root of your repository with the readme, index, and other base files. 
-{%include bootstrap/alert.md color="info float-right col-md-3 ml-4 py-2" text="**Markdown Resources**
+{%include bootstrap/alert.md color="info float-right ml-4 py-2" text="**Markdown Resources**
 - [Tutorial](https://www.markdowntutorial.com/) 
 - [Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" %} 
 
 This is a Markdown File, extension ".md". Markdown is a friendly way to write HTML that is being used more and more.  (FYI: This entire website has been written in markdown.) Jekyll is built to use and process Markdown, so it's a good skill to learn as you get further into this type of development. 
 
-There are a number of tutorials on the web to learn more about Markdown (see Markdown Resources box), but to simply write a few paragraphs, you need to just write a few paragraphs into the file.
+There are a number of tutorials on the web to learn more about Markdown (see Markdown Resources box above), but to simply write a few paragraphs of content, you need to just write a few lines of text into the file.
 
-Below is an example about page written in Markdown, using the include item-figure.html command discussed below, in case you'd like to copy and paste from a reference. 
+Below is an example About page written in Markdown, using the include item-figure.html command discussed below, in case you'd like to copy and paste from a reference. 
 
 {:.pl-4 .bg-light .py-2 my-4 mb-4}
 {% raw %}
@@ -56,7 +56,7 @@ In order to add an image with a caption into any about page, you just need to se
     {% include item-figure.html objectid="demo-psychiana548" %}
 {% endraw %}
 
-Or if you wanted the image a smaller size and floating on the left:  
+Or if you wanted the image to be a smaller size and float on the left:  
 
 {% raw %}
     {% include item-figure.html objectid="demo-psychiana548" float="left" size="2" %}
@@ -65,7 +65,7 @@ Or if you wanted the image a smaller size and floating on the left:
 The features that you can modify in this "include" command are: 
 
 - **objectid**: 
-    - This refers to the image and will be used to grab the information for that image from the metadata sheet. 
+    - This refers to the image and will be used to grab the information for that image from the metadata spreadsheet. 
     - example --> `objectid="demo-psychiana548"`
 
 {% include bootstrap/alert.md color="primary col-md-4 float-right ml-4 mb-4 mt-2" text="**Include Files:** 
@@ -73,7 +73,7 @@ The features that you can modify in this "include" command are:
 Jekyll's include command is a really powerful feature that allows specific elements or content to be drawn into many pages (or just one) from one central location. For more on includes and other Jeykll features, check out the [Jekyll Website](https://jekyllrb.com/)" %}
 
 - **float**: 
-    - This determins which direction the image floats, left or right. Default is right.
+    - This determines which direction the image floats, left or right. Default is right.
     - Default: right
     - Options: `left` or leave blank for a 'float-right'  
     - example --> `float="left"`
