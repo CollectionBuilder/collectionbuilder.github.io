@@ -8,7 +8,7 @@
             {% if step.section %}
             {% assign parts = site.docs | where: 'section',step.section | sort: 'section_order' %}
             <a href="#{{ step.section }}" role="button" data-toggle="collapse" aria-expanded="{% unless page.url == step.url %}false{% else %}true{% endunless %}" class="dropdown-toggle text-dark nav-link{% if page.url == step.url %} font-weight-bold{% endif %}">{{ step.title }}</a>
-            <ul class="collapse {% if page.url == step.url %}show{% endif %} nav pl-4 ml-3" id="{{ step.section }}">
+            <ul class="collapse {% if page.url == step.url %}show{% endif %} pl-4 ml-3 list-unstyled" id="{{ step.section }}">
                 {% for p in parts %}
                 <li class="nav-item spy-item my-1">
                     <a href="{% if page.url == step.url %}#{{ p.stub  }}{% else %}{{ step.permalink | relative_url }}{% unless forloop.first %}#{{ p.stub }}{% endunless %}{% endif %}" class="nav-link p-0 text-dark">{{ p.title }}</a>
