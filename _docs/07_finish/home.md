@@ -10,7 +10,9 @@ section_order: 2
 
 ## 2. Editing the Home Page
 
-You may finish your collection and realize, for instance, you do not want the Locations card on the home page of your collection. In order to adjust the home page, you need to edit a page in the _layouts folder called "home-infographic.html."
+You may finish your collection and realize, for instance, that you do not want the Locations card on the home page of your collection. 
+
+In order to adjust the home page, you need to edit a page in the _layouts folder called "home-infographic.html."
 
 **For CDM and SA users**, the "home-infographic.html" file looks like this: 
 
@@ -101,13 +103,12 @@ You may finish your collection and realize, for instance, you do not want the Lo
 
 This example accomplishes several edits:  
 
-1. It deletes the "location" feature from the original home page
+1. It deletes the "location" feature from the original home page by removing the {% raw %}`{% include index/locations.html %}`{% endraw %} line. Deleting a line is the most common edit we make to this file. 
 2. It moves the description from the top left to the top right of the page.
     - You might make this change if you wanted your carousel to be taller and more prominent. 
     - You could then adjust the `carousel-height` variable in the [theme](theme.html#home) file. 
 3. It moves the timeline feature to the bottom of the right column.
 
-You might find that you need to delete one line of this file. We find we often delete {% raw %}`{% include index/locations.html %}`{% endraw %} for collections without location metadata.
 </div>
 
 <div class="col-md-5" markdown ="1">

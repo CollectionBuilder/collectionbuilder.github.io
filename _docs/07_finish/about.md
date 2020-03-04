@@ -21,7 +21,7 @@ There are a number of tutorials on the web to learn more about Markdown (see Mar
 
 Below is an example About page written in Markdown, using the include item-figure.html command discussed below, in case you'd like to copy and paste from a reference. 
 
-{:.pl-4 .bg-light .py-2 my-4 mb-4}
+{:.pl-4 .bg-light .py-2 .my-4 .border}
 {% raw %}
     ## About the {{site.collection}} 
 
@@ -51,13 +51,14 @@ Below is an example About page written in Markdown, using the include item-figur
 
 In order to add an image with a caption into any about page, you just need to select the image you'd like to feature, then include it on the about page by pasting in the following code: 
 
-{:.pl-4}
+{:.bg-light .p-4 .my-4 .border}
 {% raw %}
-    {% include item-figure.html objectid="demo-psychiana548" %}
+    {% include item-figure.html objectid="demo-psychiana548"  %}
 {% endraw %}
 
 Or if you wanted the image to be a smaller size and float on the left:  
 
+{:.bg-light .p-4 .my-4 .border}
 {% raw %}
     {% include item-figure.html objectid="demo-psychiana548" float="left" size="2" %}
 {% endraw %}
