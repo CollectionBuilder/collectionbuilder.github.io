@@ -1,11 +1,11 @@
 ---
 title: Advanced Options
-stub: advanced
+stub: advancedoptions
 section: theme
 section_order: 10
 ---
 
-{:.py-4 .mt-4 #advanced}
+{:.py-4 .mt-4 #advancedoptions}
 ***
 
 # Advanced Theme Options
