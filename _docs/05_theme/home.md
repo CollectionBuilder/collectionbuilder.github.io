@@ -12,15 +12,21 @@ section_order: 1
 
 {% include bootstrap/image.md img="/theme/home.jpg" %}
 
-{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](polish.html#home)" color="info" %} 
+{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](polish.html#home)" color="success" %} 
 
 Home Page Banner:
 
-- **featured-image**: *Can be one of the following:* the objectid for the image from this collection that you would like to feature on your home page, ***OR*** a relative location of an image in your repository, ***OR*** a full URL to an image elsewhere. 
-	- *Tip*: It's best to choose an image that is large and more "landscape" than "portrait," i.e. more horizontal than vertical. 
-	- example --> `featured-image: demo_psychiana15`
+- **featured-image**: This is the image that appears at the top of the home page of your collection. It can be ***one*** of the following:  
+	- the objectid for the image from this collection that you would like to feature on your home page
+		- example --> `featured-image: demo_psychiana15`
+	- ***OR*** a relative location of an image in your repository
+		- example --> `featured-image:  /images/palouse.jpg`
+	- ***OR*** a full URL to an image elsewhere.  
+		- example --> `featured-image: https://ctrl-shift.org/images/splash/armantrout.jpg`
 
-- **home-title-y-padding**: Determines how much of your featured image is visible. 
+{% include bootstrap/alert.md text="**Tip**: It's best to choose a large image for the featured image, one that is more 'landscape' than 'portrait,' i.e. more horizontal than vertical." color="info"%}
+
+- **home-title-y-padding**: Determines how much of your featured image is visible by adding padding above and below the collection banner. 
 	- A smaller number will feature a smaller amount of the image.
 	- Range: `2em` - `20em`
 	- example --> `home-title-y-padding: 12em`
@@ -44,7 +50,7 @@ Home Page Features:
 {% include bootstrap/alert.md text=carousel-type color="secondary" %}
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
-	- If left blank, automatically generates top 5 subjects. 
+	- If left blank, automatically generates top 5 subjects. (We typically leave it blank.)
 	- To customize, list your own curated subjects. Separate multiple subjects with a semi-colon(';'). 
 	- example --> `featured-subjects: corn;soy;basketball`
 
@@ -53,7 +59,7 @@ Home Page Features:
 	- example --> `featured-subjects-max: 6`
 
 - **featured-locations**: Generates home page "location" buttons for select locations.
-	- If left blank, automatically generates top 5 locations. 
+	- If left blank, automatically generates top 5 locations.  
 	- To customize, list your own curated locations. Separate multiple locations with a semi-colon(';'). 
 	- example --> `featured-locations: University of Idaho; Sacramento, California;`
 

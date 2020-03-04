@@ -23,6 +23,10 @@ section_order: 7
 	- Range: any whole number between [`0` - `18`]
 	- example --> `zoom-level: 5`
 
+- **map-base**: Determines the base map layer for the map. 
+	- Options: `Esri_WorldStreetMap`, `Esri_NatGeoWorldMap`, `Esri_WorldImagery` (Default: Esri_WorldStreetMap)
+	- example --> `map-base: Esri_WorldImagery`
+
 **The fields below determine *map search* and *map cluster* features. For larger collections with many items at one spot, we recommend turning on the map-cluster option and turning off the map-search feature.**
 
 <div class="col-md-8" markdown="1">
