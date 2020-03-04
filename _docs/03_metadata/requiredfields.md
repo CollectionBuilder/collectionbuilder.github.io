@@ -9,7 +9,7 @@ section_order: 2
 ***
 
 ## 2. Required Fields 
-Without values in these fields, CollectionBuilder will not work properly.
+Without values in the fields below, CollectionBuilder will not work properly.
 
 - **objectid**:
     - This is the field that CollectionBuilder uses to identify each object. This should be a unique string with no spaces or special characters. Underscores (`_`) are okay; **slashes (`/`) and hyphens (`-`) should NOT be used in this field**.
@@ -24,10 +24,18 @@ Without values in these fields, CollectionBuilder will not work properly.
         - Audio: `audio/mp3`
         - Video: `video/mp4`
 
+#### Required Fields for YouTube Objects
+
+- **youtubeid** *(Only required if your collection contains YouTube videos)*:
+    - This is the unique string assigned to a video when it is uploaded to YouTube. An easy way to find this is to look at the url for your YouTube video. The ID will be the string attached to the end of this url: https://www.youtube.com/watch?v=
+    - Example Input: `sHhk1eAgopU`
+
 #### Required Fields for GH and SA
 
 - **filename**: 
-    - This is the digital object's filename, including the name itself as well as the object's file extension. Each filename property should have a single value and end with a file extension. YouTube objects will not usually have a value in this field.
+    - This is the digital object's filename, including the name itself as well as the object's file extension. Each filename property should have a single value and end with a file extension. 
+    - The filename should be a **lowercase unique string with no spaces or special characters**. Underscores (`_`) are okay; **slashes (`/`) and hyphens (`-`) should NOT be used in this field**. 
+    - Records for YouTube objects will not usually have a value in this field. 
     - *Common Extension Options*: `.jpg`, `.pdf`, `.mp3`
     - Example Input: `letter001.pdf`
 
@@ -35,7 +43,7 @@ Without values in these fields, CollectionBuilder will not work properly.
 
 {:.cdm .typefilter}    
 - **cdmid** (for CONTENTdm skin):
-    - This is the unique identification number assigned to the item by CONTENTdm. Optimally, this should coincide with the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
+    - This is the unique identification number assigned to the item by CONTENTdm. Optimally, this should coincide with the number in the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
     - Example Input: `142`
 
 ***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.*

@@ -17,7 +17,7 @@ These are settings specific to your collection:
 	- example --> `metadata: boxing`
 
 {:.alert .alert-info}
-**GH users**: At this point you can skip to the [Additional Variables](#add) section below.
+**GH users**: At this point you can skip to the [Additional Variables](#additional) section below.
 
 #### Required Settings for CDM
 
