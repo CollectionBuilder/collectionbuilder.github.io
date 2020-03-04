@@ -12,15 +12,15 @@ section_order: 3
 
 ### 2. Moving the _site Files to Your Web Server
 
-One you've completed the build process, the web files you need will all be in your "_site" directory. 
+One you've completed the build process, the web files you need will all be in your `_site` directory. 
 
-1. Open the "_site" directory using your file explorer or finder.
+1. Open the `_site` directory using your file explorer or finder.
 2. Copy everything you'd like to move into a production site.
 3. Paste the copied files and folders into the directory on your web server you'd like to serve this site from. 
 
 *Note: If you'd like to serve this up from a GitHub Pages enabled repository, that is also possible. Talk to us.*
 
-{% include bootstrap/alert.md color="success" text="That's it. You've Done It. And hopefully now you can do it again (and again and again), and after awhile, teach others this development model and/or tool as well. (Let us know if we can help!)" %}
+{% include bootstrap/alert.md color="success" text="That's it. You've Done It. And hopefully now you can do it again (and again and again), and after awhile, teach others this development model and/or tool as well. Please let us know if we can help! ([Evan](mailto:ewilliamson@uidaho.edu) has time, I'm sure.)" %}
 
 <!--<div class="alert-warning p-4">
 {%capture noteonjekyll %}
