@@ -10,7 +10,7 @@ section_order: 4
 
 ## 4. Install Jekyll
 
-Finally, we get to [Jekyll](https://jekyllrb.com/)!
+Finally, we get to [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noopener"}!
 Jekyll is a static site generator that uses templates and data to build out websites. 
 It is a very popular project used by tiny and giant projects. 
 
