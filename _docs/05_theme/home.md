@@ -12,7 +12,7 @@ section_order: 1
 
 {% include bootstrap/image.md img="/theme/home.jpg" %}
 
-{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](polish.html#home)" color="success" %} 
+{% include bootstrap/alert.md text="**Note:** The features that display on the home page can be customized via the 'home-infographic.html' file in the layouts folder. More on customizing that file can be found in our [finishing section](finish.html#home-page)" color="success" %} 
 
 Home Page Banner:
 

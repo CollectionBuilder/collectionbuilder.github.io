@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Finish
-permalink: /docs/polish.html
+permalink: /docs/finish.html
 section: finish
 step: 7
 ---
