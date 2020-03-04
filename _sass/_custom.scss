@@ -15,7 +15,9 @@ body{
     color: #fff !important;
     background-color: #F1B300 !important;
 }
-
+#lib-static-lobster {
+    max-width: 400px;
+}
 /* docs layout */
 #docs-sidebar-nav {
     @media (min-width: 768px) { 
