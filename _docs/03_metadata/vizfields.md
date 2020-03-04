@@ -31,7 +31,7 @@ CollectionBuilder uses these fields to generate contextual visualizations, inclu
     - This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). 
     - See the [Subjects](theme.html#subjects-page) section for more information.
     - Example Input: `Dogs; Cats; Zebras`
-{%include bootstrap/alert.md color="warning ml-4 font-small" text="*Note: This field needs to be named ***'subject' (not 'subjects'***) for many features in CollectionBuilder to work.* Data in this field will create the word cloud that allows users to visualize the amount of subjects used within the collection."%}
+{%include bootstrap/alert.md color="warning ml-4 font-small" text="*Note: This field needs to be named ***'subject' (not 'subjects'***) for many features in CollectionBuilder to work. Data in this field will create the word cloud that allows users to visualize the amount of subjects used within the collection."%}
 - **location**: 
     - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
     - Example Input: `Pullman, Washington; Moscow, Idaho`
