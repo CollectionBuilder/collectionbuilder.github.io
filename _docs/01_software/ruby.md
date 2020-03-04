@@ -10,27 +10,27 @@ section_order: 3
 
 ## 3. Install Ruby
 
-[Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a programming language popular with web applications. 
+[Ruby](https://www.ruby-lang.org/en/){:target="_blank" rel="noopener"} is a programming language popular with web applications. 
 **_You do not need to know anything about Ruby_** to use CollectionBuilder, but you do need it to run Jekyll on your system!
 
 Jekyll requires a Ruby version that is greater than 2.4.0.
 
 {% capture win-ruby %}
-Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}. 
+Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank" rel="noopener"}. 
 
-- First, [download](https://rubyinstaller.org/downloads/){:target="_blank"} the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.6.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
+- First, [download](https://rubyinstaller.org/downloads/){:target="_blank" rel="noopener"} the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.6.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
 
 - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. The installer will proceed through a bunch of steps outputting a bunch of text in the terminal window -- *eventually*, this will conclude and you should see a message with success in it. If the window doesn't close, press Enter again or manually close it. (The installer can be restarted by typing `ridk install` into a command prompt)
 
-- Having trouble? Need more detail? See [How to Install Ruby on Windows](https://lib-static.github.io/howto/howtos/installrubywindows.html){:target="_blank"} for help.
+- Having trouble? Need more detail? See [How to Install Ruby on Windows](https://lib-static.github.io/howto/howtos/installrubywindows.html){:target="_blank" rel="noopener"} for help.
 {% endcapture %}
 {% include bootstrap/card.md text=win-ruby header="Ruby on Windows" %}
 
 {% capture mac-ruby %}
-Installing Ruby on Mac can be difficult, but don't be deterred! If the method below doesn't work for you check out [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank"} for more detail and other options.
+Installing Ruby on Mac can be difficult, but don't be deterred! If the method below doesn't work for you check out [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank" rel="noopener"} for more detail and other options.
 
 OS X has a version of Ruby installed by default, but recommended practice is to set up a separate Ruby development environment. 
-To do this, follow the instructions below, which outline the steps to install Ruby using [rbenv](https://github.com/rbenv/rbenv){:target="_blank"}. 
+To do this, follow the instructions below, which outline the steps to install Ruby using [rbenv](https://github.com/rbenv/rbenv){:target="_blank" rel="noopener"}. 
 
 #### Get the Xcode Command Line Tools First
 
@@ -42,9 +42,9 @@ To do this, follow the instructions below, which outline the steps to install Ru
 
 1. **Install Homebrew**
     - You'll need to use Homebrew to install rbenv. To install Homebrew, follow these steps:
-        - Open the [Homebrew](https://brew.sh/){:target="_blank"} webpage in your browser.
+        - Open the [Homebrew](https://brew.sh/){:target="_blank" rel="noopener"} webpage in your browser.
         - Open your terminal by clicking `Command (⌘) + Spacebar`, typing `terminal` into the spotlight box that appears, and pressing `Enter`.
-        - Once inside your terminal, copy the script in the box underneath "Install Homebrew" on the [Homebrew](https://brew.sh/){:target="_blank"} webpage. Paste this script you just copied into the terminal prompt and press `Enter`.
+        - Once inside your terminal, copy the script in the box underneath "Install Homebrew" on the [Homebrew](https://brew.sh/){:target="_blank" rel="noopener"} webpage. Paste this script you just copied into the terminal prompt and press `Enter`.
         - You'll then be prompted to press `Enter` once more to continue the install.
 
 2. **Install rbenv**
@@ -62,7 +62,7 @@ To do this, follow the instructions below, which outline the steps to install Ru
     - Back in your terminal, install the latest version of ruby by copy/pasting or writing, `rbenv install 2.7.0` and pressing `Enter`. 
 
     {:.alert .alert-warning .my-3}
-    Note: 2.7.0 is the latest solid version as of this writing; if you are reading this past August 2020, you may need to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank"} and install the latest stable version.
+    Note: 2.7.0 is the latest solid version as of this writing; if you are reading this past August 2020, you may need to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="noopener"} and install the latest stable version.
 
     - Now let's set that version as your global Ruby version by entering `rbenv global 2.7.0` into the terminal prompt and pressing `Enter`. 
     - Finally, we're going to rehash, just to be safe: copy and paste the command `rbenv rehash` into your prompt and pressing `Enter`.
@@ -73,15 +73,15 @@ To do this, follow the instructions below, which outline the steps to install Ru
         - If your terminal indicates that you have Ruby 2.7.0 or higher installed, you've done it!
 
 {:.alert .alert-danger}
-If this installation did not work, see our more detailed guide, [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank"}, check out the [Jekyll install on mac docs](https://jekyllrb.com/docs/installation/macos/), or try Googling any error message or other hindrance you encountered. 
+If this installation did not work, see our more detailed guide, [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank" rel="noopener"}, check out the [Jekyll install on mac docs](https://jekyllrb.com/docs/installation/macos/), or try Googling any error message or other hindrance you encountered. 
 {% endcapture %}
 {% include bootstrap/card.md text=mac-ruby header="Ruby on Mac" %}
 
 {% capture ruby-lin %}
-Ruby can be installed via most distro's repositories, however, it is more up-to-date and best practice to use a version manager such as [RVM](http://rvm.io/){:target="_blank"}.
+Ruby can be installed via most distro's repositories, however, it is more up-to-date and best practice to use a version manager such as [RVM](http://rvm.io/){:target="_blank" rel="noopener"}.
 
 - First, ensure you have build tools Make and GCC installed (on Ubuntu get them with `sudo apt install build-essential`).
-- Follow the instructions on [RVM install](https://rvm.io/rvm/install){:target="_blank"}.
-- For more information and other methods, see [How to Install Ruby on Linux](https://lib-static.github.io/howto/howtos/installrubylinux.html){:target="_blank"}.
+- Follow the instructions on [RVM install](https://rvm.io/rvm/install){:target="_blank" rel="noopener"}.
+- For more information and other methods, see [How to Install Ruby on Linux](https://lib-static.github.io/howto/howtos/installrubylinux.html){:target="_blank" rel="noopener"}.
 {% endcapture %}
 {% include bootstrap/card.md text=ruby-lin header="Ruby on Linux" %}
