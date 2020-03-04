@@ -14,10 +14,9 @@ section_order: 7
     - Once you've finished creating your metadata in Google Sheets (or another software program), click "File" and select "Download as Comma-separated values."
     - Locate the metadata CSV you've just downloaded on your computer. 
     - Without opening it, name this file using all lowercase letters, no spaces, and no hyphens.
-    - Example filename: `idahowater.csv`
+    - Example filenames: `idahowater.csv`, `hjccc_dev.csv`
 
 2. **Upload your metadata:**
-
 
 <div id="accordion" class="mb-4">
 <div class="card">
@@ -55,9 +54,4 @@ For CDM and SA Users
 </div>
 </div>
 
-
 {% include bootstrap/alert.md color="warning mt-4" text="***Note: Do not confuse the `_data` directory with the `data` directory. Your metadata needs to go in the data directory with an underscore (`_`) in front of it.*** The /data/ directory is used to expose your collection as 'data' on the website." %}
-
-
-
-<div markdown="1">

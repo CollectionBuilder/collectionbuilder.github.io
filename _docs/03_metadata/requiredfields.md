@@ -18,7 +18,7 @@ Without values in these fields, CollectionBuilder will not work properly.
     - The title field is used to indicate the name of an item. This should be a short, descriptive set of words that identify the item. Each item may only have one title.
     - Example Input: `Haystack Rock`
 - **format**: 
-    - This field indicates the item's media type and is the most important field for setting up the various displays and interactive visualizations. Without it, some visualizations will not work and you won't be able to browse based on item format. The input for this field should be structured according to MIME type standards, consisting of a type and a subtype concatenated with a slash (`/`) between them.
+    - This field indicates the item's media type. Since CollectionBuilder uses logic based on `format` to display objects, this is the most important field to ensure the various interactive visualizations function correctly. If there are errors or anomalies, some visualizations will not work. The input for this field should be structured according to [MIME type](https://www.iana.org/assignments/media-types/media-types.xhtml){:target="_blank" rel="noopener"} standards, consisting of a type and a subtype concatenated with a slash (`/`) between them.
         - Image: `image/jpeg`
         - Document: `application/pdf`
         - Audio: `audio/mp3`
@@ -27,10 +27,9 @@ Without values in these fields, CollectionBuilder will not work properly.
 #### Required Fields for GH and SA
 
 - **filename**: 
-    - This is the digital object's filename, including the name itself as well as the object's file extension. Each filename property should have a single value and end with a file extension.
+    - This is the digital object's filename, including the name itself as well as the object's file extension. Each filename property should have a single value and end with a file extension. YouTube objects will not usually have a value in this field.
     - *Common Extension Options*: `.jpg`, `.pdf`, `.mp3`
     - Example Input: `letter001.pdf`
-
 
 #### Required Fields for CONTENTdm
 
