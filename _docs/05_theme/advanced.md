@@ -91,8 +91,11 @@ These options change the way the fonts appear throughout your collection. If you
 - **link-color**: Changes the link color used throughout the site. Base color is a primary blue. 
 	- example --> `link-color: "#17a2b8"`
 
-- **base-font-family**: Changes the font family; if it's a google family, you'll need to adjust the _includes/header.html file as well to include the link to Google's CSS style file for that font.
-	- Comment out (using `#`) for bootstrap defaults  
+- **base-font-family**: Changes the font family
+	- If it's a google family, you'll need to use the font-cdn option below to add the style sheet link to the site.
 	- example --> `base-font-family: Georiga; serif;`
+- **font-cdn**: This lets you add fonts from Google Fonts or other online resources provided by a content delivery network (cdn). These are typically provided by the service your using. 
+	- example --> `font-cdn: <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">`
+
 {% endcapture %}
 {% include bootstrap/card.md text=theme %}
