@@ -24,6 +24,19 @@ The Browse page configuration CSV allows you to control which metadata appears o
 - **hidden**: Determines whether this field is hidden.
     - Useful when you don't want a metadata field to be visibly present on Browse page cards, but still want to filter for that field.
 
+### Example 
+
+{:.p-4 .bg-light .mb-4}
+```
+field,display_name,btn,hidden
+date,Date,
+description,,
+subject,,true
+location,,true
+```
+
+
+
 If you want to add a description to the browse cards, and label it "Description" on the user interface, you would include a value of `description` in the "field" column and then include `Description` as the value of that row's "displayName" column.
 
-If you want to include items' descriptions on the browse cards but feel that including the label is unnecessary, you could simply include a value of `description` in the "field" column and then leave that row's "displayName" column blank.
+If you want to include items' descriptions on the browse cards but feel that including the label is unnecessary, you could simply include a value of `description` in the "field" column and then leave that row's "displayName" column blank. The above example embodies this approach.

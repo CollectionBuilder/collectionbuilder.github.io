@@ -16,3 +16,13 @@ The config-map.csv determines what information displays on the pop-ups on the ma
 - **display_name**: Determines the label that is displayed for that field. 
 - **search**: Determines whether the field is searchable. 
     - *Options*: `true` or leave blank
+
+### Example 
+
+{:.p-4 .bg-light .mb-4}
+```
+field,display_name,search
+date,Date,true
+creator,Creator,true
+location,Location,true
+```

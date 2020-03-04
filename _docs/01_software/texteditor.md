@@ -21,8 +21,9 @@ We mostly use Visual Studio Code, so if you don't know which one to pick, go ahe
 For additional assistance, see our guides for [How to Install and Set Up Visual Studio Code](https://lib-static.github.io/howto/howtos/visualstudiocode.html){:target="_blank"} and [How to Install and Set Up Atom](https://lib-static.github.io/howto/howtos/installatom.html){:target="_blank"}
 
 {% capture vscode %}
-When you first install VS Code, the default settings can be distracting. 
-To configure the editor, click the *gear icon* in the bottom left corner of the VSCode window and choose *Settings*.
+Visual Studio Code (VS Code) has a tremendous number of extensions that can be added to enhance it's functionality. We recoomend [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), which will help you better read the CSVs within CollectionBuilder, and [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker), which will check your spelling. 
+
+VS Code is incredibly customizable via its settings as well. When you first install VS Code, however, the default settings can be distracting. To configure the editor, click the *gear icon* in the bottom left corner of the VSCode window and choose *Settings*.
 The searchable *Settings* pane has information about all the configuration options.
 
 To make it easy to share settings, you can also paste values into your **settings.json** file which represents all the options customized on the *Settings* pane.

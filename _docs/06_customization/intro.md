@@ -5,9 +5,9 @@ section: customize
 section_order: 0
 ---
 
-Refer to the [Theme File section](theme.html) for more information about customizing the various pages in your collection. 
+Refer to the [Theme File section](theme.html) for more information about customizing the various pages in your collection. The files discussed in this section will help you customize the website to fit the metadata that's driving it. 
 
-The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma-separated-values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using excel, Google Sheets, or another spreadsheet program. 
+**Each of these "config-" files is a CSV (comma-separated-values) file that is stored in the `/_data/` directory of your repository.**  We recommend that you edit them using your text editor, but Excel, Google Sheets, or another spreadsheet program will also work.  
 
 - [Navigation Header Configuration](#config-nav) (config-nav.csv)
     - configure the navigation links in the header

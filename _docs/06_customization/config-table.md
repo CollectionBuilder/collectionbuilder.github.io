@@ -16,3 +16,14 @@ We recommend not using more than 5 or 6 fields here, as the table can become ove
 
 - **field**: Determines the metadata field that is included on the table. 
 - **display_name**: Determines the label that is displayed for that field.  
+
+### Example 
+
+{:.p-4 .bg-light .mb-4}
+```
+field,display_name
+title,Title
+date,Date
+creator,Photographer
+subject,Subjects
+```
