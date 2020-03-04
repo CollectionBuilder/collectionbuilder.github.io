@@ -25,7 +25,7 @@ To connect locally, you'll need to install Git (the version control software tha
 - **Windows:** 
     - Install [Git for Windows](https://git-scm.com/downloads){:target="_blank"} using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a terminal that lets you use UNIX style commands and utilities on Windows, and will be used as your default terminal when working with Jekyll.
 - **Mac:** 
-    - Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"}.
+    - Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (to find your terminal search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"}.
 - **Linux:** 
     - Install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 {% endcapture %}
@@ -34,8 +34,8 @@ To connect locally, you'll need to install Git (the version control software tha
 {% capture gitconfig %}
 Once Git is installed, we need to configure your information, so that it can connect with your GitHub account.
 Since Git is a command line application, we will need to open a terminal to give it commands. 
-On Windows, search for "Git Bash". 
-On Mac and Linux, search for "terminal".
+On Windows, search for "Git Bash."
+On Mac and Linux, search for "terminal."
 Once you have a terminal open, we will need to give it two commands.
 
 First, set your user name so that it matches your GitHub user name:
@@ -51,7 +51,7 @@ Your email and user name is recorded with every commit.
 This helps ensure integrity and authenticity of the history.
 Most people keep their email public. However, if you are concerned about privacy, check GitHub's tips on how to [hide your email](https://help.github.com/articles/about-commit-email-addresses/){:target="_blank"}.
 {% endcapture %}
-{% include bootstrap/alert.md text=commit color="secondary" %} 
+{% include bootstrap/alert.md text=commit color="info" %} 
 {% endcapture %}
 {% include bootstrap/card.md text=gitconfig header="Configure Git" %}
 

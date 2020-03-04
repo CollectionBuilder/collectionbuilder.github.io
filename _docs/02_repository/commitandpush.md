@@ -20,11 +20,11 @@ On GitHub Desktop, below the the column that lists your change to _config.yml, y
 - When you've finished your commit message, click on the blue button toward the bottom of the column that says "Commit to master."
 - The "Changes" disappear, you've just made a Git Commit!
 
-#### Now you need to PUSH!!!
+#### Now you need to Push!!!
 
 You've committed your changes locally, but haven't pushed them to the online repository yet. 
 To push your commit up to GitHub, click on the button at the top right of the GitHub desktop screen that says "Push changes."
 
 - Click "Push changes"
-- Navigate to your repository on GitHub web interface (Click CTRL + SHIFT + G in GitHub Desktop). You'll see that the _config.yml file has been updated with the new changes.
+- Navigate to your repository on GitHub web interface (On windows you can use the keyboard shortcut `Ctrl` + `SHIFT` + `G` in GitHub Desktop). You'll see that the _config.yml file has been updated with the new changes.
 - **Congratulations, you've pushed your first commit to GitHub!**

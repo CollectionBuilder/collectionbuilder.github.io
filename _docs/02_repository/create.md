@@ -17,8 +17,8 @@ Each repository on GitHub is basically a folder for storing and tracking the cod
 1. Login on [GitHub](https://github.com)
 2. Go to the repository corresponding to the type you are using: 
     - **GH** - <https://github.com/CollectionBuilder/collectionbuilder-gh>
+    - **CONTENTdm (CDM)** - <https://github.com/CollectionBuilder/collectionbuilder-contentdm> 
     - **SA** - <https://github.com/CollectionBuilder/collectionbuilder-sa_draft>
-    - **CONTENTdm** - <https://github.com/CollectionBuilder/collectionbuilder-contentdm> 
 2. Click the green "Use This Template" button.    
 3. This brings you to a "Create a new repository" form. Follow these steps:
     - **Enter your new repository name**. It is best to use a naming convention without spaces or odd characters. We often append `_source` or `_draft` to our projects to keep track of the status. 

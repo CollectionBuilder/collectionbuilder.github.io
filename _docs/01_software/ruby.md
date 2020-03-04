@@ -11,7 +11,7 @@ section_order: 3
 ## 3. Install Ruby
 
 [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a programming language popular with web applications. 
-**_You do not need to know anything about Ruby_**, but you do need it to run Jekyll on your system!
+**_You do not need to know anything about Ruby_** to use CollectionBuilder, but you do need it to run Jekyll on your system!
 
 Jekyll requires a Ruby version that is greater than 2.4.0.
 
@@ -73,7 +73,7 @@ To do this, follow the instructions below, which outline the steps to install Ru
         - If your terminal indicates that you have Ruby 2.7.0 or higher installed, you've done it!
 
 {:.alert .alert-danger}
-If this installation did not work, see our more detailed guide, [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank"}, check out the [Jekyll install on mac docs](https://jekyllrb.com/docs/installation/macos/), or try googling any error message or other hinderance you encountered. 
+If this installation did not work, see our more detailed guide, [How to Install Ruby on a Mac](https://lib-static.github.io/howto/howtos/installrubymac.html){:target="_blank"}, check out the [Jekyll install on mac docs](https://jekyllrb.com/docs/installation/macos/), or try Googling any error message or other hindrance you encountered. 
 {% endcapture %}
 {% include bootstrap/card.md text=mac-ruby header="Ruby on Mac" %}
 
