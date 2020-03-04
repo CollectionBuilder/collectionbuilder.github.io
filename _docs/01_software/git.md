@@ -12,7 +12,7 @@ section_order: 2
 
 To manage the code and collaborate on developing your CollectionBuilder project, you need a version control system to keep everything organized. 
 
-[GitHub](https://github.com/) is a cloud [Git](https://git-scm.com/) repository hosting service with features for collaboration and project management.
+[GitHub](https://github.com/){:target="_blank" rel="noopener"} is a cloud [Git](https://git-scm.com/){:target="_blank" rel="noopener"} repository hosting service with features for collaboration and project management.
 Think of it as Google Drive for code with super robust "track changes" baked in.
 
 GitHub is the most popular platform for developing and sharing code -- from enterprise software, to hands-on learning, to academic projects.

@@ -78,7 +78,7 @@ If this installation did not work, see our more detailed guide, [How to Install 
 {% include bootstrap/card.md text=mac-ruby header="Ruby on Mac" %}
 
 {% capture ruby-lin %}
-Ruby can be installed via most distro's repositories, however, it is more up-to-date and best practice to use a version manager such as [RVM](http://rvm.io/){:target="_blank" rel="noopener"}.
+Ruby can be installed via most distro's repositories or [snap package](https://snapcraft.io/ruby){:target="_blank" rel="noopener"}, however, it is more up-to-date and best practice to use a version manager such as [RVM](http://rvm.io/){:target="_blank" rel="noopener"} or [rbenv](https://github.com/rbenv/rbenv){:target="_blank" rel="noopener"}.
 
 - First, ensure you have build tools Make and GCC installed (on Ubuntu get them with `sudo apt install build-essential`).
 - Follow the instructions on [RVM install](https://rvm.io/rvm/install){:target="_blank" rel="noopener"}.
