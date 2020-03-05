@@ -21,4 +21,4 @@ section_order: 1
 8. Add your copied URL to the website section and click “Save" -- This will let you easily access the generated site whenever you come to edit the page.
 
 {:.alert .alert-success}
-Congratulations! Your site is now live. **GH users can now move on to the [Advanced Topics](advanced.html) section.
+Congratulations! Your site is now live. **GH users** can now move on to the [Advanced Topics](advanced.html) section.
