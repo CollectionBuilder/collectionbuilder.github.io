@@ -10,16 +10,19 @@ section_order: 1
 
 ## 1. Editing the About Page
 
-{:.clearfix}
 To edit the About page, find and open the `about.md` file which is in the Pages directory of your repository. 
+
 {%include bootstrap/alert.md color="info float-right ml-4 py-2" text="**Markdown Resources**
-- [Tutorial](https://www.markdowntutorial.com/) 
+- [Tutorial](https://commonmark.org/help/tutorial/)
+- [On GitHub](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 - [Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" %} 
 
-This is a Markdown File. Markdown is a friendly way to write HTML that is being used more and more. 
-Jekyll is built to use and process Markdown, so it's a good skill to learn as you get further into this type of development. 
+[Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank" rel="noopener"} is a quick and easy standard to write documents that can be converted into HTML for the web. 
+Because of it's simplicity, Markdown is used by many websites for creating content or allowing users to format comments.
+In fact all of the CollectionBuilder docs are written in Markdown. 
 
-There are a number of tutorials on the web to learn more about Markdown (see Markdown Resources box above), and we suggest you check them out.
+Jekyll has Markdown support built in, so it's a good skill to learn as you get further into this type of development. 
+There are a number of tutorials on the web to learn more (see Markdown Resources box above), and we suggest you check them out.
 
 <div class="row">
 <div class="col-md-7" markdown="1">
@@ -36,16 +39,17 @@ You'll find the files below in the `_includes/feature/` directory:
 <div class="col-md-5" markdown ="1">
 {% include bootstrap/alert.md color="info ml-4 mb-4 mt-2" text="**Include Files:** 
 
-Jekyll's include command is a really powerful feature that allows specific elements or content to be drawn into many pages (or just one) from one central location. For more on includes and other Jekyll features, check out the [Jekyll Website](https://jekyllrb.com/)" %}
+Jekyll's include command is a really powerful feature that allows specific elements or content to be drawn into pages from one central location. For more on includes and other Jekyll features, check out the [Jekyll docs](https://jekyllrb.com/docs/)" %}
 </div>
 </div>
 
 {:.mt-4}
 ### Adding an image to the About Page
 
-The `item-figure.html` include adds a [Bootstrap](https://getbootstrap.com/docs/4.4/content/figures/)-styled figure to the page.
+The `item-figure.html` include adds a [Bootstrap](https://getbootstrap.com/docs/4.4/content/figures/){:target="_blank" rel="noopener"}-styled figure to the page.
 
-It requires that you give a value for one variable, **objectid**, and gives you the option to add three others. These are defined below.
+It requires that you give a value for one variable, **objectid**, and gives you the option to add three other options. 
+These are defined below.
 
 *Required*:
 - **objectid**: The objectid of an image in your collection
@@ -69,4 +73,4 @@ With only required variables:
 With additional optional variables:
 - `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption="false" %}{% endraw %}`
 
-The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `_includes/feature/` directory and open them to view a description of the variables they support. 
+The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `_includes/feature/` directory and open them to view a description of the options. 
