@@ -26,7 +26,7 @@ There are a number of tutorials on the web to learn more about Markdown (see Mar
 When you open the `about.md` file, you'll see that there is already one include command at the beginning of the file which is pulling in the page's jumbotron image: `{% raw %}{% include about/jumbotron.html %}{% endraw %}` (remember, you chose this image in the [theme.yml](theme.html#about) file). If you don't want the jumbotron on your About page, just delete this line of code.
 
 Alternately, if you'd like to add *more* visual features to the page we've made it easy to do this too, by including templated files.
-You'll find the files below in the `/_includes/feature/` directory:
+You'll find the files below in the `_includes/feature/` directory:
 - `alert.md`
 - `card.md`
 - `item-figure.html`
@@ -69,4 +69,4 @@ With only required variables:
 With additional optional variables:
 - `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption="false" %}{% endraw %}`
 
-The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `/_includes/feature/` directory and open them to view a description of the variables they support. 
+The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `_includes/feature/` directory and open them to view a description of the variables they support. 
