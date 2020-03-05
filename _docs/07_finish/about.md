@@ -67,6 +67,6 @@ With only required variables:
 - `{% raw %}{% include feature/item-figure.html objectid="demo_001" %}{% endraw %}`
 
 With additional optional variables:
-- `{% raw %}{% include feature/item-figure.html objectid="demo_001" with="50" float="left" caption="false" %}{% endraw %}`
+- `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption="false" %}{% endraw %}`
 
 The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `/_includes/feature/` directory and open them to view a description of the variables they support. 
