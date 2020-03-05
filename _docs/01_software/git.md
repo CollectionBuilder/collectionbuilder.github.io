@@ -49,7 +49,7 @@ Second, set your email so that it matches your GitHub email:
 {% capture commit %}
 Your email and user name is recorded with every commit.
 This helps ensure integrity and authenticity of the history.
-Most people keep their email public. However, if you are concerned about privacy, check GitHub's tips on how to [hide your email](https://help.github.com/articles/about-commit-email-addresses/){:target="_blank" rel="noopener"}.
+Most people keep their email public. However, if you are concerned about privacy, check GitHub's tips on how to [set up your email](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#about-commit-email-addresses){:target="_blank" rel="noopener"}. GitHub now provides a no-reply email address that can be accessed via your email settings on GitHub.com.
 {% endcapture %}
 {% include bootstrap/alert.md text=commit color="info" %} 
 {% endcapture %}

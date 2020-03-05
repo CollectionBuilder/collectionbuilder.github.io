@@ -16,7 +16,7 @@ Open the repository folder in your chosen text editor.
 Editors like VS Code or Atom open the full repository folder making it easier work on the files as a group and provide tools such as an integrated terminal. 
 (GitHub Desktop has a short cut "Open in text editor" available in the top bar)
 
-1. If the terminal section of VSCode is not open, use the keyboard shortcut `Ctrl` + \` &nbsp; (control + backtick) to open it. 
+1. If the terminal section of VSCode is not open, use the keyboard shortcut `Ctrl` + **\`** &nbsp; (control + backtick) to open it. Or click the View menu at the top of VS Code and scroll down to "Terminal."
 2. In the terminal, type the command `jekyll s` and press enter. This "jekyll serve" command will generate the site for you on a local server on your computer. 
 3. In the terminal you'll see some text appear, including a URL that appears after the title "Server address:"
 4. Hold down `Ctrl` and click this link to open the site in your browser.

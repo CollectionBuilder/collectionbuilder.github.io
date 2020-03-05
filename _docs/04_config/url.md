@@ -19,7 +19,7 @@ These variables should be defined based on the url you will use to serve your si
 - **baseurl**: Indicates the folders where your site will be located on your web server. 
 	- For example, if you have a project called "*pink-poodle*" that you plan to put in the "*projects*" folder on your website, you'd put `/projects/pink-poodle` down for this variable. 
 	- example --> `baseurl: /digital/boxing` 
-	- ***Note: Each of your collections will have a unique project name, so you will need to adjust the **baseurl** setting for each collection you build.***
+	- ***Note: Each of your collections will have a unique project name, so you will need to adjust the `baseurl` setting for each collection you build.***
 
 - **source-code**: Indicates the GitHub repository that hosts your CollectionBuilder code.
 	- example --> `source-code: https://github.com/CollectionBuilder`

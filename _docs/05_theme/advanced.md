@@ -94,7 +94,7 @@ These options change the way the fonts appear throughout your collection. If you
 - **base-font-family**: Changes the font family
 	- If it's a google family, you'll need to use the font-cdn option below to add the style sheet link to the site.
 	- example --> `base-font-family: Georiga; serif;`
-- **font-cdn**: This lets you add fonts from Google Fonts or other online resources provided by a content delivery network (cdn). These are typically provided by the service your using. 
+- **font-cdn**: This lets you add fonts from Google Fonts or other online resources provided by a content delivery network (cdn). These are typically provided by the service you are using. 
 	- example --> `font-cdn: <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">`
 
 {% endcapture %}
