@@ -46,31 +46,29 @@ Jekyll's include command is a really powerful feature that allows specific eleme
 {:.mt-4}
 ### Adding an image to the About Page
 
-The `item-figure.html` include adds a [Bootstrap](https://getbootstrap.com/docs/4.4/content/figures/){:target="_blank" rel="noopener"}-styled figure to the page.
+The `item-figure.html` include adds a [Bootstrap-styled figure](https://getbootstrap.com/docs/4.4/content/figures/){:target="_blank" rel="noopener"} to the page.
 
 It requires that you give a value for one variable, **objectid**, and gives you the option to add three other options. 
 These are defined below.
 
 *Required*:
-- **objectid**: The objectid of an image in your collection
-    - This will be used to grab the information for that image from the metadata spreadsheet. 
+
+- **objectid**: The objectid of an image in your collection that will be used to grab the information for that item from the collection metadata. 
     - example --> `objectid="demo_psychiana548"`
 
 *Optional*:
 - **width**: Uses Bootstrap sizing to set the image's percentage size.
-    - *Options*: "`25`", "`50`", "`75`", or "`100`"
+    - *Options*: `25`, `50`, `75`, or `100`
 - **float**: Uses Bootstrap float utility to float the image left or right. 
-    - *Options*: "`left`" or "`right`"
-- **caption**: Automatically includes the title of the item (as described in your metadata).
-    - This is on by default, so you don't need to add this variable to your include command if you want the caption to display.
-    - If you'd like to turn the caption off, simply insert the value "`false`"
+    - *Options*: `left` or `right`
+- **caption**: By default the figure include automatically adds the title of the item from your metadata. This option is used *only* if you would like to override the default title. To replace the title, you can either add the text for an alternative caption *or* give the value `false` to not include any caption.
+    - To manually set the caption, provide the text, e.g. `caption="Example caption"`
+    - If you'd like to turn the caption off use `caption=false`
 
-All values should be wrapped in quotation marks. See the examples below:
-
-With only required variables:
+For example, adding a figure with only required variables:
 - `{% raw %}{% include feature/item-figure.html objectid="demo_001" %}{% endraw %}`
 
 With additional optional variables:
-- `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption="false" %}{% endraw %}`
+- `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption=false %}{% endraw %}`
 
 The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `_includes/feature/` directory and open them to view a description of the options. 
