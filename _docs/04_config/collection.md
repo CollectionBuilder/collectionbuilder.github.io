@@ -32,7 +32,8 @@ Page Generation Settings
 {% endcapture %}
 
 {% capture pagegen-text %}
-**For CDM and SA users**: The following 'Page Gen' variables are used by a Ruby Gem within the repository that builds individual html pages for each item (row) in your collection's metadata (CSV):
+**For CDM and SA users**: The following variables are used by the "Page Gen" plugin included with CollectionBuilder.
+The plugin generates individual HTML pages for each item (row) in your collection's metadata (CSV):
 
 {:.pt-1}
 - **data**: The name of your metadata file. 
@@ -42,13 +43,13 @@ Page Generation Settings
 {:.typefilter .alert .alert-warning}
 **Important! -->** **CDM and SA Users**, you *must* change the data field in 'Page Gen' to reflect the metadata CSV the collection is using. ***This should be the same entry as "metadata" above***.
 
-"Data" is the only field you need to change. Leave the following fields the way they are in the _config.yml template you downloaded:
+"Data" is the only field you need to change. Leave the following fields the way they are in the default _config.yml template you downloaded:
 
 - **template**: The layout of the pages generated. 
 	- CollectionBuilder entry --> `items`
 
 - **name**: Determines how the url will be written. For CollectionBuilder, we use is the "*objectid*" metadata field to generate the url.
-	- CollectionBulider entry --> `objectid`
+	- CollectionBuilder entry --> `objectid`
 
 - **dir**: Determines the directory or folder in which the item pages are stored when the site is built. 
 	- CollectionBuilder entry --> `items`
@@ -57,7 +58,7 @@ Page Generation Settings
 	- CollectionBuilder entry --> `html`
 
 {:.alert}
-'Page Gen' is enabled by a Ruby Gem created by Adolfo Villafiorita called [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen). Thank you Adolfo!
+"Page Gen" used by CollectionBuilder is a modified version of the Jekyll plugin [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) created by Adolfo Villafiorita. Thank you Adolfo!
 
 {% endcapture %}
 
