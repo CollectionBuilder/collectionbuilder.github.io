@@ -1,8 +1,6 @@
 ---
 title: Overview
 stub: intro
-section: advanced
-section_order: 0
 ---
 
 If we get this far during the workshop, you all must have been amazing. That was a LOT of content. 
