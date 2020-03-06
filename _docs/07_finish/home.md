@@ -16,32 +16,30 @@ To access the content on this page, you'll need to locate the `home-infographic.
 Just like the About page, the Home page is composed of a number of include commands, arranged in three [Bootstrap columns](https://getbootstrap.com/docs/4.0/layout/grid/){:target="_blank" rel="noopener"}:
 
 
-```
 {% raw %}
-<div class="col-md-8">
+    <div class="col-md-8">
 
-{% include index/description.html %}
-{% include index/carousel.html%}
+    {% include index/description.html %}
+    {% include index/carousel.html%}
 
-</div>
-<div class="col-md-4">  
+    </div>
+    <div class="col-md-4">  
 
-{% include index/time.html %}
+    {% include index/time.html %}
 
-{% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
+    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
 
-{% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" featured=site.data.theme.featured-locations max=site.data.theme.featured-locations-max %}
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" featured=site.data.theme.featured-locations max=site.data.theme.featured-locations-max %}
 
-{% include index/objects.html %}
+    {% include index/objects.html %}
 
-</div>
-<div class="col-md-12">
+    </div>
+    <div class="col-md-12">
 
-{% include index/data-download.html %}
+    {% include index/data-download.html %}
 
-</div>
+    </div>
 {% endraw %}
-```
 
 {:.mt-4}
 <div class="row">
