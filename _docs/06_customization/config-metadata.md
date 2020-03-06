@@ -10,27 +10,34 @@ section_order: 2
 
 ## Metadata / Item Page Configuration (config-metadata.csv)
 
-The most important CSV (if you're measuring by the number of pages it creates!) is the one that controls the metadata. The `config-metadata.csv` controls how an item's metadata is displayed on its web page. 
+The most important CSV (if you're measuring by the number of pages it creates!) is the one that controls the metadata. 
+The `config-metadata.csv` controls how an item's metadata is displayed on its web page, as well as configuring the machine-readable meta markup in the underlying code. 
+The columns are described below: 
 
-The file provides a number of options to help control the display of the item's metadata, as well as the machine-readability/SEO indexing characteristics of the code underneath the display. The fields are described below: 
-
-- **field**: 
-This variable corresponds to the field listed in the metadata for the collection. For instance, if you have a metadata field called "original-collection," you would put "original-collection" here. 
+- **field**: This variable corresponds to the field listed in the metadata for the collection. For instance, if you have a metadata field called "original-collection", you would put `original-collection` here. 
 - **display_name**: This variable is how you'd like the field to be described on the item page. So, using the example above, if you'd like the field "original-collection" to appear as "Original Archival Collection" on the item page, you'd enter "Original Archival Collection" in the second column.
 - **browse_link**: 
     - *Options*: `true` or leave blank. 
-    - You can either enter `true` in this column, or leave it blank. This option controls whether this element will be represented as a link from the item page back to the browse page. It is most useful for those fields, like "subject," that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the fourth column of the `config-metadata.csv`  
-{% include bootstrap/alert.md text="**GH Users, please note**: 'browse_link' is included in **GH's config-metadata.csv**, but **does not work yet**. This capability will be implemented for GH in the future." color="warning" %}
+    - This option controls if the element will be represented as a link from the item page back to the Browse page. It is most useful for those fields, like "subject", that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the third column of the `config-metadata.csv`  
+    - *Note: this option is not currently implemented in GH*
 
-*The options below this point are important for making your items as machine readable as possible, which makes them more discoverable by search engines. However, they are not necessary to make the collection itself work.* 
+The options below this point are used by **CDM and SA only**, and are not necessary to make the collection itself work and will not affect the display.
+However, configuring these options adds rich machine readable markup to each item page, making your objects more discoverable by search engines.
 
 - **dc_map**: 
-    - *Options*: [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), written like `DC.the_term_you_choose_from_the_site_linked`
-    - If you'd like to map this piece of metadata so that it will be machine readable in the code for the page, you can enter the Dublin Core metadata field you'd like it to be represented as here. So, continuing with our original example, if you'd lke to map the "original-collection" field to be read as a Dublin Core Source element, you'd enter "DC.source" in the third column.
+    - *Options:* the prefix `DCTERMS` plus a property name from the [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/){:target='_blank' rel='noopener'} namespace, written like: `DCTERMS.term_from_terms_namespace`
+    - This option allows you to map your metadata field to a Dublin Core property to be added in machine readable meta markup. So, continuing with our example, if you'd lke to map the "original-collection" field to be read as a [Dublin Core Source](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source){:target='_blank' rel='noopener'}, you'd enter `DCTERMS.source` in the third column.
+    - Recommended fields to map include: 
+        - `DCTERMS.title`
+        - `DCTERMS.creator`
+        - `DCTERMS.created`
+        - `DCTERMS.description`
+        - `DCTERMS.subject`
+        - `DCTERMS.type`
 - **schema_map**:
-    - [Schema](https://schema.org/) is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. Item pages have in depth Schema markup in JSON-LD format driven by the object metadata. 
-    - See the [Full Schema hierarchy](https://schema.org/docs/full.html) for more detail and options. Each item page is given the basic type of `CreativeWork`, thus metadata fields can be mapped to any of the properties listed on the [CreativeWork documentation](https://schema.org/CreativeWork). Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
-    - *Options*: Suggested field mappings include:
+    - *Options:* any property name from Schema [CreativeWork](https://schema.org/CreativeWork){:target='_blank' rel='noopener'} type. Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
+    - [Schema](https://schema.org/){:target='_blank' rel='noopener'} is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. This option allows you to add Schema markup in JSON-LD format to item pages driven by the object metadata.  
+    - Recommended fields to map include:
         - `headline` (i.e. the title)
         - `creator`
         - `dateCreated`
@@ -45,19 +52,18 @@ This variable corresponds to the field listed in the metadata for the collection
 {:.p-4 .bg-light .mb-4}
 ```
 field,display_name,browse_link,dc_map,schema_map
-title,Title,,DC.title,headline
-creator,Creator,,DC.creator,creator
+title,Title,,DCTERMS.title,headline
+creator,Creator,,DCTERMS.creator,creator
 date,Date Created,,DCTERMS.created,dateCreated
 date-is-approximate,Approximated Date
-description,Description,,DC.description,description
-subject,Subjects,true,DC.subject,keywords
+description,Description,,DCTERMS.description,description
+subject,Subjects,true,DCTERMS.subject,keywords
 location,Location,true,,contentLocation
 identifier,Source Identifier
-type,Type,,DC.type
+type,Type,,DCTERMS.type
 format,Format,,,encodingFormat
-rightsstatement,,,DC.rights,license
+rightsstatement,,,DCTERMS.rights,license
 ```
-
 
 **Browse Links** 
 
@@ -67,4 +73,4 @@ In the case of this example, only the location and subject fields have a value (
 
 The title, creator, date, description, subject, and type fields in the above example all have a `dc_map` variable, so each of them would  be represented in the item page's <head> meta section in a way that follows the Dublin Core schema to enable better machine readability and indexing.
 
-Similarly, the title, creator, date, description, subject, location, format, and rightstatement fields all have a `schema_map` entry, so each of these would be represented in an item page's <head> meta section in a way that follows Schema.org recommendations in order to enable better machine readability and indexing.  
+Similarly, the title, creator, date, description, subject, location, format, and rightstatement fields all have a `schema_map` entry, so each of these would be represented in an item page's <head> meta section in a way that follows Schema.org recommendations in order to enable better machine readability and indexing.
