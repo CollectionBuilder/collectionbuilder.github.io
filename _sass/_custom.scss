@@ -6,6 +6,14 @@ body{
 .text-dark{
     color:black;
 }
+div.highlighter-rouge {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: .25em;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /* header */
 #cb-nav-brand {
     :hover { text-decoration: none; }
