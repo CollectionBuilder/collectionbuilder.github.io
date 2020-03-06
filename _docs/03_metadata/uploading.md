@@ -48,9 +48,9 @@ For CDM and SA Users
 </div>
 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 <div class="card-body" markdown="1">
-1. Open your CollectionBuilder repository in Visual Studio Code (see the [GitHub](repository.html) instructions page if you need a refresher on how to do this).
-2. Open your File Explorer (PC) or Finder (Mac) and locate the CSV you just downloaded and renamed (it's probably in your "Downloads" folder). 
-3. Drag and drop this file into the repository you have open in Visual Studio Code, making sure to drop it directly into the `_data` directory. 
+1. Locate the CSV you just downloaded and renamed (it's probably in your "Downloads" folder) in your File Explorer / Finder
+2. Copy (or drag and drop) the metadata file into your CollectionBuilder project repository's "_data" directory (your repository is probably in your Documents > GitHub folder). 
+3. Commit the new metadata using Git or GitHub Desktop.
 </div>
 </div>
 </div>
