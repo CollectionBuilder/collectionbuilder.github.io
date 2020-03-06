@@ -15,7 +15,6 @@ To access the content on this page, you'll need to locate the `home-infographic.
 
 Just like the About page, the Home page is composed of a number of include commands, arranged in three [Bootstrap columns](https://getbootstrap.com/docs/4.0/layout/grid/){:target="_blank" rel="noopener"}:
 
-
 {% raw %}
     <div class="col-md-8">
 
