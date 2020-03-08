@@ -43,7 +43,7 @@ As one examines these collections more closely, we feel that one can get a large
 
 ### Methodology
 
-We call the methodology we use to build CollectionBuilder Lib-STATIC. We've created [a little website to document the ideas that inform this approach](https://libstatic.github.io). 
+We call the methodology we use to build CollectionBuilder Lib-STATIC. We've created [a little website to document the ideas that inform this approach](https://lib-static.github.io/). 
 
 Basically, we believe that the systems libraries have been locked into, particularly concerning digital collections, serve neither the librarians/GLAM professionals that maintain them and prepare their content nor the collections we are trying to promote using them. 
 
