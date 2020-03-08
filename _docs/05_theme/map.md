@@ -11,8 +11,6 @@ section_order: 7
 <div class="row" markdown="1">
 ## Map Page
 
-{% include bootstrap/image.md img="/theme/map.jpg" %}
-
 - **latitude**: Determines the center of map.
 	- example --> `latitude: 46.727485 `
 

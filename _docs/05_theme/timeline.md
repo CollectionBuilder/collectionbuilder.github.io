@@ -12,8 +12,6 @@ section_order: 8
 ## Timeline Page
 The Timeline page represents each year as a row and each corresponding item as a thumbnail. This section will let you determine which years are in the **dropdown button** at the top right of the Timeline page. This button allows a user to jump down the page.
 
-{% include bootstrap/image.md img="/theme/timeline.jpg" %}
-
 - **year-navigation**: Sets the years to appear in Timeline dropdown nav. 
 	- *Tip*: If left blank, these will auto-generate. (We recommend leaving this blank.)
 	- example --> `year-navigation: 1900;1905;1910;1915;1920`

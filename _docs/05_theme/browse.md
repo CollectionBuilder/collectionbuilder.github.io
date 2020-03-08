@@ -10,6 +10,4 @@ section_order: 3
 
 ## Browse Page
 
-{% include bootstrap/image.md img="/theme/browse.jpg" %}
-
 See our [Customizations page](customize.html) and the `config-browse.csv` in the **_data** folder to configure the Browse page.

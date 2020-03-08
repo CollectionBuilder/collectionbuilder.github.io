@@ -11,8 +11,6 @@ section_order: 6
 
 ## Locations Page
 
-{% include bootstrap/image.md img="/theme/locations.jpg" %}
-
 This page functions exactly as the Subjects page does. 
 
 - **locations-fields**: Choose metadata fields from your collection metadata CSV to be included in the Locations page tag cloud.

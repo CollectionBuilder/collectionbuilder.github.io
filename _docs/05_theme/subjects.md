@@ -10,8 +10,6 @@ section_order: 5
 
 ## Subjects Page
 
-{% include bootstrap/image.md img="/theme/subjects.jpg" %}
-
 - **subjects-fields**: Choose metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
 	- Multiple fields must be separated by a semi-colon(`;`)
 	- example --> `subjects-fields: subject;creator`

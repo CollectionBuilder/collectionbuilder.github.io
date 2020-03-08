@@ -10,9 +10,6 @@ section_order: 9
 
 ## Data Download
 
-{% include bootstrap/image.md img="/theme/data.jpg" %}
-
-
 - **metadata-export-fields**: A list of metadata fields available for export via data downloads.
 	- If you'd like all your fields included, paste in the first row of your collection's CSV
 	- This variable determines what metadata will be made available for download via the 'Download Data' options on the Home page and on the Data page.

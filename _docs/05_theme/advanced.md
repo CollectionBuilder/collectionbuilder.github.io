@@ -14,8 +14,6 @@ section_order: 10
 
 ## Images 
 
-{% include bootstrap/image.md img="/theme/images.jpg" %}
-
 {% capture image-card %}
 
 <div class="row" markdown="1">
@@ -51,8 +49,6 @@ The percentage must be 10% or greater.
 ***
 
 ## Bootstrap Themes
-
-{% include bootstrap/image.md img="/theme/advanced.jpg" %}
 
 {% capture navbar %}
 ### Navbar Options:
