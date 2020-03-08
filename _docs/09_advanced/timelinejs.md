@@ -12,11 +12,11 @@ section_order: 1
 [TimelineJS](http://timeline.knightlab.com/) is an open source timeline builder that creates an interactive timeline based on underlying data. We've incorporated the TimelineJS code into CollectionBuilder in order to offer this feature. 
 
 {:.alert .alert-warning}
-Currently, the timelinejs feature will create a timeline based on your entire collection metadata file by default. **This will likely be too large for it to work well.** Below we detail ways to further customize and curate your timeline 
+Currently, the timelinejs feature will create a timeline based on your entire collection metadata file by default. **This will likely be too large for it to work well.** Below we detail ways to further customize and curate your timeline. 
 
 #### Step 1: Including TimelineJS on a page
 
-There are three basic options for including a TimelineJ feature. The instructions below detail those options. 
+There are three basic options for including a TimelineJS feature. The instructions below detail those options. 
 
 
 <div id="accordion" class="mb-4">
@@ -104,7 +104,7 @@ This method will use a new data sheet to create a curated timeline by only listi
 2. Add a column called "headline" right before the "title" column
 3. Add new headlines to those items you'd like included on a timeline (or simply copy and paste the current title into the new cell)
 4. Save the file as a CSV and rename it "timelinejs.csv" 
-5. Add this CSV to your /data/ directory.
+5. Add this CSV to your `_data` directory.
 6. Open the timelinejs.json file, which can be found in the /data/ directory.
 7. Edit the first line so that it reads --> `{% raw %}{%- assign items = site.data.timelinejs | where_exp: "item","item.headline" -%}{% endraw %}`
 
