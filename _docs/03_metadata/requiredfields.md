@@ -14,7 +14,7 @@ Without values in the fields below, CollectionBuilder will not work properly.
 
 - **objectid**:
     - This is the field that CollectionBuilder uses to identify each object. This should be a unique string with no spaces or special characters as it will used to form the item's URL. Underscores (`_`) are okay; **slashes (`/`) should NOT be used in this field**.
-    - Example value: `coll_002`
+    - Example value: `coll002`
 - **title**: 
     - The title field is used to indicate the name of an item. This should be a short, descriptive set of words that identify the item. Each item may only have one title.
     - Example value: `Haystack Rock`
@@ -44,7 +44,7 @@ Without values in the fields below, CollectionBuilder will not work properly.
 
 {:.cdm .typefilter}    
 - **cdmid** (for CONTENTdm skin):
-    - This is the unique identification number assigned to the item by CONTENTdm. For convenience, we generally make this should correspond with the number in the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
+    - This is the unique identification number assigned to the item by CONTENTdm. For convenience, we generally make this correspond with the number in the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
     - Example value: `142`
 
 ***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.*
