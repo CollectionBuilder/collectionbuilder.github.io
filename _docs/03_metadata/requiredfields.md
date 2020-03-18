@@ -44,7 +44,7 @@ Without values in the fields below, CollectionBuilder will not work properly.
 
 {:.cdm .typefilter}    
 - **cdmid** (for CONTENTdm skin):
-    - This is the unique identification number assigned to the item by CONTENTdm. For convenience, we generally make this correspond with the number in the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
+    - This is the unique identification number assigned to the item by CONTENTdm (the field titled "CONTENTdm number" in your exported metadata). For convenience, we generally make this correspond with the number in the item's objectid (ex. objectid: `coll002`, cdmid: `2`), but this correspondence is not necessary for CollectionBuilder to work.
     - Example value: `142`
 
 ***At this time, CONTENTdm's compound objects are not supported in CollectionBuilder.*** *If you have a compound object, link to it as a complete pdf.*
