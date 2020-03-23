@@ -22,7 +22,7 @@ Over the course of our years designing digital collection interfaces, it has bec
 
 CollectionBuilder uses static web technologies to build digital collection and exhibit pages from metadata. The tool generates item pages and all its visualizations and browsing features from a metadata spreadsheet and config and theme files.
 
-The tool uses 5 main components: 
+The tool uses 4 main components: 
 
 1. [Jekyll](https://jekyllrb.com/) - a static website builder (i.e. NO SERVERS!!!) that builds websites from data files using the [Liquid](https://shopify.github.io/liquid/basics/introduction/) templating language (which you don't need to know, but which is easily readable and usable) and [Markdown](https://en.wikipedia.org/wiki/Markdown) files for content
 2. [Git/GitHub](https://github.com/) - a way to collaborate, track changes, and import pre-built services
@@ -51,7 +51,7 @@ CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches 
 
 ### How It Works for Us
 
-We use CollectionBuilder to build our digital collections on top of our CONTENTdm instance. To do this, we use the tool together with a Git-Based Workflow. Basically, within our own CollectionBuilder-CONTENTdm repository, there is a "master" branch of CollectionBuilder from which we create specific branches to build our individual collections. The trajectory looks like this: 
+We use CollectionBuilder to build our digital collections on top of our CONTENTdm instance. To do this, we use the tool together with a Git-Based Workflow. Within our own CollectionBuilder-CONTENTdm repository, there is a "master" branch of CollectionBuilder from which we create specific branches to build our individual collections. The trajectory looks like this: 
 
 1. Create a new branch for a collection from our master CollectionBuilder-contentdm repository
 2. Export collection metadata from CONTENTdm as a .tsv file
@@ -84,16 +84,20 @@ The grant also provides funds for us to embed ourselves into several academic li
 - **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.
 - **Contribute** - If you take to the static web development model and would like to provide contributions of your own to our tool, we would LOVE to work with you and incorporate any contributions you might make. We have a [code of conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/CODE_OF_CONDUCT.md) for contributors.
 
-<!--
-***Current Partners***
-
+<div class="row">
+<div class="col-md-4" markdown="1">
+{:.text-center}
+{% include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@uidaho.edu) for more information." %}
+</div>
+<div class="col-md-8" markdown="1">
+{% include bootstrap/card.md text="
 - [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
-- [New Collection of Florida Digital Collections](http://ncf.sobek.ufl.edu/archives)
--->
-
-{%include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@uidaho.edu) for more information."%}
+- [New College Digital Collections](http://ncf.sobek.ufl.edu/archives) (New College of Florida)" header="Current CollectionBuilder Partners:" %}
+</div>
+</div>
 
 Our highest hope for this project is to enable a small army of librarians to develop the type of tools and sites that keep the GLAM professionals in control and not subservient to bloated infrastructures and/or third-party contracts. We hope you will feel drawn to help us build that community. 
+
 
 ---
 {:#people}
