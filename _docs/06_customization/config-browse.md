@@ -14,7 +14,7 @@ The Browse page displays each item in the collection as a "card," which is a des
 
 So, for instance, if on the Subjects page, you clicked a button for "Forests," you would actually be clicking a link whose url ended as "browse.html#forests." The Browse page would take anything after the hashtag ('#') and filter the collection's cards by it. 
 
-The Browse page configuration CSV allows you to control which metadata appears on a card for each item. Title and date (if it's there) appear automatically. After that, you can add whatever metadata you'd like, as well as determine how that metadata will be displayed. 
+The Browse page configuration CSV allows you to control which metadata appears on a card for each item. Title appears on the card automatically. After that, you can add whatever metadata you'd like to the csv, as well as determine how that metadata will be displayed. 
 
 - **field**: Selects the field from your metadata CSV.
 - **display_name**: Determines the field name as it is displayed to users.
