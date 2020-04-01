@@ -28,7 +28,7 @@ layout: default
         <a href="{{ '/docs/introduction.html' | relative_url }}" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
         <a href="{{ type.link }}" class="btn my-4 btn-lg btn-secondary col-9">GitHub Repository</a>
         {% elsif type.link %}
-        <a href="https://collectionbuilder.github.io/collectionbuilder-gh/documentation/" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
+        <a href="{{ '/docs/introduction.html' | relative_url }}" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
         <a href="{{ type.link }}" class="btn my-4 btn-lg btn-secondary col-9">GitHub Repository</a>
         {% else %}
         Stand Alone Version is in development!
