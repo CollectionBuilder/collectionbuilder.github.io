@@ -49,7 +49,7 @@ Home Page Features:
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
 	- If left blank, automatically generates top 5 subjects. (We typically leave it blank.)
-	- To customize, list your own curated subjects. Separate multiple subjects with a semi-colon(';'). 
+	- To customize, list your own curated subjects. Separate multiple subjects with a semicolon(';'). 
 	- example --> `featured-subjects: corn;soy;basketball`
 
 - **featured-subjects-max**: Sets number of top subjects to display if **featured-subjects** is auto-generated
@@ -58,7 +58,7 @@ Home Page Features:
 
 - **featured-locations**: Generates home page "location" buttons for select locations.
 	- If left blank, automatically generates top 5 locations.  
-	- To customize, list your own curated locations. Separate multiple locations with a semi-colon(';'). 
+	- To customize, list your own curated locations. Separate multiple locations with a semicolon(';'). 
 	- example --> `featured-locations: University of Idaho; Sacramento, California;`
 
 - **featured-locations-max**: Sets number of top locations to display if **featured-locations** is auto-generated

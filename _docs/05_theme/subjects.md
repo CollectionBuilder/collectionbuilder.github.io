@@ -11,7 +11,7 @@ section_order: 5
 ## Subjects Page
 
 - **subjects-fields**: Choose metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `subjects-fields: subject;creator`
 	- When this field is left blank, subjects will not be generated and the tag cloud on the Subjects page will be blank. 
 	- ***Important note:*** You must also remove the "Subjects" line from the [_data/config-nav.csv](customize#config-nav) in order to remove the Subjects page from the site completely.
@@ -22,5 +22,5 @@ section_order: 5
 	- example --> `subject-min: 4`
 
 - **subjects-stopwords**: A set of words/phrases to be removed from the tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `stopwords: boxers;boxing;boxer`

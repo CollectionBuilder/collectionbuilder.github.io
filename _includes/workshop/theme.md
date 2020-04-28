@@ -56,7 +56,7 @@ Home Page Features:
 
 - **featured-subjects**: Generates home page "subject" buttons for select subjects.
 	- If left blank, automatically generates top 5 subjects. 
-	- To customize, list your own curated subjects. Separate multiple subjects with a semi-colon(';'). 
+	- To customize, list your own curated subjects. Separate multiple subjects with a semicolon(';'). 
 	- example --> `featured-subjects: corn;soy;basketball`
 
 - **featured-subjects-max**: Sets number of top subjects to display if **featured-subjects** is auto-generated
@@ -65,7 +65,7 @@ Home Page Features:
 
 - **featured-locations**: Generates home page "location" buttons for select locations.
 	- If left blank, automatically generates top 5 locations. 
-	- To customize, list your own curated locations. Separate multiple locations with a semi-colon(';'). 
+	- To customize, list your own curated locations. Separate multiple locations with a semicolon(';'). 
 	- example --> `featured-locations: University of Idaho; Sacramento, California;`
 
 - **featured-locations-max**: Sets number of top locations to display if **featured-locations** is auto-generated
@@ -164,7 +164,7 @@ Home Page Features:
 	- example --> `subjects-off: false`
 
 - **subjects-fields**: Chooses metadata fields from your collection metadata CSV to be included in the Subjects page tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `subject;creator`
 
 - **subjects-min**: Minimum number of times a subject term must appear before being displayed in the tag cloud. 
@@ -173,7 +173,7 @@ Home Page Features:
 	- example --> `subject-min: 4`
 
 - **subjects-stopwords**: A set of words/phrases to be removed from the tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `stopwords: boxers;boxing;boxer`
 {% endcapture %}
 
@@ -203,7 +203,7 @@ This page functions exactly as the Subjects page does.
 	- example --> `locations-off: false`
 
 - **locations-fields**: Chooses metadata fields from your collection metadata CSV to be included in the Location page tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `location;stadium`
 
 - **locations-min**: Minimum number of times a location term must appear before being displayed in the tag cloud. 
@@ -212,7 +212,7 @@ This page functions exactly as the Subjects page does.
 	- example --> `location-min: 1`
 
 - **locations-stopwords**: A set of words/phrases to be removed from the tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `stopwords: Moscow;Pullman`
 {% endcapture %}
 

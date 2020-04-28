@@ -67,7 +67,7 @@ The most important CSV (if you're measuring by the number of pages it creates!) 
     format original,Original Format
     format,Format
 
-- All fields in the above would be textual, save for the location and subject fields, which would create filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semi-colon in that field. 
+- All fields in the above would be textual, save for the location and subject fields, which would create filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semicolon in that field. 
 
 - The title, creator, data, description, subject, collection, type, and format fields would all be represented in the web page's "head" meta section related to the Dublin Core schema to enable better machine readability and indexing.   
  

@@ -68,7 +68,7 @@ rightsstatement,,,DCTERMS.rights,license
 
 **Browse Links** 
 
-In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each individual subject and location term (delimited by semi-colon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
+In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each individual subject and location term (delimited by semicolon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
 
 **Dublin Core and Schema Markup** 
 

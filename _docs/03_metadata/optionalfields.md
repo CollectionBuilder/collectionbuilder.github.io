@@ -15,7 +15,7 @@ The rest of the fields in the CollectionBuilder metadata template are not requir
 {% include bootstrap/alert.md color="info" text="CollectionBuilder can accommodate any field you include in your metadata once you customize your site. For example, you can display any field on item pages or on the Browse page. See the [Metadata](customize.html#config-metadata) and [Browse](customize.html#config-browse) customization sections for more information. "%}
 
 - **creator**:
-    - The creator property designates an entity primarily responsible for making the resource. Multiple creators may be input, as long as each is separated by a semi-colon (`;`).
+    - The creator property designates an entity primarily responsible for making the resource. Multiple creators may be input, as long as each is separated by a semicolon (`;`).
     - Example value: `Smith, John` or `Smith, John; Doe, Jane`
 - **description**:
     - The description should be a brief account of the object. Each object should only have one description.
@@ -27,7 +27,7 @@ The rest of the fields in the CollectionBuilder metadata template are not requir
     - The identifier field is used to preserve the unique identifier assigned to the object by the object's (usually physical) source collection.
     - Example value: `ARG-02-16-1993`
 - **type**:
-    - An object's type distinguishes between types of image, sound, text, etc. using a one- or two-value input. At minimum, the input should contain a value chosen from the [DCMI Type Vocabulary](https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/2003-02-12/){:target="_blank" rel="noopener"}. If using a second value, the second value does not need to relate to a controlled vocabulary, but should give further specification of the object type. The two values in a pair should be separated by a semi-colon (`;`). See examples below.
+    - An object's type distinguishes between types of image, sound, text, etc. using a one- or two-value input. At minimum, the input should contain a value chosen from the [DCMI Type Vocabulary](https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/2003-02-12/){:target="_blank" rel="noopener"}. If using a second value, the second value does not need to relate to a controlled vocabulary, but should give further specification of the object type. The two values in a pair should be separated by a semicolon (`;`). See examples below.
     - Example value: `Image;StillImage`, `Image;MovingImage`, `Text`, `Sound`
 - **language**: 
     - This field indicates the language associated with the object. Recommended best practice is to use a controlled vocabulary such as the [ISO 639-2 Codes for the Representation of Names and Languages](http://www.loc.gov/standards/iso639-2/php/code_list.php){:target="_blank" rel="noopener"} to designate language tags.

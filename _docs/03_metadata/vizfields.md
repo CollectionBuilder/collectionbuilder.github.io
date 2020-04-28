@@ -33,12 +33,12 @@ CollectionBuilder uses these fields to generate contextual visualizations, inclu
     - (Dates in a `mm/dd/yyyy` format will also work)
 - **subject**:
     - The subject field contains topic(s) related to the item. 
-    - This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). 
+    - This field allows for multiple subjects to be input for a single record. Each should be separated with a semicolon (`;`). 
     - See the [Subjects](theme.html#subjects-page) section for more information.
     - Example value: `Dogs; Cats; Zebras`
 {%include bootstrap/alert.md color="warning ml-4 font-small" text="*Note:* This field needs to be named **_'subject' (not 'subjects')_** for many default features in CollectionBuilder to work. Data in this field will create the word cloud that allows users to visualize the frequency of subjects used within the collection."%}
 - **location**: 
-    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
+    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semicolon (`;`).
     - Example value: `Pullman, Washington; Moscow, Idaho`
 
 {%include bootstrap/alert.md color="success ml-4 font-small" text="**If your metadata does not have map coordinates**, but you would like to experience CollectionBuilder's map visualization, we've created a [demo list of latitudes and longitudes](https://docs.google.com/spreadsheets/d/1eSj7zfthuc7-ntdnZLqNYETxVa5Z55YK8BPPao53-6w/edit?usp=sharing){:target='_blank' rel='noopener'} that you can add to your data just for practice."%}
