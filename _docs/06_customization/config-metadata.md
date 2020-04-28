@@ -34,6 +34,7 @@ However, configuring these options adds rich machine readable markup to each ite
         - `DCTERMS.description`
         - `DCTERMS.subject`
         - `DCTERMS.type`
+        - `DCTERMS.rights`
 - **schema_map**:
     - *Options:* any property name from Schema [CreativeWork](https://schema.org/CreativeWork){:target='_blank' rel='noopener'} type. Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
     - [Schema](https://schema.org/){:target='_blank' rel='noopener'} is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. This option allows you to add Schema markup in JSON-LD format to item pages driven by the object metadata.  
@@ -67,7 +68,7 @@ rightsstatement,,,DCTERMS.rights,license
 
 **Browse Links** 
 
-In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each indivdual subject and location term (delimited by semi-colon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
+In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each individual subject and location term (delimited by semi-colon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
 
 **Dublin Core and Schema Markup** 
 
