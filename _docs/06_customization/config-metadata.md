@@ -18,8 +18,7 @@ The columns are described below:
 - **display_name**: This variable is how you'd like the field to be described on the item page. So, using the example above, if you'd like the field "original-collection" to appear as "Original Archival Collection" on the item page, you'd enter "Original Archival Collection" in the second column.
 - **browse_link**: 
     - *Options*: `true` or leave blank. 
-    - This option controls if the element will be represented as a link from the item page back to the Browse page. It is most useful for those fields, like "subject", that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the third column of the `config-metadata.csv`  
-    - *Note: this option is not currently implemented in GH*
+    - This option controls if the element will be represented as a link from the item page back to the Browse page. It is most useful for those fields, like "subject", that often contain multiple values (separated by a semicolon). So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the third column of the `config-metadata.csv`
 
 The options below this point are used by **CDM and SA only**, and are not necessary to make the collection itself work and will not affect the display.
 However, configuring these options adds rich machine readable markup to each item page, making your objects more discoverable by search engines.
