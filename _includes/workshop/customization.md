@@ -1,6 +1,6 @@
  Refer to the [.theme.yml section](theme.html) for more information about customizing the various pages in your collection. 
 
-The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma separated values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using excel, Google Sheets, or another spreadsheet program. 
+The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma separated values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using Google Sheets or another spreadsheet program (that supports UTF-8 encoding).
 
 - [Navigation Header Configuration](#config-nav) (config-nav.csv)
     - configure the navigation links in the header
