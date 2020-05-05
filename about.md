@@ -79,7 +79,7 @@ Most of our collections have been built using this method in the past six months
 {:#grant}
 ## The Grant
 
-We are currently being funded by the Institute for Museum and Library Services (IMLS) to build, document, and promote CollectionBuilder. We hope in doing so to lay out a model for building other tools that might eventually replace other systems libraries are locked into (Lib-Guides, anyone?). 
+We are currently being funded by the Institute for Museum and Library Services (IMLS) to build, document, and promote CollectionBuilder. We hope in doing so to lay out a model for building other tools in a similar manner. 
 
 This year's grant will let us fine-tune CollectionBuilder through our own development and through the hiring of a developer. It will also help us to develop the type of promotional materials, documentation, and other products that should help us spread the word about the tool and make it easy to adopt and use. 
 
