@@ -34,6 +34,8 @@ The tool uses 4 main components:
 3. [Bootstrap 4](https://getbootstrap.com/) - a CSS/Javascript Package for easier development
 4. Data Files - We use [Comma Separated Values (CSV) files](https://en.wikipedia.org/wiki/Comma-separated_values) that are just simple version of a spreadsheet and text files written in [YAML (.yml)](https://en.wikipedia.org/wiki/YAML), which are basically lists formatted in a specific fashion.
 
+Metadata visualizations are built using open source libraries such as [DataTables](https://datatables.net/), [Leafletjs](http://leafletjs.com/), [lightGallery](http://sachinchoolur.github.io/lightGallery/), [TimelineJS](https://timeline.knightlab.com/), [FontAwesome](https://fontawesome.com/), [lazysizes](https://github.com/aFarkas/lazysizes), and [Lunr.js](https://lunrjs.com/).
+
 ### Design Concept
 
 {% include bootstrap/image.md class="col-md-8 float-right ml-3 my-2" img="dlf-presentation.jpg"%}
