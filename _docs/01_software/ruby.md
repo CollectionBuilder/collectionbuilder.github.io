@@ -49,22 +49,23 @@ To do this, follow the instructions below, which outline the steps to install Ru
 
 2. **Install rbenv**
     - Copy and paste the command `brew install rbenv` into your terminal prompt and press `Enter`. This installation might take a while.
+    - Once rbenv has been installed, copy and paste `rbenv init` into the terminal prompt and press `Enter`. 
     - The program will ask you to edit your bash profile. To do this, follow these instructions:
         - Open your bash profile with the terminal's text editor, nano, by copying and pasting  `nano ~/.bash_profile` into the terminal prompt and pressing `Enter`. 
         - Your terminal should switch to a nano text editor screen that includes a path to .bash_profile at the top. 
         - Use the down arrow on your keyboard to move to the end of the text file.
-        - Paste `eval "$(rbenv init -)` at the end of the profile's text.
+        - Paste `eval "$(rbenv init -)"` at the end of the profile's text.
         - Press `Control` + `x` to exit and save the profile. You'll see a message at the bottom of your screen asking whether you want to save the profile.
         - Press the `y` key on your keyboard to specify yes, you want to save.
         - Press `Enter` to finish saving the file and exit nano.
 
 3. **Install Ruby**
-    - Back in your terminal, install the latest version of ruby by copy/pasting or writing, `rbenv install 2.7.0` and pressing `Enter`. 
+    - Back in your terminal, install the latest version of ruby by copy/pasting or writing, `rbenv install 2.7.1` and pressing `Enter`. 
 
     {:.alert .alert-warning .my-3}
-    Note: 2.7.0 is the latest solid version as of this writing; if you are reading this past August 2020, you may need to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="noopener"} and install the latest stable version.
+    Note: 2.7.1 is the latest solid version as of this writing; if you are reading this past August 2020, you may need to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="noopener"} and install the latest stable version.
 
-    - Now let's set that version as your global Ruby version by entering `rbenv global 2.7.0` into the terminal prompt and pressing `Enter`. 
+    - Now let's set that version as your global Ruby version by entering `rbenv global 2.7.1` into the terminal prompt and pressing `Enter`. 
     - Finally, we're going to rehash, just to be safe: copy and paste the command `rbenv rehash` into your prompt and pressing `Enter`.
     - Now let's see if that worked. 
         - Quit your terminal by right clicking (`Control + click`) its icon in your applications menu, and selecting `Quit` from the options that appear.
