@@ -18,8 +18,7 @@ The columns are described below:
 - **display_name**: This variable is how you'd like the field to be described on the item page. So, using the example above, if you'd like the field "original-collection" to appear as "Original Archival Collection" on the item page, you'd enter "Original Archival Collection" in the second column.
 - **browse_link**: 
     - *Options*: `true` or leave blank. 
-    - This option controls if the element will be represented as a link from the item page back to the Browse page. It is most useful for those fields, like "subject", that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the third column of the `config-metadata.csv`  
-    - *Note: this option is not currently implemented in GH*
+    - This option controls if the element will be represented as a link from the item page back to the Browse page. It is most useful for those fields, like "subject", that often contain multiple values (separated by a semicolon). So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the third column of the `config-metadata.csv`
 
 The options below this point are used by **CDM and SA only**, and are not necessary to make the collection itself work and will not affect the display.
 However, configuring these options adds rich machine readable markup to each item page, making your objects more discoverable by search engines.
@@ -34,6 +33,7 @@ However, configuring these options adds rich machine readable markup to each ite
         - `DCTERMS.description`
         - `DCTERMS.subject`
         - `DCTERMS.type`
+        - `DCTERMS.rights`
 - **schema_map**:
     - *Options:* any property name from Schema [CreativeWork](https://schema.org/CreativeWork){:target='_blank' rel='noopener'} type. Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
     - [Schema](https://schema.org/){:target='_blank' rel='noopener'} is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. This option allows you to add Schema markup in JSON-LD format to item pages driven by the object metadata.  
@@ -67,7 +67,7 @@ rightsstatement,,,DCTERMS.rights,license
 
 **Browse Links** 
 
-In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each indivdual subject and location term (delimited by semi-colon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
+In the case of this example, only the location and subject fields have a value (`true`) for "browse-link", so those fields will turn each individual subject and location term (delimited by semicolon in that field) into a link (e.g. browse.html#dogs) that links back to a browse page view that will only list those items that share that term. 
 
 **Dublin Core and Schema Markup** 
 

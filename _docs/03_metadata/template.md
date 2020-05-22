@@ -8,7 +8,7 @@ section_order: 1
 {:.py-4 .mt-4 #template}
 ***
 
-{% include bootstrap/alert.md color="info mb-4" text="**Before You Start:** To prevent formatting errors that can result from using software like Microsoft Excel, we recommend editing your metadata in Google Sheets. If your data will require a good amount of wrangling to get it into CollectionBuilder's format, we suggest you use [OpenRefine](http://openrefine.org/), a platform that facilitates large scale data cleaning and transformation." %}  
+{% include bootstrap/alert.md color="info mb-4" text="**Before You Start:** To prevent formatting and encoding errors that can result from using Microsoft Excel, we recommend editing your metadata in Google Sheets. If your data will require a good amount of wrangling to get it into CollectionBuilder's format, we suggest you use [OpenRefine](http://openrefine.org/), a platform that facilitates large scale data cleaning and transformation." %}  
 
 {:.py-4 .mt-4 }
 ## 1. Metadata Template

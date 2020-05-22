@@ -1,6 +1,6 @@
  Refer to the [.theme.yml section](theme.html) for more information about customizing the various pages in your collection. 
 
-The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma separated values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using excel, Google Sheets, or another spreadsheet program. 
+The files discussed in this section will help you customize the website to fit the metadata that's driving it. Each of these files is a CSV (comma separated values) file that is stored in the /_data/ directory of your repository. You can edit this using your text editor (recommended) or you can edit them using Google Sheets or another spreadsheet program (that supports UTF-8 encoding).
 
 - [Navigation Header Configuration](#config-nav) (config-nav.csv)
     - configure the navigation links in the header
@@ -67,7 +67,7 @@ The most important CSV (if you're measuring by the number of pages it creates!) 
     format original,Original Format
     format,Format
 
-- All fields in the above would be textual, save for the location and subject fields, which would create filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semi-colon in that field. 
+- All fields in the above would be textual, save for the location and subject fields, which would create filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semicolon in that field. 
 
 - The title, creator, data, description, subject, collection, type, and format fields would all be represented in the web page's "head" meta section related to the Dublin Core schema to enable better machine readability and indexing.   
  

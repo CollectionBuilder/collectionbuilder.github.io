@@ -71,4 +71,7 @@ For example, adding a figure with only required variables:
 With additional optional variables:
 - `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="50" float="left" caption=false %}{% endraw %}`
 
+If you use the `float` option, you may want to "clear" the float at some point below. 
+This can be done by adding `<div class="clearfix"></div>` on it's own line.
+
 The `alert.md`, `card.md`, and `modal.md` files can be included in a similar manner, but require different variables. Find these files in your repository in the `_includes/feature/` directory and open them to view a description of the options. 

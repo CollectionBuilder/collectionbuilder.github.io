@@ -62,11 +62,13 @@ Creating a New Timeline Page (+ a "Timelines" dropdown)
 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 <div class="card-body" markdown="1">
 1. Open the current "timeline.md" page, which can be found in the /pages/ directory and copy its contents. 
-2. Create a new markdown file in the /pages/ directory called "timelinejs.md.
+2. Create a new markdown file in the /pages/ directory called "timelinejs.md".
 3. Paste the copied text into that page
 4. Edit the markdown variables at the top: 
-    - Edit the title variable so that it says "TimelineJS" (or anything other than Timeline) 
-    - Edit the layout variable so that it reads "full-width-page"
+    - Edit the title variable so that it says `TimelineJS` (or anything other than Timeline) 
+    - Edit the layout variable so that it reads `full-width-page`
+    - Edit the permalink variable so that it reads `timelinejs.html` (or anything other than timeline.html, which is where the other timeline is being created)
+        - NOTE: You can make the permalink whatever you'd like and Jekyll will create the page; you can even put it in a new directory (say /timeline/featured.html), just make sure to include the link you create in your config-nav.csv file, as described below
 5. Replace the `## Collection Timeline` line with the following "include" command: `{% raw %}{% include feature/timelinejs.html %}{%endraw%}`
 6. Save your File
 7. Open the config-nav.csv in your /_data/ directory

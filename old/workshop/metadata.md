@@ -17,7 +17,7 @@ CollectionBuilder has some metadata standards and formats that you'll need to fo
 ***
 
 
-{% include bootstrap/alert.md color="info mb-4" text="**Before You Start:** To prevent formatting errors that can result from using software like Microsoft Excel, we recommend editing your metadata in Google Sheets. If your data will require a good amount of wrangling to get it into CollectionBuilder's format, we suggest you use [OpenRefine](http://openrefine.org/), a platform that facilitates large scale data cleaning and transformation." %}  
+{% include bootstrap/alert.md color="info mb-4" text="**Before You Start:** To prevent formatting and encoding errors that can result from using Microsoft Excel, we recommend editing your metadata in Google Sheets. If your data will require a good amount of wrangling to get it into CollectionBuilder's format, we suggest you use [OpenRefine](http://openrefine.org/), a platform that facilitates large scale data cleaning and transformation." %}  
 
 {:.py-4 .mt-4 }
 ## 1. Metadata Template
@@ -77,12 +77,12 @@ CollectionBuilder uses these fields to generate contextual visualizations, inclu
     - Example Input: `1997-07-16`, `1997-07`, `1997`
 - **subject**:
     - The subject field contains topic(s) related to the item. 
-    - This field allows for multiple subjects to be input for a single record. Each should be separated with a semi-colon (`;`). 
+    - This field allows for multiple subjects to be input for a single record. Each should be separated with a semicolon (`;`). 
     - See the [Subjects](theme.html#subjects-page) section for more information.
     - Example Input: `Dogs; Cats; Zebras`
 {%include bootstrap/alert.md color="warning ml-4 font-small" text="*Note: This field needs to be named ***'subject' (not 'subjects'***) for many features in CollectionBuilder to work.* Data in this field will create the word cloud that allows users to visualize the amount of subjects used within the collection."%}
 - **location**: 
-    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semi-colon (`;`).
+    - This field designates a geographic location(s) to which the item is tied. Much like the subject field, this field will build a tag cloud of the most used locations in your collection. See the [Locations](theme.html#locations-page) section for more information. Be sure to separate multiple location entries for a single record with a semicolon (`;`).
     - Example Input: `Pullman, Washington; Moscow, Idaho`
 
 {%include bootstrap/alert.md color="success ml-4 font-small" text="*Note*: **If your metadata does not have map coordinates**, but you would like to experience CollectionBuilder's map visualization, we've created a [demo list of latitudes and longitudes](https://docs.google.com/spreadsheets/d/1eSj7zfthuc7-ntdnZLqNYETxVa5Z55YK8BPPao53-6w/edit?usp=sharing) that you can add to your data just for practice."%}
@@ -96,7 +96,7 @@ The rest of the fields in the CollectionBuilder metadata template are not requir
 {% include bootstrap/alert.md color="info" text="*CollectionBuilder can accommodate any field you list in your metadata.  You can list any field on item pages or on our browse cards on the home page. See the [Metadata](customize.html#config-metadata) and [Browse](customize.html#config-metadata) customization sections for more information.* "%}
 
 - **creator**:
-    - The creator property designates an entity primarily responsible for making the resource. Mutliple creators may be input, as long as each is separated by a semi-colon (`;`).
+    - The creator property designates an entity primarily responsible for making the resource. Mutliple creators may be input, as long as each is separated by a semicolon (`;`).
     - Example Input: `Smith, John` or `Smith, John; Doe, Jane`
 - **description**:
     - The description should be a brief account of the object. Each object should only have one description.
@@ -108,7 +108,7 @@ The rest of the fields in the CollectionBuilder metadata template are not requir
     - The identifier field is used to preserve the unique identifier assigned to the object by the object's (usually physical) source collection.
     - Example Input: `ARG-02-16-1993`
 - **type**:
-    - An object's type distinguishes between types of image, sound, text, etc. using a one- or two-value input. At minimum, the input should contain a value chosen from the [DCMI Type Vocabulary](https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/2003-02-12/){:target="_blank" rel="noopener"}. If using a second value, the second value does not need to relate to a controlled vocabulary, but should give further specification of the object type. The two values in a pair should be separated by a semi-colon (`;`). See examples below.
+    - An object's type distinguishes between types of image, sound, text, etc. using a one- or two-value input. At minimum, the input should contain a value chosen from the [DCMI Type Vocabulary](https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/2003-02-12/){:target="_blank" rel="noopener"}. If using a second value, the second value does not need to relate to a controlled vocabulary, but should give further specification of the object type. The two values in a pair should be separated by a semicolon (`;`). See examples below.
     - Example Input: `Image;StillImage`, `Image;MovingImage`, `Text`, `Sound`
 - **language**: 
     - This field indicates the language associated with the object. Recommended best practice is to use a controlled vocabulary such as the [ISO 639-2 Codes for the Representation of Names and Languages](http://www.loc.gov/standards/iso639-2/php/code_list.php){:target="_blank" rel="noopener"} to designate language tags.
@@ -157,8 +157,8 @@ Make sure you're following the guidelines below, otherwise CollectionBuilder wil
     - Before you upload your metadata to CollectionBuilder, make sure **all field titles are lowercase**.
     - CollectionBuilder will not work if the field titles are not lowercase. 
 
-- **Use a Semi-colon When You Have Multiple Values**
-    - Use a semi-colon (`;`) to separate values in multi-valued fields
+- **Use a Semicolon When You Have Multiple Values**
+    - Use a semicolon (`;`) to separate values in multi-valued fields
 
 - **Avoid Special Characters**
     - When creating **objectids**, **filenames**, and **identifers**, avoid using hyphens (`-`), spaces (` `), and special characters (`&`)

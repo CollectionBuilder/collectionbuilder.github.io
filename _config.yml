@@ -29,5 +29,5 @@ defaults:
     values:
       layout: "workshop"
 
-
-
+# ignore stuff
+exclude: [old/, README.md, LICENSE]

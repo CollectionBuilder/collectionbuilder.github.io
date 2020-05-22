@@ -14,7 +14,7 @@ section_order: 6
 This page functions exactly as the Subjects page does. 
 
 - **locations-fields**: Choose metadata fields from your collection metadata CSV to be included in the Locations page tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `location;stadium`
 	- When this field is left blank, locations will not be generated and the tag cloud on the Locations page will be blank. 
 	- ***Important note:*** You must also remove the "Locations" line from the [_data/config-nav.csv](customize#config-nav) in order to remove the Locations page from the site completely.
@@ -25,5 +25,5 @@ This page functions exactly as the Subjects page does.
 	- example --> `location-min: 1`
 
 - **locations-stopwords**: A set of words/phrases to be removed from the tag cloud.
-	- Multiple fields must be separated by a semi-colon(`;`)
+	- Multiple fields must be separated by a semicolon(`;`)
 	- example --> `stopwords: Moscow;Pullman`
