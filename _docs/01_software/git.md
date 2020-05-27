@@ -46,6 +46,12 @@ Second, set your email so that it matches your GitHub email:
 
 `git config --global user.email "myemail@gmail.com"`
 
+*Optionally*, set your default text editor for use with git on the commandline.
+Normally it is set to Vim, which [can be confusing](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank" rel="noopener"}. 
+For ease of use, we generally suggest using Nano editor:
+
+`git config --global core.editor "nano -w"`
+
 {% capture commit %}
 Your email and user name is recorded with every commit.
 This helps ensure integrity and authenticity of the history.
