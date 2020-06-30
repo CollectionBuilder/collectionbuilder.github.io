@@ -149,10 +149,13 @@ layout: default
 
                 <hr />
                 <div class="text-center">
+                    {%if type.skin-type%}
+                    <a href="{{ '/skins/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
+                    {%else%}
                    
                     <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
 
-                
+                    {%endif%}
                 </div>
             </div>
 
