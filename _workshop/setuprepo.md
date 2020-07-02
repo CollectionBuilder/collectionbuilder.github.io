@@ -8,7 +8,7 @@ notes:
 - text: Use the [CollectionBuilder-GH](https://www.github.com/collectionbuilder/collectionbuilder-gh) repository template to import the files.
   time: 0
 - text: Turn on the GitHub Pages option to make the repository produce a website
-  time: 400
+  time: 217
 - text: Edit the URL Settings in the _config.yml file to fix the website.
-  time: 700
+  time: 300
 ---
