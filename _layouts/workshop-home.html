@@ -12,7 +12,7 @@ layout: default
     <div class="row my-4 p-4">
 <div class="col-12">
 <div class="card-deck my-2">
-        {%assign modules = site.workshop | sort: "step" %}
+        {% raw %}{%assign modules = site.workshop | sort: "step" %}{% endraw %}
         {%for module in modules %}
 
 

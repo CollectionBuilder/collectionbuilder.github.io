@@ -1,23 +1,77 @@
 ---
 layout: default
 ---
-
-        {%assign modules = site.workshop | sort: "step"  %}
-        <nav class="nav sticky-top bg-white border-bottom text-center mx-auto">{%for module in modules %}
-{%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | append: '.html' | relative_url}}">{{module.step}}. {{module.url | remove: "/workshop/"}}</a>{%else%}<a class="nav-link text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}</nav>
-<div class="container" >
+<div class="container">
+<div class="class="my-3 ml-5">
+<h1 >{{page.title}}</h1>
+<p>{{page.overview}}</p>
+</div>
 <div class="row">
-    <h1 class="display-4 my-4 border-bottom pb-3">{{page.title}}</h1>
+    <div class="col-md-8 py-5">
+        <div id="player" class="iframe-wrapper"></div>
+    </div>
+    <div class="col-md-4 p-5">
+        {% for note in page.notes %}
+        <p><a href="#" onclick="seekTo({{note.time}})">Step {{forloop.index}}</a> - {{note.text}}</p>
+        {% endfor %}
+    </ul>
+        
+    </div>
 </div>
-<div class="col-md-10">
-    {{content}}
 </div>
 
-<p class="text-center py-4 my-4 bg-light border">
-{%for module in modules %}
-{%if page.title == module.title%}<a class="nav-item text-info mx-2 h4 my-4" href="{{module.url | append: '.html' | relative_url}}">{{module.step}}. {{module.url | remove: "/workshop/"}}</a>{%else%}<a class="nav-item text-info mx-2 my-4" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}
-</p>
-<br>
 
-</div>
-</div>
+
+
+<script>
+  // 2. This code loads the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // 3. This function creates an <iframe> (and YouTube player)
+  //    after the API code downloads.
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '390',
+      width: '640',
+      videoId: '{{page.video}}',
+      events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  // 4. The API will call this function when the video player is ready.
+  function onPlayerReady(event) {
+    
+
+  }
+
+  // 5. The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  var ytSeconds = 0;
+  function onPlayerStateChange(e)
+{
+if (e.data == 1 && ytSeconds > 0) {
+e.target.seekTo(ytSeconds);
+ytSeconds = 0;
+}
+}
+
+function seekTo(seconds)
+{
+if (player.getPlayerState() == 1) {
+player.seekTo(seconds); 
+}
+else {
+ytSeconds = seconds;
+player.playVideo();
+}
+}
+</script>
