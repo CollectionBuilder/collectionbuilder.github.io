@@ -71,3 +71,17 @@ div.highlighter-rouge {
     margin: 0 !important;
     }
     }
+
+    #item-nav {
+        a { 
+            position: absolute;
+            top:500px;
+            opacity:.3;
+            &:hover{opacity:1}
+            @include media-query($on-palm) {
+                top:200px; 
+            }
+        }
+        .previous { left:10px; }
+        .next{ right:10px; }
+    }

@@ -1,10 +1,10 @@
 ---
-step: 3
-permalink: workshop/gh/configure.html
+step: 5
+permalink: workshop/gh/customize.html
 video: h9JInGywC4o
-title: Configure your Site
-shorttitle: Configure
-overview: This portion will demonstrate how to edit the _config.yml file to use your newly uploaded Psychiana content.
+title: Customize your Site
+shorttitle: Customize
+overview: This portion will demonstrate how to customize the content included on the browse, map, data, and item pages of your site. 
 steps: 
   - text: Adjust the Site Settings in the _config.yml file.
     time: 0

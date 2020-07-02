@@ -4,9 +4,11 @@ layout: default
 <div class="container">
 <h1 class="text-center">CollectionBuilder-GH Workshop Tutorial</h1>
 {%assign modules = site.workshop | sort: "step"  %}
-<ul class="nav nav-tabs">{%for module in modules %}
+<ul class="nav nav-tabs sticky-top bg-white justify-content-center">{%for module in modules %}
   <li class="nav-item">
-  {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}}. {{module.shorttitle}}</a>{%else%}<a class="nav-link text-info mx-2 active" href="{{module.url  | relative_url}}"><small>{{module.step}}. {{module.shorttitle}}</small></a></li>{%endif%}{%endfor%}</ul>
+  {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}}. {{module.shorttitle}}</a>{%else%}
+  <a class="nav-link text-info mx-2 active" href="{{module.url  | relative_url}}"><small>{{module.step}}. {{module.shorttitle}}</small></a></li>
+  {%endif%}{%endfor%}</ul>
 
 
   <div class="workshop-contents">
@@ -23,7 +25,7 @@ layout: default
       <div class="col">
       <div class="card">
       <div class="card-body">
-        <p><a href="#" onclick="seekTo({{note.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
+        <p><a href="#" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
         {% if note.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
         {%endif%}</div>
       </div></div>{% endfor %}
@@ -34,6 +36,41 @@ layout: default
     {% endif %}
   </div>
 </div>
+
+
+{% capture the_collection %}{{ page.collection }}{% endcapture %}
+
+{% if page.collection %}
+  {% assign document = site[the_collection] %}
+{% endif %}
+
+{% for links in document %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexttitle = next.title %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+<div id="item-nav">
+  <div class="d-none d-md-block">
+{% if prevurl %}<a class="previous bg-dark text-white h4 btn btn-lg" href="{{ prevurl }}">«</a>{% endif %}<br />
+{% if nexturl %}<a class="next bg-dark text-white h4 btn btn-lg" href="{{ nexturl }}">»</a>{% endif %}
+</div>
+</div>
+<script>
+/* post pagination keyboard shortcuts */
+document.body.onkeyup = function(e){
+  if (e.keyCode == '37') { window.location = '{{ prevurl }}'; } // left arrow key
+  if (e.keyCode == '39') { window.location = '{{ nexturl }}'; } // right arrow key
+};
+</script>
 
 
 <script>

@@ -1,10 +1,10 @@
 ---
-step: 3
-permalink: workshop/gh/configure.html
+step: 4
+permalink: workshop/gh/theme.html
 video: h9JInGywC4o
-title: Configure your Site
-shorttitle: Configure
-overview: This portion will demonstrate how to edit the _config.yml file to use your newly uploaded Psychiana content.
+title: Theme Your Site using the theme.yml file
+shorttitle: Theme
+overview: "This portion will demonstrate how to edit the theme.yml (found in your repository's '_data/' director) to customize the visualizations and home page."
 steps: 
   - text: Adjust the Site Settings in the _config.yml file.
     time: 0
