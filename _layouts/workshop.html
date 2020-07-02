@@ -5,7 +5,7 @@ layout: default
 <h1>CollectionBuilder-GH Workshop Tutorial</h1>
 {%assign modules = site.workshop | sort: "step"  %}
 <nav class="nav nav-pills sticky-top bg-white border-bottom text-center mx-auto">{%for module in modules %}
-  {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}} {{page.title}}</a>{%else%}<a class="nav-link text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}</nav>
+  {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}}. {{module.title}}</a>{%else%}<a class="nav-link text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.title}}</small></a>{%endif%}{%endfor%}</nav>
 
 
   <div class="workshop-contents">
