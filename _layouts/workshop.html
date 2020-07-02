@@ -18,12 +18,12 @@ layout: default
     </div>
 
     <div class="row mb-4">
-      {% for note in page.notes %}
+      {% for step in page.steps %}
       <div class="col">
       <div class="card">
       <div class="card-body">
-        <p><a href="#" onclick="seekTo({{note.time}})">Step {{forloop.index}}</a> - {{note.text}}</p>
-        {% if note.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{note.doc}}{% else %} 'note.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
+        <p><a href="#" onclick="seekTo({{note.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
+        {% if note.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
         {%endif%}</div>
       </div></div>{% endfor %}
     </div>
