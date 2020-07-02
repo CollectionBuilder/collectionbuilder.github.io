@@ -2,25 +2,37 @@
 layout: default
 ---
 <div class="container">
-<div class="class="my-3 ml-5">
-<h1 >{{page.title}}</h1>
-<p>{{page.overview}}</p>
-</div>
-<div class="row">
-    <div class="col-md-8 py-5">
-        <div id="player" class="iframe-wrapper"></div>
+<h1>CollectionBuilder-GH Workshop Tutorial</h1>
+{%assign modules = site.workshop | sort: "step"  %}
+<nav class="nav nav-pills sticky-top bg-white border-bottom text-center mx-auto">{%for module in modules %}
+  {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}} {{page.title}}</a>{%else%}<a class="nav-link text-info mx-2" href="{{module.url | append: '.html' | relative_url}}"><small>{{module.step}}. {{module.url | remove: "/workshop/"}}</small></a>{%endif%}{%endfor%}</nav>
+
+
+  <div class="workshop-contents">
+
+    <h2 class="text-center">{{page.title}}</h2>
+    <p class="text-center">{{page.overview}}</p>
+
+    <div class="py-4 about-narrowed-content">
+      <div id="player" class="iframe-wrapper"></div>
     </div>
-    <div class="col-md-4 p-5">
-        {% for note in page.notes %}
+
+    <div class="row mb-4">
+      {% for note in page.notes %}
+      <div class="col">
+      <div class="card">
+      <div class="card-body">
         <p><a href="#" onclick="seekTo({{note.time}})">Step {{forloop.index}}</a> - {{note.text}}</p>
-        {% endfor %}
-    </ul>
-        
+        {% if note.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{note.doc}}{% else %} 'note.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
+        {%endif%}</div>
+      </div></div>{% endfor %}
     </div>
+{% if page.content.size > 10 %}
+    <h3>Notes</h3>
+    <p>{{content}}</p>
+    {% endif %}
+  </div>
 </div>
-</div>
-
-
 
 
 <script>
@@ -37,7 +49,7 @@ layout: default
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
       height: '390',
-      width: '640',
+      width: '100%',
       videoId: '{{page.video}}',
       events: {
         'onReady': onPlayerReady,
@@ -48,7 +60,7 @@ layout: default
 
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
-    
+
 
   }
 
@@ -56,22 +68,20 @@ layout: default
   //    The function indicates that when playing a video (state=1),
   //    the player should play for six seconds and then stop.
   var ytSeconds = 0;
-  function onPlayerStateChange(e)
-{
-if (e.data == 1 && ytSeconds > 0) {
-e.target.seekTo(ytSeconds);
-ytSeconds = 0;
-}
-}
+  function onPlayerStateChange(e) {
+    if (e.data == 1 && ytSeconds > 0) {
+      e.target.seekTo(ytSeconds);
+      ytSeconds = 0;
+    }
+  }
 
-function seekTo(seconds)
-{
-if (player.getPlayerState() == 1) {
-player.seekTo(seconds); 
-}
-else {
-ytSeconds = seconds;
-player.playVideo();
-}
-}
+  function seekTo(seconds) {
+    if (player.getPlayerState() == 1) {
+      player.seekTo(seconds);
+    }
+    else {
+      ytSeconds = seconds;
+      player.playVideo();
+    }
+  }
 </script>
