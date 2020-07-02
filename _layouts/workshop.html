@@ -26,7 +26,7 @@ layout: default
       <div class="card">
       <div class="card-body">
         <p><a href="#" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
-        {% if note.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
+        {% if step.doc %}<p class="text-center"><a href="{% if note.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
         {%endif%}</div>
       </div></div>{% endfor %}
     </div>

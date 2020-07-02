@@ -20,12 +20,21 @@ collections:
     output: true
     permalink: /:collection/:title
     sort_by: step
+  workshop-gh:
+    output: true
+    permalink: /:collection/:title
+    sort_by: step
   
 # set defaults
 defaults:
   - scope:
       path: ""
       type: "workshop"
+    values:
+      layout: "workshop"
+  - scope:
+      path: ""
+      type: "workshop-gh"
     values:
       layout: "workshop"
 
