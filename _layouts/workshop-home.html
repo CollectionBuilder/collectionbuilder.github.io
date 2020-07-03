@@ -4,33 +4,20 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}"> </a></h1>
-            <h1 class=" text-center display-4">{{page.title}}</h1>
-
+            <div class="mt-4 text-center"><a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}" alt="collection builder logo" ><span class="sr-only">CollectionBuilder</span></a></div>
+            <h1 class="text-center display-4">{{ page.title }}</h1>
         </div>
     </div>
-    <div class="row my-4 p-4">
-<div class="col-12">
-<div class="card-deck my-2">
-       }{%assign modules = site[page.type] | sort: "step" %}
-        {%for module in modules %}
-
-
-        <div class="card bg-dark text-white p-4">
-            <h2 class="display-5 m-4"><a href="{{ module.url | relative_url }}">{{ module.step }}. {{ module.title }}</a></h2>
+    <div class="row row-cols-1 row-cols-md-2 my-4 p-4">
+    
+        {% assign modules = site[page.type] | sort: "step" %}
+        {% for module in modules %}
+        <div class="col mb-4">
+            <div class="card h-100 bg-dark text-white p-4">
+                <h2 class="display-5 m-4"><a href="{{ module.url | relative_url }}">{{ module.step }}. {{ module.title }}</a></h2>
+            </div>
         </div>
-
-    {% if forloop.index == 2 %}</div></div><div class="col-12">
-            <div class="card-deck my-2">{%endif%}
-                    {% if  forloop.index == 4 %}</div></div><div class="col-12">
-                            <div class="card-deck my-2">{%endif%}
-                    {% if  forloop.index == 6 %}</div></div><div class="col-12">
-                            <div class="card-deck my-2">{%endif%}
-    {% if  forloop.index == 8 %}</div></div><div class="col-12">
-                                            <div class="card-deck my-2">{%endif%}
-        {%endfor%}
-        </div>
-
+        {% endfor %}
 
     </div>
 </div>
