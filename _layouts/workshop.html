@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
+<div class="alert alert-danger text-center">
+  <strong>This site is under construction!</strong> <br/> Come back soon! We should have the full workshop done later this month (July). 
+</div>
 <div class="container">
 <h1 class="text-center">CollectionBuilder-GH Workshop Tutorial</h1>
-{%assign modules = site.workshop | sort: "step"  %}
+{%assign modules = site.workshop-gh | sort: "step"  %}
 <ul class="nav nav-tabs sticky-top bg-white justify-content-center">{%for module in modules %}
   <li class="nav-item">
   {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}}. {{module.shorttitle}}</a>{%else%}
@@ -41,7 +44,8 @@ layout: default
 {% capture the_collection %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
-  {% assign document = site[the_collection] %}
+  {% assign document = site[the_collection] | sort: "step" %}
+
 {% endif %}
 
 {% for links in document %}

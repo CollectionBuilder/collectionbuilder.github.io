@@ -16,10 +16,6 @@ featured-image-alt: "CollectionBuilder bracket logo"
 collections:
   docs:
     output: false
-  workshop:
-    output: true
-    permalink: /:collection/:title
-    sort_by: step
   workshop-gh:
     output: true
     permalink: /:collection/:title
