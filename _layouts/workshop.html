@@ -23,10 +23,10 @@ layout: default
       <div id="player" class="iframe-wrapper"></div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row mb-4 justify-content-center">
       {% for step in page.steps %}
-      <div class="col">
-      <div class="card">
+      <div class="col-md-3">
+      <div class="card my-3">
       <div class="card-body">
         <p><a href="#" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
         {% if step.doc %}<p class="text-center"><a href="{% if step.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
