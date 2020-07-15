@@ -1,6 +1,6 @@
 ---
 step: 0
-permalink: workshop/gh/intro.html
+permalink: /workshop/gh/introduction.html
 video: dbKNr3wuiuQ
 title: Introduction
 shorttitle: Intro
