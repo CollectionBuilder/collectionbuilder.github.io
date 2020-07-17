@@ -1,13 +1,10 @@
 ---
 layout: default
 ---
-<div class="alert alert-danger text-center">
-  <strong>This site is under construction!</strong> <br/> Come back soon! We should have the full workshop done later this month (July). 
-</div>
 <div class="container">
 <h1 class="text-center">CollectionBuilder-GH Workshop Tutorial</h1>
 {%assign modules = site.workshop-gh | sort: "step"  %}
-<ul class="nav nav-tabs sticky-top bg-white justify-content-center">{%for module in modules %}
+<ul class="nav nav-tabs bg-white justify-content-center">{%for module in modules %}
   <li class="nav-item">
   {%if page.title == module.title%}<a class="nav-link text-info h4" href="{{module.url | relative_url}}">{{module.step}}. {{module.shorttitle}}</a>{%else%}
   <a class="nav-link text-info mx-2 active" href="{{module.url  | relative_url}}"><small>{{module.step}}. {{module.shorttitle}}</small></a></li>
@@ -28,7 +25,7 @@ layout: default
       <div class="col-md-3">
       <div class="card my-3">
       <div class="card-body">
-        <p><a href="#" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
+        <p><a id="step{{forloop.index}}" href="#step{{forloop.index}}" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
         {% if step.doc %}<p class="text-center"><a href="{% if step.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
         {%endif%}</div>
       </div></div>{% endfor %}
@@ -126,4 +123,6 @@ document.body.onkeyup = function(e){
       player.playVideo();
     }
   }
+
+  
 </script>
