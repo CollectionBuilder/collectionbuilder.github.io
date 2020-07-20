@@ -15,6 +15,7 @@ layout: default
 
     <h2 class="text-center">{{page.title}}</h2>
     <p class="text-center">{{page.overview}}</p>
+    {{ content }}
 
     <div class="py-4 about-narrowed-content">
       <div id="player" class="iframe-wrapper"></div>
@@ -30,10 +31,10 @@ layout: default
         {%endif%}</div>
       </div></div>{% endfor %}
     </div>
-{% if page.content.size > 10 %}
+{% if page.content.size > 10 %}{% unless page.url contains 'intro' %}
     <h3>Notes</h3>
     <p>{{content}}</p>
-    {% endif %}
+    {% endunless %}{% endif %}
   </div>
 </div>
 
