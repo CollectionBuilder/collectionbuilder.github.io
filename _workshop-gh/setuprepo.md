@@ -4,7 +4,7 @@ permalink: workshop/gh/setup.html
 video: FbWGLFRpAlA
 title: Set Up Your Repository
 shorttitle: Set Up
-overview: "This video will demonstrate how to use the <a href='https://www.github.com/collectionbuilder/collectionbuilder-gh'>CollectionBuilder-GH</a> set up your GitHub repository."
+overview: "This video will demonstrate how to set up a GitHub repository to start building with   CollectionBuilder-GH."
 steps: 
 - text: Use the CollectionBuilder-GH repository template to import the files.
   time: 0
