@@ -129,7 +129,7 @@ layout: default
     <div class="col-md-10 offset-md-1">
         <div class="card-deck ">
             {%for type in site.data.types%}
-
+            {% unless type.id == 'es' %}
             <div class="card mb-4 bg-light text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
@@ -158,8 +158,8 @@ layout: default
                     {%endif%}
                 </div>
             </div>
-
-            {%endfor%}
+            {% endunless %}
+            {% endfor %}
         </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: About CollectionBuilder
-layout: page
+layout: about
 ---
 
 {:.my-4}
