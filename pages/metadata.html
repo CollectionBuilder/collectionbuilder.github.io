@@ -1,0 +1,50 @@
+---
+title: Metadata Application Profile
+layout: page
+permalink: /metadata/
+---
+
+<p class="pt-3">CollectionBuilder's basic metadata profile is based on Orbis Cascade Alliance <a href="https://www.orbiscascade.org/dublin-core-best-practices/" target="_blank" rel="noopener">Dublin Core Best Practices Guidelines</a>, which are designed to enable interoperability with aggregators, particularly <a href="https://dp.la/" target="_blank" rel="noopener">DPLA</a>.</p>
+<p>This template contains the basic set of fields that CollectionBuilder needs to work properly, but users are welcome to add additional fields as needed to contextualize their collections.</p>
+
+<div class="card mb-4 text-center">
+    <div class="card-header">
+        <h3>CollectionBuilder Metadata Templates</h3>
+    </div>
+    <div class="card-body">
+        <p>Which version of CollectionBuilder are you using? Choose the corresponding template:</p>
+        <p>
+            <a href="https://docs.google.com/spreadsheets/d/18END38MnjRM4Bnqgb7ylDQndh_uiCmCNChTeGvLU_KM/edit?usp=sharing" class="btn btn-lg btn-primary m-3" target="_blank" rel="noopener">CollectionBuilder-GH</a>
+            <a href="https://docs.google.com/spreadsheets/d/18END38MnjRM4Bnqgb7ylDQndh_uiCmCNChTeGvLU_KM/edit?usp=sharing" class="btn btn-lg btn-primary m-3" target="_blank" rel="noopener">CollectionBuilder-Standalone</a>
+            <a href="https://docs.google.com/spreadsheets/d/14iWUEoAJ6T9WDqlPnIHRN7M8-YgmMV4_bjFPVuSZ0yk/edit?usp=sharing" class="btn btn-lg btn-primary m-3" target="_blank" rel="noopener">CollectionBuilder-Skin</a>
+        </p>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h4>Metadata Workflow</h4>
+    </div>
+    <div class="card-body">
+        <div class="card-text text-center mx-3">
+            <p>The templates above have all been created in Google Sheets. We recommend copying these versions of the metadata template into your own Google Sheets account to work on it. Follow the example record in these templates to create your metadata, or view our <a href="https://docs.google.com/spreadsheets/d/1X7s3UW9y-3d6B7VmVJ87JptXrWipZ0yjlchSu07G3hE/edit?usp=sharing" class="btn btn-primary btn-sm" target="_blank" rel="noopener">CollectionBuilder Data Dictionary</a> for more specific guidelines about each field.</p>
+        </div>
+    </div>
+</div>
+
+<h2 class="mb-4">Next Steps:</h2>
+    
+<h4>1. Download Your CSV</h4>
+
+<ul>
+    <li>Once you’ve finished creating your metadata in Google Sheets, click “File” and select “Download as Comma-separated values.”</li>
+    <li>Locate the metadata csv you just downloaded on your computer. Without opening it, name this file using all lowercase letters and no spaces (i.e. <code>collection-metadata.csv</code>). Drop the file into the <code>_data</code> folder.</li>
+</ul>
+
+<h4>2. Configure Your Metadata Display</h4>
+
+<ul>
+    <li>Locate <code>metadata-config.csv</code> in the <code>_data</code> folder.</li>
+    <li>Edit this file to choose the order and display name for the metadata fields as they appear on the collection's item pages and visualizations.</li>
+    <li>Fields not included in the <code>metadata-config.csv</code> will not be displayed on the site.</li>
+</ul>

@@ -1,6 +1,7 @@
 ---
 title: About CollectionBuilder
 layout: about
+permalink: /about.html
 ---
 
 {:.my-4}
