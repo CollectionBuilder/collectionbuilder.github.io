@@ -13,7 +13,7 @@ section_order: 2
 Without values in the fields below, CollectionBuilder will not work properly.
 
 - **objectid**:
-    - This is the field that CollectionBuilder uses to identify each object. This should be a unique string with no spaces or special characters as it will used to form the item's URL. Underscores (`_`) are okay; **slashes (`/`) should NOT be used in this field**.
+    - This is the field that CollectionBuilder uses to identify each object. This should be a unique string, all **lowercase** with no spaces or special characters as it will used to form the item's URL. Underscores (`_`) and dashes (`-`) are okay; **slashes (`/`) should NOT be used in this field**.
     - Example value: `coll002`
 - **title**: 
     - The title field is used to indicate the name of an item. This should be a short, descriptive set of words that identify the item. Each item may only have one title.
