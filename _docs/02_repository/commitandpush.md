@@ -17,7 +17,7 @@ Open the _config.yml folder in your text editor. Change the "title" variable, an
 On GitHub Desktop, below the the column that lists your change to _config.yml, you'll see a text-entry box labeled "Summary (required)." 
 
 - Type a "commit" message into the box -- a short message describing the changes you've made. In this case, you might enter something like "changed title of collection site." 
-- When you've finished your commit message, click on the blue button toward the bottom of the column that says "Commit to master."
+- When you've finished your commit message, click on the blue button toward the bottom of the column that says "Commit to main/master."
 - The "Changes" disappear, you've just made a Git Commit!
 
 #### Now you need to Push!!!

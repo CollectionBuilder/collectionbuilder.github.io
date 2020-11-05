@@ -50,7 +50,7 @@ You can open, move, or edit it just like any other folder on your computer.
 
 Now, in the top bar of GitHub Desktop you should see three buttons. 
 On the left, the "Current repository" button lists the repository  you just cloned. 
-In the middle, you can check your current branch (it should say *master*), and on the right there is a button that allows you to "**Fetch origin**," "**Pull origin**," or "**Push origin**." 
+In the middle, you can check your current branch (it should say *main* or *master*), and on the right there is a button that allows you to "**Fetch origin**," "**Pull origin**," or "**Push origin**." 
 As you work, this button allows you to sync the local version of your repository with the version on GitHub, and push and pull changes between them.
 
 {:.py-4 .mt-4 #download}
@@ -90,7 +90,7 @@ We can take a snapshot of those changes, storing them into the history of the re
 On GitHub Desktop, below the list of changes, you'll see a text-entry box labeled "Summary (required)." 
 
 - Type a "commit" message into the box -- a short message describing the changes you've made. In this case, you might enter something like "upload base collectionbuilder code." 
-- When you've finished your commit message, click on the blue button toward the bottom of the column that says "Commit to master."
+- When you've finished your commit message, click on the blue button toward the bottom of the column that says "Commit to main/master."
 - The "Changes" disappear, you've just made a Git Commit!
 
 Now you've committed your changes locally, but haven't pushed them to the online repository yet. 
@@ -133,7 +133,7 @@ Once you start **customizing your repository**, here are a few things you should
 
 1. GitHub Destkop and your text editor (probably VSCode or Atom) are looking at the same folder of files (your repository), so once you save the changes you make to files in your text editor, those changes will show up in the left-hand "Changes" column in GitHub Desktop. 
     - When you're ready to commit the changes you've made, simply navigate to GitHub Desktop and select the checkboxes next to the files you'd like to commit. 
-    - Enter your commit message in the box at the bottom of the column, click the blue "Commit to master" button, and push your changes using the button in the top right of the GitHub Desktop window.
+    - Enter your commit message in the box at the bottom of the column, click the blue "Commit to main/master" button, and push your changes using the button in the top right of the GitHub Desktop window.
 2. If you're working on multiple computers or collaborating, be sure to fetch and pull changes before you push new ones. 
     - You can do this by clicking on the button in the top right of the GitHub Desktop interface labeled "**Fetch origin**." 
     - If there is content to pull, once it is fetched this button will say "**Pull origin**." Click on the button to pull the changes, and you will see your local repository change accordingly.

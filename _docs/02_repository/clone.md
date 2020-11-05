@@ -30,5 +30,5 @@ You can open, move, or edit it just like any other folder on your computer.
 
 Now, in the top bar of GitHub Desktop you should see three buttons. 
 On the left, the "Current repository" button lists the repository  you just cloned. 
-In the middle, you can check your current branch (it should say *master*), and on the right there is a button that allows you to "**Fetch origin**," "**Pull origin**," or "**Push origin**." 
+In the middle, you can check your current branch (it should say *main* or *master*), and on the right there is a button that allows you to "**Fetch origin**," "**Pull origin**," or "**Push origin**." 
 As you work, this button allows you to sync the local version of your repository with the version on GitHub, and push and pull changes between them.
