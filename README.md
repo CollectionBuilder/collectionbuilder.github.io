@@ -12,7 +12,7 @@ Each visualization is configurable using a few basic variables or config files.
 Each is a self contained static web page that can be hosted on the most basic web servers without the need for a database or server-side processing language, enabling simple security and speedy performance. 
 
 At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the [Lib-STATIC](https://lib-static.github.io/) development methodology which aims to lower the barriers for development and deployment of digital collections, while upholding the unique values and perspectives of [GLAM institutions](https://en.wikipedia.org/wiki/GLAM_(industry_sector)). 
-CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is “do-able” and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems.
+CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is "do-able" and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems.
 An experiment in "minimal computing", CollectionBuilder provides a depth of learning opportunities and development possibilities, allowing users to take complete ownership over the project and make their work open to the world.
 
 ## Concept 

@@ -35,7 +35,7 @@ The following behaviors are unacceptable within our community:
 - Trolling, insulting/derogatory comments, and personal or political attacks
 - The use of sexualized language or imagery and unwelcome sexual attention or advances
 - Posting or displaying sexually explicit or violent material
-- Publishing or threatening to publish others' private information, such as a physical or electronic address, without explicit permission (“doxing”)
+- Publishing or threatening to publish others' private information, such as a physical or electronic address, without explicit permission ("doxing")
 - Public or private harassment
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 

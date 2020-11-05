@@ -69,7 +69,7 @@ To complete the installation you will need to modify two configuration files:
 - Paste the following two lines at the end of the file
 ```
 source $HOME/.zshenv
-eval “$(rbenv init – zsh)"
+eval "$(rbenv init – zsh)"
 ```
 - Press `Control` + `x` to exit and save the file. You'll see a message at the bottom of your screen asking whether you want to save the file.
 - Press the `y` key on your keyboard to specify yes, you want to save.
