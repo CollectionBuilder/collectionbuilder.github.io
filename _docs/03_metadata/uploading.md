@@ -54,5 +54,3 @@ For CDM and SA Users
 </div>
 </div>
 </div>
-
-{% include bootstrap/alert.md color="warning mt-4" text="***Note: Do not confuse the `_data` directory with the `data` directory. Your metadata needs to go in the data directory with an underscore (`_`) in front of it.*** The /data/ directory is used to expose your collection as 'data' on the website." %}
