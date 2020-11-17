@@ -48,7 +48,7 @@ Jekyll's include command is a really powerful feature that allows specific eleme
 
 The `item-figure.html` include adds a [Bootstrap-styled figure](https://getbootstrap.com/docs/4.4/content/figures/){:target="_blank" rel="noopener"} to the page.
 
-It requires that you give a value for one variable, **objectid**, and gives you the option to add three other options. 
+It requires that you give a value for one variable, **objectid**, and contains three optional variables. 
 These are defined below.
 
 *Required*:
@@ -61,7 +61,7 @@ These are defined below.
     - *Options*: `25`, `50`, `75`, or `100`
 - **float**: Uses Bootstrap float utility to float the image left or right. 
     - *Options*: `left` or `right`
-- **caption**: By default the figure include automatically adds the title of the item from your metadata. This option is used *only* if you would like to override the default title. To replace the title, you can either add the text for an alternative caption *or* give the value `false` to not include any caption.
+- **caption**: By default the figure include automatically adds the title of the item from your metadata. The caption option is used *only* if you would like to override the default title. To replace the title, you can either add the text for an alternative caption *or* give the value `false` to not include any caption.
     - To manually set the caption, provide the text, e.g. `caption="Example caption"`
     - If you'd like to turn the caption off use `caption=false`
 
