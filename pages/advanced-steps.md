@@ -6,10 +6,14 @@ permalink: /advanced-steps.html
 
 # Advanced Topics Step Thru
 
-These steps will take you through editing the home page, adding a TimelineJS Feature, and then editing the Timeline visualization to accommodate other data than years. 
+These steps will take you through 
+- [Editing the home page](#edit-home-infographic-layout)
+- [Editing the repository on your local computer](#edit-the-repository-on-your-desktop) 
+- [Adding a TimelineJS Feature](#add-timelinejs-feature)
+- [Editing the Timeline visualization to accommodate other data](#change-timeline-visualization-to-feature-other-data)
 
 {:.mt-5}
-## Edit home-infographic.html
+## Edit home-infographic layout
 
 The **home-infographic.html** file in the _layouts folder controls what features appear in your front page. Once you open that file, you'll see a number of ["include" commands](https://jekyllrb.com/docs/includes/) that port in different features into the home page. 
 
@@ -55,7 +59,7 @@ layout: page
 The home-infographic layout, and all pages in CollectionBuilder are styled using bootstrap, particularly using its grid feature. More on bootstrap grid --> https://getbootstrap.com/docs/4.5/layout/grid/
 
 {:.mt-5}
-## Open Up the Repository on Your Desktop
+## Edit the Repository on Your Desktop
 
 This step requires your [downloading some software](https://collectionbuilder.github.io/docs/software.html) and working on your computer. However, all the steps below can also be accomplished via the web interface. I'm just using my own computer to show the changes more quickly. 
 
@@ -69,7 +73,7 @@ To start a Jekyll server, the typical command is `jekyll s`. If you start workin
 2. Type `bundle update` -- this will update the gems on your computer to match the gems in the repository. If you haven't updated your gems in a while, this is a good thing to type. It will most likely fix your problem, after which you can simply type `jekyll s` again and move forward. 
 
 {:.mt-5}
-## Add TimlineJS Feature
+## Add TimelineJS Feature
 
 To add the timeline feature to the front page, you'll need to edit "home-infographic.html" in the _layouts directory by adding the below: 
 
@@ -154,7 +158,9 @@ See the advanced topic documentation for other ways to include timelines, includ
 
 
 {:.mt-5}
-## Change from the Psychiana to the Watkins Collection
+## Change timeline visualization to feature other data
+
+First step is to change from the Psychiana collection to the Watkins Collection
 
 1. If you're working on your own computer, shut down the server by clicking CTRL + C in the terminal.
 2. Download [Watkins metadata](https://docs.google.com/spreadsheets/u/1/d/1mThECwBYaUdvUrSbc9d2wbjedpYyvVD89jJ15R-7Qmo/edit?usp=sharing). 
@@ -184,7 +190,7 @@ Let's get rid of it, and fix up our timeline page so that it's different.
 *Note: We are keeping the `year` variable constant here so as not to have to edit all the code and risk messing it up somewhere. You can, however, go through and edit all the `year` variables on the page to become `depth` if you like to keep things readable.*
 
 {:.mt-5}
-### Change the page title and navigation to rename the timline feature
+### Change the page title and navigation to rename the timeline feature
 
 So now that we are looking at depth rather than years, we'll likely want to change the way that displays on the page. 
 
@@ -209,9 +215,9 @@ permalink: /depth.html
 {% endraw%}
 
 {:.mt-5}
-### A Really Annoying issue with sorting 3- and 4- digit numbers
+### A Really Annoying issue with sorting 3- and 4-digit numbers
 
-Obviously we have some issues here. 1000ft is not getting sorted correctly. This is a issue with a lot of programming languages, and also an issue with dates, if they're long enough. 
+Obviously we have some issues here. 1000ft is not getting sorted correctly. This is an issue with a lot of programming languages, and also an issue with dates, if they're long enough. 
 
 So, a couple ways to adjust this. 
 
