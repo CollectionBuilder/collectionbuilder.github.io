@@ -12,7 +12,7 @@ section_order: 3
 
 ### 2. Moving the _site Files to Your Web Server
 
-One you've completed the build process, the web files you need will all be in your `_site` directory. 
+Once you've completed the build process, the web files you need will all be in your `_site` directory. 
 
 1. Open the `_site` directory using your file explorer or finder.
 2. Copy everything you'd like to move into a production site.
