@@ -88,11 +88,11 @@ TimelineJS,/timelinejs.html,Timelines
 <div class="mt-4" markdown="1">
 #### Step 2: Curating Your Timeline 
 
-The TimelineJS feature runs off of the timelinejs.json file, which can be found in the /data/ directory. We recommend you edit the file so that it includes a select number of items. Below are several ways to do this. 
+The TimelineJS feature runs off of the timelinejs.json file, which can be found in the /assets/data/ directory. We recommend you edit the file so that it includes a select number of items. Below are several ways to do this. 
 
 **Limiting the Items Included**
 
-1. Open the timelinejs.json file, which can be found in the /data/ directory.
+1. Open the timelinejs.json file, which can be found in the /assets/data/ directory.
 2. You will need to edit the first line of the document so that it limits the collection.
     - limit the timeline to only include those items that are images--> `{% raw %}{%- assign items = site.data[site.metadata] | where_exp: "item","item.format contains 'image'" -%}{% endraw %}`
     - limit the timeline to only include those items that occur during a certain year--> `{% raw %}{%- assign items = site.data[site.metadata] | where_exp: "item","item.date contains '1935'" -%}{% endraw %}` 
@@ -107,7 +107,7 @@ This method will use a new data sheet to create a curated timeline by only listi
 3. Add new headlines to those items you'd like included on a timeline (or simply copy and paste the current title into the new cell)
 4. Save the file as a CSV and rename it "timelinejs.csv" 
 5. Add this CSV to your `_data` directory.
-6. Open the timelinejs.json file, which can be found in the /data/ directory.
+6. Open the timelinejs.json file, which can be found in the /assets/data/ directory.
 7. Edit the first line so that it reads --> `{% raw %}{%- assign items = site.data.timelinejs | where_exp: "item","item.headline" -%}{% endraw %}`
 
 This will generate a timeline that only includes items that have a headline. 
