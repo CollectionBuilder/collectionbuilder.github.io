@@ -43,6 +43,6 @@ Please provide plenty of detail in the PR so that the project team fully underst
 - Include spaces for readability. For example, in Liquid `{% if site.example %}{{ site.example }}{% endif %}`, not `{%if site.example%}{{site.example}}{%endif%}`.
 - To improve readability, avoid excess white space and random indentations.
 - Indent using spaces. HTML, JS, CSS and related files should be indented using 4 spaces. YAML with 2 spaces.
-- Main/Master branch should be code that is ready to go. Use feature branches for development.
+- Main/master branch should be code that is ready to go. Use feature branches for development.
 - Use `;` in metadata to denote multi-valued fields.
 - New features should be progressive--adding features, while maintaining backwards compatibility with existing data setups. If possible, sane defaults should be set in Liquid, so that projects lacking updated config variables will still function.

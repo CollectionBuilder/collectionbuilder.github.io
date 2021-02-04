@@ -59,9 +59,9 @@ CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches 
 
 ### How It Works for Us
 
-We use CollectionBuilder to build our digital collections on top of our CONTENTdm instance. To do this, we use the tool together with a Git-Based Workflow. Within our own CollectionBuilder-CONTENTdm repository, there is a "master" branch of CollectionBuilder from which we create specific branches to build our individual collections. The trajectory looks like this: 
+We use CollectionBuilder to build our digital collections on top of our CONTENTdm instance. To do this, we use the tool together with a Git-Based Workflow. Within our own CollectionBuilder-CONTENTdm repository, there is a "main" branch of CollectionBuilder from which we create specific branches to build our individual collections. The trajectory looks like this: 
 
-1. Create a new branch for a collection from our master CollectionBuilder-contentdm repository
+1. Create a new branch for a collection from our main CollectionBuilder-contentdm repository
 2. Export collection metadata from CONTENTdm as a .tsv file
 2. Import the file into a Google Sheet (or other non-excel spreadsheet program)
 3. Add a metadata field for "objectid" based on CONTENTdm item number and collection name
@@ -90,7 +90,7 @@ The grant also provides funds for us to embed ourselves into several academic li
 
 - **Partner!** - If you, or some institution you know, might be interested in adopting this tool more seriously, we can offer a small subaward to supplement the additional work involved and one of us would visit your site to help get everything set up. 
 - **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.
-- **Contribute** - If you take to the static web development model and would like to provide contributions of your own to our tool, we would LOVE to work with you and incorporate any contributions you might make. We have a [code of conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/CODE_OF_CONDUCT.md) for contributors.
+- **Contribute** - If you take to the static web development model and would like to provide contributions of your own to our tool, we would LOVE to work with you and incorporate any contributions you might make. We have a [code of conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/main/CODE_OF_CONDUCT.md) for contributors.
 
 <div class="row">
 <div class="col-md-4" markdown="1">
