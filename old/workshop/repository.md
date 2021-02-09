@@ -113,7 +113,7 @@ Editors like VS Code or Atom open the full folder making it easier work on the f
 (GitHub Desktop has a short cut "Open in text editor" available in the top bar)
 
 {% capture serve %}
-1. If the terminal section of VSCode is not open, use the keyboard shortcut Ctrl + \` &nbsp; (control + backtick) to open it. 
+1. If the terminal section of VSCode is not open, use the keyboard shortcut ``Ctrl + ` `` (control + backtick " **\`** ", the key left of 1 shared with "~") to open it. 
 2. In the terminal, type the command `jekyll s` and press enter. This "jekyll serve" command will generate the site for you on a local server on your computer. 
 3. In the terminal you'll see some text appear, including a URL that appears after the title "Server address:"
 4. Hold down `Ctrl`/`Cmd` and click this link to open the site in your browser. (Or highlight the url and `Shift + Ctrl + C`)
