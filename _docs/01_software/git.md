@@ -19,7 +19,7 @@ GitHub is the most popular platform for developing and sharing code -- from ente
 Thus, it is great to become familiar with the platform so that you can take part in this community.
 
 Code for your CollectionBuilder project will be stored on GitHub. 
-To connect locally, you'll need to install Git (the version control software that powers GitHub) and GitHub Desktop (a handy visual way to use Git) on your local computer.
+To connect locally, you'll need to install Git (the version control software that powers GitHub) and, *optionally*, GitHub Desktop (a handy visual way to use Git) on your local computer.
 
 {% capture git %}
 - **Windows:** 
@@ -42,7 +42,7 @@ First, set your user name so that it matches your GitHub user name:
 
 `git config --global user.name "User Name"`
 
-Second, set your email so that it matches your GitHub email:
+Second, set your email so that it matches your GitHub account's email:
 
 `git config --global user.email "myemail@gmail.com"`
 
@@ -63,6 +63,9 @@ Most people keep their email public. However, if you are concerned about privacy
 
 {% capture gitdesk %}
 If you are new to using Git and GitHub, we also recommend you install [GitHub Desktop](https://desktop.github.com/){:target="_blank" rel="noopener"} using the default options. 
-This will help you visualize and implement some of the git processes that often seem non-intuitive.
+This will help you visualize and implement some of the git processes that can seem non-intuitive.
+
+GitHub Desktop is available on Windows and Mac only, however, there are a variety of [other GUI app for working with Git](https://git-scm.com/downloads/guis){:target="_blank" rel="noopener"} available, including "git-gui" that is built in to every default Git install.
+Many users will find they complete most Git commands using integrations built into their text editors such as VS Code or Atom instead.
 {% endcapture %}
 {% include bootstrap/card.md text=gitdesk header="Install GitHub Desktop" %} 
