@@ -100,12 +100,18 @@ The grant also provides funds for us to embed ourselves into several academic li
 <div class="col-md-8" markdown="1">
 {% include bootstrap/card.md text="
 - [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
-- [New College Digital Collections](http://ncf.sobek.ufl.edu/archives) (New College of Florida)" header="Current CollectionBuilder Partners:" %}
+- [New College Digital Collections](http://ncf.sobek.ufl.edu/archives) (New College of Florida)
+- [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)" header="Current CollectionBuilder Partners" %}
 </div>
 </div>
 
 Our highest hope for this project is to enable a small army of librarians to develop the type of tools and sites that keep the GLAM professionals in control and not subservient to bloated infrastructures and/or third-party contracts. We hope you will feel drawn to help us build that community. 
 
+{% capture wild %}
+{% for w in site.data.cb-in-wild %}
+- [{{ w.title }}]({{ w.link }}), {{ w.org }}{% endfor %}
+{% endcapture %}
+{% include bootstrap/card.md title="CollectionBuilder in the Wild" text=wild %}
 
 ---
 {:#people}
