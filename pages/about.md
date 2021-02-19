@@ -18,7 +18,8 @@ In 2019, CollectionBuilder's development team received an IMLS-sponsored Nationa
 {:.text-center}
 <a href="#tool" class="btn btn-info mb-3 mx-1">The Tool</a>
 <a href="#grant" class="btn btn-info mb-3 mx-1">The Grant</a>
-<a href="#people" class="btn btn-info mb-3 mx-1">The People</a>
+<a href="#community" class="btn btn-info mb-3 mx-1">Community</a>
+<a href="#people" class="btn btn-info mb-3 mx-1">People</a>
 
 ---
 {:#tool}
@@ -86,10 +87,14 @@ This year's grant will let us fine-tune CollectionBuilder through our own develo
 
 The grant also provides funds for us to embed ourselves into several academic libraries and/or similar institutions to set up the technological tools and basic workflows necessary for using the tool to build digital collections more pervasively. 
 
-***Opportunities for Collaboration***
+---
 
-- **Partner!** - If you, or some institution you know, might be interested in adopting this tool more seriously, we can offer a small subaward to supplement the additional work involved and one of us would visit your site to help get everything set up. 
-- **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that when our year is up we have the best, most usable version of CollectionBuilder.
+## Community
+
+Opportunities for Collaboration:
+
+- **Partner!** - If you, or some institution you know, might be interested in adopting this tool more seriously, we can help. Please get in touch for current opportunities and help us guide the future of CollectionBuilder.
+- **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that CollectionBuilder can continue to grow, becoming more useable and useful.
 - **Contribute** - If you take to the static web development model and would like to provide contributions of your own to our tool, we would LOVE to work with you and incorporate any contributions you might make. We have a [code of conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/main/CODE_OF_CONDUCT.md) for contributors.
 
 <div class="row">
@@ -123,12 +128,17 @@ Our highest hope for this project is to enable a small army of librarians to dev
 {% include bootstrap/card.md title="CollectionBuilder Presentations" text=publications %}
 
 ---
-{:#people}
+
 ## People 
+
+Core team:
 
 - Olivia Wikle, Digital Initiatives Librarian, Communications/Assessment Director for Grant
 - Evan Williamson, Digital Infrastructure Librarian, Technical Director
 - Devin Becker, Head of Data/Digital Services, Project Director
 - Jylisa Doney, Social Sciences Librarian, Documentation Director 
+
+Past collaborators:
+
 - Chelsea Codling, Graduate Assistant
 - Michael Decker, Graduate Assistant
