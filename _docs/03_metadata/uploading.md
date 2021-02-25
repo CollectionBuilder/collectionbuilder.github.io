@@ -10,7 +10,7 @@ section_order: 6
 
 ## 6. Uploading Your Metadata
 
-{% include bootstrap/alert.md color="warning mt-4" text="*Note:* CSV metadata should be in UTF-8 encoding. CSVs downloaded from Google Sheets or exported from OpenRefine will have the correct encoding. However, Excel does not handle UTF-8 correctly, and may cause issues." %}
+{% include bootstrap/alert.md color="warning mt-4" text='*Note:* CSV metadata should be in UTF-8 encoding. CSVs downloaded from Google Sheets or exported from OpenRefine will have the correct encoding. However, Excel does not handle UTF-8 correctly, and may cause issues. The encoding "UTF-8 with BOM" (created by Excel save as CSV) will not work!' %}
 
 1. **Get your metadata ready for upload:**
     - Once you've finished creating your metadata in Google Sheets (or other software), click "File" and select "Download as Comma-separated values."
