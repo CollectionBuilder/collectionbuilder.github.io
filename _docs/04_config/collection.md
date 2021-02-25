@@ -24,7 +24,7 @@ These are settings specific to your collection:
 - **cdm-collection-id**: The name of your CONTENTdm collection (a collection alias assigned by a collection's creator in CONTENTdm).    
     - example --> `cdm-collection-id: boxing` 
 
-- **cdm-url** (for CONTENTdm skin): This is the url for your CONTENTdm server.
+- **cdm-url** (for CONTENTdm skin): The full url for your public CONTENTdm instance (*with NO trailing slash!*). Generally these follow the pattern "https://cdm" + a number + ".contentdm.oclc.org", although custom domains should also work. However, your CDM admin interface url (starting with "server", e.g. https://server12345.contentdm.oclc.org) will not work.
 	- example --> `cdm-url: https://cdm12345.contentdm.oclc.org`
 
 {% capture pagegen-title %}
