@@ -4,7 +4,7 @@ Using three primary components—a spreadsheet of metadata, a directory of asset
 
 CollectionBuilder is designed and maintained by librarians at the University of Idaho according to the [Lib-STATIC](https://lib-static.github.io/) approach, a methodology committed to leveraging static-web technologies and librarians' specialized skills in metadata and classification to create engaging web publications.
 
-In 2019, CollectionBuilder's development team received an IMLS-sponsored National Leadership Grants for Libraries [Planning Grant](https://www.imls.gov/grants/awarded/lg-34-19-0064-19) to refine and promote CollectionBuilder.
+In 2019, CollectionBuilder's development team received an IMLS-sponsored National Leadership Grants for Libraries [Planning Grant](https://www.imls.gov/grants/awarded/lg-34-19-0064-19-0) to refine and promote CollectionBuilder.
 
 {:.text-center}
 **Learn More About:**
