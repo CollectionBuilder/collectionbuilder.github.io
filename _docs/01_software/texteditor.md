@@ -15,7 +15,7 @@ The CollectionBuilder team suggests these open-source, cross platform options fo
 - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank" rel="noopener"} (VS Code)
 - [Atom](https://atom.io/){:target="_blank" rel="noopener"}
 
-If you don't have a text editors installed, visit their sites, download the software, and use their wizards to install on your computer. 
+If you don't have a text editor installed, visit their sites, download the software, and use their wizards to install on your computer. 
 
 We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
 For additional assistance, see our guides for [How to Install and Set Up Visual Studio Code](https://lib-static.github.io/howto/howtos/visualstudiocode.html){:target="_blank" rel="noopener"} and [How to Install and Set Up Atom](https://lib-static.github.io/howto/howtos/installatom.html){:target="_blank" rel="noopener"}
