@@ -21,6 +21,7 @@ Home Page Banner:
 		- example --> `featured-image:  /images/palouse.jpg`
 	- ***OR*** a full URL to an image elsewhere.  
 		- example --> `featured-image: https://ctrl-shift.org/images/splash/armantrout.jpg`
+	- if you leave `featured-image` blank or comment it out, the home page of your collection will have the standard page banner with no image background.
 
 {% include bootstrap/alert.md text="**Tip**: It's best to choose a large image for the featured image, one that is more 'landscape' than 'portrait,' i.e. more horizontal than vertical." color="info"%}
 
