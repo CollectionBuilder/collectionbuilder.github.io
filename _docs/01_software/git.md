@@ -46,8 +46,9 @@ Second, set your email so that it matches your GitHub account's email:
 
 `git config --global user.email "myemail@gmail.com"`
 
-*Optionally*, set your default text editor for use with git on the commandline.
-Normally it is set to Vim, which [can be confusing](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank" rel="noopener"}. 
+*Optionally*, set your default command line text editor for use with git.
+This editor may pop up in your terminal during some command line git operations that require a message (it is not your normal code editor such as VS Code).
+By default it is set to Vim, which [can be very confusing](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank" rel="noopener"} if unexpected. 
 For ease of use, we generally suggest using Nano editor:
 
 `git config --global core.editor "nano -w"`
