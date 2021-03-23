@@ -23,7 +23,7 @@ Once you have a terminal open, type in the command:
 {% include bootstrap/alert.md text="This will take awhile as the Gem installs all the dependencies and builds extensions (on Windows it may appear as if nothing is happening, be patient!)." color="warning" %}
 
 {% include bootstrap/alert.md color="danger" text="**Debugging Note:** if you have **Ruby version 3.0+** and **Jekyll version 4.2.0** (or less), when using Jekyll you will encounter an error in your terminal including 'cannot load such file -- webrick (LoadError)'.
-Please try installing webrick globally using `gem install webrick` *or* adding it to your project Gemfile using `gem add webrick` in the project directory.
+Please try installing webrick globally using `gem install webrick` *or* adding it to your project Gemfile using `bundle add webrick` in the project directory.
 This issue will be resolved in future Jekyll versions." %}
 
 Your dev environment is ready! Give yourself a hand!
