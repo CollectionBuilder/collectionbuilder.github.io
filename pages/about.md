@@ -105,7 +105,7 @@ Opportunities for Collaboration:
 <div class="col-md-8" markdown="1">
 {% include bootstrap/card.md text="
 - [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
-- [New College Digital Collections](http://ncf.sobek.ufl.edu/archives) (New College of Florida)
+- [New College Digital Collections](https://dss.ncf.edu/digitalcollections/) (New College of Florida)
 - [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)" header="Current CollectionBuilder Partners" %}
 </div>
 </div>
