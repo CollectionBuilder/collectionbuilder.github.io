@@ -8,12 +8,12 @@ overview: "This video will demonstrate how to set up a GitHub repository to star
 steps: 
 - text: Use the CollectionBuilder-GH repository template to import the files.
   time: 0
-  doc: /docs/repository.html#create
+  doc: https://collectionbuilder.github.io/docs/repository.html#create
 - text: Turn on the GitHub Pages option to make the repository produce a website.
   time: 217
-  doc: /docs/deploy.html#gh-pages
+  doc: https://collectionbuilder.github.io//docs/deploy.html#gh-pages
 - text: Edit the URL Settings in the _config.yml file to fix the website.
   time: 300
-  doc: /docs/config.html#url
+  doc: https://collectionbuilder.github.io/docs/config.html#url
 ---
  
