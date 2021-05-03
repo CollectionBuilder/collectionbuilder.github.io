@@ -55,22 +55,20 @@ To do this, follow the instructions below, which outline the steps to install Ru
 {% capture zsh %}
 **If using the zsh environment:**
 
-To complete the installation you will need to modify two configuration files:
-- Open your zsh environment file with the terminal's text editor, nano, by copying and pasting `nano ~/.zshenv` into the terminal prompt and pressing `Enter`.
-- Your terminal should switch to a nano text editor screen that includes a path to .zshenv at the top.
-- Use the down arrow on your keyboard to move to the end of the text file.
-- Paste `export PATH="$HOME/.rbenv/bin:$PATH"` at the end of the file.
-- Press `Control` + `x` to exit and save the profile. You'll see a message at the bottom of your screen asking whether you want to save the file.
-- Press the `y` key on your keyboard to specify yes, you want to save.
-- Press `Enter` to finish saving the file and exit nano.
-- Open your zsh configuration file with the terminal's text editor, nano, by copying and pasting `nano ~/.zshrc` into the terminal prompt and pressing `Enter`.
-- Your terminal should switch to a nano text editor screen that includes a path to .zshrc at the top.
-- Use the down arrow on your keyboard to move to the end of the text file.
-- Paste the following two lines at the end of the file
+After you run the command `rbenv init`, you will get this message:
+
 ```
-source $HOME/.zshenv
-eval "$(rbenv init – zsh)"
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init -)"
 ```
+
+To do this, follow these instructions:
+- Open your zsh configuration file with the terminal's text editor, nano, by copying and pasting  `nano ~/.zshrc` into the terminal prompt and pressing `Enter`. 
+- Your terminal should switch to a nano text editor screen that includes a path to `.zshrc` at the top. 
+- Use the down arrow on your keyboard to move to the end of the text file.
+- Paste `eval "$(rbenv init -)"` at the end of the file.
 - Press `Control` + `x` to exit and save the file. You'll see a message at the bottom of your screen asking whether you want to save the file.
 - Press the `y` key on your keyboard to specify yes, you want to save.
 - Press `Enter` to finish saving the file and exit nano.
@@ -94,12 +92,12 @@ The program will ask you to edit your bash profile. To do this, follow these ins
 {% include bootstrap/alert.md text=bash color="success" %}
 
 **Install Ruby**
-- Back in your terminal, install the latest version of ruby by copy/pasting or writing, `rbenv install 2.7.2` and pressing `Enter`.
+- Back in your terminal, install the latest version of ruby by copy/pasting or writing, `rbenv install 2.7.3` and pressing `Enter`.
 
 {:.alert .alert-warning .my-3}
-Note: 2.7.2 is the latest solid version as of this writing; if you are reading this past Fall 2020, you may want to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="noopener"} and install the latest stable version.
+Note: 2.7.3 is the latest solid version as of this writing; if you are reading this past Fall 2020, you may want to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="noopener"} and install the latest stable version.
 
-- Now let's set that version as your global Ruby version by entering `rbenv global 2.7.2` into the terminal prompt and pressing `Enter`.
+- Now let's set that version as your global Ruby version by entering `rbenv global 2.7.3` into the terminal prompt and pressing `Enter`.
 - Finally, we're going to rehash, just to be safe: copy and paste the command `rbenv rehash` into your prompt and pressing `Enter`.
 - Now let's see if that worked.
     - Quit your terminal by right clicking (`Control + click`) its icon in your applications menu, and selecting `Quit` from the options that appear.
