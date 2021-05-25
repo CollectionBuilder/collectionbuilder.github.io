@@ -20,11 +20,11 @@ Let's lift the veil:
 **Jekyll outputs the complete website in a directory called "_site"** while generating the files for development or for production. 
 When you're generating a test site using `jekyll s` on the commandline, Jekyll automatically builds all the pages with links based on the development server, by default using urls that start with `http://127.0.0.1:4000/`. 
 
-To build the site for production, you'll need to `jekyll build` instead. 
-In contrast to the development server, `jekyll build` generates the complete site using the real world URLs configured in your [_config.yml](config.html#url).
+To build the site for production, you'll need to `bundle exec jekyll build` instead. 
+In contrast to the development server, `bundle exec jekyll build` generates the complete site using the real world URLs configured in your [_config.yml](config.html#url).
 
 However, CollectionBuilder only adds some features when the site is built using the Jekyll ["production" environment](https://jekyllrb.com/docs/configuration/environments/){:target="_blank" rel="noopener"} (which is the default when generated on GitHub Pages). 
-The environment can be added to the commandline, as `JEKYLL_ENV=production jekyll build`, but to make it easier to use CollectionBuilder provides the `rake deploy` command as an alternative.
+The environment can be added to the commandline, as `JEKYLL_ENV=production bundle exec jekyll build`, but to make it easier to use CollectionBuilder provides the `rake deploy` command as an alternative.
 
 #### Build using "rake deploy"
 
