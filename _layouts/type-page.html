@@ -31,7 +31,7 @@ layout: default
         </ul>
         <hr>
         {% unless type.id == 'es' %}
-        <a href="{{ '/docs/introduction.html' | relative_url }}" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
+        <a href="{{ '/cb-docs/' | absolute_url }}" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
         {% endunless %}
         <a href="{{ type.github }}" class="btn my-4 btn-lg btn-secondary col-9">GitHub Repository</a>
         {% if type.demo %}
