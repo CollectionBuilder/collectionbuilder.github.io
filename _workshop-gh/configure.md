@@ -8,13 +8,13 @@ overview: This portion will demonstrate how to edit the _config.yml file to use 
 steps: 
   - text: Adjust the Site Settings in the _config.yml file.
     time: 20
-    doc: https://collectionbuilder.github.io/docs/config.html#site
+    doc: https://collectionbuilder.github.io/cb-docs/docs/config/site/
   - text: Adjust the Collection Settings in the _config.yml file.
     time: 193
-    doc: https://collectionbuilder.github.io/docs/config.html#coll
+    doc: https://collectionbuilder.github.io/cb-docs/docs/config/collection/
   - text: An overview of additional features in the config file. 
     time: 275
-    doc: https://collectionbuilder.github.io/docs/config.html#additional
+    doc: https://collectionbuilder.github.io/cb-docs/docs/config/additional/
   - text: Overview of collection in a first draft state
     time: 390
 ---

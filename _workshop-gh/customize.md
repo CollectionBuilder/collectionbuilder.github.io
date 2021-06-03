@@ -8,23 +8,23 @@ overview: This portion will demonstrate how to customize the content included on
 steps: 
   - text: Edit the browse card content.
     time: 0
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-browse
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-browse/
   - text: Adjust content on map item cards.
     time: 184
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-map
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-map/
   - text: Customize item page metadata.
     time: 254
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-metadata
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-metadata/
   - text: Adjust navigation bar content.
     time: 403
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-nav
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-nav/
   - text: Customize your site's search. 
     time: 494
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-search
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-search/
   - text: Adjust the data table.
     time: 582
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-table
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-table/
   - text: Generate custom theme colors.
     time: 624
-    doc: https://collectionbuilder.github.io/docs/customize.html#config-colors
+    doc: https://collectionbuilder.github.io/cb-docs/docs/customization/config-theme-colors/
 ---

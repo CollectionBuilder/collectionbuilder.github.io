@@ -8,26 +8,23 @@ overview: "This portion will demonstrate how to edit the theme.yml (found in you
 steps: 
   - text: Edit the home page in the theme.yml file.
     time: 0
-    doc: https://collectionbuilder.github.io/docs/theme.html#home
-  - text: Change the About featured image.
-    time: 209
-    doc: https://collectionbuilder.github.io/docs/theme.html#about
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/home/
   - text: Add or remove browse buttons.
     time: 267
-    doc: https://collectionbuilder.github.io/docs/theme.html#item
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/item/
   - text: Edit the Subjects word cloud.
     time: 297
-    doc: https://collectionbuilder.github.io/docs/theme.html#subjects
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/subjects/
   - text: Edit the Locations word cloud.
     time: 433
-    doc: https://collectionbuilder.github.io/docs/theme.html#locations
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/locations/
   - text: Adjust the Map page. 
     time: 472
-    doc: https://collectionbuilder.github.io/docs/theme.html#map
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/map/
   - text: Customize the Timeline dropdown button.
     time: 631
-    doc: https://collectionbuilder.github.io/docs/theme.html#timeline
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/timeline/
   - text: Adjust metadata downloads.
     time: 689
-    doc: https://collectionbuilder.github.io/docs/theme.html#data
+    doc: https://collectionbuilder.github.io/cb-docs/docs/theme/data/
 ---
