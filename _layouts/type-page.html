@@ -6,20 +6,20 @@ layout: default
 
 <hr class="col-8 offset-2">
 
-<div class="row bg-light mt-4 pt-4">
-{% unless type.id == 'es' %}
-}
-    <div class="col">
+<div class="row justify-content-center bg-light mt-4 pt-4">
+    {% if type.image %}
+    <div class="col-md-6">
         <figure class="figure mx-auto text-center p-4 ">
-            <img src="{{ type.image | prepend: '/images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="A generic square placeholder image with rounded corners in a figure.">
+            <img src="{{ type.image | prepend: '/images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="screen shot image of {{ type.collection }} home page">
             <figcaption class="figure-caption"><small><a href="{{ type.coll-link }}">{{ type.collection }}</a><br> built with {{ type.title }}</small></figcaption>
         </figure>
     </div>
-  {% endunless %}  
+    {% endif %}
+  
   {% if type.id == 'es' %}<div class="p-4  mx-auto col-md-7" >
         <p class="alert-warning text-center alert">Our Elastic Version is Currently in Development. <br/> We hope to have a functional version sometime in 2021.</p>
         {%else%}
-        <div class="col p-4">
+        <div class="col-md-6 p-4">
         {%endif%}
         <p class="h3 pr-4">{{ type.description }}</p>
 
