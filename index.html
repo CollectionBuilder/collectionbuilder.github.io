@@ -6,7 +6,7 @@ layout: default
     <div class="col-md-4">
         <div class="row">
             <div class="col-12 mx-auto text-center">
-                <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}"> </a></h1>
+                <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}" alt="stylized CB logo"> </a></h1>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@ layout: default
 <div class="row py-4 bg-light text-dark ">
     <br /><br /><br /><br />
     <div class="col-md-5 col-12 mx-auto p-4">
-        <img class="img-fluid" src="images/metadata.png" />
+        <img class="img-fluid" src="{{ '/images/metadata.png' | relative_url }}" alt="a spreadsheet with metadata in rows">
     </div>
     <div class="col-md-6 col-12 mx-auto m-4">
         <h1 class="display-5 my-4">You do the Metadata.</h1>
@@ -66,44 +66,44 @@ layout: default
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/home/map.jpg" alt="First slide">
+                    <img class="d-block w-100" src="images/home/map.jpg" alt="screenshot of a web map">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Interactive Maps Using Leaflet</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/timeline-postcards.png" alt="Second slide">
+                    <img class="d-block w-100" src="images/home/timeline-postcards.png" alt="screenshot of a timeline of images">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Auto-generated Timeline</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/browse.png" alt="Third slide">
+                    <img class="d-block w-100" src="images/home/browse.png" alt="screenshot of search results in page">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Metadata driven browse and search</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/tagcloud.png" alt="fourth slide">
+                    <img class="d-block w-100" src="images/home/tagcloud.png" alt="screenshot of a word cloud example">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Auto Generated Tag Clouds</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/data.png" alt="fifth slide">
+                    <img class="d-block w-100" src="images/home/data.png" alt="screenshot of buttons to download data files">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Collections AS Data</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/bento.png" alt="sixth slide">
+                    <img class="d-block w-100" src="images/home/bento.png" alt="screenshot of homepage layout">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Generated Overview on Home Page</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/home/home-image.png" alt="seventh slide">
+                    <img class="d-block w-100" src="images/home/home-image.png" alt="screenshot of large feature image layout">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h5 bg-dark mt-4 py-2" style="margin:0 -25%">Large Featured Images</p>
                     </div>
@@ -140,7 +140,7 @@ layout: default
                 <div class="row">
                     <div class="col-12 mx-auto text-center">
                         <figure class="figure mx-auto text-center">
-                            <img style="max-height:275px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <img style="max-height:275px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="screenshot of {{ type.collection }}">
                             <figcaption class="figure-caption"><small><a href="{{type.coll-link}}">{{type.collection}}</a><br> built with {{type.title}}</small></figcaption>
                         </figure>
 
