@@ -12,23 +12,24 @@ Honestly, we do a lot of stuff the slow/old/inefficient/wrong way... but we make
 
 - Email contact: libstatic.uidaho@gmail.com 
 - Main project site: <https://collectionbuilder.github.io/>
-- User Documentation is found via the [CollectionBuilder home page](https://collectionbuilder.github.io/)
+- User Documentation: <https://collectionbuilder.github.io/cb-docs/>
 - Technical Documentation is found in individual project repositories in the "/docs" folder.
+- Discussions: <https://github.com/CollectionBuilder/collectionbuilder.github.io/discussions>
 - General project tracking takes place in Issues in individual repositories, or the [CollectionBuilder home repository](https://github.com/CollectionBuilder/collectionbuilder.github.io/issues)
 
 ## Issues
 
 Since this is a relatively small project, we are informal in using GitHub Issues. 
-Issues should be opened in the specific repository for bug reports, feature ideas, and requests for missing documentation.
+Issues should be opened in the repository of the specific template you are using for bug reports, feature ideas, and requests for missing documentation.
 The team also uses Issues for project management related to the CollectionBuilder project.
-Please focus on clear communication, providing plenty of detail so that we can understand the bug or proposal.
-Always search Issues to see if a related report has already been opened (if so add a comment or reaction!).
 
-However, if you encounter problems using the CollectionBuilder templates to build a personal collection, please check our [documentation](https://collectionbuilder.github.io/) resources for solutions and other ways to get in touch. 
-Issues opened in CollectionBuilder repositories should be related to bugs and development problems in the central templates, *not* problems debugging personal metadata and pages. 
-You don't need to open an Issue to ask a question, checkout our help and contact options!
+Here are some tips:
 
-- [GitHub Issues](https://guides.github.com/features/issues/)
+- [How to use GitHub Issues](https://guides.github.com/features/issues/)
+- Please focus on clear communication, providing plenty of detail and links so that we can understand the bug or proposal.
+- Search the Issues to see if a related report has already been opened (if so add a comment or reaction!).
+- Check our [documentation](https://collectionbuilder.github.io/cb-docs/) resources for solutions and other ways to get in touch.
+- You can more informally ask questions and share ideas in the main [CollectionBuilder Discussions forum](https://github.com/CollectionBuilder/collectionbuilder.github.io/discussions). Discussions is often the best place to post questions about debugging metadata or pages in your own projects (rather than issues with the template code).
 
 ## Pull Requests 
 
@@ -43,6 +44,6 @@ Please provide plenty of detail in the PR so that the project team fully underst
 - Include spaces for readability. For example, in Liquid `{% if site.example %}{{ site.example }}{% endif %}`, not `{%if site.example%}{{site.example}}{%endif%}`.
 - To improve readability, avoid excess white space and random indentations.
 - Indent using spaces. HTML, JS, CSS and related files should be indented using 4 spaces. YAML with 2 spaces.
-- Main/master branch should be code that is ready to go. Use feature branches for development.
 - Use `;` in metadata to denote multi-valued fields.
 - New features should be progressive--adding features, while maintaining backwards compatibility with existing data setups. If possible, sane defaults should be set in Liquid, so that projects lacking updated config variables will still function.
+- Main branch should be code that is ready to go. Use feature branches for development and provide meaningful commit messages.
