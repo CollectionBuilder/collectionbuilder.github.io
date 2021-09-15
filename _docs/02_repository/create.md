@@ -19,8 +19,8 @@ Each repository on GitHub is basically a folder for storing and tracking the cod
     - **GH** - <https://github.com/CollectionBuilder/collectionbuilder-gh>
     - **CONTENTdm (CDM)** - <https://github.com/CollectionBuilder/collectionbuilder-contentdm> 
     - **SA** - *Currently under development--coming soon!*
-2. Click the green "Use This Template" button.    
-3. This brings you to a "Create a new repository" form. Follow these steps:
+3. Click the green "Use This Template" button.    
+4. This brings you to a "Create a new repository" form. Follow these steps:
     - **Enter your new repository name**. Use a lowercase name without spaces or odd characters. We often append `_source` or `_draft` to our projects to keep track of the status. If you are using GH, this name will become part of your site URL, so think through how it will look as a link.
     - Most users should choose "Public" repository. If you are hosting on GitHub Pages it *must* be public unless you upgrade to a paid account.
     - Leave the "Include all branches" option **Unchecked**! (you do not want all branches, only the main/master branch)
