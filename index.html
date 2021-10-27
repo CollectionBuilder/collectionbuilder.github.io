@@ -27,34 +27,24 @@ layout: default
     <br /><br /><br /><br />
 </div>
 <div class="row py-4 bg-secondary text-white ">
-    <br /><br /><br /><br />
+       <h1 class="display-5 my-3 text-center col-12">CollectionBuilder makes it <em>work</em>.</h1>
     <div class="col-md-6 px-5 col-12 mx-auto m-4">
-        <h1 class="display-5 my-4">CollectionBuilder makes it <em>work</em>.</h1>
-        <p class="h5">Copy one of our GitHub repositories, replace the demo metadata with your own, and let CollectionBuilder build a digital collection from your metadata.</p>
-        <p class="ml-4">Visualizations include:</p>
+        <p class="h5">Let CollectionBuilder build a digital collection from your metadata. Just  and replace the demo metadata with your own.</p>
+        <p>Follow our <a class="text-warning"  href="/cb-docs/">Documentation</a> to build a site step-by-step:</p>
         <ul class="ml-4">
-            <li>interactive (clustered) maps using <a href="https://leafletjs.com/" class="text-white font-weight-bold" target="_blank" rel="noopener">leaflet</a></li>
-            <li>auto-generated timelines (including a <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener" class="text-white font-weight-bold">timelinejs</a> option)</li>
-            <li>search- and subject-based browsing</li>
-            <li>tag clouds for subjects, locations, or custom fields</li>
-            <li><a href="https://collectionsasdata.github.io" class="text-white font-weight-bold">#collectionsasdata</a>-inspired open data features</li>
-            <li> and more!</li>
+            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/repository/create/">Copy one of our GitHub Repositories</a>.</a></li>
+            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/metadata/">Replace the demo metadata</a> with your own</li>
+            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/config/">Configure the Site</a></li>
+            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/theme/">Adjust the Theme</a> and <a class="text-warning" href=https://collectionbuilder.github.io/cb-docs/docs/customization/">Pages</a> to your liking</li>
+            <li>Deploy you site for free<ul>
+                <li>On <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/gh-pages/">GitHub Pages</a> </li>
+                <li>Using a third-party provider like <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/thirdparty/#deploy-using-render">Render</a></li> 
+                <li>Or <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/build/">use 'Jekyll build'</a> and deploy it from anywhere</li>
+            </ul></li>
         </ul>
-        <!-- <div class="row">
-            <div class="col-7 p-2"><button class="btn btn-lg btn-outline<u-white">Interactive Maps</button> </div>
-            <div class="col-5 p-2"><button class="btn btn-lg btn-outline-white">Auto-generated Timelines</button></button></div>
-            <div class="col-9 p-2"><button class="btn btn-lg btn-outline-white">Search- and Subject-based browsing</button></div>
-            <div class="col-3 p-2"><button class="btn btn-lg btn-outline-white float-right">Tag Clouds</button></div>
-            <div class="col-6 p-2"><button class="btn btn-lg btn-outline-white">Open Data Features</button></div>
-            
-            <div class="col-4 p-2"><button class="btn btn-lg btn-outline-white">Enhanced SEO</button></div>
-            <div class="col-2 p-2"><button class="btn btn-lg btn-outline-white">+ more!</button></div>
-
-
-        </div>-->
     </div>
-    <div class="col-md-6 pt-4">
-        <div id="carouselExampleIndicators" class="carousel slide p-4 mt-4" data-ride="carousel">
+    <div class="col-md-6 pt-0 ">
+        <div id="carouselExampleIndicators" class="carousel slide p-4 mt-0" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -119,8 +109,39 @@ layout: default
             <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+                    <!-- Button trigger modal -->
+                    <div class="text-center">
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#vizinfoModal">
+    More on Visualizations and Features
+  </button>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade text-dark" id="vizinfoModal" tabindex="-1" role="dialog" aria-labelledby="vizinfoModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Features Include:</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul class="ml-4">
+                <li>Search and subject-based browsing</li>
+                <li>Interactive maps using <a href="https://leafletjs.com/" class="font-weight-bold" target="_blank" rel="noopener">leaflet</a></li>
+                <li>Auto-generated Timelines, including <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener" class="font-weight-bold">timelinejs</a></li>
+                <li>Tag clouds for subjects, locations, or custom fields</li>
+                <li>Enhanced SEO</li>
+                <li>Reusable and open data, including auto-generated JSON and CSV files</li>
+                <li> and more!</li>
+            </ul>
+        </div>
+      </div>
     </div>
-    <br /><br /><br /><br />
+  </div>
+    </div>
+    <br /><br />
 </div>
 <div class="row my-4 ">
     <div class="col-12 my-4">
