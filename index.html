@@ -22,7 +22,7 @@ layout: default
     </div>
     <div class="col-md-6 col-12 mx-auto m-4">
         <h1 class="display-5 my-4">You do the Metadata.</h1>
-        <p class="h5">Step 1: Describe your images, documents, and other media in a CSV spreadsheet</p>
+        <p class="h5">Describe your images, documents, and other media in a CSV spreadsheet</p>
     </div>
     <br /><br /><br /><br />
 </div>
@@ -30,7 +30,7 @@ layout: default
     <br /><br /><br /><br />
     <div class="col-md-6 px-5 col-12 mx-auto m-4">
         <h1 class="display-5 my-4">CollectionBuilder makes it <em>work</em>.</h1>
-        <p class="h5">Step 2: Save your CSV into the repository and let CollectionBuilder build your digital collection from your metadata.</p>
+        <p class="h5">Copy one of our GitHub repositories, replace the demo metadata with your own, and let CollectionBuilder build a digital collection from your metadata.</p>
         <p class="ml-4">Visualizations include:</p>
         <ul class="ml-4">
             <li>interactive (clustered) maps using <a href="https://leafletjs.com/" class="text-white font-weight-bold" target="_blank" rel="noopener">leaflet</a></li>
@@ -124,12 +124,13 @@ layout: default
 </div>
 <div class="row my-4 ">
     <div class="col-12 my-4">
-        <h1 class="m-3 font-italic text-center display-3 ">Templates to Build From</h1>
+        <h1 class="m-3 font-italic text-center display-3 ">Frameworks to Build From</h1>
     </div>
     <div class="col-md-10 offset-md-1">
+        <h3 class="ml-3 mb-3">For most use cases</h3>
         <div class="card-deck ">
             {%for type in site.data.types%}
-            {% unless type.id == 'es' %}
+            {% if type.id == 'csv' or type.id == 'gh' %}
             <div class="card mb-4 bg-light text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
@@ -140,7 +141,7 @@ layout: default
                 <div class="row">
                     <div class="col-12 mx-auto text-center">
                         <figure class="figure mx-auto text-center">
-                            <img style="max-height:275px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="screenshot of {{ type.collection }}">
+                            <img style="max-height:345px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="screenshot of {{ type.collection }}">
                             <figcaption class="figure-caption"><small><a href="{{type.coll-link}}">{{type.collection}}</a><br> built with {{type.title}}</small></figcaption>
                         </figure>
 
@@ -148,6 +149,32 @@ layout: default
                 </div>
 
                 <hr />
+                <div class="text-center">
+                    
+                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
+
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-10 offset-md-1">
+        <h3 class="ml-3 my-3">For more specific (and adventurous) use cases
+        </h3>
+        <div class="card-deck ">
+            {%for type in site.data.types%}
+            {% unless type.id == 'csv' or type.id == 'gh' %}
+            <div class="card mb-4 bg-light text-dark">
+                <div class="card-heading">
+                    <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
+                        <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
+                    </h2>
+                    <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
+                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-danger">Experimental</span></p>{% endif %}
+                </div>
+                <hr />
+
                 <div class="text-center">
                     
                     <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
