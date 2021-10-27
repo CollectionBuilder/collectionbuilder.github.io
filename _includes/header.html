@@ -14,7 +14,7 @@
             <nav class="col-md-8 mt-3" role="navigation">
                 <ul class="nav nav-pills nav-fill float-right">
                     <li class="nav-item dropdown">
-                        <a id="cb-types" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
+                        <a id="cb-types" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Templates</a>
                         <div class="dropdown-menu" aria-labelledby="cb-types">
                             <p class="mb-0 mt-1 ml-2">Primary</p>
                             <a class="dropdown-item" href="{{ '/gh/' | relative_url }}">GH - Github-Pages</a>
@@ -27,12 +27,14 @@
                             <a class="dropdown-item" href="{{ '/sheets/' | relative_url }}">Sheets - Google Sheets</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ '/cb-docs/' | absolute_url }}">Documentation</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a id="cb-docs" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Get Started</a>
+                        <a id="cb-docs" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                         <div class="dropdown-menu" aria-labelledby="cb-docs">
 
-                            <a class="dropdown-item" href="{{ '/cb-docs/' | absolute_url }}">Documentation</a>
-                            <div class="dropdown-divider"></div>
+                     
                             <a class="dropdown-item" href="{{ '/workshop/gh/' | relative_url }}">CollectionBuilder-GH Online Tutorial</a>
                             <a class="dropdown-item" href="{{ '/workshop/gh/' | relative_url }}">In-Depth Workshop (Videos and Syllabus)</a>
 

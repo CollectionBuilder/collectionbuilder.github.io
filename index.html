@@ -27,20 +27,16 @@ layout: default
     <br /><br /><br /><br />
 </div>
 <div class="row py-4 bg-secondary text-white ">
-       <h1 class="display-5 my-3 text-center col-12">CollectionBuilder makes it <em>work</em>.</h1>
+       
     <div class="col-md-6 px-5 col-12 mx-auto m-4">
-        <p class="h5">Let CollectionBuilder build a digital collection from your metadata. Just  and replace the demo metadata with your own.</p>
+        <h1 class="display-5 my-3">CollectionBuilder makes it <em>work</em>.</h1>
+        <p class="h5">Let CollectionBuilder build a digital collection from your metadata. Just use one of our templates  and replace the demo metadata with your own.</p>
         <p>Follow our <a class="text-warning"  href="/cb-docs/">Documentation</a> to build a site step-by-step:</p>
         <ul class="ml-4">
-            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/repository/create/">Copy one of our GitHub Repositories</a>.</a></li>
+            <li>Copy a <a href="">Template</a>.</li>
             <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/metadata/">Replace the demo metadata</a> with your own</li>
-            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/config/">Configure the Site</a></li>
-            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/theme/">Adjust the Theme</a> and <a class="text-warning" href=https://collectionbuilder.github.io/cb-docs/docs/customization/">Pages</a> to your liking</li>
-            <li>Deploy you site for free<ul>
-                <li>On <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/gh-pages/">GitHub Pages</a> </li>
-                <li>Using a third-party provider like <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/thirdparty/#deploy-using-render">Render</a></li> 
-                <li>Or <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/deploy/build/">use 'Jekyll build'</a> and deploy it from anywhere</li>
-            </ul></li>
+            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/config/">Configure</a>  and Deploy Your site for Free</li>
+           
         </ul>
     </div>
     <div class="col-md-6 pt-0 ">
@@ -145,13 +141,13 @@ layout: default
 </div>
 <div class="row my-4 ">
     <div class="col-12 my-4">
-        <h1 class="m-3 font-italic text-center display-3 ">Frameworks to Build From</h1>
+        <h1 class="m-3 font-italic text-center display-3 ">Templates</h1>
     </div>
     <div class="col-md-10 offset-md-1">
         <h3 class="ml-3 mb-3">For most use cases</h3>
         <div class="card-deck ">
             {%for type in site.data.types%}
-            {% if type.id == 'csv' or type.id == 'gh' %}
+            {% if type.id == 'csv' or type.id == 'gh' or type.id == "cdm" %}
             <div class="card mb-4 bg-light text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
@@ -180,12 +176,12 @@ layout: default
             {% endfor %}
         </div>
     </div>
-    <div class="col-md-10 offset-md-1">
-        <h3 class="ml-3 my-3">For more specific (and adventurous) use cases
+    <div class="col-md-6 offset-md-3">
+        <h3 class="ml-3 my-3">Templates in Development
         </h3>
         <div class="card-deck ">
             {%for type in site.data.types%}
-            {% unless type.id == 'csv' or type.id == 'gh' %}
+            {% if type.id == 'es' or type.id == 'sheets' %}
             <div class="card mb-4 bg-light text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
@@ -202,7 +198,7 @@ layout: default
 
                 </div>
             </div>
-            {% endunless %}
+            {% endif %}
             {% endfor %}
         </div>
     </div>
