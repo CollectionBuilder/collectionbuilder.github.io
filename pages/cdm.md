@@ -1,6 +1,6 @@
 ---
 layout: type-page
-title: CONTENTdm
+title: CDM - CONTENTdm
 permalink: /cdm/
 type: cdm
 ---

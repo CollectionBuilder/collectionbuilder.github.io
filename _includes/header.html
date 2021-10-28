@@ -19,45 +19,21 @@
                             <p class="mb-0 mt-1 ml-2">Primary</p>
                             <a class="dropdown-item" href="{{ '/gh/' | relative_url }}">GH - Github-Pages</a>
                             <a class="dropdown-item" href="{{ '/csv/' | relative_url }}">CSV - Flexible Stand Alone</a>
+                            <a class="dropdown-item" href="{{ '/cdm/' | relative_url }}">CDM - CONTENTdm</a>
                             <div class="dropdown-divider"></div>
-                            <p class="mb-0 mt-1 ml-2">Specific Cases</p>
-                            <a class="dropdown-item" href="{{ '/skins/' | relative_url }}">Skin - CONTENTdm</a>
-                            <a class="dropdown-item" href="{{ '/sa/' | relative_url }}">SA - Stand Alone</a>
+
+                            <p class="mb-0 mt-1 ml-2">In Development</p>
                             <a class="dropdown-item" href="{{ '/es/' | relative_url }}">ES - Elastic</a>
                             <a class="dropdown-item" href="{{ '/sheets/' | relative_url }}">Sheets - Google Sheets</a>
+                          
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{ '/cb-docs/' | absolute_url }}">Documentation</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a id="cb-docs" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutorials</a>
-                        <div class="dropdown-menu" aria-labelledby="cb-docs">
-
-                     
-                            <a class="dropdown-item" href="{{ '/workshop/gh/' | relative_url }}">CollectionBuilder-GH Online Tutorial</a>
-                            <a class="dropdown-item" href="{{ '/workshop/gh/' | relative_url }}">In-Depth Workshop (Videos and Syllabus)</a>
-
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ '/workshop/gh/' | absolute_url }}">Tutorial</a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a id="getstarted" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#"
-                            role="button" aria-haspopup="true" aria-expanded="false">Get Started</a>
-                        <div class="dropdown-menu" aria-labelledby="getstarted">
-
-                            <h5 class="ml-2">Documentation</h5>
-
-                            {% for doc in site.data.docs-nav %}{% unless doc.parent %}
-                            <a class="dropdown-item"
-                                href="{{ doc.page | prepend: '/docs/' | append: '.html' | relative_url }}">
-                                {{ doc.title }}
-                            </a>
-                            {% endunless %}{% endfor %}
-
-                        </div>
-                    </li>
-                    -->
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#" data-trigger="focus" data-toggle="popover" title="CollectionBuilder is Free" data-placement="bottom" data-html=true data-content="No subscriptions.<br> No data sharing. <br> No dependencies.">Pricing</a>
                     </li>

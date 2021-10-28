@@ -6,9 +6,9 @@ layout: default
 
 <hr class="col-8 offset-2">
 
-<div class="row justify-content-center bg-light mt-4 pt-4">
+<div class="row justify-content-center mt-4 pt-4">
     {% if type.image %}
-    <div class="col-md-6">
+    <div class="col-md-5">
         <figure class="figure mx-auto text-center p-4 ">
             <img src="{{ type.image | prepend: '/images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="screen shot image of {{ type.collection }} home page">
             <figcaption class="figure-caption"><small><a href="{{ type.coll-link }}">{{ type.collection }}</a><br> built with {{ type.title }}</small></figcaption>
@@ -22,24 +22,25 @@ layout: default
         <div class="col-md-6 p-4">
         {%endif%}
         <p class="h3 pr-4">{{ type.description }}</p>
-
-        <p class="pt-3 h4">Best for: </p>
-        <ul class="list-group list-group-flush mb-3">
-            {% assign points = type.points | split: ";" %}
-            {% for point in points %}<li class="list-group-item bg-light text-dark border-success">{{ point }}</li>
-            {% endfor %}
-        </ul>
-        <hr>
-        {% unless type.id == 'es' %}
-        <a href="{{ '/cb-docs/' | absolute_url }}" class="btn my-4 btn-lg btn-success col-9">Get Started</a>
-        {% endunless %}
-        <a href="{{ type.github }}" class="btn my-4 btn-lg btn-secondary col-9">GitHub Repository</a>
-        {% if type.demo %}
-        <a href="{{ type.demo }}" class="btn my-4 btn-lg btn-info col-9">Check out a Demo Version</a>
-        {% endif %}
-        {% if type.workshop %}
-        <a href="{{ type.workshop }}" class="btn my-4 btn-lg btn-outline-primary col-9">Take an Online Workshop</a>
-        {% endif %}
-
+            <div class="row">
+                <div class="col-md-4 mt-4 text-center">
+        
+                    <a href="{{ type.github }}" class="btn my-2 btn-lg btn-warning col-9 w-75">Get Started</a> 
+                    {% if type.demo %}
+                    <a href="{{ type.demo }}" class="btn my-2 btn-lg btn-primary col-9 w-75">Check out a Demo Version</a>
+                    {% endif %}
+                    {% if type.workshop %}
+                    <a href="{{ type.workshop }}" class="btn my-2 btn-lg btn-outline-primary col-9 w-75">Take an Online Workshop</a>
+                    {% endif %}
+                    </div>
+                <div class="col-md-7">
+                <p class="pt-3 h4">Best for: </p>
+                <ul class="list-group list-group-flush mb-3">
+                    {% assign points = type.points | split: ";" %}
+                    {% for point in points %}<li class="list-group-item bg-light text-dark border-success">{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                </div>
+                
     </div>
 </div>

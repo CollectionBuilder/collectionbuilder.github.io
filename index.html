@@ -2,45 +2,44 @@
 title: Home
 layout: default
 ---
-<div class="row">
-    <div class="col-md-4">
-        <div class="row">
-            <div class="col-12 mx-auto text-center">
-                <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}" alt="stylized CB logo"> </a></h1>
-            </div>
-        </div>
+<div class="row my-5">
+    <div class="col-12 mx-auto text-center">
+        <h1 class="mt-4 text-center"> <a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}" alt="stylized CB logo"> </a></h1>
     </div>
-    <div class="col-md-8 my-4 py-4 pr-5">
+    <div class="col-md-8 offset-md-2 my-4 py-4 pr-5">
         <h2 class="font-italic h1"><strong>CollectionBuilder</strong> is an open source tool for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.</h2>
+        <div class="mt-5 text-center"><a href="#templates" class="btn btn-lg btn-warning">Choose a Template to Get Started</a></div>
     </div>
 </div>
 
-<div class="row py-4 bg-light text-dark ">
-    <br /><br /><br /><br />
-    <div class="col-md-5 col-12 mx-auto p-4">
-        <img class="img-fluid" src="{{ '/images/metadata.png' | relative_url }}" alt="a spreadsheet with metadata in rows">
+<div class="row py-5 bg-secondary text-white my-0 ">
+    <div class="col-md-7 col-12 text-center">
+        <img class="img-fluid w-75" src="{{ '/images/metadata.png' | relative_url }}" alt="a spreadsheet with metadata in rows">
     </div>
-    <div class="col-md-6 col-12 mx-auto m-4">
-        <h1 class="display-5 my-4">You do the Metadata.</h1>
-        <p class="h5">Describe your images, documents, and other media in a CSV spreadsheet</p>
+    <div class="col-md-3 col-12 pt-3 text-left">
+        <p class="display-4 my-4 h1">You do the Metadata.</p>
+        <p class="h5">Use your own spreadsheet and add <a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/metadata/">a few required fields</a>. </p>
     </div>
-    <br /><br /><br /><br />
 </div>
-<div class="row py-4 bg-secondary text-white ">
-       
-    <div class="col-md-6 px-5 col-12 mx-auto m-4">
-        <h1 class="display-5 my-3">CollectionBuilder makes it <em>work</em>.</h1>
-        <p class="h5">Let CollectionBuilder build a digital collection from your metadata. Just use one of our templates  and replace the demo metadata with your own.</p>
-        <p>Follow our <a class="text-warning"  href="/cb-docs/">Documentation</a> to build a site step-by-step:</p>
-        <ul class="ml-4">
-            <li>Copy a <a href="">Template</a>.</li>
-            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/metadata/">Replace the demo metadata</a> with your own</li>
-            <li><a class="text-warning" href="https://collectionbuilder.github.io/cb-docs/docs/config/">Configure</a>  and Deploy Your site for Free</li>
-           
-        </ul>
+<div class="row py-4 bg-dark text-white py-5">
+    <div class="col-md-12 ml-5  py-3 text-left ">
+        <h1 class="display-4 my-3 pl-4 ml-5">CollectionBuilder makes it <em>work</em>.</h1>
     </div>
-    <div class="col-md-6 pt-0 ">
-        <div id="carouselExampleIndicators" class="carousel slide p-4 mt-0" data-ride="carousel">
+        <div class="px-5 offset-md-1 col-md-4  text-left mt-4">
+        <p class="h4 pl-4">Upload your metadata and let CollectionBuilder use it to make: </p>
+        <ul class="h5 pl-4 ml-5">
+            <li><a href="#" class="text-warning" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">Maps</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="1">Timelines</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="2">Browse and Search Features</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="3">Tag Clouds</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="4">Data Outputs</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="5">Infographic Overview</li>
+            <li><a href="#" class="text-warning"  data-target="#carouselExampleIndicators" data-slide-to="6">Featured Images</li>
+        </ul>
+
+    </div>
+    <div class="col-md-7 pt-0 ">
+        <div id="carouselExampleIndicators" class="carousel slide p-4 mt-0 w-75 mx-auto text-center" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -105,50 +104,19 @@ layout: default
             <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-                    <!-- Button trigger modal -->
-                    <div class="text-center">
-<button type="button" class="btn btn-info" data-toggle="modal" data-target="#vizinfoModal">
-    More on Visualizations and Features
-  </button>
-</div>
-  
-  <!-- Modal -->
-  <div class="modal fade text-dark" id="vizinfoModal" tabindex="-1" role="dialog" aria-labelledby="vizinfoModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Features Include:</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <ul class="ml-4">
-                <li>Search and subject-based browsing</li>
-                <li>Interactive maps using <a href="https://leafletjs.com/" class="font-weight-bold" target="_blank" rel="noopener">leaflet</a></li>
-                <li>Auto-generated Timelines, including <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener" class="font-weight-bold">timelinejs</a></li>
-                <li>Tag clouds for subjects, locations, or custom fields</li>
-                <li>Enhanced SEO</li>
-                <li>Reusable and open data, including auto-generated JSON and CSV files</li>
-                <li> and more!</li>
-            </ul>
-        </div>
-      </div>
     </div>
-  </div>
-    </div>
-    <br /><br />
 </div>
 <div class="row my-4 ">
     <div class="col-12 my-4">
-        <h1 class="m-3 font-italic text-center display-3 ">Templates</h1>
+        <h2 class="m-3 font-italic text-center display-3" id="templates">Templates</h2>
+        <p class="h3 ml-4 text-center">Choose a template than use our <a  href="/cb-docs/">Documentation</a> and <a href="/cb-docs/">Tutorials</a> to build your site step-by-step.</p>
+        
     </div>
     <div class="col-md-10 offset-md-1">
-        <h3 class="ml-3 mb-3">For most use cases</h3>
         <div class="card-deck ">
             {%for type in site.data.types%}
             {% if type.id == 'csv' or type.id == 'gh' or type.id == "cdm" %}
-            <div class="card mb-4 bg-light text-dark">
+            <div class="card mb-4  text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
                         <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
@@ -167,8 +135,9 @@ layout: default
 
                 <hr />
                 <div class="text-center">
-                    
-                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
+                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-3 btn-lg btn-primary w-50">Learn More</a>
+
+                    <a href="{{ type.github}}" target="_blank" class="btn my-3 btn-lg btn-outline-success  w-50">Use This Template!</a>
 
                 </div>
             </div>
@@ -188,13 +157,13 @@ layout: default
                         <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
                     </h2>
                     <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
-                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-danger">Experimental</span></p>{% endif %}
+                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-outline-danger">Experimental</span></p>{% endif %}
                 </div>
                 <hr />
 
                 <div class="text-center">
-                    
-                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-info col-9">More Info</a>
+
+                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-primary col-9">More Info</a>
 
                 </div>
             </div>
@@ -204,8 +173,8 @@ layout: default
     </div>
 </div>
 
-<div class="row mt-4 py-4 bg-secondary text-white text-center">
-    <div class="col-12">
+<div class="row mt-4 py-5 bg-secondary text-white text-center">
+    <div class="col-12 pt-4">
         <h1 class="text-center">
             A<br>
             <a href="https://lib-static.github.io/" target="_blank" rel="noopener" title="lib-STATIC">
@@ -214,8 +183,8 @@ layout: default
             Production
         </h1>
     </div>
-    <div class="col-md-8 offset-md-2 p-4">
-        <p class="text-center ">At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the <a href="https://lib-static.github.io/" style="text-decoration: underline;" class="text-white font-weight-bold">Lib-STATIC</a> development methodology which aims to lower the barriers for development and deployment of digital collections, while upholding the unique values and perspectives of <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" style="text-decoration: underline;" class="text-white font-weight-bold">GLAM institutions</a>.</p>
-        <p class="text-center">CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems. An experiment in 'minimal computing', CollectionBuilder provides a depth of learning opportunities and development possibilities, allowing users to take complete ownership over the project and make their work open to the world.</p>
+    <div class="col-md-6 offset-md-3 p-4 text-left pb-5">
+        <p >At it's heart, CollectionBuilder is a set of Jekyll projects or templates designed following the <a href="https://lib-static.github.io/" style="text-decoration: underline;" class="text-white font-weight-bold">Lib-STATIC</a> development methodology which aims to lower the barriers for development and deployment of digital collections, while upholding the unique values and perspectives of <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" style="text-decoration: underline;" class="text-white font-weight-bold">GLAM institutions</a>.</p>
+        <p >CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is 'do-able' and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems. An experiment in 'minimal computing', CollectionBuilder provides a depth of learning opportunities and development possibilities, allowing users to take complete ownership over the project and make their work open to the world.</p>
     </div>
 </div>
