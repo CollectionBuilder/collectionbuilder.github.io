@@ -1,6 +1,6 @@
 ---
 layout: type-page
-title: CDM - CONTENTdm
+title: CDM - CONTENTdm Ready
 permalink: /cdm/
 type: cdm
 ---
