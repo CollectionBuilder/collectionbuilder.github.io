@@ -15,3 +15,14 @@
       scrollTop: $($.attr(this, 'href')).offset().top
   }, 600);
 });</script>
+<script>
+ $(function(){
+  var hash = window.location.hash;
+  hash && $('div.nav.nav-pills a[href="' + hash + '"]').tab('show'); 
+  $('div.nav.nav-pills a').click(function (e) {
+     $(this).tab('show');
+     var scrollmem = $('body').scrollTop();
+     window.location.hash = this.hash;
+  });
+});
+</script>

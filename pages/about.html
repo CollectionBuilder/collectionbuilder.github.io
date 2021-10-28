@@ -1,0 +1,26 @@
+---
+title: About CollectionBuilder
+layout: page
+permalink: /about.html
+---
+{% assign sections = site.about | sort: "section_order" %}
+<div class="row my-5 sticky-top">
+  <div class="col-3 mt-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      {% for s in sections %}
+      <a class="nav-link {% if forloop.first %}active{% endif %}" id="v-pills-{{s.sectionid}}-tab" data-toggle="pill" href="#v-pills-{{s.sectionid}}" role="tab"
+        aria-controls="v-pills-{{s.sectionid}}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{s.title}}</a>
+      {% endfor %}
+    </div>
+    </div>
+    <div class="col-9">
+    <div class="tab-content mt-3" id="v-pills-tabContent">
+      {% for s in sections %}
+      <div class="tab-pane fade {% if forloop.first %}active show{% endif %}" id="v-pills-{{s.sectionid}}" role="tabpanel"
+        aria-labelledby="v-pills-{{s.sectionid}}-tab">{{s}}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
