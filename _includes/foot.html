@@ -7,14 +7,16 @@
     $('[data-toggle="popover"]').popover()
   })
 </script>
-
+{% unless page.title contains 'About' %}
 <script>$(document).on('click', 'a[href^="#"]', function (event) {
   event.preventDefault();
 
   $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
   }, 600);
-});</script>
+});</script>{% endunless %}
+
+{% if page.title contains 'About' %}
 <script>
  $(function(){
   var hash = window.location.hash;
@@ -26,3 +28,5 @@
   });
 });
 </script>
+{% endif %}
+

@@ -4,7 +4,7 @@ sectionid: components
 section_order: 2
 ---
 
-## What Makes CollectionBuilder Go?
+## What are you using to build a CollectionBuilder site?
 
 CollectionBuilder uses 4 main components: 
 
