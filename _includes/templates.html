@@ -1,0 +1,61 @@
+<div class="row mb-4">
+    <div class="col-md-10 offset-md-1">
+        <div class="card-deck ">
+            {%for type in site.data.types%}
+            {% if type.id == 'csv' or type.id == 'gh' or type.id == "cdm" %}
+            <div class="card mb-4  text-dark">
+                <div class="card-heading">
+                    <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
+                        <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
+                    </h2>
+                    <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 mx-auto text-center">
+                        <figure class="figure mx-auto text-center">
+                            <img style="max-height:345px;" src="{{type.image | prepend: 'images/' }}" class="figure-img img-fluid rounded" alt="screenshot of {{ type.collection }}">
+                            <figcaption class="figure-caption"><small><a href="{{type.coll-link}}">{{type.collection}}</a><br> built with {{type.title}}</small></figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+
+                <hr />
+                <div class="text-center">
+                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-3 btn-lg btn-primary w-50">Learn More</a>
+
+                    <a href="{{ type.github}}" target="_blank" class="btn my-3 btn-lg btn-outline-success  w-50">Use This Template!</a>
+
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-6 offset-md-3">
+        <h3 class="ml-3 my-3">Templates in Development
+        </h3>
+        <div class="card-deck ">
+            {%for type in site.data.types%}
+            {% if type.id == 'es' or type.id == 'sheets' %}
+            <div class="card mb-4 bg-light text-dark">
+                <div class="card-heading">
+                    <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
+                        <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
+                    </h2>
+                    <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
+                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-outline-danger">Experimental</span></p>{% endif %}
+                </div>
+                <hr />
+
+                <div class="text-center">
+
+                    <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-4 btn-lg btn-primary col-9">More Info</a>
+
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

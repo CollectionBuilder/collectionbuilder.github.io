@@ -16,7 +16,7 @@ permalink: /about.html
   <div class="col-12 d-md-none">
     <select class="nav nav-pills nav-fill py-3 px-1 bg-light">
       {% for s in sections %}
-      <option class="nav-link {% if forloop.first %}active{% endif %}" id="{{s.sectionid}}-tab" data-toggle="pill" href="#{{s.sectionid}}" role="tab" aria-controls="{{s.sectionid}}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{s.title}}</option>
+      <option class="nav-link {% if forloop.first %}active{% endif %}" value="{{s.sectionid}}-tab" data-toggle="pill" href="#{{s.sectionid}}" role="tab" aria-controls="{{s.sectionid}}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{s.title}}</option>
       {% endfor %}
     </select>
   </div>
@@ -27,4 +27,7 @@ permalink: /about.html
       {% endfor %}
     </div>
   </div>
+  <div class="col-12 d-md-none">
+    {% include about-scroll-to-top.html %}
+    </div>
 </div>

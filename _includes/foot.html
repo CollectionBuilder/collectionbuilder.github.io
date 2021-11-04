@@ -26,6 +26,10 @@
      var scrollmem = $('body').scrollTop();
      window.location.hash = this.hash;
   });
+}); 
+$("select").change(function(){
+  var tabId = "#" + this.value;
+  $(tabId).click();
 });
 </script>
 {% endif %}
