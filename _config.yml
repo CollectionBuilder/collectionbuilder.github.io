@@ -22,6 +22,10 @@ collections:
     output: true
     permalink: /:collection/:title
     sort_by: step
+  workshop-dhsi:
+    output: true
+    permalink: /:collection/:title
+    sort_by: step
   
 # set defaults
 defaults:
@@ -35,6 +39,11 @@ defaults:
       type: "workshop-gh"
     values:
       layout: "workshop"
+  - scope:
+      path: ""
+      type: "workshop-dhsi"
+    values:
+      layout: "workshop-dhsi"
 
 # ignore stuff
 exclude: [old/, README.md, LICENSE]

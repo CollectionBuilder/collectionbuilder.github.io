@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
+{% capture change-list %}
+- GitHub Pages is now turned on via a tab at the bottom left of the GitHub repository settings page, not by scrolling down on that first "general" page. 
+- The featured image on the about page is controlled via the `theme.yml` in the `/_data/` directory, not via the `about.md` file in the `/pages/` directory. 
+{% endcapture %}            
+{% assign changeList = change-list | markdownify %}           
 <div class="container">
+   
     <div class="row">
         <div class="col-12">
             <div class="mt-4 text-center"><a class="text-dark mx-auto" href="{{ '/' | relative_url }}"><img style="max-height:220px;" class="my-2 img-fluid" src="{{ '/images/logo/cb-logo-solid-vgold-transparent.png' | relative_url }}" alt="collection builder logo" ><span class="sr-only">CollectionBuilder</span></a></div>
             <h1 class="text-center display-4">{{ page.title }}</h1>
         </div>
+        {{content}}
     </div>
-    <div class="row row-cols-1 row-cols-md-2 my-4 p-4">
+
     
+    <div class="row row-cols-1 row-cols-md-2 my-4 p-4">
+       
         {% assign modules = site[page.type] | sort: "step" %}
         {% for module in modules %}
         <div class="col mb-4">
