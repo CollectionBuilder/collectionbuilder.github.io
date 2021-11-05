@@ -16,14 +16,23 @@ layout: default
     </div>
     {% endif %}
   
-  {% if type.id == 'es' %}<div class="p-4  mx-auto col-md-7" >
-        <p class="alert-warning text-center alert">Our Elastic Version is Currently in Development. <br/> We hope to have a functional version sometime in 2021.</p>
+  {% if type.id == 'es' or type.id == 'sheets' %}<div class="p-4  mx-auto col-md-7" >
+        <p class="alert-warning text-center alert">This template is currently in development. Expect challenges!</p>
         {%else%}
         <div class="col-md-6 p-4">
         {%endif%}
         <p class="h3 pr-4">{{ type.description }}</p>
             <div class="row">
-                <div class="col-md-4 mt-4 text-center">
+                
+                <div class="col-md-12">
+                <p class="pt-3 h4">Best for: </p>
+                <ul class="list-group list-group-flush mb-3">
+                    {% assign points = type.points | split: ";" %}
+                    {% for point in points %}<li class="list-group-item bg-light text-dark border-success">{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                </div>
+                <div class="col-md-12 mt-4 text-center">
         
                     <a href="{{ type.github }}" class="btn my-2 btn-lg btn-success col-9 w-75">Use this Template!</a> 
                     {% if type.demo %}
@@ -33,14 +42,5 @@ layout: default
                     <a href="{{ type.workshop }}" class="btn my-2 btn-lg btn-outline-primary col-9 w-75">Take an Online Workshop</a>
                     {% endif %}
                     </div>
-                <div class="col-md-7">
-                <p class="pt-3 h4">Best for: </p>
-                <ul class="list-group list-group-flush mb-3">
-                    {% assign points = type.points | split: ";" %}
-                    {% for point in points %}<li class="list-group-item bg-light text-dark border-success">{{ point }}</li>
-                    {% endfor %}
-                </ul>
-                </div>
-                
     </div>
 </div>
