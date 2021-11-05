@@ -44,7 +44,7 @@
                         <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
                     </h2>
                     <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
-                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-outline-danger">Experimental</span></p>{% endif %}
+                    {% if type.experimental %}<p class="my-3 text-center px-2"><span class="btn btn-sm btn-outline-danger">In Development</span></p>{% endif %}
                 </div>
                 <hr />
 

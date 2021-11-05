@@ -1,6 +1,6 @@
 ---
 title: DHSI Coursepack
-permalink: /dhsi.html
+permalink: /workshop/dhsi/full.html
 layout: page
 ---
 Course Details

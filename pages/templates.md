@@ -4,7 +4,7 @@ layout: default
 permalink: /templates.html
 ---
 <div class="container">
-<div class="row">
+<div class="row mb-5">
 <div class="col-md-8">
 <h1 class="my-4 border-bottom display-3 w-75 d-none d-md-block">{{ page.title }}</h1>
 <h1 class="my-4 border-bottom d-md-none ml-0">{{ page.title }}</h1>
@@ -17,7 +17,7 @@ permalink: /templates.html
 </button>
 </div>
 <div class="col-12">
-<p class="h4 text-left mb-3">Below are the templates you can choose from to get started. Use our <a  href="/cb-docs/">Documentation</a> to troubleshoot and discover all you can do.</p>
+<p class="h4 text-left">Below are the templates you can choose from to get started. Use our <a  href="/cb-docs/">Documentation</a> to troubleshoot and discover all you can do.</p>
 
 </div>
 </div>
