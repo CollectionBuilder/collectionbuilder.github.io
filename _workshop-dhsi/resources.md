@@ -59,14 +59,6 @@ CollectionBuilder-GH can be used in a workshop or classroom setting to take part
 
 4. Configure Site: With the well-structured data prepared, users can begin working on the website configuration, including the "_config.yml" which provides the base settings for Jekyll websites, such as site “title,” “tagline,” and “description.” Config files can be edited using GitHub’s web interface. 
 
-<table>
-  <tr>
-    <td>
-Editing the _config.yml using GitHub’s web editor</td>
-  </tr>
-</table>
-
-
 5. Add Descriptive Content: Users can edit content pages, such as the About page, to provide context for their collection. Page content is styled using [Markdown](https://guides.github.com/features/mastering-markdown/), providing an easy to learn and write markup language. 
 
 6. Activate GitHub Pages: With the click of a button, users can activate GitHub’s free hosting service and have a live website in seconds. In the background, the platform automatically runs the static site generator (Jekyll) over the source code, outputs a complete website (HTML, CSS, JSON, and JS files), and serves it up to the world. Users navigate to their site to discover their new digital collection and explore the visualizations. They will likely discover interesting metadata anomalies that were not apparent when working on the spreadsheet—a teachable moment about how to debug your project!
