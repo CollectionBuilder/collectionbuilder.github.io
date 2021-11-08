@@ -7,3 +7,30 @@
     $('[data-toggle="popover"]').popover()
   })
 </script>
+{% unless page.title contains 'About' %}
+<script>$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+  }, 600);
+});</script>{% endunless %}
+
+{% if page.title contains 'About' %}
+<script>
+ $(function(){
+  var hash = window.location.hash;
+  hash && $('div.nav.nav-pills a[href="' + hash + '"]').tab('show'); 
+  $('div.nav.nav-pills a').click(function (e) {
+     $(this).tab('show');
+     var scrollmem = $('body').scrollTop();
+     window.location.hash = this.hash;
+  });
+}); 
+$("select").change(function(){
+  var tabId = "#" + this.value;
+  $(tabId).click();
+});
+</script>
+{% endif %}
+
