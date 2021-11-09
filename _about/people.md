@@ -12,7 +12,16 @@ Core team:
 - Devin Becker, Head of Data/Digital Services, Project Director
 - Jylisa Doney, Social Sciences Librarian, Documentation Director 
 
-Past collaborators:
+Advisors: 
 
-- Chelsea Codling, Graduate Assistant
-- Michael Decker, Graduate Assistant
+- Kim Christen, Washington State University
+- Alex Merrill, Washington State University
+- Alex Gil, Columbia University
+- Marii Nyrop, New York University
+- Laura Bucholtz, Reed College
+- Ammon Shepherd, University of Virginia
+
+Former Graduate Assistants:
+
+- Chelsea Codling, MA Archaeology '20
+- Michael Decker, MA English '21
