@@ -1,6 +1,6 @@
 ---
 layout: type-page
 title: SHEETS - Google Sheets Connected CollectionBuilder
-permalink: /sheets
+permalink: /sheets/
 type: sheets
 ---
