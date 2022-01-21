@@ -21,7 +21,8 @@ If you, or some institution you know, might be interested in adopting this tool 
 {% include bootstrap/card.md text="
 - [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
 - [New College Digital Collections](https://dss.ncf.edu/digitalcollections/) (New College of Florida)
-- [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)" header="Current CollectionBuilder Partners" %}
+- [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)
+- [US Latino Digital Humanities (USLDH)](https://artepublicopress.com/digital-humanities/)" header="Current CollectionBuilder Partners" %}
 </div>
 </div>
 

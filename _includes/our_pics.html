@@ -1,0 +1,11 @@
+<div class="row">
+{% for p in site.data.us %}
+    <div class="col-lg-4 col-md-4 col-sm-6 ">
+        <img class="img " src="{{p.image}}" alt="picture of {{p.name}}" height="160px">
+        <br>
+            <h4 id="profile-devin-beckerLabel"><strong>{{p.name}}</strong></h4>
+        <p>{{p.title}}<br><br></p>
+    </div>
+{% endfor %}
+</div>
+

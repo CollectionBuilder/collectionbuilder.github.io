@@ -1,5 +1,5 @@
 ---
-title: People
+title: People & Partners
 sectionid: people
 section_order: 9
 ---
@@ -7,10 +7,12 @@ section_order: 9
 
 Core team:
 
-- Olivia Wikle, Digital Initiatives Librarian, Communications/Assessment Director for Grant
-- Evan Williamson, Digital Infrastructure Librarian, Technical Director
-- Devin Becker, Head of Data/Digital Services, Project Director
-- Jylisa Doney, Social Sciences Librarian, Documentation Director 
+{% include our_pics.html %}
+
+Collaborators: 
+
+- Jylisa Doney, Social Sciences Librarian
+- Marco Seiferle Valencia, Open Education Librarian
 
 Advisors: 
 
@@ -25,3 +27,10 @@ Former Graduate Assistants:
 
 - Chelsea Codling, MA Archaeology '20
 - Michael Decker, MA English '21
+
+Partners: 
+
+- [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
+- [New College Digital Collections](https://dss.ncf.edu/digitalcollections/) (New College of Florida)
+- [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)
+- [US Latino Digital Humanities (USLDH)](https://artepublicopress.com/digital-humanities/)
