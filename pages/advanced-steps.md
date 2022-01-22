@@ -2,6 +2,7 @@
 layout: about
 title: Advanced Workshop - Timeline Edits Step Thru
 permalink: /advanced-steps.html
+noindex: true
 ---
 
 # Advanced Topics Step Thru

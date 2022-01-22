@@ -21,6 +21,7 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
 
+{% if site.noindex == true or page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
 {% if jekyll.environment == "production" %}
 {% include analytics.html %}
 {% endif %}

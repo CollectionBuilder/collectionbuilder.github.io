@@ -3,6 +3,7 @@ layout: docs
 title: Introduction
 permalink: /docs/introduction.html
 step: 0
+noindex: true
 ---
 
 CollectionBuilder was built for a wide variety of users, so we've tried to make the tool as easy to use as possible. Some initial set-up is required, especially for our Skin and Stand-Alone versions, as these require the installation of Ruby and Jekyll on a personal computer. 

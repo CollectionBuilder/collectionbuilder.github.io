@@ -2,6 +2,7 @@
 title: About CollectionBuilder
 layout: about
 permalink: /about-old.html
+noindex: true
 ---
 
 {:.my-4}
