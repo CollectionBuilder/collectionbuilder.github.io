@@ -1,5 +1,5 @@
 ---
-title: Support
+title: Funding & Support
 sectionid: support
 section_order: 6
 ---
