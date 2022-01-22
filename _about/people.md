@@ -11,8 +11,8 @@ Core team:
 
 Collaborators: 
 
-- Jylisa Doney, Social Sciences Librarian
-- Marco Seiferle Valencia, Open Education Librarian
+- Jylisa Doney, Social Sciences Librarian, University of Idaho
+- Marco Seiferle Valencia, Open Education Librarian, University of Idaho
 
 Advisors: 
 
@@ -25,10 +25,10 @@ Advisors:
 
 Former Graduate Assistants:
 
-- Chelsea Codling, MA Archaeology '20
-- Michael Decker, MA English '21
+- Chelsea Codling, MA Archaeology '20, University of Idaho
+- Michael Decker, MA English '21, University of Idaho
 
-Partners: 
+## Partners
 
 - [North Carolina Digital Collections](http://digital.ncdcr.gov/) (State Library of North Carolina and State Archives of North Carolina)
 - [New College Digital Collections](https://dss.ncf.edu/digitalcollections/) (New College of Florida)
