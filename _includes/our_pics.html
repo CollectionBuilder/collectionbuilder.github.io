@@ -1,11 +1,13 @@
 <div class="row">
 {% for p in site.data.us %}
-    <div class="col-lg-4 col-md-4 col-sm-6 ">
-        <img class="img " src="{{p.image}}" alt="picture of {{p.name}}" height="160px">
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <img src="{{p.image}}" alt="picture of {{p.name}}" height="160px">
         <br>
-            <h4 id="profile-devin-beckerLabel"><strong>{{p.name}}</strong></h4>
-        <p>{{p.title}}<br><br></p>
+            <div class="h4"><strong>{{p.name}}</strong></div>
+        <p class="mb-5">
+            {{p.role}}<br>
+            <small><em>{{ p.title }}</em></small>
+        </p>
     </div>
 {% endfor %}
 </div>
-
