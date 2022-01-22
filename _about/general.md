@@ -7,7 +7,7 @@ section_order: 1
 ## What is CollectionBuilder?
 
 {:.my-4}
-CollectionBuilder is a set of flexible, static web [templates](index.html#templates) for creating digital collection websites. These templates  are driven by metadata and powered by modern static web technology. Using three primary components—a spreadsheet of metadata, a directory of assets, and a configuration file—CollectionBuilder helps users to build and customize sustainable, digital collections and exhibits for free, learning valuable development practices in the process.  
+CollectionBuilder is a set of flexible, static web [templates]({{ '/templates.html' | relative_url }}) for creating digital collection websites. These templates  are driven by metadata and powered by modern static web technology. Using three primary components—a spreadsheet of metadata, a directory of assets, and a configuration file—CollectionBuilder helps users to build and customize sustainable, digital collections and exhibits for free, learning valuable development practices in the process.  
 
 ## How does it work?
 
@@ -32,6 +32,4 @@ CollectionBuilder is designed and maintained by librarians at the [University of
 
 The project comes out of work done at the library's digital humanities center, the [Center for Digital Inquiry and Learning](https://www.lib.uidaho.edu). 
 
-CollectionBuilder has received [support](about.html#v-pills-support) from the University of Idaho Library. From 2019-2021, we were supported by a National Leadership Grant from the Institute for Museum and Library Services (IMLS). 
-
-
+CollectionBuilder has received support from the University of Idaho Library. From 2019-2021, we were supported by a National Leadership Grant from the Institute for Museum and Library Services (IMLS). 
