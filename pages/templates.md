@@ -39,8 +39,8 @@ permalink: /templates.html
 </div>
 <div class="modal-body">
 <p>A template is a model on which you can base your own work.</p>
-<p> Rather than going through prompts and steps to create something new, <b>a template asks you to replace what is already in the model</b>  with content of your own.</p>
-<p>In CollectionBuilder's case, this means replacing our demo metadata and objets with your own, and then replacing the values in several config files with those that make the template look and feel like the site you want.</p>
+<p> Rather than going through prompts and steps to create something new, <b>a template asks you to replace what is already in the model  with content of your own</b>.</p>
+<p>In CollectionBuilder's case, this means replacing our demo metadata and objects with your own, and then replacing the values in several config files with those that make the template look and feel like the site you want.</p>
 <p>You can also use the templates to look at what's going on. Once you <a href="https://collectionbuilder.github.io/cb-docs/docs/repository/create/">copy a CollectionBuilder template</a>, the code and all the files are totally yours to investigate and customize.</p>
 </div>
 <div class="modal-footer">
