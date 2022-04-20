@@ -8,7 +8,7 @@ section_order: 6
 
 CollectionBuilder receives ongoing support in the form of staff support, development time, and funding from the University of Idaho Library. 
 
-From 2019 to 2021, we were supported by a [National Leadership Grants for Libraries from the Institute for Museum and Library Services (IMLS)]((https://www.imls.gov/grants/awarded/lg-34-19-0064-19-0) ) that helped us to build, document, and promote CollectionBuilder. 
+From 2019 to 2021, we were supported by a [National Leadership Grants for Libraries from the Institute for Museum and Library Services (IMLS)](https://www.imls.gov/grants/awarded/lg-34-19-0064-19){:target="_blank" rel="noopener"} that helped us to build, document, and promote CollectionBuilder. 
 
 See a condensed version of our final report below for more details. 
 
