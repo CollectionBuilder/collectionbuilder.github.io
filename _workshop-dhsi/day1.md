@@ -1,6 +1,6 @@
 ---
 step: 2
-permalink: workshop/dhsi/day1.html
+permalink: /workshop/dhsi/day1.html
 video: ZPOKRpxGJqg
 title: Day 1 - The Base Components and Workflows 
 shorttitle: Day 1

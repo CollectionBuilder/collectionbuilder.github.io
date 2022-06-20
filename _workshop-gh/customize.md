@@ -1,6 +1,6 @@
 ---
 step: 5
-permalink: workshop/gh/customize.html
+permalink: /workshop/gh/customize.html
 video: P5_w2hYJhIg
 title: Customize your Site
 shorttitle: Customize

@@ -1,6 +1,6 @@
 ---
 step: 1
-permalink: workshop/gh/setup.html
+permalink: /workshop/gh/setup.html
 video: FbWGLFRpAlA
 title: Set Up Your Repository
 shorttitle: Set Up

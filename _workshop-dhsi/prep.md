@@ -1,6 +1,6 @@
 ---
 step: 1
-permalink: workshop/dhsi/day0.html
+permalink: /workshop/dhsi/day0.html
 video: 
 title: Prep for Workshop
 shorttitle: Prep

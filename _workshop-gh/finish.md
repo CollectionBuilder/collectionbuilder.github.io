@@ -1,6 +1,6 @@
 ---
 step: 6
-permalink: workshop/gh/finish.html
+permalink: /workshop/gh/finish.html
 video: QS3kiFmaBeA
 title: Finish Your Site
 shorttitle: Finish

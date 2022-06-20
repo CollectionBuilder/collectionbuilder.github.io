@@ -1,6 +1,6 @@
 ---
 step: 3
-permalink: workshop/gh/configure.html
+permalink: /workshop/gh/configure.html
 video: h9JInGywC4o
 title: Configure your Site
 shorttitle: Configure

@@ -1,6 +1,6 @@
 ---
 step: 4
-permalink: workshop/gh/theme.html
+permalink: /workshop/gh/theme.html
 video: zpgdTrHyRF8
 title: Theme Your Site
 shorttitle: Theme

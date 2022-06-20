@@ -1,6 +1,6 @@
 ---
 step: 5
-permalink: workshop/dhsi/day4.html
+permalink: /workshop/dhsi/day4.html
 video: IclcqkS82fg
 title: Day 4 - Pages, Liquid, Layouts and other means towards Customization
 shorttitle: Day 4

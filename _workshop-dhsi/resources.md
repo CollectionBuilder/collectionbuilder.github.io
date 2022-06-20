@@ -1,6 +1,6 @@
 ---
 step: 6
-permalink: workshop/dhsi/resources.html
+permalink: /workshop/dhsi/resources.html
 video: 
 title: Resources for Understanding CollectionBuilder
 shorttitle: Resources

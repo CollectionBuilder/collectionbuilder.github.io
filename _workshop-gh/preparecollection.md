@@ -1,6 +1,6 @@
 ---
 step: 2
-permalink: workshop/gh/prepare.html
+permalink: /workshop/gh/prepare.html
 video: XMJbg6mqdTw
 title: Prepare the Collection
 shorttitle: Prepare
