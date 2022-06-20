@@ -1,6 +1,6 @@
 ---
 step: 4
-permalink: /workshop/dshi/day3.html
+permalink: /workshop/dhsi/day3.html
 video: 4TqpTKZy-hE
 title: Day 3 - Understanding the Structure and Workings of CollectionBuilder/Jekyll 
 shorttitle: Day 3
