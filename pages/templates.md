@@ -17,7 +17,7 @@ permalink: /templates.html
 </button>
 </div>
 <div class="col-12">
-<p class="h4 text-left">Below are the templates you can choose from to get started. Use our <a  href="/cb-docs/">Documentation</a> to troubleshoot and discover all you can do.</p>
+<p class="h4 text-left">Below are the templates you can choose from to get started. Use our <a  href="https://collectionbuilder.github.io/cb-docs/">Documentation</a> to troubleshoot and discover all you can do.</p>
 
 </div>
 </div>
