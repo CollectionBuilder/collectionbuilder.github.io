@@ -1,6 +1,6 @@
 ---
 step: 3
-permalink: workshop/dhs1/day2.html
+permalink: /workshop/dhsi/day2.html
 video: pZz5LYwdLUA
 title: Day 2 - Software and Conventions
 shorttitle: Day 2
