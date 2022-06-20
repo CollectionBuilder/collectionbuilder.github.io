@@ -2,7 +2,7 @@
 CollectionBuilder is a lightweight, flexible tool for creating digital collection websites that are driven by metadata and powered by modern static web technology. 
 Using three primary components—a spreadsheet of metadata, a directory of assets, and a configuration file—CollectionBuilder gives information professionals and digital scholarship practitioners agency in building and customizing digital collection websites for free. 
 
-CollectionBuilder is designed and maintained by librarians at the University of Idaho according to the [Lib-STATIC](https://lib-static.github.io/) approach, a methodology committed to leveraging static-web technologies and librarians' specialized skills in metadata and classification to create engaging web publications.
+CollectionBuilder is designed and maintained by librarians at the University of Idaho according to the [Lib-Static](https://lib-static.github.io/) approach, a methodology committed to leveraging static-web technologies and librarians' specialized skills in metadata and classification to create engaging web publications.
 
 In 2019, CollectionBuilder's development team received an IMLS-sponsored National Leadership Grants for Libraries [Planning Grant](https://www.imls.gov/grants/awarded/lg-34-19-0064-19-0) to refine and promote CollectionBuilder.
 
@@ -43,7 +43,7 @@ As one examines these collections more closely, we feel that one can get a large
 
 ### Methodology
 
-We call the methodology we use to build CollectionBuilder Lib-STATIC. We've created [a little website to document the ideas that inform this approach](https://lib-static.github.io/). 
+We call the methodology we use to build CollectionBuilder Lib-Static. We've created [a little website to document the ideas that inform this approach](https://lib-static.github.io/). 
 
 Basically, we believe that the systems libraries have been locked into, particularly concerning digital collections, serve neither the librarians/GLAM professionals that maintain them and prepare their content nor the collections we are trying to promote using them. 
 

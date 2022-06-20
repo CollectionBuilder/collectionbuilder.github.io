@@ -28,7 +28,7 @@ You'll need to make sure your metadata has [a few required fields](https://colle
 
 ## Who's Behind This?
 
-CollectionBuilder is designed and maintained by librarians at the [University of Idaho](https://www.lib.uidaho.edu), following the [Lib-STATIC](https://lib-static.github.io/) approach, a methodology committed to leveraging static-web technologies and librarians' specialized skills in metadata and classification to create engaging web publications. 
+CollectionBuilder is designed and maintained by librarians at the [University of Idaho](https://www.lib.uidaho.edu), following the [Lib-Static](https://lib-static.github.io/) approach, a methodology committed to leveraging static-web technologies and librarians' specialized skills in metadata and classification to create engaging web publications. 
 
 The project comes out of work done at the library's digital humanities center, the [Center for Digital Inquiry and Learning](https://www.lib.uidaho.edu). 
 
