@@ -13,6 +13,7 @@ Collaborators:
 
 - Jylisa Doney, Social Sciences Librarian, University of Idaho
 - Marco Seiferle Valencia, Open Education Librarian, University of Idaho
+- Derek Enos, Developer
 
 Advisors: 
 
