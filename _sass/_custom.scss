@@ -3,6 +3,11 @@ body{
     font-family: $font-family;
     font-size: $font-size;
 }
+
+#wrapper {
+    overflow-x: hidden;
+}
+
 .text-dark{
     color:black;
 }
