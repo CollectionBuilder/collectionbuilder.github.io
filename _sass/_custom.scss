@@ -90,3 +90,9 @@ div.highlighter-rouge {
         .previous { left:10px; }
         .next{ right:10px; }
     }
+
+@media(max-width: 1280px) {
+    .full-width {
+        width: 100% !important; 
+    }
+}
