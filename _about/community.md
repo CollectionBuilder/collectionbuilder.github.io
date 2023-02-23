@@ -6,7 +6,13 @@ section_order: 5
 
 ## I'm interested. How can I get involved? 
 
-If you, or some institution you know, might be interested in adopting this tool more seriously, we can help. Please [get in touch](mailto:omwikle@uidaho.edu) and help us guide the future of CollectionBuilder.
+Check out our latest grant-funded opportunities for using and contributing to CollectionBuilder:
+
+<div class="text-center">
+<a href="{{ '/incentives.html' | relative_url }}" class="btn btn-lg btn-danger mt-3 mb-4" role="button">Apply for the 2023 CollectionBuilder Incentives Program</a>
+</div>
+
+Incentives program not for you? There are many other ways to contribute! If you, or some institution you know, might be interested in adopting this tool more seriously, we can help. Please [get in touch](mailto:omwikle@uidaho.edu) and help us guide the future of CollectionBuilder.
 
 - **Feedback!** - If you have thoughts on the documentation, tool, visualizations, user interactions, or any other features in the tool, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that CollectionBuilder can continue to grow, becoming more useable and useful.
 - **Ask Questions** - Get in contact on the [CollectionBuilder GitHub Discussion Forum](https://github.com/CollectionBuilder/collectionbuilder.github.io/discussions) to ask any technical questions or bring up issues you encounter.
