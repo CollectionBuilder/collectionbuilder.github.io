@@ -1,7 +1,7 @@
 ---
 title: People & Partners
 sectionid: people
-section_order: 9
+section_order: 8
 ---
 ## Who Runs This Ship? 
 

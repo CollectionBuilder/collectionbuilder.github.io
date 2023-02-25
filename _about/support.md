@@ -1,7 +1,7 @@
 ---
 title: Funding & Support
 sectionid: support
-section_order: 6
+section_order: 5
 ---
 
 ## Where is your support coming from?

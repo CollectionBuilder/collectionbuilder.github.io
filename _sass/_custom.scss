@@ -92,7 +92,12 @@ div.highlighter-rouge {
     }
 
 @media(max-width: 1280px) {
-    .full-width {
+    .alert-full-width {
         width: 100% !important; 
     }
+}
+
+/* narrow text block for page-narrow layout */
+.page-narrow {
+    max-width: 900px;
 }

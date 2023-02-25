@@ -1,7 +1,7 @@
 ---
 title: In the Wild
 sectionid: wild
-section_order: 7
+section_order: 6
 ---
 ## How are others using CollectionBuilder?
 
