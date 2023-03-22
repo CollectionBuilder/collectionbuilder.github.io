@@ -17,14 +17,14 @@ Participants will be awarded a stipend for their work implementing, documenting,
 
 <ul>
     <li><a href="{{ '/community/instructor-incentives.html' | relative_url }}">Curriculum Development Program</a> (<em>Currently Accepting Applications!</em> <strong>Deadline</strong>: May 15, 2023)</li>
-    <li><a href="{{ '/community/student-incentives.html' | relative_url }}">ILS Student Program</a> (Application Deadline TBD)</li>
+    <li><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (Application Deadline TBD)</li>
     <li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a> (Application Deadline TBD)</li>
 </ul>
 
 Not sure if you qualify? Review the incentive descriptions linked above, and reach out to Julia Stone at [juliastone@uidaho.edu](mailto:juliastone@uidaho.edu) with any questions.
 Applications will be reviewed by the project team, and we are committed to selecting participants from a wide range of institution types and backgrounds.
 
-{% include bootstrap/alert.md text='ILS Instructors: The <a href="/community/instructor-incentives.html" class="font-weight-bold" style="color: #721c24;">Curriculum Development Program</a> is currently open for applications! Applications close May 15, 2023.' color="danger" %}
+{% include bootstrap/alert.md text='LIS Instructors: The <a href="/community/instructor-incentives.html" class="font-weight-bold" style="color: #721c24;">Curriculum Development Program</a> is currently open for applications! Applications close May 15, 2023.' color="danger" %}
 
 Visit the [About page]({{ '/about.html#support' | relative_url }}) to learn more about our current grant support and activities.
 
