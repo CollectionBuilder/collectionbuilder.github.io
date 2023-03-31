@@ -1,6 +1,6 @@
 ---
 layout: community-page
-title: LIS Student Program
+title: Student Program
 permalink: /community/student-incentives.html
 ---
 
