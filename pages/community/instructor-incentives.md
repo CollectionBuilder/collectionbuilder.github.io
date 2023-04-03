@@ -24,12 +24,13 @@ CollectionBuilder is a fantastic option for those wishing to teach students the 
 Not familiar with static web? No problem. CollectionBuilder is designed for beginners, and the CollectionBuilder team is committed to providing support and resources from existing course modules as you develop your curriculum.
 
 **Expectations**:
-- Incorporate CollectionBuilder into your Information and Library Science (LIS) class
+- Incorporate CollectionBuilder into your Library and Information Science (LIS) class
+- Produce an open educational resource such as a syllabus or assignment module, or write a blog post reflecting on your experience teaching CollectionBuilder
 - Submit feedback and attend a follow-up virtual meeting with the CollectionBuilder team to discuss the experience
 
 **Timeline**: Selected participants will develop course modules for use in Fall 2023 or Spring 2024 classes.
 
 **Stipends Available**: 3
 
-**How to Apply**: Applicants should prepare a short (min. 200 words) description of how they plan to integrate CollectionBuilder into their course. For full consideration, apply through the [CollectionBuilder Curriculum Development Program Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3vINr2UwpT6TkN0) by May 15, 2023. The CollectionBuilder team will select three applicants to participate in this program, and will notify applicants of their decision by June 1, 2023. 
+**How to Apply**: Applicants should prepare a short (min. 200 words) description of how they plan to integrate CollectionBuilder into their course. For full consideration, apply through the [CollectionBuilder Curriculum Development Program Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3vINr2UwpT6TkN0) by **May 15, 2023**. The CollectionBuilder team will select three applicants to participate in this program, and will notify applicants of their decision by June 1, 2023. 
 {:.mb-5}
