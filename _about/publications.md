@@ -1,7 +1,7 @@
 ---
 title: Publications
 sectionid: publications
-section_order: 8
+section_order: 7
 ---
 
 ## Where can I learn more?

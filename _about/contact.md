@@ -1,7 +1,7 @@
 ---
 title: Contact
 sectionid: contact
-section_order: 10
+section_order: 9
 ---
 
 ## Contact & Help

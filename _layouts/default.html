@@ -4,13 +4,15 @@
         {% include head.html %}
     </head>
     <body {% if page.section %}class="position-relative" data-spy="scroll" data-target="#{{ page.section}}" data-offset="0"{% endif %}>
-        {% include header.html %}
-        <main id="maincontent" role="main">
-            <div class="{% if page.url contains 'docs'%}container{%else%}container-fluid{% endif %} mt-4 ">
-                {{ content }} 
-            </div>
-        </main>
-        {% unless page.layout == "docs" %}{% include footer.html %}{% endunless %}
-        {% include foot.html %}
+        <div id="wrapper">
+            {% include header.html %}
+            <main id="maincontent" role="main">
+                <div class="{% if page.url contains 'docs'%}container{%else%}container-fluid{% endif %} mt-4 ">
+                    {{ content }} 
+                </div>
+            </main>
+            {% unless page.layout == "docs" %}{% include footer.html %}{% endunless %}
+            {% include foot.html %}
+        </div>
     </body>
 </html>
