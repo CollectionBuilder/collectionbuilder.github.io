@@ -19,7 +19,7 @@ permalink: /community/instructor-incentives.html
 
 **Description**: Do you teach (or want to teach) students how to create digital collections? We're looking to provide stipends to instructors who are interested in incorporating CollectionBuilder into their LIS classroom and willing to provide the CollectionBuilder team with feedback on the teaching experience.
 
-CollectionBuilder is a fantastic option for those wishing to teach students the critical components of digital curation while also introducing fundamental web development and data literacy skills including Google Sheets, Git, Markdown, HTML, CSS, and Jekyll. CollectionBuilder's thorough [documentation]({{ '/cb-docs/' | relative_url }}), open codebase and scaffolded technical infrastructure make it easily customizable to your teaching goals, and students will walk away with free, long-lasting digital collection sites that they can add to their portfolios. 
+CollectionBuilder is a fantastic option for those wishing to teach students the critical components of digital curation while also introducing fundamental web development and data literacy skills including Google Sheets, Git, Markdown, HTML, CSS, and Jekyll. CollectionBuilder's [documentation]({{ '/cb-docs/' | relative_url }}), open codebase and scaffolded technical infrastructure make it easily customizable to your teaching goals, and students will walk away with free, long-lasting digital collection sites that they can add to their portfolios. 
 
 Not familiar with static web? No problem. CollectionBuilder is designed for beginners, and the CollectionBuilder team is committed to providing support and resources from existing course modules as you develop your curriculum.
 
