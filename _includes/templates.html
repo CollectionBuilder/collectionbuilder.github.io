@@ -6,7 +6,7 @@
             <div class="card mb-4  text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
-                        <a class="text-white" href="{%if type.skin-type%}{{ '/skins/' | relative_url}}{%else%}{{ type.id | prepend: '/' | append: '/' | relative_url}}{%endif%}">{{type.title | remove: "CollectionBuilder-"}}</a>
+                        <a class="text-white" href="{{ type.id | prepend: '/' | relative_url}}">{{type.title | remove: "CollectionBuilder-"}}</a>
                     </h2>
                     <p class="my-3 text-center font-italic px-2">{{type.description}}</p>
                 </div>
