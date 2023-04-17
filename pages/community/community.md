@@ -17,8 +17,8 @@ Participants will be awarded a stipend for their work implementing, documenting,
 
 <ul>
     <li><a href="{{ '/community/instructor-incentives.html' | relative_url }}">Curriculum Development Program</a> (<em>Currently Accepting Applications!</em> <strong>Deadline</strong>: May 15, 2023)</li>
-    <li><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (Application Deadline TBD)</li>
-    <li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a> (Application Deadline TBD)</li>
+    <li><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (Applications will open Fall 2023)</li>
+    <!--<li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a> (Application Deadline TBD)</li>-->
 </ul>
 
 Not sure if you qualify? Review the incentive descriptions linked above, and reach out to Julia Stone at [juliastone@uidaho.edu](mailto:juliastone@uidaho.edu) with any questions.

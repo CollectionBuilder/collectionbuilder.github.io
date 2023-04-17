@@ -7,11 +7,11 @@ permalink: /community/student-incentives.html
 {% include bootstrap/alert.md color="warning" text='This opportunity is for <strong>students</strong> and is part of the <a href="/community/" class="font-weight-bold" style="color: #856404;">CollectionBuilder 2023 Incentives Program</a>.' %}
 
 {:.pt-3}
-**Eligibility**: Applicants must be full- or part-time students at ALA-accredited Library and Information Science (LIS) programs who are interested in learning about CollectionBuilder (no experience necessary!)
+**Eligibility**: Applicants must be full- or part-time students at ALA-accredited Library and Information Science (LIS) programs in the United States who are interested in learning about CollectionBuilder (no experience necessary!)
 
 **Stipend**: Each participant will receive a $400 stipend.
 
-**Application Deadline**: TBA
+**Application Deadline**: Applications will open Fall 2023
 
 <div class="text-center">
     <a href="#" class="btn btn-info btn-lg mb-4 mx-1 disabled" aria-disabled="true"><span class="fas fa-edit"></span> Submit an Application</a>
@@ -23,12 +23,12 @@ We are looking for students who are interested in learning and customizing a Col
 
 **Expectations**:
 - Follow a series of brief tutorials to prepare data and create a CollectionBuilder site
-- Prepare and publish one short video tutorial documenting a CollectionBuilder feature
+- Prepare and publish one short video tutorial documenting a CollectionBuilder feature, or a blog post that highlights your project
 - Submit feedback and attend a follow-up virtual meeting with the CollectionBuilder team to discuss the experience
 
-**Timeline**: TBA
+**Timeline**: Students will create their projects during the Fall 2023 semester.
 
 **Stipends Available**: 8
 
-**How to Apply**: Applicants should prepare a short (min. 200 words) description of why they want to learn CollectionBuilder. An application form will be posted here in late 2023.
+**How to Apply**: Applicants should prepare a short (min. 200 words) description of why they want to learn CollectionBuilder. An application form will be posted here in Fall 2023.
 {:.mb-5}
