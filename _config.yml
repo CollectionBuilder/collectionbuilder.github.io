@@ -46,4 +46,4 @@ defaults:
       layout: "workshop-dhsi"
 
 # ignore stuff
-exclude: [old/, README.md, LICENSE]
+exclude: [README.md, LICENSE]
