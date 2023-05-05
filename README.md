@@ -1,11 +1,13 @@
 # CollectionBuilder
 
-> This repository hosts the home page and documentation site for the CollectionBuilder project,
-> <https://collectionbuilder.github.io/>
+This repository hosts the home page for the CollectionBuilder project: 
+<https://collectionbuilder.github.io/>
 
-CollectionBuilder is a lightweight, flexible tool for creating digital collection and exhibit websites driven by metadata, and powered by modern static web technology.
+## About CollectionBuilder
 
-![collectionbuilder icon](images/collectionbuilder2.png)
+CollectionBuilder is an open source framework for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
+
+![collectionbuilder {%} logo](images/collectionbuilder2.png)
 
 The user provides a well structured metadata spreadsheet and a directory of digital files, that CollectionBuilder will process to generate a variety of visualizations--surfacing the unique facets and features of the content, creating interactive pathways to browse and discover items while providing overall context. 
 Each visualization is configurable using a few basic variables or config files. 
@@ -43,13 +45,11 @@ We envision CollectionBuilder being used by libraries and cultural heritage inst
 2. the creation of "skins" to provide better UX and context on top of existing digital collection management systems (such as CONTENTdm).
 3. as a pedagogical tool for learning about digital collection development and fundamental data and web skills. 
 
-## Current projects
+## Contact
 
-- [collectionbuilder-gh](https://github.com/CollectionBuilder/collectionbuilder-gh) - A simple template for hands-on teaching about digital libraries, designed to be hosted on GitHub Pages. It can be used in a workshop setting to take participants through digitization and metadata creation, to having a live collection site for free. An static alternative to teaching with full scale DAMS such as Omeka.
-- [collectionbuilder-contentdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm) - a template for creating digital collection exhibits on top of existing CONTENTdm repositories. It uses item API's to create an engaging "skin" on top of an existing digital collection repository using your existing collection metadata.
+If you are interested in using CollectionBuilder, or are already using it, please drop us a line (libstatic.uidaho@gmail.com) since we would love to learn more about it's use in the wild.
 
-If you are interested in using CollectionBuilder, or are already using it, please drop us a line (libstatic.uidaho@gmail.com) since we would love to learn more about it's use in the wild. 
-There are also currently opportunities to collaborate on CollectionBuilder.
+[CollectionBuilder Discussion Forum](https://github.com/orgs/CollectionBuilder/discussions)
 
 ## License
 
