@@ -4,7 +4,7 @@ Thank you for contributing to CollectionBuilder!
 
 CollectionBuilder prioritizes pragmatic, sustainable, and simplified approaches to infrastructure to ensure the tool is "do-able" and approachable for digital knowledge workers in libraries and museums, empowering them to take control of their web systems. 
 The core team is *not* full time developers--we are librarians.
-Thus, we are focused on creating a supportive, inclusive community with low barriers to contributing (please see our [Code of Conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/master/CODE_OF_CONDUCT.md)).
+Thus, we are focused on creating a supportive, inclusive community with low barriers to contributing (please see our [Code of Conduct](https://github.com/CollectionBuilder/collectionbuilder.github.io/blob/main/CODE_OF_CONDUCT.md)).
 
 Honestly, we do a lot of stuff the slow/old/inefficient/wrong way... but we make it work and invite you to learn/teach with us!
 
