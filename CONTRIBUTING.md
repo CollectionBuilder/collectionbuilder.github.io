@@ -10,7 +10,7 @@ Honestly, we do a lot of stuff the slow/old/inefficient/wrong way... but we make
 
 ## Project resources
 
-- Email contact: libstatic.uidaho@gmail.com 
+- Email contact: collectionbuilder.team@gmail.com 
 - Main project site: <https://collectionbuilder.github.io/>
 - User Documentation: <https://collectionbuilder.github.io/cb-docs/>
 - Technical Documentation is found in individual project repositories in the "/docs" folder.

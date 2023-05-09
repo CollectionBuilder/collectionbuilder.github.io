@@ -47,7 +47,7 @@ We envision CollectionBuilder being used by libraries and cultural heritage inst
 
 ## Contact
 
-If you are interested in using CollectionBuilder, or are already using it, please drop us a line (libstatic.uidaho@gmail.com) since we would love to learn more about it's use in the wild.
+If you are interested in using CollectionBuilder, or are already using it, please drop us a line (collectionbuilder.team@gmail.com) since we would love to learn more about it's use in the wild.
 
 [CollectionBuilder Discussion Forum](https://github.com/orgs/CollectionBuilder/discussions)
 

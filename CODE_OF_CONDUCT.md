@@ -53,7 +53,7 @@ Community organizers have the right and responsibility to remove, edit, or rejec
 
 ## Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify community organizers as soon as possible at libstatic.uidaho@gmail.com which is maintained by evanwill, dcnb, owikle, and jylisadoney.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify community organizers as soon as possible at collectionbuilder.team@gmail.com which is maintained by evanwill, dcnb, owikle, and jylisadoney.
 If these are not appropriate contacts, please consider [reporting directly to GitHub](https://github.com/contact/report-abuse) or an administrative contact in the project's home at [University of Idaho Library](https://www.lib.uidaho.edu/about/directory.html).
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. 
@@ -64,7 +64,7 @@ https://github.com/contact/report-abuse
 
 ## Contact info
 
-- email: libstatic.uidaho@gmail.com
+- email: collectionbuilder.team@gmail.com
 - [CollectionBuilder GitHub organization](https://github.com/CollectionBuilder)
 - [CollectionBuilder home page](https://collectionbuilder.github.io/)
 
