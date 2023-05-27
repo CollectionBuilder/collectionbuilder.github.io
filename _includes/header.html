@@ -13,23 +13,8 @@
 
             <nav class="col-md-8 mt-3" role="navigation">
                 <ul class="nav nav-pills nav-fill float-right">
-                    <li class="nav-item dropdown">
-                        <a id="cb-types" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Templates</a>
-                        <div class="dropdown-menu" aria-labelledby="cb-types">
-                            <a class="dropdown-item font-weight-bold" href="{{ '/templates.html' | relative_url }}">Templates Overview</a>
-                            <div class="dropdown-divider"></div>
-   
-                            <p class="mb-0 mt-1 ml-2">Primary</p>
-                            <a class="dropdown-item" href="{{ '/gh/' | relative_url }}">GH - Github-Pages</a>
-                            <a class="dropdown-item" href="{{ '/csv/' | relative_url }}">CSV - Flexible Stand Alone</a>
-                            <a class="dropdown-item" href="{{ '/cdm/' | relative_url }}">CDM - CONTENTdm</a>
-                            <div class="dropdown-divider"></div>
-
-                            <p class="mb-0 mt-1 ml-2">In Development</p>
-                            <a class="dropdown-item" href="{{ '/es/' | relative_url }}">ES - Elastic</a>
-                            <a class="dropdown-item" href="{{ '/sheets/' | relative_url }}">Sheets - Google Sheets</a>
-                          
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ '/templates.html' | relative_url }}">Templates</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="https://collectionbuilder.github.io/cb-docs/">Documentation</a>
@@ -43,16 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{ 'about.html' | relative_url }}">About</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a id="join-us" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Us</a>
-                        <div class="dropdown-menu" aria-labelledby="join-us">
-                            <a class="dropdown-item" href="{{ '/community/' | relative_url }}">Community Overview</a>
-                            <a class="dropdown-item" href="{{ '/community/instructor-incentives.html' | relative_url }}">Instructors</a>
-                            <a class="dropdown-item" href="{{ '/community/student-incentives.html' | relative_url }}">Students</a>
-                            <!--<a class="dropdown-item" href="{{ '/community/librarian-incentives.html' | relative_url }}">Librarians</a>-->
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ '/community/' | relative_url }}">Join Us</a>
                     </li>
-
 
                 </ul>
             </nav>
