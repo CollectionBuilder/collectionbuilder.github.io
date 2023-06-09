@@ -13,3 +13,5 @@ CollectionBuilder sites continue to proliferate around the world. Below is a lis
 - [{{ w.title }}]({{ w.link }}) {% if w.type %}[{{ w.type }}]{% endif %}, {{ w.org }}{% endfor %}
 {% endcapture %}
 {% include bootstrap/card.md title="CollectionBuilder in the Wild" text=wild %}
+
+Or checkout our [Zotero library](https://www.zotero.org/groups/5020353/collectionbuilder-examples/library) for even more...
