@@ -101,7 +101,7 @@ Opportunities for Collaboration:
 <div class="row">
 <div class="col-md-4" markdown="1">
 {:.text-center}
-{% include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@uidaho.edu) for more information." %}
+{% include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! **Contact** [Olivia Wikle](mailto:omwikle@iastate.edu) for more information." %}
 </div>
 <div class="col-md-8" markdown="1">
 {% include bootstrap/card.md text="

@@ -19,7 +19,7 @@ You're welcome to contact any or all of us:
 - [CollectionBuilder Discussion Forum](https://github.com/CollectionBuilder/collectionbuilder.github.io/discussions) (informal space to ask questions, provide feedback, debug, share and connect!)
 - Evan Williamson (<ewilliamson@uidaho.edu>)
 - Devin Becker (<dbecker@uidaho.edu>)
-- Olivia Wikle (<omwikle@uidaho.edu>)
+- Olivia Wikle (<omwikle@iastate.edu>)
 
 ### Other Resources
 

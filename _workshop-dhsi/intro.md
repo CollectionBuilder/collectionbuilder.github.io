@@ -15,7 +15,7 @@ Location: Wherever you are!
 
 Instructors:
 
-* Olivia Wikle ([omwikle@uidaho.edu](mailto:omwikle@uidaho.edu))
+* Olivia Wikle ([omwikle@iastate.edu](mailto:omwikle@iastate.edu))
 
 * Evan Williamson ([ewilliamson@uidaho.edu](mailto:ewilliamson@uidaho.edu))
 

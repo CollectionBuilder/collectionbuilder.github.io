@@ -19,7 +19,7 @@ Location: Zoom! (Zoom information will be emailed to participants shortly before
 
 Instructors:
 
-* Olivia Wikle ([omwikle@uidaho.edu](mailto:omwikle@uidaho.edu))
+* Olivia Wikle ([omwikle@iastate.edu](mailto:omwikle@iastate.edu))
 
 * Evan Williamson ([ewilliamson@uidaho.edu](mailto:ewilliamson@uidaho.edu))
 
