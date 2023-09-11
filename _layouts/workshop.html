@@ -2,6 +2,16 @@
 layout: default
 ---
 <div class="container">
+  <div class="alert alert-warning" role="alert">
+    <h4>This workshop is out of date! Please visit our new walkthroughs and video tutorials for a better introduction to CollectionBuilder-GH</h4>
+    <a class="btn btn-lg btn-info m-4" href="https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/gh-walkthrough/">GH Walkthrough Tutorial </a>
+    <a class="btn btn-lg btn-info m-4" href="https://www.youtube.com/playlist?list=PLt9zT3xACQo7q72AfphJzH41OiPcZrF4H">GH Video Tutorial </a>
+
+    <p>For our other, up-to-date tutorials, see our 
+    <a href="https://collectionbuilder.github.io/tutorials.html">tutorials Page </a></p>
+
+
+  </div>
 <h1 class="text-center">CollectionBuilder-GH Workshop Tutorial</h1>
 {%assign modules = site.workshop-gh | sort: "step"  %}
 <ul class="nav nav-tabs bg-white justify-content-center">{%for module in modules %}
