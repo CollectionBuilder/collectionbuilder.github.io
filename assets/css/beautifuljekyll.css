@@ -953,23 +953,23 @@ pre {
 }
 
 .box-note {
-  background-color: #eee;
+  background-color: rgb(247, 245, 245);
   border-left-color: #2980b9;
 }
 
 .box-warning {
-  background-color: #fdf5d4;
+  background-color: #fffae9;
   border-left-color: #f1c40f;
 }
 
 .box-error {
-  background-color: #f4dddb;
+  background-color: #fff6f5;
   border-left-color: #c0392b;
 }
 
 .box-success {
-  background-color: #98FB98;
-  border-left-color: #3CB371;
+  background-color: #f1f7f1;
+  border-left-color: #68c391;
 }
 
 /* --- Misc blog post styles --- */
