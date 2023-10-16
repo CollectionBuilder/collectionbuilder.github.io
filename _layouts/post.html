@@ -18,6 +18,7 @@ layout: base
 
       <article role="main" class="blog-post">
         <h1>{{ page.title }}</h1>
+        <span style="text-transform:uppercase;">{% if page.author %}By {{page.author}}{% endif %} | {% if page.publish-date %}{{page.publish-date}}{% endif %}</span>
         {{ content }}
       </article>
 
