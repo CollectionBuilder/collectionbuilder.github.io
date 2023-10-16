@@ -20,7 +20,7 @@ layout: page
 
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        Posted on {{ post.date | date: date_format }}
+        Written by {{ post.author }} | Posted on {{ post.date | date: date_format }}
       </p>
 
       {% unless site.feed_show_excerpt == false %}
