@@ -28,10 +28,15 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{ 'about.html' | relative_url }}">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ '/community/' | relative_url }}">Join Us</a>
-                    </li>
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Join Us
+                        </a>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" role="menuitem" href="{{ '/community-spaces/' | relative_url }}">Community Spaces</a>
+                            <a class="dropdown-item" role="menuitem" href="{{ '/funded-opportunities/' | relative_url }}">Funded Opportunities</a>
+                        </div>
+                      </li>
                 </ul>
             </nav>
 
