@@ -11,7 +11,7 @@ permalink: /community/student-incentives.html
 
 **Stipend**: Each participant will receive a $400 stipend.
 
-**Application Deadline**: Applications will open late Fall 2023
+**Application Deadline**: November 30, 2023. We will inform applicants of our decision the first week of December.
 
 **Description**: Are you a Library and Information Science (LIS) student interested in expanding your digital collection knowledge and/or learning web development skills? CollectionBuilder is an excellent option for creating a free and long lasting digital collection site that you can add to your portfolio, while exploring tools and platforms such as Git, GitHub, Jekyll, Markdown, HTML, and CSS that you are likely to encounter in your future career as a digital librarian. 
 
@@ -29,14 +29,14 @@ Participants will have the opportunity to experiment with creative uses of the C
 
 **Stipends Available**: 8
 
-**How to Apply**: An application form will be posted here late Fall 2023. In this form, you will be asked to answer some basic questions about yourself and the following short answer questions:
+**How to Apply**: In the [application form](https://uidaho.co1.qualtrics.com/jfe/form/SV_5j5gyuV3aaNUMei){:target="_blank" rel="noopener"}, you will be asked to answer some basic questions about yourself and the following short answer questions:
 
 - Please briefly describe why you are interested in learning how to use CollectionBuilder.
 - In 1-2 paragraphs, please describe any ideas you have for CollectionBuilder projects and discuss your research and academic interests.
 - What kind of skills are you most interested in learning while using CollectionBuilder and why? We suggest reading [this article](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/){:target="_blank" rel="noopener"} before writing your response to help generate ideas.
 - How would this cohort experience benefit your education and future career?
-
+{:.mb-5}
 <div class="text-center">
-    <a href="#" class="btn btn-info btn-lg mb-4 mx-1 disabled" aria-disabled="true"><span class="fas fa-edit"></span> Submit an Application</a>
+    <a target="_blank" rel="noopener" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5j5gyuV3aaNUMei" class="btn btn-info btn-lg mb-4 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 {:.mb-5}
