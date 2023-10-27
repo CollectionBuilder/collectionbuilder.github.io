@@ -17,8 +17,11 @@ Collaborators:
 
 Advisors: 
 
-- Kim Christen, Washington State University
+- Maggie Dull, University of Rochester
+- Kate Thornhill, University of Oregon
+- John A. Walsh, Indiana University
 - Alex Merrill, Washington State University
+- Kim Christen, Washington State University
 - Alex Gil, Columbia University
 - Marii Nyrop, New York University
 - Laura Bucholtz, Reed College
