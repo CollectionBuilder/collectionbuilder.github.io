@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flake it till you make it
+title: Flake it till you make it part 3
 subtitle: Excerpt from Soulshaping by Jeff Brown
 author: Julia Stone
 publish-date: February 26, 2020

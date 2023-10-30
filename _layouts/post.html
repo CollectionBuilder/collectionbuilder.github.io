@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: base-beautiful
 ---
 
 {% include header.html type="post" %}
@@ -8,13 +8,7 @@ layout: base
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
 
-      {% if page.before-content %}
-        <div class="before-content">
-          {% for file in page.before-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
+     
 
       <article role="main" class="blog-post">
         <h1>{{ page.title }}</h1>
@@ -26,7 +20,7 @@ layout: base
         <div class="blog-tags">
           <span>Tags:</span>
           {% for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ 'blog/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
         </div>
       {% endif %}
@@ -51,7 +45,6 @@ layout: base
         </li>
         {% endif %}
       </ul>
-      {% include comments.html %}
     </div>
   </div>
 </div>
