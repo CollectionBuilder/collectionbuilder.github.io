@@ -6,9 +6,9 @@ permalink: /community-spaces/
 
 ## About Our Community Spaces
 
-All CollectionBuilder community spaces are free and open to all. No background in CollectionBuilder or specific technical knowledge is required to participate. Anyone who is interested in CollectionBuilder, digital collections and exhibits, and/or static web technology may sign up for the **CollectionBuilder Slack** and **CollectionBuilder Google Group**. 
+Anyone who is interested in CollectionBuilder, digital collections and exhibits, and/or static web technology may sign up for our community spaces, including the **CollectionBuilder Slack** and **CollectionBuilder Google Group**. 
 
-Read about our community space guidelines and Code of Conduct below. To join the Slack and/or Google Group, click on the button below to fill out a brief sign-up form.
+All CollectionBuilder community spaces are free and open to all. No background in CollectionBuilder or specific technical knowledge is required to participate. To join the Slack and/or Google Group, click on the button below to fill out a brief sign-up form:
 
 <div class="text-left">
     <a href="https://forms.gle/GVb7STSWyq2tto3NA" target="_blank" class="btn btn-info btn-lg mb-4 mx-1">Sign up for CB Community Spaces</a>
@@ -18,7 +18,9 @@ Read about our community space guidelines and Code of Conduct below. To join the
 
 ### CollectionBuilder Collective Slack
 
-The CollectionBuilder Collective Slack is an interactive space where CollectionBuilder users can converse with one another, ask and respond to questions, share knowledge, collaborate on projects, provide feedback, and stay up to date on CollectionBuilder news. This Slack is meant to be a collaborative space for people to discuss their digital projects and learn how to use CollectionBuilder in a supportive environment.
+The CollectionBuilder Collective Slack is an interactive space where CollectionBuilder users can converse with one another, ask and respond to questions, share knowledge, collaborate on projects, provide feedback, and stay up to date on CollectionBuilder news. 
+
+This Slack is meant to be a collaborative space for people to discuss their digital projects and learn how to use CollectionBuilder in a supportive environment.
 
 <div class="text-left">
     <a href="{{ '/slack-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Slack Guidelines</a>
@@ -27,7 +29,9 @@ The CollectionBuilder Collective Slack is an interactive space where CollectionB
 {:.pt-3}
 ### CollectionBuilder Google Group
 
-The CollectionBuilder Google Group serves as a listserv where CollectionBuilder users can ask and respond to questions, share knowledge and relevant events, and stay up to date on CollectionBuilder news. The CollectionBuilder team will send brief monthly update emails to the Google Group covering the latest CollectionBuilder features and news.
+The CollectionBuilder Google Group serves as a listserv where CollectionBuilder users can ask and respond to questions, share knowledge and relevant events, and stay up to date on CollectionBuilder news. 
+
+The CollectionBuilder team will send brief monthly update emails to the Google Group covering the latest CollectionBuilder features and news.
 
 <div class="text-left">
     <a href="{{ '/google-group-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Google Group Guidelines</a>
