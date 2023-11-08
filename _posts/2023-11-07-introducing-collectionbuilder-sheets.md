@@ -8,16 +8,10 @@ tags: [SHEETS, tech]
 short_description: SHEETS is the newest and most versatile CollectionBuilder template. Users can now build CollectionBuilder exhibits directly from a Google Sheet.
 ---
 
-<!--### Links: 
-
-* [CollectionBuilder-Sheets Demo Site](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-* [CollectionBuilder-Sheets GitHub Repository](https://github.com/CollectionBuilder/collectionbuilder-sheets)
-* [Instructions for setting up your first sheet](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/)-->
-
 CollectionBuilder-Sheets (SHEETS), the latest template for CollectionBuilder, is an innovative way to streamline the process of creating CollectionBuilder exhibits. It enables users to build digital collections directly from a Google Sheet (thus the name!), making the process easier and more immediate.
 
-[![home page for CollectionBuilder-sheets with config modal popped up]({{ '/images/blog/sheets-home.png' | relative_url }})](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-*Home page for CollectionBuilder-sheets with config modal popped up*
+{% include feature/image.html objectid="/images/blog/sheets-homepage.png" link="https://collectionbuilder.github.io/collectionbuilder-sheets/" alt="Home page for CollectionBuilder-sheets with config modal popped up" caption="Home page for CollectionBuilder-sheets with config modal popped up" target="blank" %}
+
 
 SHEETS serves as both a metadata training ground for those just starting out with digital collections and a means for more advanced users to quickly preview or collaboratively build "live" collections. Whether working alone or with faculty, students, and other collaborators, SHEETS makes it simple to get a collection up and running.
 
@@ -30,8 +24,8 @@ Below, we explore some possible use cases for SHEETS, give a brief overview of t
 
 SHEETS uses the javascript library [Papa Parse](https://www.papaparse.com/) to build collections via a browser's temporary storage. Papa parse parses (ha!) the CSV data it's given, whether from a Google Sheet link or a local CSV, into a JSON array that is then used to generate the content for CollectionBuilder exhibit pages. Each page is then built from that JSON data using the templates developed for CollectionBuilder. 
 
-[![Screenshot of session storage for CollectionBuilder demo site featuring Psychiana demo data]({{ '/images/blog/temporary-storage-sheets.png' | relative_url }})](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-*This shows the session storage for our CollectionBuilder demo site. You can see a detail of the first item in our Psychiana demo data*
+{% include feature/image.html objectid="/images/blog/temporary-storage-sheets.png" link="https://collectionbuilder.github.io/collectionbuilder-sheets/" alt="Screenshot of session storage for CollectionBuilder demo site featuring Psychiana demo data" caption="This shows the session storage for our CollectionBuilder demo site. You can see a detail of the first item in our Psychiana demo data" target="blank" %}
+
 
 This technical features enables on-the-fly building of digital collections, but it also means that **collections built within the SHEETS demo page are temporary**! If you'd like to make a permanent collection, you'll need to clone your own repository – check out [part 2 of our SHEETS walkthrough](http://localhost:4000/cb-docs/docs/walkthroughs/sheets-walkthrough/#collectionbuilder-sheets-walkthrough-part-2) for instructions. 
 But for the demo version, note that once you close your browser, that temporary storage goes away and so does your collection. If you'd like to share a temporary version, however, you can do so [by including the Google Sheet link in the url](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/#5-share-your-test-site-via-url)
@@ -48,11 +42,11 @@ The examples below are just a few of the possible ways this framework might be u
 
 ### Previewing Your Own Collection Quickly 
 
-{:.m-0}
+{:.my-1}
 *demo site use*
 
-{:.ml-3}
-For individual users or small teams, SHEETS offers a quick and efficient way to bring their collections to life. Whether you're an archivist, historian, or enthusiast, you can quickly gather some insight into your collection by publishing you metadata and previewing it on our SHEETS demo collection site. Once your metadata includes a few [required fields](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/#required-fields-for-collectionbuilder-gh), then simply enter the link to your published your Google Sheet and watch as your collection takes shape. 
+
+- Whether you're an archivist, historian, or enthusiast, you can quickly gather some insight into your collection by publishing your metadata and previewing it on our SHEETS demo collection site. Simply enter the link to your published your Google Sheet and watch as your collection takes shape. Note that your metadata will need to include a few [required fields](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/#required-fields-for-collectionbuilder-gh) to work properly.
 
 
 ### Collaborative Projects 
@@ -61,7 +55,7 @@ For individual users or small teams, SHEETS offers a quick and efficient way to 
 *both methods*
 
 {:.ml-3}
-One of the standout features of SHEETS is its ability to facilitate collaboration. Once a live Google Sheet is connected to your website, multiple contributors can build the exhibit together working on that single Google Sheet while receiving live feedback. Each contributor can add and edit metadata, descriptions, and exhibit content, ensuring that the collective effort results in a comprehensive digital exhibit.
+One of the standout features of SHEETS is its ability to facilitate collaboration. Once a live Google Sheet is connected to your website, multiple contributors can build the exhibit together working on that single Google Sheet while receiving quick feedback on their edits. Each contributor can add and edit metadata, descriptions, and exhibit content, ensuring that the collective effort results in a comprehensive digital exhibit.
 
 
 ### Teaching Tool 
