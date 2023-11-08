@@ -4,7 +4,7 @@ title: Introducing CollectionBuilder-Sheets
 subtitle: 
 author: Devin Becker
 publish-date: November 7, 2023
-tags: [SHEETS, tech]
+tags: [SHEETS, tech, announcement]
 short_description: SHEETS is the newest and most versatile CollectionBuilder template. Users can now build CollectionBuilder exhibits directly from a Google Sheet.
 ---
 
