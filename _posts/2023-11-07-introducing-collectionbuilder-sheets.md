@@ -34,7 +34,8 @@ SHEETS uses the javascript library [Papa Parse](https://www.papaparse.com/) to b
 [![Screenshot of session storage for CollectionBuilder demo site featuring Psychiana demo data]({{ '/images/blog/temporary-storage-sheets.png' | relative_url }})](https://collectionbuilder.github.io/collectionbuilder-sheets/)
 *This shows the session storage for our CollectionBuilder demo site. You can see a detail of the first item in our Psychiana demo data*
 
-This technical features enables on-the-fly building of digital collections, but it also means that **collections built within the SHEETS demo page are temporary**! If you'd like to make a permanent collection, you'll need to clone your own repository – check out [part 2 of our SHEETS walkthrough](http://localhost:4000/cb-docs/docs/walkthroughs/sheets-walkthrough/#collectionbuilder-sheets-walkthrough-part-2) for instructions. But for the demo version, note that once you close your browser, that temporary storage goes away and so does your collection. (To reload the collection, just re-enter your link the next time you enter the site.)
+This technical features enables on-the-fly building of digital collections, but it also means that **collections built within the SHEETS demo page are temporary**! If you'd like to make a permanent collection, you'll need to clone your own repository – check out [part 2 of our SHEETS walkthrough](http://localhost:4000/cb-docs/docs/walkthroughs/sheets-walkthrough/#collectionbuilder-sheets-walkthrough-part-2) for instructions. 
+But for the demo version, note that once you close your browser, that temporary storage goes away and so does your collection. If you'd like to share a temporary version, however, you can do so [by including the Google Sheet link in the url](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/#5-share-your-test-site-via-url)
 
 
 ## Possible Use Cases
