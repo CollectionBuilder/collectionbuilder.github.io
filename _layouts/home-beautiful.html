@@ -23,17 +23,13 @@ layout: page
         Written by {{ post.author }} | Posted on {{ post.date | date: date_format }}
       </p>
 
-      {% unless site.feed_show_excerpt == false %}
+      
      
       <div class="post-entry">
-        {% assign excerpt_length = site.excerpt_length | default: 50 %}
-        {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
+        {{post.short_description}}
           <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
       </div>
-      {% endunless %}
+    
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
