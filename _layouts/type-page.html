@@ -4,48 +4,43 @@ layout: default
 {% assign type = site.data.types | where: 'id',page.type | first %}
 <h1 class="text-center">{{ page.title }}</h1>
 
-<hr class="col-8 offset-2">
+<hr class="col-8 offset-2"> 
 
-<div class="row justify-content-center mt-4 pt-4">
-    {% if type.image %}
-    <div class="col-md-5">
-        <figure class="figure mx-auto text-center p-4 ">
-            <img src="{{ type.image | prepend: '/images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="screen shot image of {{ type.collection }} home page">
-            <figcaption class="figure-caption"><small><a href="{{ type.coll-link }}">{{ type.collection }}</a><br> built with {{ type.title }}</small></figcaption>
-        </figure>
-    </div>
-    {% endif %}
+<div class="row justify-content-center mt-4 ">
 
-        <div class="col-md-6 p-4">
+        <div class="col-md-6">
         <p class="h3 pr-4">{{ type.description }}</p>
-            <div class="row">
-                
-                <div class="col-md-12">
+        {% capture instructions %}<ul><li>Click the Make Your Own button on this page to go to the template's GitHub repository.</li> <li>Once in the GitHub repository, click the green "Use This Template" button at the top right to make a copy of the repo and go from there.</li></ul> <p><b>Need more help?</b> Check out our <a href="{{ type.tutorial }}">walkthrough</a> for more instructions!</p>{% endcapture %}
+                      
+        {% include bootstrap/modal.md button="What's the fastest way to get started?" color="outline-secondary btn-sm mt-3" title="Quick Instructions" text=instructions %}
+        
                 <p class="pt-3 h4">Best for: </p>
                 <ul class="list-group list-group-flush mb-3">
                     {% assign points = type.points | split: ";" %}
                     {% for point in points %}<li class="list-group-item bg-light text-dark border-success">{{ point }}</li>
                     {% endfor %}
                 </ul>
-                </div>
-                <div class="col-md-12 mt-4 text-center">
+               
+        </div>
+        <div class="col-md-5">
+                
+                <div class="mt-4 text-center">
         
                     <a href="{{ type.github }}" target="_blank" class="btn my-2 btn-lg btn-success col-9 w-75">Make your own! <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                       </svg></a>
                     
-                      {% capture instructions %}<p>To start a project:</p> <ul><li>Click the Make Your Own button above to go to the template's GitHub repository.</li> <li>Once in the GitHub repository, click the green "Use This Template" button at the top right to make a copy of the repo and go from there.</li></ul> <p><b>Need more help?</b> Check out our <a href="{{ type.tutorial }}">walkthrough</a> for more instructions!</p>{% endcapture %}
-                      
-                      {% include bootstrap/modal.md button="Quick instructions" color="outline-secondary btn-sm" title="Quick instructions" text=instructions %}
-
-                   
-
                     {% if type.demo %}
                     <a href="{{ type.demo }}" target="_blank" class="btn my-2 btn-lg btn-primary col-9 w-75">Check out a Demo Version</a>
                     {% endif %}
                     {% if type.tutorial %}
                     <a href="{{ type.tutorial }}" class="btn my-2 btn-lg btn-outline-primary col-9 w-75">Take a Guided Walkthrough</a>
                     {% endif %}
+                    <a href="https://collectionbuilder.github.io/cb-examples/browse.html#CB-{{type.id | upcase }}" target="_blank" class="btn my-2 btn-lg btn-outline-secondary col-9 w-75">See Example Collections  </a>
                     </div>
+                    <figure class="figure mx-auto text-center p-4 ">
+                        <img src="{{ type.image | prepend: '/images/' | relative_url }}" class="figure-img img-fluid rounded col-8" alt="screen shot image of {{ type.collection }} home page">
+                        <figcaption class="figure-caption"><small><a href="{{ type.coll-link }}">{{ type.collection }}</a><br> built with {{ type.title }}</small></figcaption>
+                    </figure>
     </div>
 </div>
