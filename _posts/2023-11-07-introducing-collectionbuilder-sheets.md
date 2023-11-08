@@ -34,14 +34,14 @@ SHEETS uses the javascript library [Papa Parse](https://www.papaparse.com/) to b
 [![Screenshot of session storage for CollectionBuilder demo site featuring Psychiana demo data]({{ '/images/blog/temporary-storage-sheets.png' | relative_url }})](https://collectionbuilder.github.io/collectionbuilder-sheets/)
 *This shows the session storage for our CollectionBuilder demo site. You can see a detail of the first item in our Psychiana demo data*
 
-This technical features enables on-the-fly building of digital collections, but it also means that **collections built within the SHEETS demo page are temporary**! If you'd like to make a permanent collection, you'll need to clone your own repository – check out [part 2 of our SHEETS walkthrough](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/#part-2) for instructions. But for the demo version, note that once you close your browser, that temporary storage goes away and so does your collection. (To reload the collection, just re-enter your link the next time you enter the site.)
+This technical features enables on-the-fly building of digital collections, but it also means that **collections built within the SHEETS demo page are temporary**! If you'd like to make a permanent collection, you'll need to clone your own repository – check out [part 2 of our SHEETS walkthrough](http://localhost:4000/cb-docs/docs/walkthroughs/sheets-walkthrough/#collectionbuilder-sheets-walkthrough-part-2) for instructions. But for the demo version, note that once you close your browser, that temporary storage goes away and so does your collection. (To reload the collection, just re-enter your link the next time you enter the site.)
 
 
 ## Possible Use Cases
 
 There are two primary methods for interacting with SHEETS: 
 - [**_Via our demo site_**](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/), you can build a collection temporarily from a google sheet published as a CSV or a CSV on your local computer. 
-- However, you'll want to **[_make a clone of our template SHEETS repository_](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/#part-2)** if you want to eventually publish the site on your own, or further customize a preview site. 
+- However, you'll want to **[_make a clone of our template SHEETS repository_](http://localhost:4000/cb-docs/docs/walkthroughs/sheets-walkthrough/#collectionbuilder-sheets-walkthrough-part-2)** if you want to eventually publish the site on your own, or further customize a preview site. 
 
 The examples below are just a few of the possible ways this framework might be used; the methods they use are listed in parentheses after the title.
 
@@ -71,8 +71,6 @@ One of the standout features of SHEETS is its ability to facilitate collaboratio
 
 {:.ml-3}
 CollectionBuilder-Sheets is a valuable tool for teaching classes and individuals. Once a live site is set up and connected to a shared Google sheet, students can access, edit, and examine metadata, gaining practical experience in understanding how digital collections are built and maintained. Students can also connect individual sites of their own prior to contributing to the class exhibit, which enables them to freely experiment with their own data, learn from their mistakes, and avoid the fear of breaking something vital.
-
-
 
 Overall, we think SHEETS adds a new versatility to the CollectionBuilder project that will reward both teaching and exhibit development. Please reach out if you have any questions, and check out our Walkthroughs if you'd like to learn more! 
 
