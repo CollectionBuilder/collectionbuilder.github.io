@@ -1,0 +1,32 @@
+{% comment %}
+
+    Bootstrap Card, https://getbootstrap.com/docs/5.1/components/card/
+
+    E.G. --> {% include feature/card.html text="Some text" header="Example item" objectid="demo_004" %}
+
+    Options:
+    - "text" = main card text, can use markdown formatting (tip: use a Liquid capture to add more complex content)
+    - "header" = card header text (in bar above card content)
+    - "title" = card title text inside card content area
+    - "objectid" = the given object or link to external image will create a card cap image
+    - "alt" = if adding an external image using objectid option, provide alt text for image
+    - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100"
+    - "centered" = give "true" to add mx-auto class on the card to center it 
+
+{%- endcomment -%}
+{%- if include.objectid contains '/' -%}
+{%- capture src -%}{{ include.objectid | relative_url }}{% endcapture %}
+{%- capture alt -%}{{ include.alt | default: include.title }}{% endcapture %}
+{%- elsif include.objectid -%}
+{%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+{%- capture src -%}{% if item.filename contains '/' %}{{ item.filename | relative_url }}{% else %}{{ '/objects/' | append: item.filename | relative_url }}{% endif %}{% endcapture %}
+{%- capture alt -%}{{ item.title | default: include.title }}{% endcapture %}
+{%- endif -%}
+<div class="card mb-3{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}">
+    {% if src %}<img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">{%- endif -%}
+    {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{%- endif -%}
+    <div class="card-body">
+        {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{%- endif -%}
+        <div class="card-text">{{ include.text | markdownify }}</div>
+    </div>
+</div>
