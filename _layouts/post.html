@@ -22,7 +22,7 @@ layout: base-beautiful
         <div class="blog-tags">
           <span>Tags:</span>
           {% for tag in page.tags %}
-            <a href="{{ 'blog/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ 'blog/tags.html' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
         </div>
       {% endif %}
