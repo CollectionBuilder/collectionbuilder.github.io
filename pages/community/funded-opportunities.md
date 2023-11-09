@@ -1,7 +1,7 @@
 ---
 layout: community-page
 title: Funded Opportunities
-permalink: /funded-opportunities/
+permalink: /community/funded-opportunities/
 ---
 
 {:.pt-3}

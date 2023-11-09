@@ -1,7 +1,7 @@
 ---
 layout: community-page
 title: Google Group Guidelines
-permalink: /google-group-guidelines/
+permalink: /community/google-group-guidelines/
 ---
 
 {:.pt-3}

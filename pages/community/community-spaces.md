@@ -1,7 +1,7 @@
 ---
 layout: community-page
 title: Community Spaces
-permalink: /community-spaces/
+permalink: /community/spaces/
 ---
 
 ## About Our Community Spaces
@@ -23,7 +23,7 @@ The CollectionBuilder Collective Slack is an interactive space where CollectionB
 This Slack is meant to be a collaborative space for people to discuss their digital projects and learn how to use CollectionBuilder in a supportive environment.
 
 <div class="text-left">
-    <a href="{{ '/slack-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Slack Guidelines</a>
+    <a href="{{ '/community/slack-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Slack Guidelines</a>
 </div>
 
 {:.pt-3}
@@ -34,7 +34,7 @@ The CollectionBuilder Google Group serves as a listserv where CollectionBuilder 
 The CollectionBuilder team will send brief monthly update emails to the Google Group covering the latest CollectionBuilder features and news.
 
 <div class="text-left">
-    <a href="{{ '/google-group-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Google Group Guidelines</a>
+    <a href="{{ '/community/google-group-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Google Group Guidelines</a>
 </div>
 
 <hr>
