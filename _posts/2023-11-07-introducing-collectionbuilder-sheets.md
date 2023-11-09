@@ -45,26 +45,23 @@ The examples below are just a few of the possible ways this framework might be u
 {:.my-1}
 *demo site use*
 
-
 - Whether you're an archivist, historian, or enthusiast, you can quickly gather some insight into your collection by publishing your metadata and previewing it on our SHEETS demo collection site. Simply enter the link to your published your Google Sheet and watch as your collection takes shape. Note that your metadata will need to include a few [required fields](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/#required-fields-for-collectionbuilder-gh) to work properly.
 
 
 ### Collaborative Projects 
 
-{:.m-0}
+{:.my-1}
 *both methods*
 
-{:.ml-3}
-One of the standout features of SHEETS is its ability to facilitate collaboration. Once a live Google Sheet is connected to your website, multiple contributors can build the exhibit together working on that single Google Sheet while receiving quick feedback on their edits. Each contributor can add and edit metadata, descriptions, and exhibit content, ensuring that the collective effort results in a comprehensive digital exhibit.
+- One of the standout features of SHEETS is its ability to facilitate collaboration. Once a live Google Sheet is connected to your website, multiple contributors can build the exhibit together working on that single Google Sheet while receiving quick feedback on their edits. Each contributor can add and edit metadata, descriptions, and exhibit content, ensuring that the collective effort results in a comprehensive digital exhibit.
 
 
 ### Teaching Tool 
 
-{:.m-0}
+{:.my-1}
 *cloned repository*
 
-{:.ml-3}
-CollectionBuilder-Sheets is a valuable tool for teaching classes and individuals. Once a live site is set up and connected to a shared Google sheet, students can access, edit, and examine metadata, gaining practical experience in understanding how digital collections are built and maintained. Students can also connect individual sites of their own prior to contributing to the class exhibit, which enables them to freely experiment with their own data, learn from their mistakes, and avoid the fear of breaking something vital.
+- CollectionBuilder-Sheets is a valuable tool for teaching classes and individuals. Once a live site is set up and connected to a shared Google sheet, students can access, edit, and examine metadata, gaining practical experience in understanding how digital collections are built and maintained. Students can also connect individual sites of their own prior to contributing to the class exhibit, which enables them to freely experiment with their own data, learn from their mistakes, and avoid the fear of breaking something vital.
 
 Overall, we think SHEETS adds a new versatility to the CollectionBuilder project that will reward both teaching and exhibit development. Please reach out if you have any questions, and check out our Walkthroughs if you'd like to learn more! 
 
