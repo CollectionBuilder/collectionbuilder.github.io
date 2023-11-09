@@ -18,6 +18,7 @@
     - "caption" = for option 1 above, the figure include automatically adds the title of the item from your metadata. The caption option allows you to manually add a different caption for that option, or give the value false ('caption=false' - no quotes around false) for none. For options 2 and 3, captions will only be added if the caption variable is set. For multiple images of any option, you can also use multiple captions, by splitting them with a semi-colons (optional)
     - "link" = for option 1 above, the figure include automatically links to the item from your metadata. The link option allows you to manually add a different link for that image. For options 2 and 3, link will only be added if the link variable is set; otherwise, the link will be set to the external or relative image file. For multiple images of any option, you can also use multiple links, by splitting them with a semi-colons (optional)
     - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100" (optional)
+    - "target" = will make your link open a new tab. just fill it in with "blank", i.e. target="blank" -- any value will turn this on.
     
 {%- endcomment -%}
 {%- assign figures = include.objectid | split: ";" %}
