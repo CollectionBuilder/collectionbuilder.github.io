@@ -1,7 +1,7 @@
 ---
 layout: community-page
 title: Slack Guidelines
-permalink: /slack-guidelines/
+permalink: /community/slack-guidelines/
 ---
 
 {:.pt-3}
