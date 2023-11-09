@@ -10,10 +10,7 @@ layout: default
 
         <div class="col-md-6">
         <p class="h3 pr-4">{{ type.description }}</p>
-        {% capture instructions %}<ul><li>Click the Make Your Own button on this page to go to the template's GitHub repository.</li> <li>Once in the GitHub repository, click the green "Use This Template" button at the top right to make a copy of the repo and go from there.</li></ul> <p><b>Need more help?</b> Check out our <a href="{{ type.tutorial }}">walkthrough</a> for more instructions!</p>{% endcapture %}
-                      
-        {% include bootstrap/modal.md button="What's the fastest way to get started?" color="outline-secondary btn-sm mt-3" title="Quick Instructions" text=instructions %}
-        
+    
                 <p class="pt-3 h4">Best for: </p>
                 <ul class="list-group list-group-flush mb-3">
                     {% assign points = type.points | split: ";" %}
