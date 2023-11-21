@@ -10,6 +10,8 @@ short_description: 'Read about how Public Scholarship Librarian Kate Thornhill i
 
 As part of our CollectionBuilder in the Classroom Q&A series, [Public Scholarship Librarian Kate Thornhill](https://library.uoregon.edu/directory/thornhill){:target="_blank" rel="noopener"} shares how she incorporated CollectionBuilder into her Humanities Research Data Management course at the University of Oregon.
 
+{% include feature/blogbio.html link="https://katethornhill.carrd.co/" bio="Kate Thornhill holds the position of Public Scholarship Librarian and Associate Librarian at the University of Oregon since 2018, where she specializes in the development and implementation of digital humanities research and classroom projects and holds a track record in community and civic outreach." img="/images/blog/biopics/image01.jpg" name="Kate Thornhill" %}
+
 ### 1. Please describe the course you taught in which you incorporated CollectionBuilder.
 
 I designed and taught an undergraduate course at the University of Oregon titled "Humanities Research Data Management." The class is required for students enrolled in the School of Computer and Data Science's cultural analytics track and Digital Humanities minors. It provides students with theoretical and practical experience in collecting, processing, archiving, and publishing humanities data (images, video, sound, text, maps, etc.) gathered from galleries, libraries, archives, and museums (GLAMs). 
