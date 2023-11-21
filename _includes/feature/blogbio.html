@@ -2,10 +2,13 @@
 
     Bootstrap Alert, https://getbootstrap.com/docs/5.1/components/alerts/
 
-    E.G. --> {% include feature/alert.html text="example text" color="warning" align="center" %}
+    E.G. --> {% include feature/blogbio.html link="https://katethornhill.carrd.co/" bio="Kate Thornhill holds the position of Public Scholarship Librarian and Associate Librarian at the University of Oregon since 2018, where she specializes in the development and implementation of digital humanities research and classroom projects and holds a track record in community and civic outreach." img="/images/blog/biopics/image01.jpg" name="Kate Thornhill" %}
 
-    Options:
-    - "text" = text for alert, can use Markdown.
+    Options: 
+    - "name" = name for person
+    - "link" = link to person's site
+    - "img" = image for person -- download this and put it in "/images/blog/biopics/" then make a relative to link to it like in the above
+    - "bio" = text for bio
     - "color" = a Bootstrap color (primary, secondary, success, danger, warning, info, light, dark)
     - "align" = text alignment (center, right, left)
 
