@@ -1,0 +1,24 @@
+{% comment %}
+
+    Bootstrap Alert, https://getbootstrap.com/docs/5.1/components/alerts/
+
+    E.G. --> {% include feature/alert.html text="example text" color="warning" align="center" %}
+
+    Options:
+    - "text" = text for alert, can use Markdown.
+    - "color" = a Bootstrap color (primary, secondary, success, danger, warning, info, light, dark)
+    - "align" = text alignment (center, right, left)
+
+{%- endcomment -%}
+<div class="alert alert-{{ include.color | default: 'primary' }} feature-alert {% if include.align %}text-{{ include.align }}{% endif %}" role="alert">
+    <div class="row">
+        <div class="col-2">
+            <img class="img-fluid py-0 px-2 my-auto" src="{{ include.img }}" style="max-height: 200px;"/>
+        </div>
+        <div class="col-10">
+            <p class="h4 my-0"><a href="{{ include.link }}">{{ include.name }}</a></p>
+            <p class="mt-1 mb-0 small">{{ include.bio }} ... <a href="{{ include.link }}">Learn More</a>  </p>
+        </div>
+    </div>
+
+</div>
