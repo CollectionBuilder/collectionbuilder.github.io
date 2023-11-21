@@ -8,7 +8,7 @@ tags: [teaching]
 short_description: 'Read about how Public Scholarship Librarian Kate Thornhill integrated CollectionBuilder into her for-credit course at the University of Oregon.'
 ---
 
-As part of our CollectionBuilder in the Classroom Q&A series, Public Scholarship Librarian Kate Thornhill shares how she incorporated CollectionBuilder into her Humanities Research Data Management course at the University of Oregon.
+As part of our CollectionBuilder in the Classroom Q&A series, [Public Scholarship Librarian Kate Thornhill](https://library.uoregon.edu/directory/thornhill){:target="_blank" rel="noopener"} shares how she incorporated CollectionBuilder into her Humanities Research Data Management course at the University of Oregon.
 
 ### 1. Please describe the course you taught in which you incorporated CollectionBuilder.
 
