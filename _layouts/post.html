@@ -13,12 +13,7 @@ layout: base-beautiful
       <article role="main" class="blog-post">
         <h1>{{ page.title }}</h1>
         <span style="text-transform:uppercase;">{% if page.author %}By {{page.author}}{% endif %} | {% if page.publish-date %}{{page.publish-date}}{% endif %}</span>
-        <p><b>tl;dr</b> <i>{{page.short_description}}</i></p>
-
-        {{ content }}
-      </article>
-
-      {% if page.tags.size > 0 %}
+        {% if page.tags.size > 0 %}
         <div class="blog-tags">
           <span>Tags:</span>
           {% for tag in page.tags %}
@@ -26,6 +21,11 @@ layout: base-beautiful
           {% endfor %}
         </div>
       {% endif %}
+
+      {% if page.tldr %}<p><b>tl;dr</b> <i>{{page.tldr}}</i></p>{% endif %}
+
+        {{ content }}
+      </article>
 
       {% if page.after-content %}
         <div class="after-content">
