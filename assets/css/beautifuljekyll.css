@@ -974,20 +974,6 @@ pre {
   border-bottom-left-radius: 0.3125rem;
 }
 
-.blog-post hr {
-  max-width: 100%;
-  border-width: 0.1rem;
-  border-radius: 0.1875rem;
-  border-color: #d3d3d3;
-}
-
-hr {
-  max-width: 100%;
-  border-width: 0.1rem;
-  border-radius: 0.1875rem;
-  border-color: #d3d3d3;
-}
-
 .blog-post blockquote {
   padding: 0.625rem 1.25rem;
   margin: 0 0 1.25rem;

@@ -101,3 +101,10 @@ div.highlighter-rouge {
 .page-narrow {
     max-width: 900px;
 }
+
+.blog-post hr {
+    max-width: 100%;
+    border-width: 0.1rem;
+    border-radius: 0.1875rem;
+    border-color: #d3d3d3;
+  }
