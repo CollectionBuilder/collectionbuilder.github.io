@@ -6,6 +6,7 @@ author: Devin Becker
 publish-date: November 7, 2023
 tags: [SHEETS, tech, announcement]
 short_description: SHEETS is the newest and most versatile CollectionBuilder template. Users can now build CollectionBuilder exhibits directly from a Google Sheet.
+tldr: SHEETS is the newest and most versatile CollectionBuilder template. Users can now build CollectionBuilder exhibits directly from a Google Sheet.
 ---
 
 CollectionBuilder-Sheets (SHEETS), the latest template for CollectionBuilder, is an innovative way to streamline the process of creating CollectionBuilder exhibits. It enables users to build digital collections directly from a Google Sheet (thus the name!), making the process easier and more immediate.
