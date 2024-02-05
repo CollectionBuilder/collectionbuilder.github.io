@@ -21,7 +21,7 @@ tldr: 'Check out our monthly round-up for January 2024 featuring CollectionBuild
 
 **CollectionBuilder Monthly Meetup**  
 _Topic: Teaching with CollectionBuilder_  
-Wednesday, February 21, 10:00am - 11:00am PST
+Wednesday, February 21, 10:00am - 11:00am PST  
 [Register here](https://uidaho.zoom.us/meeting/register/tZcqf-yqqD4iGNHkfxwVxY782uyjNP658MTE){:target="_blank" rel="noopener"}
 
 For February, our discussion topic will be using CollectionBuilder in the classroom. If you are interested in discussing your ongoing and/or planned course curriculum or just want to learn more about how CB can be used in the classroom, please feel free to join! 
