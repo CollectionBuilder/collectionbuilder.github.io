@@ -8,6 +8,9 @@ tags: [oral histories, resources]
 short_description: This blog post highlights helpful strategies, resources, and project examples to help guide you as you begin or continue work on oral history collections.
 ---
 
+
+{% include feature/alert.html color="info" text="To start a CollectionBuilder Oral History project, try out our [cb-oralhistory](https://github.com/CollectionBuilder/cb-oralhistory) template, which combines Oral History as Data with CollectionBuilder-CSV." %}
+
 We recently hosted a CollectionBuilder Monthly Meetup focused on building oral history projects using CollectionBuilder. During the meetup, many helpful strategies, resources, and examples were shared related to integrating oral histories into CollectionBuilder projects. 
 
 This blog post highlights these resources, methods, and project examples to help guide you as you begin or continue work on oral history collections.
