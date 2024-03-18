@@ -1,9 +1,15 @@
 type,authors,title,publication,date,link
-Workshop,"Olivia Wikle, Evan Williamson, and Devin Becker","Creating Digital Collections with Minimal Infrastructure: Hands On With CollectionBuilder for Teaching and Exhibits",DHSI,2022,https://osf.io/vwke9/
+Article,"Olivia Wikle and Evan Peter Williamson","Exploring Static Web in the Digital Humanities Classroom: The Learn-Static Initiative",IDEAH 4(2),2024,https://doi.org/10.21428/f1f23564.f88a989c
+Workshop,"Julia Stone, Olivia Wikle, and Evan Peter Williamson","Introduction to CollectionBuilder-SHEETS",eLaboratories,2024,https://osf.io/9pu4d
+Presentation,Julia Stone,"Building the CollectionBuilder Community: Lessons Learned from Remote Collaboration and Outreach",DLF Forum,2023,https://osf.io/sh2jn/
+Workshop,"Olivia Wikle, Julia Stone, Evan Peter Williamson, and Devin Becker","Introduction to CollectionBuilder, Part I: Creating a Collection With CollectionBuilder-GH Using the GitHub Web Interface",Learn @ DLF,2023,https://osf.io/sebvf/
+Workshop,"Olivia Wikle, Julia Stone, Evan Peter Williamson, and Devin Becker","Introduction to CollectionBuilder, Part II: Customizing CollectionBuilder-CSV On a Local Machine",Learn@DLF,2023,https://osf.io/87w2n/
+Presentation,"Hanwen Dong, David Luftig, and Julia Stone","Utilizing CollectionBuilder to Improve the Survey of Agricultural Publications Collection's Discoverability",AgNIC Annual Meeting,2023,https://osf.io/2dgxn/
+Workshop,"Olivia Wikle, Evan Williamson, and Devin Becker","Creating Digital Collections with Minimal Infrastructure: Hands On With CollectionBuilder for Teaching and Exhibits",DHSI,"2021, 2022, 2023",https://osf.io/cd2h9
+Presentation,"Olivia Wikle and Evan Peter Williamson","Static Web Methodology as a Sustainable Approach to Digital Humanities Projects, in Panel 1-01: Sustainability + the Politics of DH Infrastructure",ADHO DH2022,2022,https://osf.io/kdtey
 Presentation,"Evan Peter Williamson, Olivia Wikle, and Devin Becker","Spreadsheets, Templates, Generators, and NO Database: Static Web Methods for Agile Library Infrastructure",Code4Lib Conference,2022,https://osf.io/ux5ag/
 Presentation,"Olivia Wikle, Evan Peter Williamson, Kate Thornhill, and Gabriele Hayden","Innovative Digital Humanities Pedagogy With Static Web Technologies",Online Northwest Conference,2022,https://pdxscholar.library.pdx.edu/onlinenorthwest/2022/schedule/7/
 Presentation,"Olivia Wikle, Evan Peter Williamson, Gabriele Hayden, and Kate Thornhill","Learn-STATIC: Expanding the Potential of Digital Humanities Pedagogy With Static Web Technologies",Global Digital Humanities Symposium,2022,https://osf.io/bsz5p/
-Workshop,"Olivia Wikle, Evan Williamson, and Devin Becker","Creating Digital Collections with Minimal Infrastructure: Hands On With CollectionBuilder for Teaching and Exhibits",DHSI,2021,https://osf.io/5q976/
 Presentation,"Olivia Wikle and Cal Murgu","Teaching Metadata and Collection Lifecycles in the Humanities Classroom using CollectionBuilder",ACRL Digital Scholarship Section Digital Collections Discussion Group Lightning Talk Series: Enhancing Digital Collections in Teaching and Research with Digital Tools,2021,https://osf.io/xbcrw/
 Presentation,"Olivia Wikle, Evan Williamson, and Devin Becker","Growing CollectionBuilder: Developing an Agile, Library-Centric Approach to Digital Collections and Scholarship Projects",Online Northwest,2021,https://pdxscholar.library.pdx.edu/onlinenorthwest/2021/schedule/4/
 Workshop,"Olivia Wikle, Evan Williamson, and Devin Becker","CollectionBuilder: A Static Web Approach to Digital Projects in Libraries",ALA Core Classroom,2021,https://osf.io/m6bpe/
@@ -18,4 +24,3 @@ Presentation,"Olivia Wikle, Evan Williamson, and Devin Becker","Metadata + APIs 
 Workshop,"Olivia Wikle, Evan Williamson, and Devin Becker","Digital Collection Magic with Static Web Technologies: Improving CONTENTdm Front Ends using CollectionBuilder",Learn@DLF,2019,
 Presentation,"Olivia Wikle and Evan Williamson","CollectionBuilder: Creating & Teaching Digital Collections with Minimal Infrastructure",ASIS&T Webinar Series,2019,https://osf.io/pfhcy/
 Presentation,Evan Williamson and Devin Becker,"GitHub-Pages CollectionBuilder: Teaching & Building Digital Library Collections using Minimal Computing Techniques",DLF Forum,2018,https://osf.io/d8e6b/
-Presentation,"Hanwen Dong, David Luftig, and Julia Stone","Utilizing CollectionBuilder to Improve the Survey of Agricultural Publications Collection's Discoverability",AgNIC Annual Meeting,2023,https://osf.io/2dgxn/
