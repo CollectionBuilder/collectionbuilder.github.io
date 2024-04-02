@@ -3,7 +3,7 @@ layout: post
 title: 'CB in the Classroom: Q&A with Zack Lischer-Katz, University of Arizona'
 subtitle:
 author: Julia Stone; Zack Lischer-Katz
-publish-date: March 29, 2024
+publish-date: April 2, 2024
 tags: [teaching]
 short_description: 'Read about how Zack Lischer-Katz, Assistant Professor at the University of Arizona School of Information, integrated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona.'
 ---
