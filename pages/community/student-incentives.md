@@ -4,7 +4,7 @@ title: LIS Student Program
 permalink: /community/student-incentives.html
 ---
 
-{% include bootstrap/alert.md color="warning" text='This opportunity is for <strong>students</strong> and is part of the <a href="funded-opportunities/" class="font-weight-bold" style="color: #856404;">CollectionBuilder 2023 Incentives Program</a>.' %}
+{% include bootstrap/alert.md color="warning" text='This opportunity is for <strong>students</strong> and is part of the <a href="funded-opportunities/" class="font-weight-bold" style="color: #856404;">CollectionBuilder 2023 Incentives Program</a>. Applications are currently closed.' %}
 
 {:.pt-3}
 **Eligibility**: Applicants must be full- or part-time students at ALA-accredited Library and Information Science (LIS) programs in the United States who are interested in learning about CollectionBuilder (no experience necessary!)
@@ -37,6 +37,6 @@ Participants will have the opportunity to experiment with creative uses of the C
 - How would this cohort experience benefit your education and future career?
 {:.mb-5}
 <div class="text-center">
-    <a target="_blank" rel="noopener" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5j5gyuV3aaNUMei" class="btn btn-info btn-lg mb-4 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
+    <a target="_blank" rel="noopener" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5j5gyuV3aaNUMei" class="btn btn-info btn-lg mb-4 mx-1 disabled" aria-disabled="true"><span class="fas fa-edit"></span> Applications Currently Closed</a>
 </div>
 {:.mb-5}
