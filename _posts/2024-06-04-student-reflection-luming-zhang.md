@@ -1,0 +1,72 @@
+---
+layout: post
+title: 'LIS Student Reflection: Luming Zhang, University of Washington'
+subtitle:
+author: Luming Zhang
+publish-date: June 4, 2024
+tags: [student reflection]
+short_description: 'LIS Student Program participant Luming Zhang provides a robust relection on CB and her project for the program, Reimagining Archive in Contemporary Chinese Art.'
+---
+
+MLIS Student Luming Zhang reflects on CollectionBuilder, the collection she built for the LIS Student program and the program overall. Luming was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+
+{% include feature/blogbio.html bio="Luming Zhang is a recent graduate of the Information School at the University of Washington in Seattle."  name="Luming Zhang" %}
+
+## Exploring Artistic Engagement Through Archives: My Journey with CollectionBuilder
+
+In the world of library and information sciences, practical experience with digital tools can be both enlightening and essential. My recent involvement with CollectionBuilder during the LIS Student Program has been a transformative journey into the intersection of technology and art history. This digital project has allowed me to explore how contemporary Chinese artists engage with archival materials, tracing influences and reinterpretations from 1978 to the present. 
+
+**My Project: [Reimaging Archive in Contemporary Chinese Art](https://collectionbuilder-lis.github.io/reimagining-archive/)**
+
+My project focuses on the rich tapestry of modern and contemporary art from China, Hong Kong, and Taiwan, showcasing significant artworks that engage with cultural and historical archives. The current centerpiece is the iconic portrait of Mao Zedong by Zhang Zheishi—a powerful example of historical imagery being reinterpreted through modern artistic lenses. Another notable inclusion is “Tiananmen” by Zeng Fanzhi, which further illustrates how contemporary artists delve into and draw from pivotal moments captured in archives.
+
+{% include feature/image.html objectid="/images/blog/zhang-02.png"%}
+
+Zhang Zhengshi’s portrait of Mao Zedong is perhaps one of the most reproduced images in history, prominently displayed in Tiananmen Square and ingrained in the cultural memory of China. This portrait depicts Mao in a simplistic, idealized manner, embodying the strength and paternal benevolence the Communist Party sought to project. It’s a portrayal crafted to solidify the leader’s mythic status among the masses.
+
+{% include feature/image.html objectid="/images/blog/zhang-03.png"%}
+
+
+In contrast, Zeng Fanzhi’s “Tiananmen” takes a more nuanced approach. Known for his Mask series, where figures are depicted with exaggerated and grotesque features hidden behind masks, Zeng’s depiction of historical and symbolic landscapes often carries a sense of emotional conflict and personal reflection. His interpretation of Tiananmen Square, therefore, is not just a geographical location but a space loaded with historical weight and personal introspection.
+
+Therefore, Zeng Fanzhi’s “Tiananmen" can be seen as a direct dialogue with Zhang Zhengshi’s portrayal of Mao. While Zhang’s portrait symbolizes the official and unyielding depiction of Chinese leadership, Zeng’s work introduced a narrative filled with tension and ambiguity. It suggests a landscape that has witnessed significant historical events, ones that are not just of national significance but also of personal and collective memory.
+
+In Zeng’s canvas, the monumentalism of Mao’s portrait and its associated symbolism of power and authority are recontextualized. The artist incorporated elements that reflect the stark contrasts between the public façade of historical narratives and the private, often hidden experiences of individuals. Through his expressionist style, Zeng explored the layers of meaning in these icons, questioning their role and impact on Chinese identity and history.
+
+By engaging with Zhang Zhengshi’s iconic portrait, Zeng Fanzhi is not merely replicating an image but rather commenting on the passage of time and the shifts in perception that come with it. His work invites viewers to reconsider the imagery and symbolism of Mao’s era in light of contemporary perspectives. It prompts a reevaluation of historical memory and the ways in which art can challenge or reinforce collective understandings. 
+
+### About Using CollectionBuilder
+
+The CollectionBuilder platform has proven essential in realizing my digital exhibit on the engagement of contemporary Chinese artists with archival materials. Its robust set of tools and user-friendly templates are perfectly suited for curators and researchers who may not have extensive technical backgrounds but are eager to present complex data in an accessible and visually appealing way. The platform allows for significant customization, enabling users to tailor their projects to the specific needs of their content, which in my case involved a nuanced display of artistic connections across different times and regions.
+
+One of the standout features of CollectionBuilder is its ability to handle large datasets and present them through interactive maps, timelines, and image galleries. This functionality was particularly useful in my project, as it allowed me to demonstrate the geographical and temporal spread of Chinese artistic engagement. The platform’s flexibility in design and data visualization helped me create a more engaging experience for viewers, inviting them to explore the intricate relationships between historical archives and contemporary artistic interpretations visually and interactively.
+
+For those interested in exploring this digital intersection of art and history, I encourage you to visit my project online. You can delve into the detailed portrayals and reinterpretations of historical figures like Mao Zedong by contemporary artists such as Zhang Zhengshi and Zeng Fanzhi. The project is designed to be not only informative but also an explorative space for visitors to make their own connections and discoveries. Here is the link to [my project](https://collectionbuilder-lis.github.io/reimagining-archive/). Whether you are a student, educator, or art enthusiast, this digital exhibit offers a unique perspective on the power of archives as catalysts in the creation of new art.
+
+### Challenges and Learning
+
+Embarking on the creation of a digital exhibit with CollectionBuilder presented a unique set of challenges that provided me with a steep learning curve and valuable insights into the world of digital curation. One of the initial hurdles was the customization of the platform. CollectionBuilder, while user-friendly, involves a number of sophisticated tools and settings that required some time to master. The complexity of my project, which aimed to illustrate the intricate relationships between original archival works and their contemporary reinterpretations, necessitated a deep dive into these tools to ensure that the final product was both functional and reflective of my academic vision.
+
+Another significant challenge was designing the project in a way that encourages user interaction and exploration. My goal was to create an engaging environment where viewers could not only view artworks and read about their historical contexts but also actively participate in discovering connections between archival materials and subsequent artistic engagements. This required implementing interactive elements such as clickable maps and dynamic galleries, which were challenging to integrate smoothly. The technical aspects of making these features work effectively often involved troubleshooting unexpected issues, such as compatibility with different browsers or load times for high-resolution images.
+
+Despite these challenges, the process was immensely educational. I learned not only about the technical aspects of building a digital exhibit but also about how to present complex historical and artistic narratives in a way that is accessible to a broad audience. The tutorials provided by CollectionBuilder were invaluable in this regard, offering step-by-step guides on everything from basic setup to more advanced features like custom CSS styling and JavaScript enhancements. This project, still a work in progress, has taught me the importance of patience and perseverance in digital scholarship and has greatly enhanced my skills in digital literacy, project management, and thematic storytelling. Each obstacle provided a learning opportunity, and over time, I became more adept at leveraging the platform's capabilities to enhance my project's educational and aesthetic value.
+
+### Tools and Tutorials
+
+The CollectionBuilder platform not only provided the technical framework for my project but also offered an extensive suite of tutorials and online sessions that were crucial to my development as a digital curator. From January to late April, these resources played a pivotal role in enhancing my understanding and skills. The sessions, led by a team of knowledgeable and approachable instructors, covered a wide range of topics from the basics of setting up a digital collection to more complex tasks like customizing visual elements and integrating interactive features.
+
+A big thank you to Devin, Olivia, Evan, and Julia—I really appreciate all the guidance and support they provided. They truly deserve immense credit for their patience and expertise. They were not only adept at explaining the technical aspects of the platform but also exceptionally skilled at fostering an environment conducive to learning. Their approach was hands-on, allowing us to immediately apply what we learned in practical scenarios. This experiential learning process helped cement my understanding of the tools and their applications in real-world projects.
+
+Furthermore, the collaborative atmosphere of the sessions, enriched by the participation of many peers, was equally instrumental in my learning journey. Engaging with fellow students who shared similar interests and challenges fostered a rich exchange of ideas and provided multiple perspectives on tackling problems. This community aspect was vital in inspiring creativity and encouraging problem-solving approaches that I might not have considered on my own. The network of peers also provided moral support, making the daunting task of learning a new digital tool much more manageable and enjoyable. The collective wisdom and diverse experiences of the group significantly enriched my project and personal growth in digital curation.
+
+### Recommendations and Reflections
+
+I would say the potential of CollectionBuilder extends far beyond its current application as a platform for digital exhibitions. For humanities scholars conducting research, CollectionBuilder offers a multifaceted approach to data organization, visualization, and interpretation. The platform can serve as a powerful research assistant, enabling scholars to curate collections that illuminate patterns, themes, and narratives which may not be immediately apparent. By providing a means to create interactive maps, timelines, and searchable databases, it allows researchers to analyze and present their findings in engaging and innovative ways, making the research process not just more efficient but also more insightful.
+
+Moreover, the importance of community engagement and the dissemination of knowledge to the public cannot be overstressed. CollectionBuilder has the capability to democratize access to archival materials, making them accessible to audiences who may have little to no familiarity with academic archives. By presenting archival materials in a more user-friendly and engaging format, CollectionBuilder can help bridge the gap between academic research and public interest. It encourages community participation and interest in historical and cultural materials, fostering a sense of shared heritage and knowledge.
+
+The platform’s adaptability makes it a valuable tool for addressing public concerns and reaching out to broader audiences. Through the creation of digital exhibits that are both informative and visually compelling, CollectionBuilder can help raise awareness of social, cultural, and historical issues. These digital exhibits can be shared widely, transcending geographical boundaries and inviting global audiences to engage with topics that are of local, national, or international significance.
+
+In essence, I think CollectionBuilder has the potential to revolutionize the way humanities scholarship is conducted and shared. By lowering barriers to entry, it empowers scholars, communities, and the public to engage with the humanities in a more direct and meaningful way. It amplifies the voice of the archives, allowing them to speak to a contemporary audience eager for knowledge and connection to the past. As this platform continues to evolve, I believe its role in fostering a more informed and engaged public is only set to increase, establishing it as an indispensable tool in the arsenal of humanities scholars and community advocates alike.
+
+<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" target="_blank">collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>

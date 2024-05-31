@@ -15,12 +15,12 @@
 {%- endcomment -%}
 <div class="alert alert-{{ include.color | default: 'primary' }} feature-alert {% if include.align %}text-{{ include.align }}{% endif %}" role="alert">
     <div class="row">
-        <div class="col-2">
+        {% if include.img %}<div class="col-4 col-sm-3 col-md-2">
             <img class="img-fluid py-0 px-2 my-auto" src="{{ include.img }}" style="max-height: 200px;"/>
-        </div>
-        <div class="col-10">
-            <p class="h4 my-0"><a href="{{ include.link }}" target="_blank">{{ include.name }}</a></p>
-            <p class="mt-1 mb-0 small">{{ include.bio }} ... <a href="{{ include.link }}" target="_blank">Learn More</a>  </p>
+        </div>{% endif %}
+        <div class="col">
+            <p class="h4 my-0">{% if include.link %}<a href="{{ include.link }}" target="_blank">{{ include.name }}</a>{% else %}{{ include.name }}{% endif %} </p>
+            <p class="mt-1 mb-0 small">{{ include.bio }} {% if include.link %}... <a href="{{ include.link }}" target="_blank">Learn More</a>  {% endif %} </p>
         </div>
     </div>
 
