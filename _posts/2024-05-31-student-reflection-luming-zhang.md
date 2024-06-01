@@ -3,14 +3,14 @@ layout: post
 title: 'LIS Student Reflection: Luming Zhang, University of Washington'
 subtitle:
 author: Luming Zhang
-publish-date: June 4, 2024
+publish-date: May 31, 2024
 tags: [student reflection]
 short_description: 'LIS Student Program participant Luming Zhang provides a robust relection on CB and her project for the program, Reimagining Archive in Contemporary Chinese Art.'
 ---
 
 MLIS Student Luming Zhang reflects on CollectionBuilder, the collection she built for the LIS Student program and the program overall. Luming was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
 
-{% include feature/blogbio.html bio="Luming Zhang is a recent graduate of the Information School at the University of Washington in Seattle."  name="Luming Zhang" %}
+{% include feature/blogbio.html bio="Luming Zhang is an MLIS student at the Information School of the University of Washington, specializing in digital humanities and archival management with a strong focus on museum studies and art history. (<a href='#fullbio'>Full bio below</a>)" img="/images/blog/biopics/zhang.jpg"  name="Luming Zhang" %}
 
 ## Exploring Artistic Engagement Through Archives: My Journey with CollectionBuilder
 
@@ -68,5 +68,7 @@ Moreover, the importance of community engagement and the dissemination of knowle
 The platform’s adaptability makes it a valuable tool for addressing public concerns and reaching out to broader audiences. Through the creation of digital exhibits that are both informative and visually compelling, CollectionBuilder can help raise awareness of social, cultural, and historical issues. These digital exhibits can be shared widely, transcending geographical boundaries and inviting global audiences to engage with topics that are of local, national, or international significance.
 
 In essence, I think CollectionBuilder has the potential to revolutionize the way humanities scholarship is conducted and shared. By lowering barriers to entry, it empowers scholars, communities, and the public to engage with the humanities in a more direct and meaningful way. It amplifies the voice of the archives, allowing them to speak to a contemporary audience eager for knowledge and connection to the past. As this platform continues to evolve, I believe its role in fostering a more informed and engaged public is only set to increase, establishing it as an indispensable tool in the arsenal of humanities scholars and community advocates alike.
+
+<p id="fullbio" class="mt-3"><em>Luming Zhang is an MLIS student at the Information School of the University of Washington, specializing in digital humanities and archival management with a strong focus on museum studies and art history. With her MA in East Asian Studies from Duke University, Luming has developed a nuanced understanding of cultural artifacts and their significance within various historical contexts, particularly those of East Asia. Her professional experiences, which include internships at notable institutions like the Asian Art Museum in San Francisco and the Nasher Museum of Art at Duke University, reflect her deep commitment to the curation, preservation, and research of museum collections. Luming is adept in leveraging digital tools to enhance the accessibility and interpretation of museum collections, contributing to the broader field of art history through innovative digital humanities approaches. Passionate about the intersection of technology and traditional scholarship, Luming aims to transform how cultural histories are accessed and understood. She is dedicated to advancing the role of digital archives in preserving the integrity and enhancing the public engagement of museum collections. Through her work, Luming continues to explore and contribute to the dynamic dialogue between art history and digital innovation.</p>
 
 <p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" target="_blank">collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>
