@@ -45,10 +45,11 @@ The CollectionBuilder team will send brief monthly update emails to the Google G
 Before signing up for the Slack and/or Google Group, all participants must agree to abide by our [Code of Conduct for Community Spaces](/community/code-of-conduct/).
 
 This Code of Conduct applies to: 
+
 - All CollectionBuilder Slack spaces, including public channels, private channels, and direct messages
 - All interactions in the CollectionBuilder Google Group, including reply-all email threads and one-on-one email threads
 
-If you have any questions about the Code of Conduct or the community spaces in general, please email Community Liaison Julia Stone at [juliastone@uidaho.edu](mailto:juliastone@uidaho.edu).
+If you have any questions about the Code of Conduct or the community spaces in general, please email our team at <collectionbuilder.team@gmail.com>.
 
 <div class="text-left">
     <a href="{{ '/community/code-of-conduct/' | relative_url }}" target="_blank" class="btn btn-info btn-lg mb-4 mx-1">Read Code of Conduct</a>
@@ -59,7 +60,7 @@ If you have any questions about the Code of Conduct or the community spaces in g
 {:.pt-3}
 ## Community Involvement
 
-There are other ways to get involved as well! If you or your institution might be interested in adopting the CollectionBuilder framework more seriously, we can help. Please get in touch with Julia Stone at [juliastone@uidaho.edu](mailto:juliastone@uidaho.edu) and help us guide the future of CollectionBuilder.
+There are other ways to get involved as well! If you or your institution might be interested in adopting the CollectionBuilder framework more seriously, we can help. Please get in touch with our team at <collectionbuilder.team@gmail.com> and help us guide the future of CollectionBuilder.
 
 - **Feedback!** - If you have thoughts on the documentation, framework, visualizations, user interactions, or any other features, please *please* **please** provide us with feedback. Our intention in doing workshops and presentations is to gather feedback on the tool so that CollectionBuilder can continue to grow, becoming more useable and useful.
 - **Ask Questions** - Get in contact on the [CollectionBuilder GitHub Discussion Forum](https://github.com/orgs/CollectionBuilder/discussions) to ask any technical questions or bring up issues you encounter.

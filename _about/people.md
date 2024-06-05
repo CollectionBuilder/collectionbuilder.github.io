@@ -11,6 +11,7 @@ Core team:
 
 Collaborators: 
 
+- Julia Stone, Digital Scholarship Librarian, Portland State University (past CB Community Liaison and Digital Scholarship Librarian, University of Idaho Library)
 - Jylisa Doney, Social Sciences Librarian, University of Idaho
 - Marco Seiferle Valencia, Open Education Librarian, University of Idaho
 - Derek Enos, Developer

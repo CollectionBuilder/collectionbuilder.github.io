@@ -21,7 +21,7 @@ Participants will be awarded a stipend for their work implementing, documenting,
     <!--<li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a> (Application Deadline TBD)</li>-->
 </ul>
 
-Not sure if you qualify? Review the incentive descriptions linked above, and reach out to Julia Stone at [juliastone@uidaho.edu](mailto:juliastone@uidaho.edu) with any questions.
+Not sure if you qualify? Review the incentive descriptions linked above, and reach out to our team at <collectionbuilder.team@gmail.com> with any questions.
 Applications will be reviewed by the project team, and we are committed to selecting participants from a wide range of institution types and backgrounds.
 
 Visit the [About page]({{ '/about.html#support' | relative_url }}) to learn more about our current grant support and activities.
