@@ -35,4 +35,3 @@ Yes! Actually, the visual novel history collection wasn’t the one that I first
 
 Of course. I want to become a digital humanities librarian and I would love to use CollectionBuilder in my future work. It is a wonderful tool for teaching students about humanities.
 
-<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" target="_blank">collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>
