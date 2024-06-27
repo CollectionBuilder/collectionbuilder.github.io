@@ -3,7 +3,7 @@ layout: post
 title: 'LIS Student Reflection: David Castro, San Jose State University'
 subtitle:
 author: David Castro
-publish-date: June 28, 2024
+publish-date: June 27, 2024
 tags: [student reflection]
 short_description: 'LIS Student Program participant David Castro reflects on his time in the LIS Student program and the collaborative Family Archive Project he and his team worked on.'
 ---
