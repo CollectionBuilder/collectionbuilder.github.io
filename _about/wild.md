@@ -5,13 +5,8 @@ section_order: 6
 ---
 ## How are others using CollectionBuilder?
 
-CollectionBuilder sites continue to proliferate around the world. Below is a list of sites we've noticed "in the wild."
+CollectionBuilder sites continue to proliferate around the world.
+Check out the [CollectionBuilder Examples](https://collectionbuilder.github.io/cb-examples/) site which features projects created by a variety of individuals, organizations, and institutions.
 
-{% capture wild %}
-*Select digital collections from users outside of University of Idaho.*
-{% for w in site.data.cb-in-wild %}
-- [{{ w.title }}]({{ w.link }}) {% if w.type %}[{{ w.type }}]{% endif %}, {{ w.org }}{% endfor %}
-{% endcapture %}
-{% include bootstrap/card.md title="CollectionBuilder in the Wild" text=wild %}
-
-Or checkout our [Zotero library](https://www.zotero.org/groups/5020353/collectionbuilder-examples/library) for even more...
+Interested in sharing your work?
+[Submit your own CollectionBuilder project](https://docs.google.com/forms/d/e/1FAIpQLSfOhjLOh4nCg6XY_6pdLit28I5ACxV-y_eokiBl1xp4OG-IhQ/viewform) to be featured in the example collections!
