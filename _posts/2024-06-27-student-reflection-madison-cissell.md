@@ -8,12 +8,12 @@ tags: [student reflection]
 short_description: 'LIS Student Program participant Madison Cissell reflects on her time working on a collaborative project in the LIS Student program and her work creating an essay-based collection on her own.'
 ---
 
-MLS Student Diamond Alexander answers a series of questions on the collection she built for the LIS Student program and the program overall. Madison was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student Madison Cissell answers a series of questions on the collection she built for the LIS Student program and the program overall. Madison was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
 
 {% include feature/blogbio.html bio="Madison Cissell
  is the Senior Digital Methods Specialist at Indiana University (IU) Bloomington's Institute for Digital Arts and Humanities and a second-year graduate student at IU's Luddy School Of Informatics, Computing, And Engineering. She is also a student in the department of Folklore & Ethnomusicology." img="/images/blog/biopics/cissell-madison.png" name="Madison Cissell" %}
 
-# LIS Student Program Spotlight: Madison Cissell
+## LIS Student Program Spotlight: Madison Cissell
 
 
 ### 1. Please describe the CollectionBuilder project(s) you worked on during the LIS Student Program and provide a link to your projects if available.
