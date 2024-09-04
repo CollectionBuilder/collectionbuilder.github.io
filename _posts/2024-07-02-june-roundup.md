@@ -20,16 +20,14 @@ short_description: 'Our monthly round-up for June 2024.'
 
 **Upcoming events:**
 
-Nothing right now. CollectionBuilder Monthly Meetups</span> will start up more regularly during the academic year.
+Nothing right now. CollectionBuilder Monthly Meetups will start up more regularly during the academic year.
 
 **Get Involved / Connect with Us**
 
 Below are some ways to stay connected with the CollectionBuilder community:
 
-
-
 * [Join our Slack channel](https://forms.gle/GVb7STSWyq2tto3NA)
 * Post questions on our[ GitHub Discussion Board](https://github.com/orgs/CollectionBuilder/discussions)
 
-Questions? Email us at <span style="text-decoration:underline;">collectionbuilder.team@gmail.com</span>
+Questions? Email us at <collectionbuilder.team@gmail.com>
 -The CollectionBuilder Team
