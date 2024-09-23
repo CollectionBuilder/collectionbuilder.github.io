@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'CollectionBuilder Bulletin: June 2024'
+title: 'CollectionBuilder Bulletin: September 2024'
 subtitle:
-author: Evan Williamson
+author: Devin Becker
 publish-date: Sep 23, 2024
 tags: [newsletter, cb-add-on]
 short_description: 'A round-up for July, August and September 2024.'
