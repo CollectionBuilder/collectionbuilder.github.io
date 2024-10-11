@@ -7,7 +7,7 @@ permalink: /community/funded-opportunities/
 {:.pt-3}
 ## LIS Incentives Program
 
-The **CollectionBuilder 2023 Incentives Program** is the latest grant-funded opportunity for using and contributing to CollectionBuilder.
+The **CollectionBuilder Incentives Program** is the latest grant-funded opportunity for using and contributing to CollectionBuilder.
 
 **Who is this for?**
 We are seeking instructors, students, and digital librarians who are interested in engaging with CollectionBuilder and providing formal feedback to the development team.
