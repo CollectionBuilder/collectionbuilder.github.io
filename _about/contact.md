@@ -17,6 +17,7 @@ Have questions, comments, or concerns for CollectionBuilder developers?
 You're welcome to contact any or all of us:
 
 - [CollectionBuilder Discussion Forum](https://github.com/orgs/CollectionBuilder/discussions) (informal space to ask questions, provide feedback, debug, share and connect!)
+- CollectionBuilder Team (<collectionbuilder.team@gmail.com>)
 - Evan Williamson (<ewilliamson@uidaho.edu>)
 - Devin Becker (<dbecker@uidaho.edu>)
 - Olivia Wikle (<omwikle@iastate.edu>)

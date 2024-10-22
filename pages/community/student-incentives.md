@@ -40,3 +40,5 @@ Participants will have the opportunity to experiment with creative uses of the C
 <div class="text-center my-5">
     <a target="_blank" rel="noopener" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_bI5HCH8MOugGZgO" class="btn btn-info btn-lg"><span class="fas fa-edit"></span> Application for Spring 2025</a>
 </div>
+
+**Questions?** Don't hesitate to reach out to the CollectionBuilder Team (<collectionbuilder.team@gmail.com>) or Evan Williamson (<ewilliamson@uidaho.edu>)!
