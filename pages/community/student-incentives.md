@@ -4,14 +4,14 @@ title: LIS Student Program
 permalink: /community/student-incentives.html
 ---
 
-**Applications for Spring 2025 are currently open!** Please apply by Nov 30th, 2024.
+**Applications for Spring 2025 are currently open!** Please apply by Dec 1, 2024.
 {:.alert .alert-success}
 
 **Eligibility**: Applicants must be full- or part-time students at ALA-accredited Library and Information Science (LIS) programs in the United States who are interested in learning about CollectionBuilder (no experience necessary!)
 
 **Stipend**: Each participant will receive a $400 stipend.
 
-**Application Deadline**: November 30, 2024. We will inform applicants of our decision the first week of December.
+**Application Deadline**: December 1st, 2024. We will inform applicants of our decision the first week of December.
 
 **Description**: Are you a Library and Information Science (LIS) student interested in expanding your digital collection knowledge and/or learning web development skills? CollectionBuilder is an excellent option for creating a free and long lasting digital collection site that you can add to your portfolio, while exploring tools and platforms such as Git, GitHub, Jekyll, Markdown, HTML, and CSS that you are likely to encounter in your future career as a digital librarian. 
 

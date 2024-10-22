@@ -34,5 +34,3 @@ Here is a helpful list of guidelines to encourage effective communication:
 ## Unsubscribing 
 
 If you wish to unsubscribe, please email [collectionbuilder.team@gmail.com](mailto:collectionbuilder.team@gmail.com) with "Unsubscribe from Google Group" in the subject line and you will be removed within 7 days if not sooner. You will receive an email once you have been removed from the group.
-{:.mb-5}
-

@@ -16,7 +16,7 @@ CollectionBuilder receives ongoing support in the form of staff support, develop
 
 We are currently supported by a ***National Leadership Grant for Libraries*** from the [Institute for Museum and Library Services (IMLS)](https://www.imls.gov/), titled ["Growing CollectionBuilder, A Sustainable Digital Exhibit Framework and Static Web Development Model"](https://www.imls.gov/grants/awarded/lg-252326-ols-22){:target="_blank" rel="noopener"}, which will fund our work from 2022 to 2025.
 
-Over the course of this grant we've **expanded our team** to include University of Idaho Digital Scholarship Librarian Julia Stone and **piloted an [incentives program]({{ '/community/' | relative_url }})** to encourage contributions to CollectionBuilder from Information and Library Science instructors and students as well as digital librarians.
+Over the course of this grant we've **expanded our team** to include University of Idaho Digital Scholarship Librarian Julia Stone and **piloted an [incentives program]({{ '/funded-opportunities/' | relative_url }})** to encourage contributions to CollectionBuilder from Information and Library Science instructors and students as well as digital librarians.
 
 We are grateful to have the support of our talented **Advisory Board** over the course of this grant cycle:
 

@@ -29,4 +29,3 @@ permalink: /community/librarian-incentives.html
 **Stipends Available**: 5
 
 **How to Apply**: Applicants should prepare a short (min. 200 words) description of how and why they want to use CollectionBuilder. An application form will be posted here in late 2023.
-{:.mb-5}

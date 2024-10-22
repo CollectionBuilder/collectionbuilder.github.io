@@ -69,4 +69,3 @@ There are other ways to get involved as well! If you or your institution might b
 {% comment %}{% include bootstrap/alert.md color="success" text="**Interested in becoming a collaborator?** We'd love to talk to you more about it! Please contact [Olivia Wikle](mailto:omwikle@iastate.edu) for more information." %}{% endcomment %}
 
 Our highest hope for this project is to enable a small army of librarians to develop the type of tools and sites that keep the GLAM professionals in control and not subservient to bloated infrastructures and/or third-party contracts. We hope you will feel drawn to help us build that community. 
-{:.mb-5}

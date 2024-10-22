@@ -26,17 +26,16 @@ If you are ever uncertain if content is appropriate to post in the Slack, please
 Here is a helpful list of guidelines and Slack tips to encourage effective communication:
 
 - Please double check that you are in the correct channel before posting.
-- We recommend the use of [threaded discussions](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-){:target="_blank" rel="noopener"} for ease in navigating conversations.
-- Please be mindful of [tagging other users](https://slack.com/help/articles/205240127-Use-mentions-in-Slack){:target="_blank" rel="noopener"} in your posts. When you mention someone, they will receive a notification. No need to @channel or @here (which will tag everyone in the Slack channel) unless you have an important announcement for everyone.
-- If you wish to keep a Slack message private, please send a [direct message](https://slack.com/help/articles/212281468-Understand-direct-messages){:target="_blank" rel="noopener"} to another user instead of posting to a channel.
-- For further assistance on how to use Slack, please visit the [Slack Help Center](https://slack.com/help){:target="_blank" rel="noopener"}.
+- We recommend the use of [threaded discussions](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) for ease in navigating conversations.
+- Please be mindful of [tagging other users](https://slack.com/help/articles/205240127-Use-mentions-in-Slack) in your posts. When you mention someone, they will receive a notification. No need to @channel or @here (which will tag everyone in the Slack channel) unless you have an important announcement for everyone.
+- If you wish to keep a Slack message private, please send a [direct message](https://slack.com/help/articles/212281468-Understand-direct-messages) to another user instead of posting to a channel.
+- For further assistance on how to use Slack, please visit the [Slack Help Center](https://slack.com/help).
 
 {:.pt-3}
 ## Accessibility
 
 In order to make Slack more accessible, please consider these recommendations:
 
-- [Add alt-text](https://slack.com/help/articles/4403914924435-Add-descriptions-to-images){:target="_blank" rel="noopener"} to images and GIFs
+- [Add alt-text](https://slack.com/help/articles/4403914924435-Add-descriptions-to-images) to images and GIFs
 - Use linked text for URLs to clarify where the link will take you
-- Read about [Slack's accessibility features](https://slack.com/accessibility){:target="_blank" rel="noopener"}
-{:.mb-5}
+- Read about [Slack's accessibility features](https://slack.com/accessibility)

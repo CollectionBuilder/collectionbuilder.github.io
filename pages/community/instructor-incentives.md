@@ -32,4 +32,3 @@ Not familiar with static web? No problem. CollectionBuilder is designed for begi
 <div class="text-center">
     <a target="_blank" rel="noopener" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5j5gyuV3aaNUMei" class="btn btn-info btn-lg mb-4 mx-1 disabled" aria-disabled="true"><span class="fas fa-edit"></span> Applications Currently Closed</a>
 </div>
-{:.mb-5}
