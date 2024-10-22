@@ -21,7 +21,7 @@ permalink: /community/librarian-incentives.html
 - build a CollectionBuilder-based project
 - contribute back to the CollectionBuiler project and cohort community via feedback, documentation, and/or features 
 
-Participants must have some familiarity with the CollectionBuilder framework, a willingness to learn, and a desire to explore a creative method of using or communicating CollectionBuilder. Examples might include 
+Participants must have some familiarity with the CollectionBuilder framework, a willingness to learn, and a desire to explore a creative method of using or communicating CollectionBuilder. Examples might include:
 
 - building a custom digital scholarship project
 - migrating older digital humanities projects to a CB/static infrastructure
