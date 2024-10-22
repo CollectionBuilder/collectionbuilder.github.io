@@ -4,8 +4,6 @@ title: Digital Librarian Cohort Program
 permalink: /community/librarian-incentives.html
 ---
 
-{% include bootstrap/alert.md color="warning" text='This opportunity is for <strong>digital librarians</strong> and is part of the <a href="funded-opportunities/" class="font-weight-bold" style="color: #856404;">CollectionBuilder 2023 Incentives Program</a>.' %}
-
 {:.pt-3}
 **Eligibility**: Applicants must be full- or part-time digital librarians. "Digital librarian" is broadly interpreted to include any individual who works in some capacity with digital collections and/or web development for a library or other GLAM organization.
 
