@@ -34,7 +34,7 @@ Participants will have the opportunity to experiment with creative uses of the C
 
 - Please briefly describe why you are interested in learning how to use CollectionBuilder.
 - In 1-2 paragraphs, please describe any ideas you have for CollectionBuilder projects and discuss your research and academic interests.
-- What kind of skills are you most interested in learning while using CollectionBuilder and why? We suggest reading [this article](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/){:target="_blank" rel="noopener"} before writing your response to help generate ideas.
+- What kind of skills are you most interested in learning while using CollectionBuilder and why? We suggest reading [this article](https://collectionbuilder.github.io/assets/pdf/what-is-static-web-dhlib.pdf){:target="_blank" rel="noopener"} before writing your response to help generate ideas.
 - How would this cohort experience benefit your education and future career?
 
 <div class="text-center my-5">
