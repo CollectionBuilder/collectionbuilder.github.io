@@ -16,7 +16,7 @@ Participants will be awarded a stipend for their work implementing, documenting,
 **Current Opportunities**:
 
 <ul>
-    <li><strong><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (<em>Applications for Spring 2025 are open! Apply by Dec 1st, 2024.</em>)</strong></li>
+    <li><strong><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (<em>Applications are currently closed</em>)</strong></li>
     <li><a href="{{ '/community/instructor-incentives.html' | relative_url }}">Curriculum Development Program</a> (<em>Applications are currently closed</em>)</li>
     <li>Digital Librarian Program (TBD)</li>
 </ul>
