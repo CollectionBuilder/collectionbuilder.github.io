@@ -26,9 +26,9 @@ The CollectionBuilder Team took a short retreat during which we worked on some l
 
 **Boring (but Important) Updates to CB-CSV:** The CollectionBuilder-CSV repository received several minor, non-breaking updates last week during a team retreat, including:  
 
-    - normalized and documented Index includes
-    - a significant reorganization of Rake tasks into a dedicated "rakelib/" folder for improved manageability. 
-    - Several new utility tasks were also added for working with objects, including download_by_csv, rename_by_csv, rename_lowercase, and resize_images, with corresponding documentation available in the docs/rake_tasks directory.
+- normalized and documented Index includes
+- a significant reorganization of Rake tasks into a dedicated "rakelib/" folder for improved manageability. 
+- Several new utility tasks were also added for working with objects, including download_by_csv, rename_by_csv, rename_lowercase, and resize_images, with corresponding documentation available in the docs/rake_tasks directory.
 
 These updates are currently only available in the main branch of CB-CSV and are intended for new projects, with no need to update existing implementations unless new functionality is desired. While more substantial changes with breaking updates are in development, these modifications are currently exclusive to CB-CSV, with plans to eventually roll out compatible changes to CB-GH and CB-Sheets platforms.
 
@@ -36,10 +36,10 @@ These updates are currently only available in the main branch of CB-CSV and are 
 
 We also built some cool things, several of which are not quite ready for prime time (but email us if you want to live dangerously): 
     
-    - ***a new gallery feature*** -- this feature will allow you to create a gallery on any CB page, with options for a featured image at the top. The include lets you filter your collection to a curated group of items from your collection. 
-        - This came out of work on a DHSI collection this past summer by Briar Pelletier. She added several galleries of prints based on the year they were featured. [See 2016 here!](https://briarpelletier.github.io/maps-archive/galleries/2016.html)
-    - ***a revised about page*** -- Olivia is working on a major revision of the about page that automatically generates a table of contents at the top right and changes the basic size of the text block. It looks a lot better and we're excited to roll that out this spring. 
-    - ***a cb-essay repository***-- I've been working on a repository that takes some of Evan's work on [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/) and some of my work with a recent CDIL fellow (CDIL is our DH center at the University of Idaho) that will help people use CollectionBuilder to publish long form essays with a collection underneath. There will be options for stepping through the essay and also for a scroll-based experience -- you can see a example of how that should work in [an essay on our new project Keeping Watch](https://cdil.lib.uidaho.edu/keeping-watch/essay/).
+- ***a new gallery feature*** -- this feature will allow you to create a gallery on any CB page, with options for a featured image at the top. The include lets you filter your collection to a curated group of items from your collection. 
+    - This came out of work on a DHSI collection this past summer by Briar Pelletier. She added several galleries of prints based on the year they were featured. [See 2016 here!](https://briarpelletier.github.io/maps-archive/galleries/2016.html)
+- ***a revised about page*** -- Olivia is working on a major revision of the about page that automatically generates a table of contents at the top right and changes the basic size of the text block. It looks a lot better and we're excited to roll that out this spring. 
+- ***a cb-essay repository***-- I've been working on a repository that takes some of Evan's work on [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/) and some of my work with a recent CDIL fellow (CDIL is our DH center at the University of Idaho) that will help people use CollectionBuilder to publish long form essays with a collection underneath. There will be options for stepping through the essay and also for a scroll-based experience -- you can see a example of how that should work in [an essay on our new project Keeping Watch](https://cdil.lib.uidaho.edu/keeping-watch/essay/).
 
 ### There are some breaking issues with new releases (not our fault!)
 
