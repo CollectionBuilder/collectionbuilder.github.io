@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'CollectionBuilder Bulletin: October 2024'
+title: 'CollectionBuilder Bulletin: November 2024'
 subtitle:
 author: Devin Becker
 publish-date: November 5, 2024
 tags: [newsletter]
-short_description: 'A round-up for October 2024.'
+short_description: 'A round-up for November 2024.'
 ---
 We’re in the heart of fall and have some exciting updates for our community this month. If you have a project and/or event you’d like us to highlight next month please email [collectionbuilder.team@gmail.com](mailto:collectionbuilder.team@gmail.com).
 
