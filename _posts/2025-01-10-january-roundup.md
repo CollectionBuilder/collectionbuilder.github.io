@@ -41,7 +41,7 @@ We also built some cool things, several of which are not quite ready for prime t
 - ***a revised about page*** -- Olivia is working on a major revision of the about page that automatically generates a table of contents at the top right and changes the basic size of the text block. It looks a lot better and we're excited to roll that out this spring. 
 - ***a cb-essay repository***-- I've been working on a repository that takes some of Evan's work on [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/) and some of my work with a recent CDIL fellow (CDIL is our DH center at the University of Idaho) that will help people use CollectionBuilder to publish long form essays with a collection underneath. There will be options for stepping through the essay and also for a scroll-based experience -- you can see a example of how that should work in [an essay on our new project Keeping Watch](https://cdil.lib.uidaho.edu/keeping-watch/essay/).
 
-### There two breaking issues (not our fault!)
+### There are two breaking issues (not our fault!)
 
 Two new issues that CB users are probably encountering: 
 
