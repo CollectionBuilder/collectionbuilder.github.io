@@ -13,7 +13,7 @@ As of January 2025+ the *GitHub Actions "jekyll.yml" starter workflow in existin
 Due to [changes in the ubuntu-latest image](https://github.com/actions/runner-images/issues/10636), the GitHub Action will end up with errors in existing repositories (set up before 2024-01-14) using the workflow--i.e. if you set up a CB-CSV site and are building it with the default GitHub Actions, new builds will likely fail with errors going forward! 
 
 Please note that we do not maintain the "jekyll.yml" or GitHub Actions so can not directly fix the default starter workflow. 
-The incompatibility was fixed 2024-01-14, so NEW projects going forward should work as expected--however, EXISTING collections may still be impacted and require a fix.
+The incompatibility was fixed 2025-01-14, so NEW projects going forward should work as expected--however, EXISTING collections may still be impacted and require a fix.
 
 To fix it in your project, edit the file ".github/workflows/jekyll.yml" in your repository. There is two possible ways to fix it.
 
