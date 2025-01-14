@@ -8,11 +8,12 @@ tags: [alert, tech]
 short_description: 'Issue with GitHub Actions can cause errors building sites.'
 ---
 
-As of January 2025 there is a *currently a bug in the default GitHub Actions "jekyll.yml" starter workflow!*
+As of January 2025+ the *GitHub Actions "jekyll.yml" starter workflow in existing projects is broken!*
 
-Due to [changes in the ubuntu-latest image](https://github.com/actions/runner-images/issues/10636), the GitHub Action will end up with errors in existing and new repositories using the workflow--i.e. if you set up a CB-CSV site and are building it with the default GitHub Actions, new builds will likely fail with errors going forward! 
+Due to [changes in the ubuntu-latest image](https://github.com/actions/runner-images/issues/10636), the GitHub Action will end up with errors in existing repositories (set up before 2024-01-14) using the workflow--i.e. if you set up a CB-CSV site and are building it with the default GitHub Actions, new builds will likely fail with errors going forward! 
 
 Please note that we do not maintain the "jekyll.yml" or GitHub Actions so can not directly fix the default starter workflow. 
+The incompatibility was fixed 2024-01-14, so NEW projects going forward should work as expected--however, EXISTING collections may still be impacted and require a fix.
 
 To fix it in your project, edit the file ".github/workflows/jekyll.yml" in your repository. There is two possible ways to fix it.
 
@@ -41,5 +42,3 @@ This will restore it to the older image which still works correctly.
 *(you only need one of these options to fix the issue!)*
 
 There is an [Issue in the CollectionBuilder-CSV repository](https://github.com/CollectionBuilder/collectionbuilder-csv/issues/96) and a note in the [documentation](https://collectionbuilder.github.io/cb-docs/docs/deploy/actions/) tracking this problem.
-
-Eventually, we assume someone will fix the default "jekyll.yml"... However, existing repositories may require this manual fix.
