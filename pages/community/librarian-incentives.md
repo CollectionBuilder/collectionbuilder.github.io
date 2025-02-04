@@ -31,14 +31,16 @@ Participants must have some familiarity with the CollectionBuilder framework, a 
 - migrating older digital humanities projects to a CB/static infrastructure
 - investigating what it would take to migrate your organizations' digital collections to CollectionBuilder
 - using a different models/frameworks to generate CB-based collections
+- assisting us with accessibility enhancements 
 
-The cohort will meet about once a month for most of the year. The CollectionBuilder team is committed to supporting program participants and working with them to implement their feedback and ideas. 
+The cohort will meet once a month for most of 2025, starting in April. The CollectionBuilder team is committed to supporting program participants and working with them to implement their feedback and ideas. 
 
 ## Expectations:
 
 - Meet regularly with the cohort to advance our work and understanding
 - Create one CollectionBuilder project 
 - Review and/or produce documentation, educational resources, and/or template code for CollectionBuilder
+- we're estimating a time commitment of 5-15 hours per month
 
 **Timeline**: April 2025 to December 2025
 
