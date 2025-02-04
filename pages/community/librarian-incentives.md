@@ -46,7 +46,7 @@ The cohort will meet about once a month for most of the year. The CollectionBuil
 
 In the application form you will be asked to answer some basic questions about yourself and a series of questions regarding what you hope to get out of the program.
 
-**Application Link:** 
+**Application Link:** <https://uidaho.co1.qualtrics.com/jfe/form/SV_5dLxvG1ouE8qc0m>
 
 **Stipends Available**: 5
 
