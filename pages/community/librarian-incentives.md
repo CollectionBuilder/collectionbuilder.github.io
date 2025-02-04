@@ -9,10 +9,10 @@ permalink: /community/librarian-incentives.html
 
 **Stipend**: Each participant will receive a $1,000 stipend.
 
-**Application Deadline**: March 1, 2025
+**Application Deadline**: March 3, 2025
 
 <div class="text-center">
-    <a href="#" class="btn btn-info btn-lg mb-4 mx-1 disabled" aria-disabled="true"><span class="fas fa-edit"></span> Submit an Application</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5dLxvG1ouE8qc0m" class="btn btn-info btn-lg mb-4 mx-1" aria-disabled="true"><span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
 ## Description: 
@@ -40,12 +40,11 @@ The cohort will meet about once a month for most of the year. The CollectionBuil
 - Create one CollectionBuilder project 
 - Review and/or produce documentation, educational resources, and/or template code for CollectionBuilder
 
-**Timeline**: March 2025 to December 2025
-
+**Timeline**: April 2025 to December 2025
 
 ## How to Apply:
 
-Applicants should prepare a short (min. 400-800 words) description of how and why they would use this opportunity to advance their project and their digital practice. 
+In the application form you will be asked to answer some basic questions about yourself and a series of questions regarding what you hope to get out of the program.
 
 **Application Link:** 
 
@@ -54,7 +53,7 @@ Applicants should prepare a short (min. 400-800 words) description of how and wh
 
 ## Why Apply: 
 
-The skills and connections you develop through this cohort will position both you and your institution to better serve your community through enhanced digital collections and services. Whether you're looking to grow professionally or help advance your library's digital initiatives, this program provides the foundation for success.
+The skills and connections you develop through this cohort will position both you and your institution to better serve your community through enhanced digital collections and services. Whether you're looking to grow professionally or help advance your library's digital initiatives, this program will provide a great foundation.
 
 ### Professional Development & Benefits
 
