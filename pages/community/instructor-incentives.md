@@ -4,7 +4,8 @@ title: Curriculum Development Program
 permalink: /community/instructor-incentives.html
 ---
 
-{% include bootstrap/alert.md color="warning" text='This opportunity is for <strong>instructors</strong> and is part of the <a href="funded-opportunities/" class="font-weight-bold" style="color: #856404;">CollectionBuilder 2023 Incentives Program</a>. Applications are currently closed.' %}
+**Applications are currently closed**
+{:.alert .alert-warning}
 
 {:.pt-3}
 **Eligibility**: Applicants must be full- or part-time instructors at ALA-accredited Library and Information Science (LIS) programs in the United States

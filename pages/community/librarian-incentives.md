@@ -4,6 +4,9 @@ title: Digital Librarian Cohort Program
 permalink: /community/librarian-incentives.html
 ---
 
+**Applications are currently closed**
+{:.alert .alert-warning}
+
 {:.pt-3}
 **Eligibility**: Applicants must be full- or part-time digital librarians. "Digital librarian" is broadly interpreted to include any individual who works in some capacity with digital collections and/or web development for a library or other GLAM organization.
 
@@ -11,9 +14,9 @@ permalink: /community/librarian-incentives.html
 
 **Application Deadline**: March 3, 2025
 
-<div class="text-center">
+<!--<div class="text-center">
     <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5dLxvG1ouE8qc0m" class="btn btn-info btn-lg mb-4 mx-1" aria-disabled="true"><span class="fas fa-edit"></span> Submit an Application</a>
-</div>
+</div>-->
 
 ## Description: 
 
@@ -21,7 +24,7 @@ We're looking for digital librarians, broadly construed, who have an interest wo
 
 - advance their own understanding of CollectionBuilder and Lib-Static development practices
 - build a CollectionBuilder-based project
-- contribute back to the CollectionBuiler project and cohort community via feedback, documentation, and/or features 
+- contribute back to the CollectionBuilder project and cohort community via feedback, documentation, and/or features 
 
 ## Qualifications:
 

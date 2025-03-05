@@ -16,9 +16,9 @@ Participants will be awarded a stipend for their work implementing, documenting,
 **Current Opportunities**:
 
 <ul>
-     <li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a></li>
-     <li><strong><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> (<em>Applications are currently closed</em>)</strong></li>
-     <li><a href="{{ '/community/instructor-incentives.html' | relative_url }}">Curriculum Development Program</a> (<em>Applications are currently closed</em>)</li>
+     <li><a href="{{ '/community/librarian-incentives.html' | relative_url }}">Digital Librarian Program</a> 2025 (<em>Applications are currently closed</em>)</li>
+     <li><a href="{{ '/community/student-incentives.html' | relative_url }}">LIS Student Program</a> 2024, 2025 (<em>Applications are currently closed</em>)</li>
+     <li><a href="{{ '/community/instructor-incentives.html' | relative_url }}">Curriculum Development Program</a> 2023 (<em>Applications are currently closed</em>)</li>
 </ul>
 
 Not sure if you qualify? Review the incentive descriptions linked above, and reach out to our team at <collectionbuilder.team@gmail.com> with any questions.
