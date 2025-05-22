@@ -66,6 +66,6 @@ overview: Exploring Jekyll further, looking at page creation, layouts, and the L
 
 2. Read the following articles in preparation for tomorrow’s class:
 -  Gil, Alex. "The User, the Learner, and the Machines We Make." *Minimal Computing*, May 21, 2015, [https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/](https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/) 
--  Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
+-  Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
 
 3. Brainstorm some ways you might use CollectionBuilder in your unique context.

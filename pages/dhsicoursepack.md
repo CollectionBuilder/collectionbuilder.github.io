@@ -436,7 +436,7 @@ This course is designed to include one and a half hours of virtual teaching and 
 
 2. Read the following articles in preparation for tomorrow’s class:
 -  Gil, Alex. "The User, the Learner, and the Machines We Make." *Minimal Computing*, May 21, 2015, [https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/](https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/) 
--  Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
+-  Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
 
 3. Brainstorm some ways you might use CollectionBuilder in your unique context.
 
@@ -595,7 +595,7 @@ Varner, Stewart. "Minimal Computing in Libraries: Introduction." *Minimal Comput
 
 Visconti, Amanda. "Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)," *Literature Geek*, December 8, 2015, [http://literaturegeek.com/2015/12/08/WhyJekyllGitHub](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub) 
 
-Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
+Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
 
 Williamson, Evan, Olivia Wikle, Devin Becker, Marco Seiferle-Valencia, Jylisa Doney, and Jessica Martinez, "Using Static Web Technologies and Git-based Workflows to Re-Design and Maintain a Library Website (Quickly) with Non-Technical Staff." College & Undergraduate Libraries, 2021, (PDF included in this packet)
 

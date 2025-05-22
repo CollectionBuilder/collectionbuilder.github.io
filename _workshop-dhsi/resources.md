@@ -111,7 +111,7 @@ Varner, Stewart. "Minimal Computing in Libraries: Introduction." *Minimal Comput
 
 Visconti, Amanda. "Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)," *Literature Geek*, December 8, 2015, [http://literaturegeek.com/2015/12/08/WhyJekyllGitHub](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub) 
 
-Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/2020/06/22/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
+Wikle, Olivia, Evan Williamson, and Devin Becker. "What is Static Web and What’s it Doing in the Digital Humanities Classroom?" *dh+lib*, Special Issue: Literacies in a Digital Humanities Context, 2020, [https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/](https://dhandlib.org/what-is-static-web-and-whats-it-doing-in-the-digital-humanities-classroom/) 
 
 Williamson, Evan, Olivia Wikle, Devin Becker, Marco Seiferle-Valencia, Jylisa Doney, and Jessica Martinez, "Using Static Web Technologies and Git-based Workflows to Re-Design and Maintain a Library Website (Quickly) with Non-Technical Staff." College & Undergraduate Libraries, 2021, (PDF included in this packet)
 
