@@ -11,7 +11,7 @@ Hi Everyone,
 
 So when we did our first workshop ever for CollectionBuilder—DLF Tampa 2019! —we were still throwing everything together for our platform and documentation on the plane. None of this work really mattered when the workshop started, however, because we also tried to have everyone download and install all the software to run CB, including Ruby, and that was its own disaster. 
 
-We were all reminded of this story today as we frantically added some new features to CollectionBuilder-CSV, **including a revamped About page with advanced search and a redesigned Browse page with an automatically generated table of contents (links below)**, before Evan and Olivia leave to go teach in Montreal at DHSI this coming week. 
+We were all reminded of this story today as we frantically added some new features to CollectionBuilder-CSV, **including a revamped Browse page with advanced search and a redesigned About page with an automatically generated table of contents (links below)**, before Evan and Olivia leave to go teach in Montreal at DHSI this coming week. 
 
 Luckily, our docs page is well-established and making changes and adding documentation is much smoother. We're so advanced now that we even have a blog and listserv to announce these changes! 
 
