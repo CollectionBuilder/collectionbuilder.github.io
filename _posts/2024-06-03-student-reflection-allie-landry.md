@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Allie Landy, University of Toronto'
 subtitle:
 author: Allie Landy
 publish-date: June 04, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Allie Landy reflects on her time in the LIS Student program and releases a collaborative collection on Toronto Street Art.'
 ---
 

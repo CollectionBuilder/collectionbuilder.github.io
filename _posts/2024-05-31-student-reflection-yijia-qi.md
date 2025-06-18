@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Jenna Qi, University of North Carolina, Chapel H
 subtitle:
 author: Jenna Qi
 publish-date: May 31, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Jenna Qi reflects on her time in the LIS Student program and releases her collection of Visual Novels.'
 ---
 

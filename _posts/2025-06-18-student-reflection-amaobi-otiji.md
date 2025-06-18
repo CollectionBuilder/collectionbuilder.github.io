@@ -4,7 +4,7 @@ title: 'LIS Student Reflection --  Amaobi Otiji, Rutgers University'
 subtitle:
 author: Amaobi Otiji
 publish-date: June 18, 2025
-tags: [student-work, reflection, lis-student-program, digital-humanities]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Amaobi Otiji reflects on creating "Unforgotten," a 3D exhibit and web archive preserving Black memory at historic D.C. cemeteries using CollectionBuilder'
 ---
 # Unforgotten: Preserving Black Memory through CollectionBuilder

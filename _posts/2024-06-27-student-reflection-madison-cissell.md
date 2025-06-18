@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Madison Cissell, Indiana University'
 subtitle:
 author: Madison Cissell
 publish-date: June 27, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Madison Cissell reflects on her time working on a collaborative project in the LIS Student program and her work creating an essay-based collection on her own.'
 ---
 

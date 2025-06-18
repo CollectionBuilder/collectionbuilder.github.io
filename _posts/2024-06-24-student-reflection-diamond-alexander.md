@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Diamond Alexander, Denver University'
 subtitle:
 author: Diamond Alexander
 publish-date: June 24, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Diamond Alexander reflects on her time in the LIS Student program and releases a collection of personal, upsetting, cringey, wacky, and eye-roll worthy moments from women’s bowling in the United States.'
 ---
 

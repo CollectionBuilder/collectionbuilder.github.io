@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Luming Zhang, University of Washington'
 subtitle:
 author: Luming Zhang
 publish-date: May 31, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Luming Zhang provides a robust relection on CB and her project for the program, Reimagining Archive in Contemporary Chinese Art.'
 ---
 

@@ -4,7 +4,7 @@ title: Announcing the 2024 CollectionBuilder LIS Student Cohort
 subtitle: 
 author: Julia Stone
 publish-date: January 5, 2024
-tags: [lis student program, announcement]
+tags: [lis-student-program, announcement]
 short_description: We have selected 10 students to participate in the CollectionBuilder LIS Student Program. Learn more about this program in which students will learn how to use CollectionBuilder, gain foundational web skills, and work on projects and documentation in a cohort environment.
 ---
 

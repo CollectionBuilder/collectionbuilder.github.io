@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Lea McMahan, University of Tennessee'
 subtitle:
 author: Lea McMahan
 publish-date: June 20, 2025
-tags: [student-work, reflection, lis-student-program, sports-history]
+tags: [student-reflection, sports-history]
 short_description: "LIS Student Program participant Lea McMahan reflects on creating 'The Golden Girls of Porter High School,' a digital collection preserving 1960s women's basketball history using CollectionBuilder"
 ---
 

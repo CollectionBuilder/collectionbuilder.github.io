@@ -4,7 +4,7 @@ title: 'LIS Student Reflection: Jesus Villalobos, University of Arizona'
 subtitle:
 author: Jesus Villalobos
 publish-date: June 21, 2024
-tags: [student reflection]
+tags: [student-reflection]
 short_description: 'LIS Student Program participant Jesus Villalobos reflects on their time in the LIS Student program and ...'
 ---
 
