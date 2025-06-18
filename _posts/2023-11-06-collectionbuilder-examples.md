@@ -4,7 +4,7 @@ title: CollectionBuilder Examples Site Now Live
 subtitle: 
 author: Julia Stone
 publish-date: November 6, 2023
-tags: [projects, announcement]
+tags: [community, announcement, project-spotlight]
 short_description: Our new CollectionBuilder Examples site features over 100 projects built with CollectionBuilder. Check it out and submit your project to be published on the site.
 ---
 

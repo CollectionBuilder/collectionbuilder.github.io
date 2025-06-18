@@ -4,7 +4,7 @@ title: 'CollectionBuilder Bulletin: November 2023'
 subtitle:
 author: Julia Stone
 publish-date: November 30, 2023
-tags: [newsletter]
+tags: [newsletter, cb-sheets, teaching, workshops]
 short_description: 'Check out our monthly round-up for November 2023 featuring CollectionBuilder news and updates, upcoming events, and more.'
 tldr: 'Check out our monthly round-up for November 2023 featuring CollectionBuilder news and updates, upcoming events, and more.'
 ---

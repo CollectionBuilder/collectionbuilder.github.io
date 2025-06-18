@@ -4,7 +4,7 @@ title: "Q&A with Moritz Mähr, Stadt.Geschichte.Basel and cb-translate"
 subtitle: 
 author: Julia Stone; Moritz Mähr
 publish-date: April 22, 2024
-tags: [project spotlight]
+tags: [project-spotlight, community, multilingual]
 short_description: In this post, CB Community Liaison Julia Stone reflects upon her time with the CollectionBuilder team and discusses what she is looking forward to next in her career journey. 
 ---
 

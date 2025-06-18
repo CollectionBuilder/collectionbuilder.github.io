@@ -4,7 +4,7 @@ title: 'Jekyll Issues with Ruby 3.4.0+'
 subtitle:
 author: Evan Williamson
 publish-date: January 08, 2025
-tags: [alert, tech]
+tags: [alert, tech, ruby-jekyll, cb-gh, cb-sheets]
 short_description: 'Update your Gemfile to avoid Jekyll issues with latest Ruby releases.'
 ---
 

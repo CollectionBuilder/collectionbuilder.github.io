@@ -4,7 +4,7 @@ title: "Building Oral History Projects: CollectionBuilder and Oral History as Da
 subtitle: 
 author: Julia Stone
 publish-date: January 29, 2024
-tags: [oral histories, resources]
+tags: [resources, oral-histories]
 short_description: This blog post highlights helpful strategies, resources, and project examples to help guide you as you begin or continue work on oral history collections.
 ---
 

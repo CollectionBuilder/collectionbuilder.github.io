@@ -4,7 +4,7 @@ title: 'CollectionBuilder Bulletin: January 2024'
 subtitle:
 author: Julia Stone
 publish-date: February 2, 2024
-tags: [newsletter]
+tags: [newsletter, oral-histories, project-spotlight, lis-student-program]
 short_description: 'Check out our monthly round-up for January 2024 featuring CollectionBuilder news and updates, upcoming events, and more.'
 tldr: 'Check out our monthly round-up for January 2024 featuring CollectionBuilder news and updates, upcoming events, and more.'
 ---

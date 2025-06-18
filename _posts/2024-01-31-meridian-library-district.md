@@ -4,7 +4,7 @@ title: "Project Spotlight: Q&A with Bryan Cottle, Meridian Library District Digi
 subtitle: 
 author: Julia Stone; Bryan Cottle
 publish-date: January 31, 2024
-tags: [project spotlight]
+tags: [project-spotlight, community]
 short_description: This blog post highlights helpful strategies, resources, and project examples to help guide you as you begin or continue work on oral history collections.
 ---
 

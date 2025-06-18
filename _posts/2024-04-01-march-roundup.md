@@ -4,7 +4,7 @@ title: 'CollectionBuilder Bulletin: March 2024'
 subtitle:
 author: Julia Stone
 publish-date: April 1, 2024
-tags: [newsletter]
+tags: [newsletter, teaching, workshops, cb-sheets]
 short_description: 'Check out our monthly round-up for March 2024 featuring CollectionBuilder news and updates, upcoming events, and more.'
 tldr: 'Check out our monthly round-up for March 2024 featuring CollectionBuilder news and updates, upcoming events, and more.'
 ---
