@@ -65,3 +65,6 @@ paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-paginate
 
+# Enable blog post search
+post_search: true
+
