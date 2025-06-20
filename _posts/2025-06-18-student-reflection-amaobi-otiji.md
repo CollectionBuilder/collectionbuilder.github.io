@@ -44,3 +44,4 @@ Yes, definitely! I recommend CollectionBuilder to friends and colleagues wheneve
 This program gave me an amazing amount of support and training on the CollectionBuilder framework to build some that I've wanted to do for a long time: experimenting with 3D collections and web archives. The structure of the cohort was flexible enough to let me work independently while still benefiting from insight from my fellow cohort members and the University of Idaho staff who guided us. It was an amazing opportunity to create my own self-guided project which let me blend my interests in Black History, digital collections, web archiving, 3D spatial heritage, and sustainable open source tools all into one.
 
 
+{% include feature/button.html text="Explore the Project!" color="success btn-lg" link="https://www.unforgotten-mtzfubs.com" %}

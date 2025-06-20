@@ -26,4 +26,5 @@ Once the Google sheet was complete, I exported it into a CSV file and then uploa
 
 By making these stories accessible online, this collection honors the voices and experiences of women who helped pave the way for modern girls' and women's sports programs.
 
-Collection Link: [leamcm.github.io/golden-girls-porter/](http://leamcm.github.io/golden-girls-porter/)
+{% include feature/button.html text="Explore the Project!" color="success btn-lg" link="http://leamcm.github.io/golden-girls-porter/" %}
+
