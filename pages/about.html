@@ -5,6 +5,7 @@ permalink: /about.html
 ---
 {% assign sections = site.about | sort: "section_order" %}
 
+
 <div class="row my-5 sticky-top">
   <div class="col-md-3 d-none d-md-block">
     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -31,3 +32,52 @@ permalink: /about.html
     {% include about-scroll-to-top.html %}
     </div>
 </div>
+
+
+<!-- Legacy anchor redirect script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if there's a hash in the URL
+    var hash = window.location.hash;
+    
+    // Define mappings for old anchors to new ones
+    var anchorMappings = {
+        '#grant': '#support',
+        '#tool': '#components'
+    };
+    
+    // If the current hash matches an old anchor, redirect to the new one
+    if (anchorMappings[hash]) {
+        var newHash = anchorMappings[hash];
+        
+        // Update the URL without triggering a page reload
+        window.history.replaceState(null, null, window.location.pathname + newHash);
+        
+        // Activate the correct tab
+        var targetTab = document.querySelector(newHash + '-tab');
+        var targetPane = document.querySelector(newHash);
+        
+        if (targetTab && targetPane) {
+            // Remove active class from all tabs and panes
+            document.querySelectorAll('.nav-link').forEach(function(tab) {
+                tab.classList.remove('active');
+                tab.setAttribute('aria-selected', 'false');
+            });
+            document.querySelectorAll('.tab-pane').forEach(function(pane) {
+                pane.classList.remove('active', 'show');
+            });
+            
+            // Activate the target tab and pane
+            targetTab.classList.add('active');
+            targetTab.setAttribute('aria-selected', 'true');
+            targetPane.classList.add('active', 'show');
+            
+            // For mobile dropdown, update selected option
+            var mobileSelect = document.querySelector('select.nav');
+            if (mobileSelect) {
+                mobileSelect.value = newHash.substring(1) + '-tab';
+            }
+        }
+    }
+});
+</script>
