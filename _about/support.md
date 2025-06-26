@@ -7,27 +7,25 @@ section_order: 5
 ## Where is your support coming from?
 
 CollectionBuilder receives ongoing support in the form of staff support, development time, and funding from the [University of Idaho Library](https://www.lib.uidaho.edu/).
+At University of Idaho, [digital scholarship projects](https://cdil.lib.uidaho.edu/projects/) and [digital collections](https://www.lib.uidaho.edu/digital/) are built with CollectionBuilder, based at the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/).
 
-{:.pt-2}
-### Current Sponsors
+CollectionBuilder is also being fully adopted and developed at [Iowa State University Library](https://digitalcollections.lib.iastate.edu/).
+
+### Past Sponsors
 
 {:.pt-3}
 #### IMLS
 
-We are currently supported by a ***National Leadership Grant for Libraries*** from the [Institute for Museum and Library Services (IMLS)](https://www.imls.gov/), titled ["Growing CollectionBuilder, A Sustainable Digital Exhibit Framework and Static Web Development Model"](https://www.imls.gov/grants/awarded/lg-252326-ols-22){:target="_blank" rel="noopener"}, which will fund our work from 2022 to 2025.
+From 2022 to 2025 we were supported by a ***National Leadership Grant for Libraries*** from the [Institute for Museum and Library Services (IMLS)](https://www.imls.gov/), titled ["Growing CollectionBuilder, A Sustainable Digital Exhibit Framework and Static Web Development Model"](https://www.imls.gov/grants/awarded/lg-252326-ols-22).
 
-Over the course of this grant we've **expanded our team** to include University of Idaho Digital Scholarship Librarian Julia Stone and **piloted an [incentives program]({{ '/funded-opportunities/' | relative_url }})** to encourage contributions to CollectionBuilder from Information and Library Science instructors and students as well as digital librarians.
+Over the course of the grant we **expanded our team** to include University of Idaho Digital Scholarship Librarian Julia Stone and **piloted an [incentives program]({{ '/funded-opportunities/' | relative_url }})** to encourage contributions to CollectionBuilder from Information and Library Science instructors and students as well as digital librarians.
 
-We are grateful to have the support of our talented **Advisory Board** over the course of this grant cycle:
+We were grateful to have the support of our talented **Advisory Board** over the course of this grant cycle:
 
 - **Maggie Dull**, Director of Metadata Strategies, University of Rochester
 - **Alex Merrill**, Head of Library Systems & Technical Operations, Washington State University
 - **Kate Thornhill**, Digital Scholarship Librarian, University of Oregon
 - **John A. Walsh**, Associate Professor of Information Science, Indiana University
-
-<hr>
-
-### Past Sponsors
 
 {:.pt-3}
 #### NEH
