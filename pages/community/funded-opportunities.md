@@ -7,7 +7,9 @@ permalink: /community/funded-opportunities/
 {:.pt-3}
 ## LIS Incentives Program
 
-The **CollectionBuilder Incentives Program** is the latest grant-funded opportunity for using and contributing to CollectionBuilder.
+*Like many federal awards, CollectionBuilder's IMLS grant was terminated in 2025. There are no currently funded opportunities.*
+
+The **CollectionBuilder Incentives Program** is a grant-funded opportunity for using and contributing to CollectionBuilder.
 
 **Who is this for?**
 We are seeking instructors, students, and digital librarians who are interested in engaging with CollectionBuilder and providing formal feedback to the development team.
