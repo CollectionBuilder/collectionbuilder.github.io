@@ -1,0 +1,28 @@
+{% comment %}
+
+    Block quote
+    Styled blockquote element with optional attribution, source, and customization options.
+
+    E.G. --> {% include essay/feature/blockquote.html quote="Knowledge comes, but wisdom lingers" speaker="Alfred Lord Tennyson" source="Locksley Hall" %}
+    E.G. --> {% include essay/feature/blockquote.html quote="The only way out is through" size="lg" align="center" %}
+
+    Options:
+    - "quote" = quote text, can use Markdown (required)
+    - "speaker" = name of the person who said the quote (optional)
+    - "source" = title of the quote's source (optional)
+    - "source-link" = URL link to the source, opens in new tab (optional)
+    - "size" = text size: "xl" (fs-1), "lg" (fs-2), "md" (fs-3), "sm" (fs-5), or default (fs-4) (optional)
+    - "align" = text alignment: "left", "center", or "right", default is "left" (optional)
+    - "class" = additional CSS classes to apply (optional)
+    - "bottom" = set to any value to remove bottom padding (optional)
+
+{%- endcomment -%}
+{% assign speaker = include.speaker %}
+
+
+<figure class="px-3 {% if include.class %}{{ include.class }} {% endif %}pt-3 text-{% if include.align %}{{ include.align }}{% else %}left{% endif %}">
+    <blockquote class="blockquote border-start border-2 ps-2 {% if include.size == "xxl" %}fs-1{% elsif include.size == "xl" %}fs-2{% elsif include.size == "lg" %}fs-3{% elsif include.size == "md" %}fs-4{% else %}fs-5{% endif %}">
+        <div class="mb-0 ">{{ include.quote | markdownify }}</div>
+    </blockquote>
+    {% if include.speaker or include.source %}<figcaption class="blockquote-footer border-start border-2 ps-2 text-end {% if include.size == "xxl" %}fs-2{% elsif include.size == "xl" %}fs-3{% elsif include.size == "lg" %}fs-4{% elsif include.size == "md" %}fs-5{% else %}fs-6{% endif %}">{% if include.speaker %}{{ speaker }}{% endif %}{% if include.source %}{% if include.speaker %}, {% endif %}<cite title="Source Title">{% if include.source-link %}<a href="{{ include.source-link | relative_url }}" target="_blank" rel="noopener">{% endif %}{{ include.source }}{% if include.source-link %}</a>{% endif %}</cite>{% endif %}</figcaption>{% endif %}
+</figure>
