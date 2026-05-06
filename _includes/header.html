@@ -13,8 +13,14 @@
 
             <nav class="col-md-8 mt-3" role="navigation">
                 <ul class="nav nav-pills nav-fill float-right">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ '/templates.html' | relative_url }}">Templates</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="templatesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Templates
+                        </a>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="templatesDropdown">
+                            <a class="dropdown-item" role="menuitem" href="{{ '/templates.html' | relative_url }}">Templates</a>
+                            <a class="dropdown-item" role="menuitem" href="{{ '/templates.html#built-ons' | relative_url }}">Built Ons</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="https://collectionbuilder.github.io/cb-docs/">Documentation</a>
