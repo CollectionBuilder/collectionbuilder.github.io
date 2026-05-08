@@ -21,7 +21,7 @@ We're launching with two — [CB-Essay](https://collectionbuilder.github.io/cb-e
 
 CB-Essay lets you write multimodal essays in Markdown and integrate items from a CollectionBuilder collection directly into your narrative — images, documents, audio, video, all referenced through simple includes. You get margin notes that link to primary sources, scroll-based section transitions, inline maps and galleries, and all the standard CollectionBuilder pages (Browse, Map, Timeline, Subjects) alongside your essay.
 
-It grew out of work we did with two graduate students at [CDIL](https://cdil.lib.uidaho.edu/) who were building multimodal essay projects for their theses — Alicia Gladman's [Tender Spaces](https://cdil.lib.uidaho.edu/tender-spaces/), a multi-lingual essay on the life and art of Gaëtane Buttigieg, and Hannah Green's [Sedimentation](https://cdil.lib.uidaho.edu/sedimentation/). Both projects needed a way to combine long-form writing with collection items on the web, and the existing tools just weren't cutting it. So we built one.
+CB-Essay grew out of work we did with three graduate students at [CDIL](https://cdil.lib.uidaho.edu/) who were building multimodal essay projects for their theses — Alicia Gladman's [Tender Spaces](https://cdil.lib.uidaho.edu/tender-spaces/), a multi-lingual essay on the life and art of Gaëtane Buttigieg, Hannah Green's [Sedimentation](https://cdil.lib.uidaho.edu/sedimentation/), an interweaved series of essays on sediment and Glen Canyon, and Isabel Marlens' [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/), an archive-driven exploration of the Legacy of 1910's Great Fire in the Northwest. These projects needed a way to combine long-form writing with collection items on the web, and the CB-Essay allowed for an ease of composition and customization for the authors and developers of the site.
 
 A few things worth highlighting:
 
@@ -30,11 +30,9 @@ A few things worth highlighting:
 - We just added a print feature using [Paged.js](https://pagedjs.org/) that turns any essay into a nicely formatted PDF, complete with proper page breaks and layout. So your web-first essay can also exist as a print artifact when you need it to.
 - There's a Project Gutenberg extractor — a GitHub Action that pulls any of 60,000+ public domain books into your essay folder, pre-formatted. Good for annotated editions or teaching.
 
-We're also using CB-Essay for [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/), a multimodal project about fire lookout culture in the American West that combines archival collections with long-form narrative.
-
 Check out the [CB-Essay demo site](https://collectionbuilder.github.io/cb-essay/) — it's self-documenting, so each essay section shows off the features while teaching you how to use them. When you're ready to start, [use the template](https://github.com/CollectionBuilder/cb-essay).
 
-## OHD Joins the Family
+## OHD is now a Built On as Well
 
 [Oral History as Data](https://oralhistoryasdata.github.io/) has been around since 2018 and has powered projects like [Voices of Gay Rodeo](https://www.voicesofgayrodeo.com/) and the [Taylor Wilderness Research Station Archives](https://ctrl-shift.org/). It transforms coded oral history transcripts into interactive, color-coded thematic visualizations — we wrote about it and other oral history projects in a [previous post](https://collectionbuilder.github.io/2024-01-29-oral-history-projects/).
 
