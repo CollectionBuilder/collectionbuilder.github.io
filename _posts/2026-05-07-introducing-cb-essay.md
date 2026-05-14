@@ -13,13 +13,13 @@ We're excited to announce [CB-Essay](https://collectionbuilder.github.io/cb-essa
 
 ## What Are Built Ons?
 
-CollectionBuilder has templates — CSV, Sheets, GH — for building digital collections. Built Ons are different. They're specialized frameworks built on top of CollectionBuilder-CSV that use the same metadata-driven, static web approach but apply it to a different kind of project altogether.
+CollectionBuilder has templates — CSV, Sheets, GH — for building digital collections. Built Ons are different. They're specialized frameworks built on top of CollectionBuilder-CSV that use the same metadata-driven, static web approach but apply it to a different kinds of project.
 
-We're launching with two — [CB-Essay](https://collectionbuilder.github.io/cb-essay/) for long-form digital scholarship and [Oral History as Data (OHD)](https://oralhistoryasdata.github.io/) for publishing and visualizing coded oral history interviews. A third, Digital Dramaturgy, is in development.
+We're launching two today: [CB-Essay](https://collectionbuilder.github.io/cb-essay/) for long-form digital scholarship and [Oral History as Data (OHD)](https://oralhistoryasdata.github.io/) for publishing and visualizing coded oral history interviews. A third, Digital Dramaturgy, is in development.
 
 ## CB-Essay
 
-CB-Essay lets you write multimodal essays in Markdown and integrate items from a CollectionBuilder collection directly into your narrative — images, documents, audio, video, all referenced through simple includes. You get margin notes that link to primary sources, scroll-based section transitions, inline maps and galleries, and all the standard CollectionBuilder pages (Browse, Map, Timeline, Subjects) alongside your essay.
+CB-Essay lets you write multimodal essays in Markdown and integrate items from a CollectionBuilder collection directly into your narrative — images, documents, audio, video, all referenced through simple includes. You get margin notes that link to primary sources, scroll-based section transitions, color and font theming options, well-designed print outputs, full text search, and all the standard CollectionBuilder pages (Browse, Map, Timeline, Subjects) alongside your essay.
 
 CB-Essay grew out of work we did with three graduate students at [CDIL](https://cdil.lib.uidaho.edu/) who were building multimodal essay projects for their theses — Alicia Gladman's [Tender Spaces](https://cdil.lib.uidaho.edu/tender-spaces/), a multi-lingual essay on the life and art of Gaëtane Buttigieg, Hannah Green's [Sedimentation](https://cdil.lib.uidaho.edu/sedimentation/), an interweaved series of essays on sediment and Glen Canyon, and Isabel Marlens' [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/), an archive-driven exploration of the Legacy of 1910's Great Fire in the Northwest. These projects needed a way to combine long-form writing with collection items on the web, and the CB-Essay allowed for an ease of composition and customization for the authors and developers of the site.
 

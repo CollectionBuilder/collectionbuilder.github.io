@@ -1,0 +1,53 @@
+---
+title: Built Ons
+layout: default
+permalink: /built-ons.html
+---
+<div class="container">
+  <div class="row mb-5">
+    <div class="col-md-8">
+      <h1 class="my-4 border-bottom display-3 w-75 d-none d-md-block">{{ page.title }}</h1>
+      <h1 class="my-4 border-bottom d-md-none ml-0">{{ page.title }}</h1>
+    </div>
+    <div class="col-md-4">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary float-right m-5" data-toggle="modal" data-target="#wtftemplate">
+        Wait, what is a Built On ...
+      </button>
+    </div>
+    <div class="col-12">
+      <p class="h4 text-left">Built Ons extend CollectionBuilder into entirely new kinds of projects — long-form essays, oral history archives, and more to come. Each one is purpose-built for a different kind of scholarly and creative work.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="wtftemplate" tabindex="-1" role="dialog" aria-labelledby="wtftemplateLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="wtftemplateLabel">What's a Built On anyway?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <p>CollectionBuilder templates — CSV, Sheets, GH — all do the same fundamental thing: give you a foundation for building a digital collection. A Built On takes that same metadata-driven, static web infrastructure and applies it to a different kind of project.</p>
+        <p>Under the hood, Built Ons are all built on CollectionBuilder-CSV. That means they share the same infrastructure, benefit from upstream CollectionBuilder updates, and feel familiar if you've worked with CB before — but each one has its own features, folder structure, and workflow designed around a specific project type.</p>
+        <p><a href="{{ '/built-ons/cb-essay.html' | relative_url }}">CB-Essay</a> grew out of multimodal thesis projects at <a href="https://cdil.lib.uidaho.edu/" target="_blank">CDIL</a>. <a href="{{ '/built-ons/ohd.html' | relative_url }}">Oral History as Data (OHD)</a> has been around since 2018 and has powered projects like <a href="https://www.voicesofgayrodeo.com/" target="_blank">Voices of Gay Rodeo</a>. A third Built On, <strong>Digital Dramaturgy</strong>, is currently in development.</p>
+        <p>Like all CollectionBuilder projects, Built Ons are free, open source, and fully yours to customize. <a href="{{ '/2026-05-07-introducing-cb-essay.html' | relative_url }}">Read our announcement post</a> to learn more about how Built Ons came to be.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Built Ons Section -->
+<div class="container" id="built-ons">
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 class="display-3 font-italic text-center">Built Ons</h2>
+    </div>
+  </div>
+  {% include builtons.html %}
+</div>
