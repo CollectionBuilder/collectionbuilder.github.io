@@ -34,13 +34,13 @@ Check out the [CB-Essay demo site](https://collectionbuilder.github.io/cb-essay/
 
 ## OHD is now a Built On as Well
 
-[Oral History as Data](https://oralhistoryasdata.github.io/) has been around since 2018 and has powered projects like [Voices of Gay Rodeo](https://www.voicesofgayrodeo.com/) and the [CTRL+Shift](https://ctrl-shift.org/). It transforms coded oral history transcripts into interactive, color-coded thematic visualizations — we wrote about it and other oral history projects in a [previous post](https://collectionbuilder.github.io/2024-01-29-oral-history-projects/).
+[Oral History as Data](https://oralhistoryasdata.github.io/) has been around since 2018 and has powered long-running projects like [Voices of Gay Rodeo](https://www.voicesofgayrodeo.com/) and the [CTRL+Shift](https://ctrl-shift.org/). It transforms coded oral history transcripts into interactive, color-coded thematic visualizations — we wrote about it and other oral history projects in a [previous post](https://collectionbuilder.github.io/2024-01-29-oral-history-projects/).
 
 OHD is now officially a Built On. It's got a [new promo site](https://oralhistoryasdata.github.io/), updated [docs](https://oralhistoryasdata.github.io/docs/), and we're aligning its infrastructure with CollectionBuilder-CSV so updates flow downstream automatically. Get started with the [OHD template](https://github.com/oralhistoryasdata/template) or explore the [demo](https://oralhistoryasdata.github.io/template/).
 
 ## IMLS Grant Reinstated
 
-Some good news we should have shared sooner — our IMLS grant has been reinstated. We're using the renewed funds to backward fund projects like our student and digital librarian cohorts, and going forward, we'll be putting funds toward travel and development of new features. If you've got a big idea for a CollectionBuilder feature you'd like to see built, reach out — we may have opportunities to fund development work.
+So we should have announced this a long time ago, but like many others, our IMLS grant has been reinstated. We've been using the renewed funds to backward fund projects like our student and digital librarian cohorts, and going forward, we'll be putting funds toward travel and development of new features. If you've got a big idea for a CollectionBuilder feature you'd like to see built, reach out — we may have opportunities to fund development work.
 
 ## What's Next
 
