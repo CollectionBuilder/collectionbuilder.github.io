@@ -2,6 +2,7 @@
     <div class="col-md-10 offset-md-1">
         <div class="card-deck ">
             {%for type in site.data.types%}
+            {% if type.type == 'main' %}
             <div class="card mb-4  text-dark">
                 <div class="card-heading">
                     <h2 class=" font-italic text-center display-5 bg-dark text-white p-4 mb-3 ">
@@ -18,7 +19,7 @@
                     {% else %}
                     <a href="{{ type.id | prepend: '/' | relative_url}}" class="btn my-3 btn-lg btn-primary w-50">Learn More</a>
                    
-                    <a href="{{ type.tutorial}}" target="_blank" class="btn my-3 btn-lg btn-outline-primary  w-50">Take a Guided Walkthrough</a>
+                    <a href="{{ type.tutorial}}" target="_blank" class="btn my-3 btn-lg btn-outline-primary  w-50">{% if type.type == 'main' %}Take a Guided Walkthrough{% else %}See the Docs!{% endif %}</a>
            
                     
                     <a href="{{ type.github}}" target="_blank" class="btn my-3 btn-lg btn-outline-success  w-50 ">Make your own! <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -44,6 +45,7 @@
                     </div>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
