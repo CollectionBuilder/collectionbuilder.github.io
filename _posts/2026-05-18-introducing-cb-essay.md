@@ -3,7 +3,7 @@ layout: post
 title: "Introducing CB-Essay and CollectionBuilder Built Ons"
 subtitle: 
 author: Devin Becker
-publish-date: May 7, 2026
+publish-date: May 18, 2026
 tags: [cb-add-on, announcement, cb-essay, imls]
 short_description: "CB-Essay is a new CollectionBuilder Built On for writing long-form digital scholarship. We're also introducing Built Ons — frameworks that extend CollectionBuilder into new kinds of projects."
 tldr: "CB-Essay is a new CollectionBuilder Built On for writing long-form digital scholarship. We're also introducing Built Ons — frameworks that extend CollectionBuilder into new kinds of projects."
@@ -13,7 +13,7 @@ We're excited to announce [CB-Essay](https://collectionbuilder.github.io/cb-essa
 
 ## What Are Built Ons?
 
-CollectionBuilder has templates — CSV, Sheets, GH — for building digital collections. Built Ons are different. They're specialized frameworks built on top of CollectionBuilder-CSV that use the same metadata-driven, static web approach but apply it to a different kinds of project.
+CollectionBuilder has templates — CSV, Sheets, GH — for building digital collections. Built Ons are different; they are specialized frameworks **built on top of** CollectionBuilder-CSV. (We are nothing if not literal with our naming conventions.) Built Ons use the same metadata-driven, static web approach but apply it to a different kinds of project.
 
 We're launching two today: [CB-Essay](https://collectionbuilder.github.io/cb-essay/) for long-form digital scholarship and [Oral History as Data (OHD)](https://oralhistoryasdata.github.io/) for publishing and visualizing coded oral history interviews. A third, Digital Dramaturgy, is in development.
 
@@ -26,15 +26,15 @@ CB-Essay grew out of work we did with three graduate students at [CDIL](https://
 A few things worth highlighting:
 
 - You write in Markdown in an `_essay/` folder — each file is a section or chapter. Your collection metadata lives in a CSV, same as any CB project.
-- There are two themes — a traditional essay layout and a monograph-style format with chapter navigation.
-- We just added a print feature using [Paged.js](https://pagedjs.org/) that turns any essay into a nicely formatted PDF, complete with proper page breaks and layout. So your web-first essay can also exist as a print artifact when you need it to.
-- There's a Project Gutenberg extractor — a GitHub Action that pulls any of 60,000+ public domain books into your essay folder, pre-formatted. Good for annotated editions or teaching.
+- There are sevearl themes to choose from that change the color and font-family of your site.
+- We've added a print feature using [Paged.js](https://pagedjs.org/) that turns any essay into a nicely formatted PDF, complete with proper page breaks and layout. So your web-first essay can also exist as a print artifact when you need it to.
+- There's a Project Gutenberg extractor — a GitHub Action that pulls any of 60,000+ public domain books into your essay folder, pre-formatted. This can be used for annotated editions or teaching, or just to test out the project.
 
 Check out the [CB-Essay demo site](https://collectionbuilder.github.io/cb-essay/) — it's self-documenting, so each essay section shows off the features while teaching you how to use them. When you're ready to start, [use the template](https://github.com/CollectionBuilder/cb-essay).
 
 ## OHD is now a Built On as Well
 
-[Oral History as Data](https://oralhistoryasdata.github.io/) has been around since 2018 and has powered projects like [Voices of Gay Rodeo](https://www.voicesofgayrodeo.com/) and the [Taylor Wilderness Research Station Archives](https://ctrl-shift.org/). It transforms coded oral history transcripts into interactive, color-coded thematic visualizations — we wrote about it and other oral history projects in a [previous post](https://collectionbuilder.github.io/2024-01-29-oral-history-projects/).
+[Oral History as Data](https://oralhistoryasdata.github.io/) has been around since 2018 and has powered projects like [Voices of Gay Rodeo](https://www.voicesofgayrodeo.com/) and the [CTRL+Shift](https://ctrl-shift.org/). It transforms coded oral history transcripts into interactive, color-coded thematic visualizations — we wrote about it and other oral history projects in a [previous post](https://collectionbuilder.github.io/2024-01-29-oral-history-projects/).
 
 OHD is now officially a Built On. It's got a [new promo site](https://oralhistoryasdata.github.io/), updated [docs](https://oralhistoryasdata.github.io/docs/), and we're aligning its infrastructure with CollectionBuilder-CSV so updates flow downstream automatically. Get started with the [OHD template](https://github.com/oralhistoryasdata/template) or explore the [demo](https://oralhistoryasdata.github.io/template/).
 
