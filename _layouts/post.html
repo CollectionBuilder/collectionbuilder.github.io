@@ -1,16 +1,12 @@
 ---
-layout: base-beautiful
+layout: default
 ---
-
-{% include header.html type="post" %}
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
 
-     
-
-      <article role="main" class="blog-post">
+      <article class="blog-post">
         <h1>{{ page.title }}</h1>
         <span style="text-transform:uppercase;">{% if page.author %}By {{page.author}}{% endif %} | {% if page.publish-date %}{{page.publish-date}}{% endif %}</span>
         {% if page.tags.size > 0 %}
@@ -22,7 +18,7 @@ layout: base-beautiful
         </div>
       {% endif %}
 
-      {% if page.tldr %}<p><b>tl;dr</b> <i>{{page.tldr}}</i></p>{% endif %}
+      {% if page.tldr %}<p><strong>tl;dr</strong> <em>{{page.tldr}}</em></p>{% endif %}
 
         {{ content }}
       </article>
