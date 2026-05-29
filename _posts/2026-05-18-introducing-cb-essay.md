@@ -21,6 +21,8 @@ We're launching two today: [CB-Essay](https://collectionbuilder.github.io/cb-ess
 
 CB-Essay lets you write multimodal essays in Markdown and integrate items from a CollectionBuilder collection directly into your narrative — images, documents, audio, video, all referenced through simple includes. You get margin notes that link to primary sources, scroll-based section transitions, color and font theming options, well-designed print outputs, full text search, and all the standard CollectionBuilder pages (Browse, Map, Timeline, Subjects) alongside your essay.
 
+If you've looked at Manifold, Pressbooks, or Scalar and wished for something lighter: CB-Essay covers most of the same ground without a server, a database, or hosting infrastructure. You write in Markdown, your sources live in a CSV, and the whole thing publishes to GitHub Pages for free.
+
 CB-Essay grew out of work we did with three graduate students at [CDIL](https://cdil.lib.uidaho.edu/) who were building multimodal essay projects for their theses — Alicia Gladman's [Tender Spaces](https://cdil.lib.uidaho.edu/tender-spaces/), a multi-lingual essay on the life and art of Gaëtane Buttigieg, Hannah Green's [Sedimentation](https://cdil.lib.uidaho.edu/sedimentation/), an interweaved series of essays on sediment and Glen Canyon, and Isabel Marlens' [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/), an archive-driven exploration of the Legacy of 1910's Great Fire in the Northwest. These projects needed a way to combine long-form writing with collection items on the web, and the CB-Essay allowed for an ease of composition and customization for the authors and developers of the site.
 
 A few things worth highlighting:
