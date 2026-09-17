@@ -13,7 +13,7 @@ section_order: 2
 You may finish your collection and realize that you want to remove or shift around the content on your Home page. 
 To access the content on this page, you'll need to locate the `home-infographic.html` file in the `_layouts/` directory.
 
-Just like the About page, the Home page is composed of a number of include commands, arranged in three [Bootstrap columns](https://getbootstrap.com/docs/4.0/layout/grid/){:target="_blank" rel="noopener"}:
+Just like the About page, the Home page is composed of a number of include commands, arranged in three [Bootstrap columns](https://getbootstrap.com/docs/4.0/layout/grid/):
 
 {% raw %}
     <div class="col-md-8">
@@ -79,7 +79,7 @@ For example, `{% raw %}{% include index/featured-terms.html field="subject" titl
     - example --> `"subject"`
 - **title**: The title you'd like this card to display on the Home page.
     - example --> `"Top Subjects"`
-- **btn-color**: The color of the featured-term button links. You can use any [Bootstrap color](https://getbootstrap.com/docs/4.0/utilities/colors/){:target="_blank" rel="noopener"}, or specify your own color following the customization instructions in the [config-theme-color.csv](customize.html#config-colors). 
+- **btn-color**: The color of the featured-term button links. You can use any [Bootstrap color](https://getbootstrap.com/docs/4.0/utilities/colors/), or specify your own color following the customization instructions in the [config-theme-color.csv](customize.html#config-colors). 
     - example --> `"info"`, `"info-outline"`
 - **featured**: As an alternative to the "field" option above, provide a manually defined list of terms to feature separated by semicolon. By default this can be set using the optional `featured-subjects` value in theme.yml. If this option is used, the `field` option is ignored. 
     - example --> `"dogs;muffins;cats"`

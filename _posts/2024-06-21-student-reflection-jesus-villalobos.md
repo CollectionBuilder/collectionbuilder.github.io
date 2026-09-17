@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant Jesus Villalobos reflects on their time in the LIS Student program and ...'
 ---
 
-MLS Student Jesus Villalobos answers a series of questions on the collection they built for the LIS Student program and the program overall. Jesus was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student Jesus Villalobos answers a series of questions on the collection they built for the LIS Student program and the program overall. Jesus was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="Jesus Villalobos is a second-year MLIS student at the University of Arizona School of Information, where they are also a Knowledge River Scholar. Their concentrations are in instructional design, information pedagogy, and archival studies. Jesus aspires to use their experience in academic libraries and archives to serve diverse communities." img="/images/blog/biopics/VillalobosJ_Photo.jpg" name="Jesus Villalobos" %}
 

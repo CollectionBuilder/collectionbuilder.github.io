@@ -13,7 +13,7 @@ We are excited to announce the Library and Information Science (LIS) students wh
 The ten selected student participants will be awarded a stipend of $400 to participate in a cohort where they will learn how to use CollectionBuilder and gain foundational web development skills. As part of the program, students will collaborate in groups to:
 
 - Attend 3-5 virtual training sessions with the CollectionBuilder team in a cohort environment. 
-- Use [CollectionBuilder's Documentation](https://collectionbuilder.github.io/cb-docs/){:target="_blank" rel="noopener"} and follow tutorials to set up their sites, and then work together to implement and document customization ideas.
+- Use [CollectionBuilder's Documentation](https://collectionbuilder.github.io/cb-docs/) and follow tutorials to set up their sites, and then work together to implement and document customization ideas.
 - Prepare and publish one short video tutorial documenting a CollectionBuilder feature, or a blog post that highlights their project and experience in the cohort.
 - Submit feedback and attend a follow-up virtual meeting with the CollectionBuilder team to discuss their experience.
 

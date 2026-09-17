@@ -17,7 +17,7 @@ To edit the About page, find and open the `about.md` file which is in the Pages 
 - [On GitHub](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 - [Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" %} 
 
-[Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank" rel="noopener"} is a quick and easy standard to write documents that can be converted into HTML for the web. 
+[Markdown](https://daringfireball.net/projects/markdown/syntax) is a quick and easy standard to write documents that can be converted into HTML for the web. 
 Because of it's simplicity, Markdown is used by many websites for creating content or allowing users to format comments.
 In fact all of the CollectionBuilder docs are written in Markdown. 
 
@@ -46,7 +46,7 @@ Jekyll's include command is a really powerful feature that allows specific eleme
 {:.mt-4}
 ### Adding an image to the About Page
 
-The `item-figure.html` include adds a [Bootstrap-styled figure](https://getbootstrap.com/docs/4.4/content/figures/){:target="_blank" rel="noopener"} to the page.
+The `item-figure.html` include adds a [Bootstrap-styled figure](https://getbootstrap.com/docs/4.4/content/figures/) to the page.
 
 It requires that you give a value for one variable, **objectid**, and contains three optional variables. 
 These are defined below.

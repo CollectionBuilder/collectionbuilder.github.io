@@ -12,7 +12,7 @@ section_order: 7
 
 {% include bootstrap/alert.md text="This section is for **GH Users Only**" color="info" %}
 
-This CSV enables GH users to select which metadata fields they would like indexed for the collection object search powered by [Lunr.js](https://lunrjs.com/){:target="_blank" rel="noopener"}. 
+This CSV enables GH users to select which metadata fields they would like indexed for the collection object search powered by [Lunr.js](https://lunrjs.com/). 
 The values here will determine the results that appear when the site's users search for a term or phrase using the search box on the right-hand side of the header. 
 Three columns in this CSV allow you to configure your search:
 

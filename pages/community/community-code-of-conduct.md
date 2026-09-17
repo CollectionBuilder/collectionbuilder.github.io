@@ -61,12 +61,12 @@ Every Code of Conduct violation report will be treated with seriousness and care
 ## Contact Info
 
 - CollectionBuilder team email: [collectionbuilder.team@gmail.com](mailto:collectionbuilder.team@gmail.com)
-- [CollectionBuilder GitHub Organization](https://github.com/CollectionBuilder){:target="_blank" rel="noopener"}
+- [CollectionBuilder GitHub Organization](https://github.com/CollectionBuilder)
 
 {:.pt-3}
 ## Attribution
 
 This Code of Conduct is adapted from the following sources:
-- The Contributor Covenant, version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html){:target="_blank" rel="noopener"}. For answers to common questions about this Code of Conduct, see [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq){:target="_blank" rel="noopener"}.
-- The Citizen Code of Conduct, Revision 2.3 2017, which is distributed by [Stumptown Syndicate](http://stumptownsyndicate.org/){:target="_blank" rel="noopener"} under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank" rel="noopener"}. Portions of text from the Citizen Code of Conduct are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/){:target="_blank" rel="noopener"} and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy){:target="_blank" rel="noopener"}.
+- The Contributor Covenant, version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html). For answers to common questions about this Code of Conduct, see [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq).
+- The Citizen Code of Conduct, Revision 2.3 2017, which is distributed by [Stumptown Syndicate](http://stumptownsyndicate.org/) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). Portions of text from the Citizen Code of Conduct are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 {:.mb-5}

@@ -12,17 +12,17 @@ section_order: 1
 
 The CollectionBuilder team suggests these open-source, cross platform options for text editors:
 
-- [Visual Studio Code](https://code.visualstudio.com/){:target="_blank" rel="noopener"} (VS Code)
-- [Atom](https://atom.io/){:target="_blank" rel="noopener"}
+- [Visual Studio Code](https://code.visualstudio.com/) (VS Code)
+- [Atom](https://atom.io/)
 
 If you don't have a text editor installed, download one of the above and use their wizard to install with the default options on your computer.
 
 We mostly use Visual Studio Code, so if you don't know which one to pick, go ahead and get that one. 
-For additional assistance, see our guides for [How to Install and Set Up Visual Studio Code](https://lib-static.github.io/howto/howtos/visualstudiocode.html){:target="_blank" rel="noopener"} and [How to Install and Set Up Atom](https://lib-static.github.io/howto/howtos/installatom.html){:target="_blank" rel="noopener"}
+For additional assistance, see our guides for [How to Install and Set Up Visual Studio Code](https://lib-static.github.io/howto/howtos/visualstudiocode.html) and [How to Install and Set Up Atom](https://lib-static.github.io/howto/howtos/installatom.html)
 
 {% capture vscode %}
 Visual Studio Code (VS Code) has a tremendous number of extensions that can be added to enhance it's functionality. 
-We recommend [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv){:target="_blank" rel="noopener"}, which will help you better read the CSVs within CollectionBuilder, and [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker){:target="_blank" rel="noopener"}, which will check your spelling. 
+We recommend [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), which will help you better read the CSVs within CollectionBuilder, and [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker), which will check your spelling. 
 
 VS Code is incredibly customizable via its settings as well.  
 To configure the editor, click the *gear icon* in the bottom left corner of the VSCode window and choose *Settings*.

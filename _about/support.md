@@ -42,7 +42,7 @@ More information can be found on the [Learn-Static website](https://learn-static
 {:.pt-3}
 #### IMLS
 
-From **2019 to 2021**, we were supported by a ***National Leadership Grant for Libraries*** from the [Institute for Museum and Library Services (IMLS)](https://www.imls.gov/grants/awarded/lg-34-19-0064-19){:target="_blank" rel="noopener"} that helped us to build, document, and promote CollectionBuilder. 
+From **2019 to 2021**, we were supported by a ***National Leadership Grant for Libraries*** from the [Institute for Museum and Library Services (IMLS)](https://www.imls.gov/grants/awarded/lg-34-19-0064-19) that helped us to build, document, and promote CollectionBuilder. 
 
 See a condensed version of our final report below for more details. 
 

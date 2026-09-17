@@ -11,9 +11,9 @@ tldr: 'Check out our monthly round-up for March 2024 featuring CollectionBuilder
 
 ### News:
 
-**CB in the Classroom:** Read about how Zack Lischer-Katz integrated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona in our latest [Q&A blog post](/2024-04-02-cb-classroom-zack-lischer-katz/){:target="_blank" rel="noopener"}.
+**CB in the Classroom:** Read about how Zack Lischer-Katz integrated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona in our latest [Q&A blog post](/2024-04-02-cb-classroom-zack-lischer-katz/).
 
-**CB-SHEETS Workshop Recording:** If you missed our [CB-SHEETS Workshop](https://elaboratories.org/event/introduction-to-collectionbuilder-sheets-a-free-virtual-workshop/){:target="_blank" rel="noopener"} on March 6 in collaboration with [eLaboratories](https://elaboratories.org/){:target="_blank" rel="noopener"}, you can check out the [video recording](https://youtu.be/t_iQ9LhyLGw){:target="_blank" rel="noopener"} on our YouTube channel, as well as the [workshop outline](https://docs.google.com/document/d/1sGRk4ijl6vVA04XcrrMH176fci4-u2ADrfsbpMlXWN0/edit?usp=sharing){:target="_blank" rel="noopener"}.
+**CB-SHEETS Workshop Recording:** If you missed our [CB-SHEETS Workshop](https://elaboratories.org/event/introduction-to-collectionbuilder-sheets-a-free-virtual-workshop/) on March 6 in collaboration with [eLaboratories](https://elaboratories.org/), you can check out the [video recording](https://youtu.be/t_iQ9LhyLGw) on our YouTube channel, as well as the [workshop outline](https://docs.google.com/document/d/1sGRk4ijl6vVA04XcrrMH176fci4-u2ADrfsbpMlXWN0/edit?usp=sharing).
 
 <hr>
 
@@ -22,9 +22,9 @@ tldr: 'Check out our monthly round-up for March 2024 featuring CollectionBuilder
 **CollectionBuilder Monthly Meetup**  
 _Topic: CollectionBuilder-SHEETS_  
 Wednesday, April 24, 10:00am - 11:00am PDT  
-[Register here](https://uidaho.zoom.us/meeting/register/tZAodO-rrTMtHNURI8eRXRGnSZhqnYBQHxMs){:target="_blank" rel="noopener"}
+[Register here](https://uidaho.zoom.us/meeting/register/tZAodO-rrTMtHNURI8eRXRGnSZhqnYBQHxMs)
 
-For this month, our discussion topic will be our newest template, [CollectionBuilder-SHEETS](/sheets/){:target="_blank" rel="noopener"}. If you are interested in learning about different use cases for CB-SHEETS and/or discussing projects you are working on using the CB-SHEETS template (or other CB templates!), please feel free to hop on Zoom! 
+For this month, our discussion topic will be our newest template, [CollectionBuilder-SHEETS](/sheets/). If you are interested in learning about different use cases for CB-SHEETS and/or discussing projects you are working on using the CB-SHEETS template (or other CB templates!), please feel free to hop on Zoom! 
 
 <hr>
 
@@ -32,8 +32,8 @@ For this month, our discussion topic will be our newest template, [CollectionBui
 
 Below are some ways to stay connected with the CollectionBuilder community:
 
-- Join our [community spaces](https://collectionbuilder.github.io/community/spaces/){:target="_blank" rel="noopener"} (including a Slack and Google Group)
-- Post technical questions on our [GitHub Discussion Board](https://github.com/orgs/CollectionBuilder/discussions){:target="_blank" rel="noopener"}
+- Join our [community spaces](https://collectionbuilder.github.io/community/spaces/) (including a Slack and Google Group)
+- Post technical questions on our [GitHub Discussion Board](https://github.com/orgs/CollectionBuilder/discussions)
 
 If you have a project and/or event you'd like us to highlight next month, please email [collectionbuilder.team@gmail.com](mailto:collectionbuilder.team@gmail.com). 
 

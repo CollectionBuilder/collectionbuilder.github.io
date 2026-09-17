@@ -38,8 +38,8 @@ CB Add-Ons can be added to CollectionBuilder-CSV projects to extend their capaci
 
 Below are some ways to stay connected with the CollectionBuilder community:
 
-- Join our [community spaces](https://collectionbuilder.github.io/community/spaces/){:target="_blank" rel="noopener"} (including a Slack and Google Group)
-- Post technical questions on our [GitHub Discussion Board](https://github.com/orgs/CollectionBuilder/discussions){:target="_blank" rel="noopener"}
+- Join our [community spaces](https://collectionbuilder.github.io/community/spaces/) (including a Slack and Google Group)
+- Post technical questions on our [GitHub Discussion Board](https://github.com/orgs/CollectionBuilder/discussions)
 
 If you have a project and/or event you'd like us to highlight next month, please email [collectionbuilder.team@gmail.com](mailto:collectionbuilder.team@gmail.com). 
 

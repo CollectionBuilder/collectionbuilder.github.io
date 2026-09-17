@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant Jenna Qi reflects on her time in the LIS Student program and releases her collection of Visual Novels.'
 ---
 
-MLS Student Jenna Qi answers a series of questions on the collection she built for the LIS Student program and the program overall. Jenna was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student Jenna Qi answers a series of questions on the collection she built for the LIS Student program and the program overall. Jenna was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="Jenna Qi studies Information Science at University of North Carolina, Chapel Hill and holds a bachelor’s degree in economics. She aspires to combine her tech skills with her passion in the library. Apart from work, she is also an amateur translator and speaks three languages." img="/images/blog/biopics/jenna_qi.jpeg" name="Jenna Qi" %}
 

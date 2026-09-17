@@ -24,8 +24,8 @@ The options below this point are used by **CDM and SA only**, and are not necess
 However, configuring these options adds rich machine readable markup to each item page, making your objects more discoverable by search engines.
 
 - **dc_map**: 
-    - *Options:* the prefix `DCTERMS` plus a property name from the [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/){:target='_blank' rel='noopener'} namespace, written like: `DCTERMS.term_from_terms_namespace`
-    - This option allows you to map your metadata field to a Dublin Core property to be added in machine readable meta markup. So, continuing with our example, if you'd like to map the "original-collection" field to be read as a [Dublin Core Source](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source){:target='_blank' rel='noopener'}, you'd enter `DCTERMS.source` in the third column.
+    - *Options:* the prefix `DCTERMS` plus a property name from the [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) namespace, written like: `DCTERMS.term_from_terms_namespace`
+    - This option allows you to map your metadata field to a Dublin Core property to be added in machine readable meta markup. So, continuing with our example, if you'd like to map the "original-collection" field to be read as a [Dublin Core Source](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source), you'd enter `DCTERMS.source` in the third column.
     - Recommended fields to map include: 
         - `DCTERMS.title`
         - `DCTERMS.creator`
@@ -35,8 +35,8 @@ However, configuring these options adds rich machine readable markup to each ite
         - `DCTERMS.type`
         - `DCTERMS.rights`
 - **schema_map**:
-    - *Options:* any property name from Schema [CreativeWork](https://schema.org/CreativeWork){:target='_blank' rel='noopener'} type. Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
-    - [Schema](https://schema.org/){:target='_blank' rel='noopener'} is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. This option allows you to add Schema markup in JSON-LD format to item pages driven by the object metadata.  
+    - *Options:* any property name from Schema [CreativeWork](https://schema.org/CreativeWork) type. Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
+    - [Schema](https://schema.org/) is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. This option allows you to add Schema markup in JSON-LD format to item pages driven by the object metadata.  
     - Recommended fields to map include:
         - `headline` (i.e. the title)
         - `creator`

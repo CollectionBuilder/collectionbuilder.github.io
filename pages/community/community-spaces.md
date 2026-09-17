@@ -11,7 +11,7 @@ Anyone who is interested in CollectionBuilder, digital collections and exhibits,
 All CollectionBuilder community spaces are free and open to all. No background in CollectionBuilder or specific technical knowledge is required to participate. To join the Slack and/or Google Group, click on the button below to fill out a brief sign-up form:
 
 <div class="text-left">
-    <a href="https://forms.gle/GVb7STSWyq2tto3NA" target="_blank" class="btn btn-info btn-lg mb-4 mx-1">Sign up for CB Community Spaces</a>
+    <a href="https://forms.gle/GVb7STSWyq2tto3NA"  class="btn btn-info btn-lg mb-4 mx-1">Sign up for CB Community Spaces</a>
 </div>
 
 <hr>
@@ -23,7 +23,7 @@ The CollectionBuilder Collective Slack is an interactive space where CollectionB
 This Slack is meant to be a collaborative space for people to discuss their digital projects and learn how to use CollectionBuilder in a supportive environment.
 
 <div class="text-left">
-    <a href="{{ '/community/slack-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Slack Guidelines</a>
+    <a href="{{ '/community/slack-guidelines/' | relative_url }}"  class="btn btn-dark btn-lg mb-4 mx-1">CB Slack Guidelines</a>
 </div>
 
 {:.pt-3}
@@ -34,7 +34,7 @@ The CollectionBuilder Google Group serves as a listserv where CollectionBuilder 
 The CollectionBuilder team will send brief monthly update emails to the Google Group covering the latest CollectionBuilder features and news.
 
 <div class="text-left">
-    <a href="{{ '/community/google-group-guidelines/' | relative_url }}" target="_blank" class="btn btn-dark btn-lg mb-4 mx-1">CB Google Group Guidelines</a>
+    <a href="{{ '/community/google-group-guidelines/' | relative_url }}"  class="btn btn-dark btn-lg mb-4 mx-1">CB Google Group Guidelines</a>
 </div>
 
 <hr>
@@ -52,7 +52,7 @@ This Code of Conduct applies to:
 If you have any questions about the Code of Conduct or the community spaces in general, please email our team at <collectionbuilder.team@gmail.com>.
 
 <div class="text-left">
-    <a href="{{ '/community/code-of-conduct/' | relative_url }}" target="_blank" class="btn btn-info btn-lg mb-4 mx-1">Read Code of Conduct</a>
+    <a href="{{ '/community/code-of-conduct/' | relative_url }}"  class="btn btn-info btn-lg mb-4 mx-1">Read Code of Conduct</a>
 </div>
 
 <hr>

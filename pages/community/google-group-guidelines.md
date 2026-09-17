@@ -28,7 +28,7 @@ Here is a helpful list of guidelines to encourage effective communication:
 - When responding to a Google Group post, please do not "reply to all" unless the content is of broad interest.
 - This Google Group is not an appropriate place to send mass distribution emails (e.g., email newsletters, digital marketing campaigns, etc.).
 - Please do not send administrative messages such as "Remove me from this email list" through the Google Group. 
-- For further assistance on how to use Google Groups, please visit the [Google Groups Help website](https://support.google.com/groups/?hl=en#topic=9216){:target="_blank" rel="noopener"}.
+- For further assistance on how to use Google Groups, please visit the [Google Groups Help website](https://support.google.com/groups/?hl=en#topic=9216).
 
 {:.pt-3}
 ## Unsubscribing 

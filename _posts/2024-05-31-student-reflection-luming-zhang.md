@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant Luming Zhang provides a robust relection on CB and her project for the program, Reimagining Archive in Contemporary Chinese Art.'
 ---
 
-MLIS Student Luming Zhang reflects on CollectionBuilder, the collection she built for the LIS Student program and the program overall. Luming was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLIS Student Luming Zhang reflects on CollectionBuilder, the collection she built for the LIS Student program and the program overall. Luming was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="Luming Zhang is an MLIS student at the Information School of the University of Washington, specializing in digital humanities and archival management with a strong focus on museum studies and art history. (<a href='#fullbio'>Full bio below</a>)" img="/images/blog/biopics/zhang.jpg"  name="Luming Zhang" %}
 

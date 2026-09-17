@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant Diamond Alexander reflects on her time in the LIS Student program and releases a collection of personal, upsetting, cringey, wacky, and eye-roll worthy moments from women’s bowling in the United States.'
 ---
 
-MLS Student Diamond Alexander answers a series of questions on the collection she built for the LIS Student program and the program overall. Diamond was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student Diamond Alexander answers a series of questions on the collection she built for the LIS Student program and the program overall. Diamond was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="Diamond Alexander is a Librarian-in-Residence at the Library of Congress and a recent graduate of the University of Denver's MLIS program. Some of her professional interests include usability/accessibility, linked data, and user experience design. In her spare time, Diamond enjoys baking, crocheting, reading, as well as sight-seeing and spending time outdoors. " img="/images/blog/biopics/Diamond-Alexander-headshot.png" name="Diamond Alexander" %}
 

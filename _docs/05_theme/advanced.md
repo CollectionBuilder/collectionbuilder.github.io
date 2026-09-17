@@ -53,7 +53,7 @@ The percentage must be 10% or greater.
 {% capture navbar %}
 ### Navbar Options:
 
-These options will adjust the basic colors of your site's navigation bar (see [Bootstrap navbar docs](https://getbootstrap.com/docs/4.4/components/navbar/){:target="_blank" rel="noopener"} for details).
+These options will adjust the basic colors of your site's navigation bar (see [Bootstrap navbar docs](https://getbootstrap.com/docs/4.4/components/navbar/) for details).
 
 - **navbar-color**: Choose from `navbar-light` for use with light background colors, or `navbar-dark` for dark background colors.
 	- Options:  `navbar-light`, `navbar-dark`
@@ -69,7 +69,7 @@ These options will adjust the basic colors of your site's navigation bar (see [B
 {% capture bootswatch %}
 ### Bootswatch:
 
-[Bootswatch](https://bootswatch.com/){:target="_blank" rel="noopener"} creates unique themes for Bootstrap-based sites. 
+[Bootswatch](https://bootswatch.com/) creates unique themes for Bootstrap-based sites. 
 Swap out the default Bootstrap for a Bootswatch version using the options below as a fun way to demonstrate the power of CSS to transform look and feel. 
 
 - **bootswatch**: leave blank or comment out for plain bootstrap

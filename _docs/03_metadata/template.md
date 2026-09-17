@@ -29,7 +29,7 @@ If you'd like a model for your metadata, take a look at your type's metadata tem
 {% include bootstrap/button.md color="info mt-4" text="<h5>CONTENTdm</h5> CollectionBuilder Metadata Template" link="https://docs.google.com/spreadsheets/d/14iWUEoAJ6T9WDqlPnIHRN7M8-YgmMV4_bjFPVuSZ0yk/edit?usp=sharing" %}
 </div>
 <div class="col-md-8" markdown="1">
-For a more detailed description of how each format is defined and mapped, see the [CollectionBuilder Data Dictionary](/images/data_dictionary.pdf){:target="_blank" rel="noopener"}.
+For a more detailed description of how each format is defined and mapped, see the [CollectionBuilder Data Dictionary](/images/data_dictionary.pdf).
 </div>
 <div class="col-md-4 text-center mx-auto" markdown="1">
 {% include bootstrap/button.md color="secondary" text="CollectionBuilder Data Dictionary" link="/images/data_dictionary.pdf" %}

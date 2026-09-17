@@ -8,7 +8,7 @@ tags: [teaching]
 short_description: 'Read about how Public Scholarship Librarian Kate Thornhill integrated CollectionBuilder into her for-credit course at the University of Oregon.'
 ---
 
-As part of our CollectionBuilder in the Classroom Q&A series, [Public Scholarship Librarian Kate Thornhill](https://library.uoregon.edu/directory/thornhill){:target="_blank" rel="noopener"} shares how she incorporated CollectionBuilder into her Humanities Research Data Management course at the University of Oregon.
+As part of our CollectionBuilder in the Classroom Q&A series, [Public Scholarship Librarian Kate Thornhill](https://library.uoregon.edu/directory/thornhill) shares how she incorporated CollectionBuilder into her Humanities Research Data Management course at the University of Oregon.
 
 {% include feature/blogbio.html link="https://katethornhill.carrd.co/" bio="Kate Thornhill holds the position of Public Scholarship Librarian and Associate Librarian at the University of Oregon since 2018, where she specializes in the development and implementation of digital humanities research and classroom projects and holds a track record in community and civic outreach." img="/images/blog/biopics/image01.jpg" name="Kate Thornhill" %}
 
@@ -18,7 +18,7 @@ I designed and taught an undergraduate course at the University of Oregon titled
 
 With the goal of building thematic digital collections as researchers, students learn digital methodologies focusing on the technical, legal, ethical, and social aspects of working with humanities research data throughout its curation lifecycle. This includes hands-on experience finding, assessing, organizing, and reformatting data; creating and remediating descriptive metadata; evaluating and determining copyright and licensing; writing a data management plan using the standards set by the National Endowment for the Humanities, and sharing thematic research digital collections using GitHub and the open-source platform CollectionBuilder. 
 
-<p class="box-success">If you are interested in seeing what the Humanities Research Data Management course entails, check it out on <a href="https://lor.instructure.com/resources/2dae3ab5b91147c4a2590bc09cc05542" target="_blank">Canvas Commons</a> and <a href="https://github.com/LIB410-Spring2023" target="_blank">student research collections on GitHub</a>.</p>
+<p class="box-success">If you are interested in seeing what the Humanities Research Data Management course entails, check it out on <a href="https://lor.instructure.com/resources/2dae3ab5b91147c4a2590bc09cc05542" >Canvas Commons</a> and <a href="https://github.com/LIB410-Spring2023" >student research collections on GitHub</a>.</p>
 
 ### 2. Why did you decide to integrate CollectionBuilder into the course?
 
@@ -42,4 +42,4 @@ However, students definitely still struggled with making sure their data was sta
 
 Build a digital collection with CollectionBuilder yourself before you have students make it in your classroom, and make sure you have a variety of resource types. Also provide your students with a metadata application profile so they become more aware about the descriptive, functional, and interoperable requirements for working with metadata and object files.
 
-<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" target="_blank">collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>
+<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" >collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>

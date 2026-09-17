@@ -8,7 +8,7 @@ tags: [teaching]
 short_description: 'Read about how Zack Lischer-Katz, Assistant Professor at the University of Arizona School of Information, integrated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona.'
 ---
 
-As part of our CollectionBuilder in the Classroom Q&A series, [Assistant Professor Zack Lischer-Katz](https://ischool.arizona.edu/person/zack-lischer-katz){:target="_blank" rel="noopener"} shares how he incorporated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona. Zack Lischer-Katz was one of the participants in the [2023-2024 CollectionBuilder Curriculum Development Program](/community/instructor-incentives.html){:target="_blank" rel="noopener"}. 
+As part of our CollectionBuilder in the Classroom Q&A series, [Assistant Professor Zack Lischer-Katz](https://ischool.arizona.edu/person/zack-lischer-katz) shares how he incorporated CollectionBuilder into his Introduction to Digital Curation and Digital Preservation course at University of Arizona. Zack Lischer-Katz was one of the participants in the [2023-2024 CollectionBuilder Curriculum Development Program](/community/instructor-incentives.html). 
 
 {% include feature/blogbio.html link="https://ischool.arizona.edu/person/zack-lischer-katz" bio="Dr. Zack Lischer-Katz is an assistant professor in digital curation and preservation at the University of Arizona School of Information. He is an interdisciplinary information studies researcher who brings phenomenological, historical and cultural perspectives to research on the archiving and curation of visual media formats and visual knowledge production." img="/images/blog/biopics/image03.jpg" name="Zack Lischer-Katz" %}
 
@@ -16,7 +16,7 @@ As part of our CollectionBuilder in the Classroom Q&A series, [Assistant Profess
 
 I used CollectionBuilder for the first time in my Fall 2023 course, INFO/LIS 671 Introduction to Digital Curation and Digital Preservation at the iSchool at the University of Arizona. This is a required course for the Digital Curation certificate and a popular elective in our ALA-accredited, MA in Library and Information Science program.
 
-<p class="box-success">If you are interested in seeing what the final project for this course entails, check out this open educational resource (OER) created by Zack Lischer-Katz: <a href="/assets/pdf/cb-671-assignment-oer.pdf" target="_blank">INFO/LIS 671 Final Project Assignment Sheet</a>.</p>
+<p class="box-success">If you are interested in seeing what the final project for this course entails, check out this open educational resource (OER) created by Zack Lischer-Katz: <a href="/assets/pdf/cb-671-assignment-oer.pdf" >INFO/LIS 671 Final Project Assignment Sheet</a>.</p>
 
 ### 2. Why did you decide to integrate CollectionBuilder into the course?
 
@@ -42,10 +42,10 @@ I think in future iterations, I will create my own collection alongside the stud
 
 ### 5. What advice do you have for other instructors wanting to integrate CB into their curriculum?
 
-Instructors should get their feet wet and try building their own collections well in advance of introducing it to their students. They should work through the tutorials and get comfortable troubleshooting a range of problems that come up. Then, go and develop your own project with digital objects that are meaningful to you, from your own collections or from sources found on the [Digital Public Library of America](https://dp.la){:target="_blank" rel="noopener"} or other collections. 
+Instructors should get their feet wet and try building their own collections well in advance of introducing it to their students. They should work through the tutorials and get comfortable troubleshooting a range of problems that come up. Then, go and develop your own project with digital objects that are meaningful to you, from your own collections or from sources found on the [Digital Public Library of America](https://dp.la) or other collections. 
 
 It's also a good idea to familiarize yourself with the various settings on GitHub before setting up groups for your students. Working on your own project alongside the students is something that I would like to try the next time I teach the course, since this will help me better understand where students are in the process and offer them examples of how to design and build their projects along the way. 
 
-Working with the CB team has been a real pleasure, so instructors using CB for the first time shouldn't be scared to reach out to them with any questions or concerns that come as they integrate CB into their curriculum. Plus, there is a [growing community working with CB](https://collectionbuilder.github.io/community/spaces/){:target="_blank" rel="noopener"}, so you should follow the discussions, look at other projects, and post your own challenges and successes on the [CB GitHub discussion board](https://github.com/orgs/CollectionBuilder/discussions){:target="_blank" rel="noopener"}. 
+Working with the CB team has been a real pleasure, so instructors using CB for the first time shouldn't be scared to reach out to them with any questions or concerns that come as they integrate CB into their curriculum. Plus, there is a [growing community working with CB](https://collectionbuilder.github.io/community/spaces/), so you should follow the discussions, look at other projects, and post your own challenges and successes on the [CB GitHub discussion board](https://github.com/orgs/CollectionBuilder/discussions). 
 
-<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" target="_blank">collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>
+<p class="box-warning">Want to share how you incorporated CB in the Classroom? We welcome you to contribute! Please reach out to <a href="mailto:collectionbuilder.team@gmail.com" >collectionbuilder.team@gmail.com</a> to participate in a Q&A.</p>

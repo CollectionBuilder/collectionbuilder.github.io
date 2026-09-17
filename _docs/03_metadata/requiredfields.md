@@ -19,7 +19,7 @@ Without values in the fields below, CollectionBuilder will not work properly.
     - The title field is used to indicate the name of an item. This should be a short, descriptive set of words that identify the item. Each item may only have one title.
     - Example value: `Haystack Rock`
 - **format**: 
-    - This field indicates the item's media type. Since CollectionBuilder uses logic based on `format` to display objects, this is the most important field to ensure the interactive visualizations function correctly. If there are errors or anomalies, some pages will not work. The input for this field should be structured according to [MIME type](https://www.iana.org/assignments/media-types/media-types.xhtml){:target="_blank" rel="noopener"} standards, consisting of a type and a subtype concatenated with a slash (`/`) between them.
+    - This field indicates the item's media type. Since CollectionBuilder uses logic based on `format` to display objects, this is the most important field to ensure the interactive visualizations function correctly. If there are errors or anomalies, some pages will not work. The input for this field should be structured according to [MIME type](https://www.iana.org/assignments/media-types/media-types.xhtml) standards, consisting of a type and a subtype concatenated with a slash (`/`) between them.
         - Image: `image/jpeg`
         - Document: `application/pdf`
         - Audio: `audio/mp3`

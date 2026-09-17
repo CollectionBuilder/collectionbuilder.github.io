@@ -37,7 +37,7 @@ layout: default
       <div class="card my-3">
       <div class="card-body">
         <p><a id="step{{forloop.index}}" href="#step{{forloop.index}}" onclick="seekTo({{step.time}})">Step {{forloop.index}}</a> - {{step.text}}</p>
-        {% if step.doc %}<p class="text-center"><a href="{% if step.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}" target="_blank" class="small">See Documentation for More Detail</a></p>
+        {% if step.doc %}<p class="text-center"><a href="{% if step.doc contains 'http'%}{{step.doc}}{% else %}{{ 'step.doc' | relative_url }}{% endif %}"  class="small">See Documentation for More Detail</a></p>
         {%endif%}</div>
       </div></div>{% endfor %}
     </div>

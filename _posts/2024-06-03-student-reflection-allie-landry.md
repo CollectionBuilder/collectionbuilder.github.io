@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant Allie Landy reflects on her time in the LIS Student program and releases a collaborative collection on Toronto Street Art.'
 ---
 
-MLS Student Allie Landy answers a series of questions on the collection she built for the LIS Student program and the program overall. Jenna was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student Allie Landy answers a series of questions on the collection she built for the LIS Student program and the program overall. Jenna was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="Allie Landy is a first year Master of Information student at the University of Toronto iSchool in the Library and Information Science concentration. (<a href='#fullbio'>Full bio below</a>)" img="/images/blog/biopics/alandy.png" name="Allie Landy" %}
 

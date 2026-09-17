@@ -41,7 +41,7 @@
     {% endif %}
     <div class="col-md text-center">
         <figure class="figure mx-3{% if include.width %} feature-w-{{ include.width }}{% endif %}">
-            <a href="{{ image_link | default: image_src}}" {% if include.target %}target="_blank"{% endif %}>
+            <a href="{{ image_link | default: image_src}}" {% if include.target %}{% endif %}>
                 <img class="figure-img img-fluid rounded lazyload" alt="{{ image_alt | default: image_caption | escape }}"  title="click to see item" src="{{ image_src }}" >
             </a>
             {% unless include.caption == false %}<figcaption class="figure-caption">{% if i contains "/" %}{{ image_caption }}{% else %}<a href="{{ image_link }}">{{ image_caption }}</a>{% endif %}</figcaption>{% endunless %}

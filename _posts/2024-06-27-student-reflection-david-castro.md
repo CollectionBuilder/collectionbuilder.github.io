@@ -8,7 +8,7 @@ tags: [student-reflection]
 short_description: 'LIS Student Program participant David Castro reflects on his time in the LIS Student program and the collaborative Family Archive Project he and his team worked on.'
 ---
 
-MLS Student David Castro answers a series of questions on the collection she built for the LIS Student program and the program overall. David was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html){:target="_blank" rel="noopener"}. 
+MLS Student David Castro answers a series of questions on the collection she built for the LIS Student program and the program overall. David was one of the participants in the [2024 LIS Student Program](/community/student-incentives.html). 
 
 {% include feature/blogbio.html bio="David Castro is the 
 Special Collections & Archives Processing Specialist at California State Polytechnic University-Pomona and a recent graduate of San Jose State's Master of Library and Information Science Program. He aims to simplify the process of building digital collections for his local community, showing how technology can be useful for preserving personal history." img="/images/blog/biopics/castro.jpeg" name="David Castro" %}
