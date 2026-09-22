@@ -10,7 +10,7 @@ The Community Developers Program is a grant funded opportunity that will support
 
 ## Description
 
-We are accepting proposals for short, one time contract awards to develop new enhancements around CollectionBuilder.
+We are accepting proposals for short, one time contract awards of $3,500 to $5,000 to develop new enhancements around CollectionBuilder.
 Work will take place from mid October 2026 until February 2027.
 "Developers" is defined broadly to include anyone with the skills and enthusiasm necessary to carry out the proposed enhancement and deliver in the short timeline.
 
