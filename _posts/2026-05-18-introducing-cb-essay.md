@@ -4,7 +4,7 @@ title: "Introducing CB-Essay and CollectionBuilder Built Ons"
 subtitle: 
 author: Devin Becker
 publish-date: May 18, 2026
-tags: [cb-add-on, announcement, cb-essay, imls]
+tags: [cb-add-on, announcement, cb-essay]
 short_description: "CB-Essay is a new CollectionBuilder Built On for writing long-form digital scholarship. We're also introducing Built Ons — frameworks that extend CollectionBuilder into new kinds of projects."
 tldr: "CB-Essay is a new CollectionBuilder Built On for writing long-form digital scholarship. We're also introducing Built Ons — frameworks that extend CollectionBuilder into new kinds of projects."
 ---

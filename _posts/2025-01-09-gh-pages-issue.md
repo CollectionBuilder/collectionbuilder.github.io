@@ -4,7 +4,7 @@ title: 'GitHub Actions Bug!'
 subtitle:
 author: Evan Williamson
 publish-date: January 09, 2025
-tags: [alert, tech, cb-gh, github]
+tags: [alert, tech, github]
 short_description: 'Issue with GitHub Actions can cause errors building sites.'
 ---
 
