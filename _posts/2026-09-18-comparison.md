@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Image comparison feature'
+title: 'Image Comparison Feature'
 subtitle:
 author: Evan Williamson
 publish-date: Sep 18, 2026
