@@ -6,7 +6,7 @@ permalink: /community/spaces/
 
 ## About Our Community Spaces
 
-Anyone who is interested in CollectionBuilder, digital collections and exhibits, and/or static web technology may sign up for our community spaces, including the **CollectionBuilder Slack** and **CollectionBuilder Google Group**. 
+Anyone who is interested in CollectionBuilder, digital collections and exhibits, and/or static web technology may sign up for our community spaces, including the CollectionBuilder Slack, CollectionBuilder Google Group, and [GitHub Discussions Forum](https://github.com/orgs/CollectionBuilder/discussions). 
 
 All CollectionBuilder community spaces are free and open to all. No background in CollectionBuilder or specific technical knowledge is required to participate. To join the Slack and/or Google Group, click on the button below to fill out a brief sign-up form:
 

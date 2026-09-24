@@ -12,7 +12,7 @@ The Community Developers Program is a grant funded opportunity that will support
 
 We are accepting proposals for short, one time contract awards of $3,500 to $5,000 to develop new enhancements around CollectionBuilder.
 Work will take place from mid October 2026 until February 2027.
-"Developers" is defined broadly to include anyone with the skills and enthusiasm necessary to carry out the proposed enhancement and deliver in the short timeline.
+"Developers" is defined broadly to include anyone with the skills and enthusiasm necessary to carry out the proposed enhancement and deliver in the short timeline--please remember CollectionBuilder is developed by librarians!
 
 Projects should be re-useable enhancements and resources that benefit the CollectionBuilder community with new tools, ideas, and solutions (while also supporting new contributors).
 Potential ideas include, but are in no way limited to: 
@@ -30,7 +30,7 @@ Potential ideas include, but are in no way limited to:
 - Familiarity with CollectionBuilder, static web approaches, and digital library / digital scholarship work.
 - Have the skills needed to successfully deliver the proposed project.
 - Work as an independent contractor (this is not a mentorship or cohort program).
-- Deliver project by Feb 2027.
+- Deliver project by Feb 10, 2027.
 - Openly publish deliverables (MIT code and CC-SA content).
 - Contract budget of $3,500 to $5,000 paid on delivery.
 
@@ -42,6 +42,7 @@ The short proposal application form will ask for:
 - Project title
 - Project description (overview of project and its potential benefit to the CollectionBuilder community)
 - Project deliverables (outline of specific outputs)
+- Contract budget amount (between $3,500 and $5,000)
 - Project team background (your qualifications)
 
 Selected proposals will meet with CB team to discuss and create a project contract.
