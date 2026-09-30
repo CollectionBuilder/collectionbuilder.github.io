@@ -29,6 +29,7 @@ Potential ideas include, but are in no way limited to:
 - USA-based and eligible to work in USA.
 - Familiarity with CollectionBuilder, static web approaches, and digital library / digital scholarship work.
 - Have the skills needed to successfully deliver the proposed project.
+- Please keep in mind that CB is a project focused on learning, you could use this work to develop your skills. While we use LLMs to aid in development, your proposal should be human driven and human led--not just an AI agent activity.
 - Work as an independent contractor (this is not a mentorship or cohort program).
 - Deliver project by Feb 10, 2027.
 - Openly publish deliverables (MIT code and CC-SA content).
@@ -45,6 +46,7 @@ The short proposal application form will ask for:
 - Contract budget amount (between $3,500 and $5,000)
 - Project team background (your qualifications)
 
+Applications should be from humans--please do NOT have your AI agent apply.
 Selected proposals will meet with CB team to discuss and create a project contract.
 
 Please use the form below to submit your proposal information. 
