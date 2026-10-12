@@ -4,6 +4,9 @@ title: CollectionBuilder Community Developers Program
 permalink: /community/developer-program.html
 ---
 
+Applications to this program are now closed!
+{:.alert .alert-warning}
+
 Do you have an idea to enhance or build on CollectionBuilder that you would like to develop and release to the community?
 
 The Community Developers Program is a grant funded opportunity that will support a wide variety of projects that enhance, extend, experiment with, and/or document CollectionBuilder.
@@ -51,6 +54,7 @@ Selected proposals will meet with CB team to discuss and create a project contra
 
 Please use the form below to submit your proposal information. 
 
+<!--
 <div class="text-center my-5">
     <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_a2YXPVK3mVt2boa" class="btn btn-success btn-lg" ><span class="fas fa-edit"></span> Submit an Proposal</a>
-</div>
+</div>-->
